@@ -85,6 +85,11 @@ hash = "1d9c29bc4fc74b4dfc169ac94f440b9ad5a9cb18971217e0a5c3f7b595be6854"
 metafile = true
 
 [[files]]
+file = "mods/lmft.pw.toml"
+hash = "faed2d9ae09b810b385180a3c20e598ff4d43da75f324b0320649ea4eeb78e29"
+metafile = true
+
+[[files]]
 file = "mods/no-chat-reports.pw.toml"
 hash = "5da18814472be5dc93a21886983646da3a7236413800075ac75229be82d114fa"
 metafile = true
