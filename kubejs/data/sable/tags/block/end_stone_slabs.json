@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:end_stone_brick_slab",
+	"betterend:end_stone_slab",
+	"betterend:end_stone_brick_cracked_slab",
+	"betterend:end_stone_brick_weathered_slab"
+  ]
+}
