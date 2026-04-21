@@ -81,7 +81,7 @@ metafile = true
 
 [[files]]
 file = "mods/lithostitched.pw.toml"
-hash = "4a38ddbeb3b985bf5a8275853cf4e5da7bbbe48c7671a3dcc20e3a0faa0d43b1"
+hash = "1d9c29bc4fc74b4dfc169ac94f440b9ad5a9cb18971217e0a5c3f7b595be6854"
 metafile = true
 
 [[files]]
@@ -116,7 +116,7 @@ metafile = true
 
 [[files]]
 file = "mods/sparsestructures.pw.toml"
-hash = "8c71edbbb86e5d3e1c14ea6629382539d44e75b1061725df9c3abceb889a8591"
+hash = "993b4e4970e1a5ef2fe7c6712212f57a84dcf8b31d4b6863540b6395c4f9ce09"
 metafile = true
 
 [[files]]
