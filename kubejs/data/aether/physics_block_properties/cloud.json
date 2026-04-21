@@ -1,0 +1,8 @@
+{
+  "selector": "#aether:aerclouds",
+
+  "properties": {
+    "sable:floating_material": "aether:cloud",
+	"sable:mass": 0.25
+  }
+}

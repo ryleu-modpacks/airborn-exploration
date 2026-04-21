@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#aether:aerogel"
+  ],
+  "remove": [
+    "aether:aerogel_slab"  
+  ]
+}

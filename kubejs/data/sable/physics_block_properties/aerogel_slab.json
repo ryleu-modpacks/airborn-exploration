@@ -1,0 +1,14 @@
+{
+  "priority": 1001,
+  "selector": "aether:aerogel_slab",
+
+  "properties": {
+    "sable:mass": 0.125
+  },
+
+  "overrides": {
+    "type=double": {
+      "sable:mass": 0.25
+    }
+  }
+}

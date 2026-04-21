@@ -1,0 +1,8 @@
+{
+  "selector": "#aether:gravitite",
+
+  "properties": {
+	"sable:floating_material": "aether:gravitite",
+	"sable:mass": 4.0
+  }
+}
