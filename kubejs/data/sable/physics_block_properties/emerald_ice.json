@@ -1,0 +1,9 @@
+{
+  "selector": "betterend:emerald_ice",
+
+  "properties": {
+    "sable:floating_material": "sable:end_stone",
+    "sable:floating_scale": 0.25,
+	"sable:mass": 0.5
+  }
+}

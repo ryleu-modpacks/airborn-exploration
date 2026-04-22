@@ -25,6 +25,11 @@ hash = "21110f3cc2edf33c680d3c8a680813288bcbd41122f2385ac976619dc37d7979"
 metafile = true
 
 [[files]]
+file = "mods/create-bits-n-bobs.pw.toml"
+hash = "0f67083a39e4b9aa80b1830257086f16734091f9ecb24e64dd208c19be2c4923"
+metafile = true
+
+[[files]]
 file = "mods/create-connected.pw.toml"
 hash = "ac4d934d395dd4422d14cfc2f90670896ada7cb2d97fe078706e93a9de1b45a9"
 metafile = true
