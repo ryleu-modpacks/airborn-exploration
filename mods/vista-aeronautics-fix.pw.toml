@@ -1,0 +1,13 @@
+name = "Vista Aeronautics Fix"
+filename = "VistaAeronauticsFix-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a00cfcd468377fa210e917b4ff7c6c662e97320e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7969180
+project-id = 1521989
