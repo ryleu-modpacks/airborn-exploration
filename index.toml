@@ -253,6 +253,10 @@ file = "kubejs/data/minecraft/worldgen/noise_settings/end.json"
 hash = "6751c08442039fcd444b43206c9170cb5e8a08701f08fee423d6c37a820903cc"
 
 [[files]]
+file = "kubejs/data/minecraft/worldgen/noise_settings/nether.json"
+hash = "115d41a07e6381c4b0e230ea68d0a14f8e6d2929d2cc5e3d570efb3ab8bf5fb4"
+
+[[files]]
 file = "kubejs/data/sable/physics_block_properties/aerogel_slab.json"
 hash = "19a18f4747e980b22e020177e142268808ea727ef282e2a49db5b922fedd3dc6"
 
@@ -318,6 +322,11 @@ metafile = true
 [[files]]
 file = "mods/alternate-current.pw.toml"
 hash = "82a03261a6006cda13232610752623abf41552203e26309f4e899de8ad87ace4"
+metafile = true
+
+[[files]]
+file = "mods/amplified-nether.pw.toml"
+hash = "e2fa0a0c652d1a4cdec2ecc122c968c2a4b1cb36c2cdd874e10d8b04edb737fa"
 metafile = true
 
 [[files]]
