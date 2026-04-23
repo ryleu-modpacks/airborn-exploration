@@ -310,11 +310,6 @@ hash = "cc3f6e6e8f1838d16e47cce9241e32176279673efb1438ff4451ccffa9579b14"
 metafile = true
 
 [[files]]
-file = "mods/amplified-nether.pw.toml"
-hash = "e2fa0a0c652d1a4cdec2ecc122c968c2a4b1cb36c2cdd874e10d8b04edb737fa"
-metafile = true
-
-[[files]]
 file = "mods/aileron.pw.toml"
 hash = "a86b49f3eebe85445b5e7c8f9a7ef1e8cb84fa84939fe1f2b933dfb5feb92926"
 metafile = true
@@ -327,6 +322,11 @@ metafile = true
 [[files]]
 file = "mods/alternate-current.pw.toml"
 hash = "82a03261a6006cda13232610752623abf41552203e26309f4e899de8ad87ace4"
+metafile = true
+
+[[files]]
+file = "mods/amplified-nether.pw.toml"
+hash = "e2fa0a0c652d1a4cdec2ecc122c968c2a4b1cb36c2cdd874e10d8b04edb737fa"
 metafile = true
 
 [[files]]
