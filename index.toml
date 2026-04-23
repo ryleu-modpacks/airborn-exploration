@@ -9,6 +9,46 @@ file = "config/create_connected-common.toml"
 hash = "9f161aa582411b64095d7a331083c13cf6e1ca38a295ef022ece5416d4bcbecd"
 
 [[files]]
+file = "config/emixx/emixx-client.toml"
+hash = "b19b524ccde9c3869966b22d358ba14d2b2575406101329c2c4530ef9f69b87e"
+
+[[files]]
+file = "config/emixx/groups/aeronautics_envelope.json"
+hash = "4cf8c805b54df6096d958582910a5420ec83d9752ba42d362a7c6b107f6cde34"
+
+[[files]]
+file = "config/emixx/groups/create_postbox.json"
+hash = "6cb285f90ba698057e882f66fe57b7c1e46b513042ecbfc4b1581002f3931e39"
+
+[[files]]
+file = "config/emixx/groups/create_seat.json"
+hash = "cb1ed82a48cfa8844c1291486e662f88b5be7c965e62e1ca16f227efdf224fbf"
+
+[[files]]
+file = "config/emixx/groups/create_table_cloth.json"
+hash = "cbd6acac1e76572c8ad23a4af77c50cfda78a066b347d3cb9b2cbddd0f0127eb"
+
+[[files]]
+file = "config/emixx/groups/create_toolbox.json"
+hash = "930f1cadeebb8b9df6103f0455e9752e2f41bfe25a480682c94371f6c20d275c"
+
+[[files]]
+file = "config/emixx/groups/create_valve_handle.json"
+hash = "6de11e5e9dc55bb7987a4bc4ebb3aa6879deb73bbe1dabe39e06413e21b4d0a9"
+
+[[files]]
+file = "config/emixx/groups/simulated_handle.json"
+hash = "c36afebcec90571fad0d009d6e4a480d248a246d2d11302591398819e2926402"
+
+[[files]]
+file = "config/emixx/groups/simulated_nameplate.json"
+hash = "6496a23863fd1f770152dbd1321b6c6fe993a8322d532dfff014fd6a2f7a50bb"
+
+[[files]]
+file = "config/emixx/groups/simulated_portable_engine.json"
+hash = "33d92f6ffdac7b5eda3d2b8a5c5fcbe312d6c5987c60da0991c6fe233791cb2f"
+
+[[files]]
 file = "config/lithium.properties"
 hash = "38b9ea8e991522f1993d84865054f3771a4fca7a83e007fa210f11678173adda"
 
@@ -395,8 +435,18 @@ hash = "ae6fd52d8bdcbeca5bbe6db840f22f92c1928fe0fda22017b19612b9b00a245a"
 metafile = true
 
 [[files]]
+file = "mods/emi-create-schematics.pw.toml"
+hash = "e0da63d5ba6b0649e29325584dd15046070f7b5b251f41fc7e33ce85be240f8f"
+metafile = true
+
+[[files]]
 file = "mods/emi.pw.toml"
 hash = "d3c9b48d7caa2ed964e5d1a4dab1da5655c63f0a7e4a59231c4369be7ffc30e1"
+metafile = true
+
+[[files]]
+file = "mods/emixx.pw.toml"
+hash = "1a2ca9865ee018d9cc28693cfa6aa5e181a636eef9fa7811564ce4b6b859ff9d"
 metafile = true
 
 [[files]]
@@ -422,6 +472,11 @@ metafile = true
 [[files]]
 file = "mods/jei.pw.toml"
 hash = "5367193d3f87b7bc5a81bcd64a5b96a843e76d4df7a83c8bb7e1911aa82dd52e"
+metafile = true
+
+[[files]]
+file = "mods/kotlin-for-forge.pw.toml"
+hash = "27302b0087cf53570cd7a3b4eb550a208cbb6f6ba07210c604176155f39e0078"
 metafile = true
 
 [[files]]
