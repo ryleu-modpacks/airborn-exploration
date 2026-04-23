@@ -1,0 +1,13 @@
+name = "Astrocraft Lite"
+filename = "astrocraft_lite-neoforge-1.21-1.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/fKZnZEm1/versions/xvc1AqwU/astrocraft_lite-neoforge-1.21-1.1.jar"
+hash-format = "sha512"
+hash = "8552181a3be7211819baaad4329cf9d1813ccf186c44f7dc8fe2618af5f9a31659817d946e79d3e3067e399dd565eef2848699c23d8999f8551787ef979fc360"
+
+[update]
+[update.modrinth]
+mod-id = "fKZnZEm1"
+version = "xvc1AqwU"
