@@ -1,18 +1,37 @@
 name: Check packwiz refresh
 on:
-  push:
+  pull_request:
+    branches:
+      - main
+
 jobs:
   check:
     runs-on: ubuntu-latest
+    permissions:
+      statuses: write
+
     steps:
       - name: Checkout
-        uses: actions/checkout@v6
-      - name: Run check
-        id: packwiz-check
+        uses: actions/checkout@v4
+
+      - name: Set up Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: 'stable'
+          cache: true
+
+      - name: Install packwiz
+        run: go install github.com/packwiz/packwiz@latest
+
+      - name: Check packwiz index is up to date
         run: |
-          sha512sum index.toml > ../hash
-          sudo apt-get update
-          sudo apt-get install -y golang
-          go run github.com/packwiz/packwiz@latest refresh
-          [ "$(cat ../hash)" = "$(sha512sum index.toml)" ] || exit 1
-          echo Check passed!
+          sha512sum index.toml > /tmp/hash_before
+          "$HOME/go/bin/packwiz" refresh
+          sha512sum index.toml > /tmp/hash_after
+
+          if ! diff -q /tmp/hash_before /tmp/hash_after > /dev/null; then
+            echo 'index.toml is out of date. run `packwiz refresh` and commit the result.' >&2
+            exit 1
+          fi
+
+          echo "index.toml is up to date."
