@@ -1,8 +1,9 @@
 name: Check packwiz refresh
 on:
   pull_request:
-    branches:
-      - main
+    branches: main
+  push:
+    branches: main
 
 jobs:
   check:
