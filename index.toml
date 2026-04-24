@@ -10,7 +10,7 @@ hash = "9f161aa582411b64095d7a331083c13cf6e1ca38a295ef022ece5416d4bcbecd"
 
 [[files]]
 file = "config/emixx/emixx-client.toml"
-hash = "b19b524ccde9c3869966b22d358ba14d2b2575406101329c2c4530ef9f69b87e"
+hash = "3686413236b3535afc7b8193585c392716f483cc9a6c1defac84d162cdea8f3b"
 
 [[files]]
 file = "config/emixx/groups/aeronautics_envelope.json"
@@ -18,27 +18,27 @@ hash = "4cf8c805b54df6096d958582910a5420ec83d9752ba42d362a7c6b107f6cde34"
 
 [[files]]
 file = "config/emixx/groups/create_postbox.json"
-hash = "6cb285f90ba698057e882f66fe57b7c1e46b513042ecbfc4b1581002f3931e39"
+hash = "a45b31164b7ea586b7d82bed4a9acd9f4ddb4dbca3fe23b0ce55910bb86e6868"
 
 [[files]]
 file = "config/emixx/groups/create_seat.json"
-hash = "cb1ed82a48cfa8844c1291486e662f88b5be7c965e62e1ca16f227efdf224fbf"
+hash = "7ad638da6fffe0508a62c61bb71c8129b0d8bb5d543fa3aaea160cb48fefdf4a"
 
 [[files]]
 file = "config/emixx/groups/create_table_cloth.json"
-hash = "cbd6acac1e76572c8ad23a4af77c50cfda78a066b347d3cb9b2cbddd0f0127eb"
+hash = "a8bc2cac0516fbfb9fd6cd78746659de6c3f395650da976a6321963043b18275"
 
 [[files]]
 file = "config/emixx/groups/create_toolbox.json"
-hash = "930f1cadeebb8b9df6103f0455e9752e2f41bfe25a480682c94371f6c20d275c"
+hash = "dfce8a2f131c9b4b37ce199c29880bdc7effd218255b579b8a6da4a9e502e8f1"
 
 [[files]]
 file = "config/emixx/groups/create_valve_handle.json"
-hash = "6de11e5e9dc55bb7987a4bc4ebb3aa6879deb73bbe1dabe39e06413e21b4d0a9"
+hash = "8e86098a9e91b0b400a2112693f8bef9cbe975268e030c64059fdfe767c08837"
 
 [[files]]
 file = "config/emixx/groups/simulated_handle.json"
-hash = "c36afebcec90571fad0d009d6e4a480d248a246d2d11302591398819e2926402"
+hash = "d5c9086b3ad3facfa4b0491d8b1e50cf4c3e698bcb6acbbf22584fb70dddd288"
 
 [[files]]
 file = "config/emixx/groups/simulated_nameplate.json"
