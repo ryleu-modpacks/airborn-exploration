@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "kubejs:block/open_television",
+    "north": "kubejs:block/open_television",
+    "south": "vista:block/tv/back/default",
+    "east": "vista:block/tv/side/default",
+    "west": "vista:block/tv/side/default",
+    "down": "vista:block/tv/top/default",
+    "up": "vista:block/tv/top/default"
+  }
+}
