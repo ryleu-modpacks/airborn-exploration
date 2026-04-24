@@ -57,6 +57,22 @@ file = "config/tectonic.json"
 hash = "7a8e397b4f17d858d1f997e5e28bc515099dac14d967d4b8f8f193094742bb55"
 
 [[files]]
+file = "kubejs/assets/kubejs/models/block/open_television.json"
+hash = "a0175404bb62780b1bfd24ab93e98b82851fc778cc9edf79ea86d349a3ce22a0"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/block/television_housing.json"
+hash = "184e0de0d40dba122bc67a776c23582da4416e7e00695579b944805f875ac94d"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/open_television.png"
+hash = "27ab69b1ff77061434a757721111f3c9fcad91dbf0d7f6d6e78ea522694d07b6"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/television_housing.png"
+hash = "2f817ccbad9fb711539ca8ece61418fb61102dbd4fa1f6f772d50fcb9d192097"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/item/frequency_0.png"
 hash = "17a8f6f6b3cbc85c27652ee14ed1a6a4c2df4ba2fb3490bc66981d1782854bc8"
 
@@ -225,6 +241,10 @@ file = "kubejs/assets/kubejs/textures/item/frequency_z.png"
 hash = "829cbebbbee3908542fa9408c1866f3bb2d1dd90a0426f966f9a3bce4077d517"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/item/tinted_glass_sheet.png"
+hash = "5cbbf10adc0b14fa84a6548d6f4d5dd2890c1025a33e27543a7067a5e006042f"
+
+[[files]]
 file = "kubejs/data/aether/floating_materials/cloud.json"
 hash = "d8676084407b7a7b6be929f35fc4cc919fd2d40bff81fba88cab73b0ba921f01"
 
@@ -294,7 +314,7 @@ hash = "8451b503cc7a0b6512ee901b88fceb8a4e9119526cc6bd9196d28db59cbc7075"
 
 [[files]]
 file = "kubejs/data/minecraft/tags/block/planks.json"
-hash = "2ac7f214869160cc02fbbc85806e02e8b84df7fe3264681715f7b1581fd8eda2"
+hash = "833d0a7084cb1e252f440c1c0e8fee53cfcb4bd0114779c13d857780ebfe1c3b"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/density_function/end/base_3d_noise.json"
@@ -350,11 +370,11 @@ hash = "4888b836f3a67494bf2e1c98e08c7c10c5bc3def16cc9cfa24ea7d1ec2f45f3b"
 
 [[files]]
 file = "kubejs/server_scripts/main.js"
-hash = "67f44681f7590d80149b616ea938cd6a5490e70dfea6538ab88c3d8409f57e75"
+hash = "453871438eb8440d74825375bb0689c7d059c8ce4d227d2be6ebd5e2833905a9"
 
 [[files]]
 file = "kubejs/startup_scripts/main.js"
-hash = "3d7530b4c38e847f1215b6df1d012ee006f1a0342bdbf1dd919dd59939369673"
+hash = "fca129dce022b959cb182c06148d71bd627201c65c0a44ab20a0688831e896a7"
 
 [[files]]
 file = "mods/aether.pw.toml"
@@ -494,6 +514,11 @@ metafile = true
 [[files]]
 file = "mods/kotlin-for-forge.pw.toml"
 hash = "27302b0087cf53570cd7a3b4eb550a208cbb6f6ba07210c604176155f39e0078"
+metafile = true
+
+[[files]]
+file = "mods/kubejs-create.pw.toml"
+hash = "531aa276b74eabc24566c57412527767238c74ee16b9c646dff511f56dba990c"
 metafile = true
 
 [[files]]

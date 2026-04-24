@@ -43,4 +43,25 @@ StartupEvents.registry('item', event => {
         }
     }
 
+    event.create('unfinished_television_housing', 'create:sequenced_assembly').displayName('Unfinished Television Housing').parentModel('kubejs:block/television_housing')
+    event.create('incomplete_television', 'create:sequenced_assembly').displayName('Incomplete Television').parentModel('kubejs:block/open_television')
+    event.create('tinted_glass_sheet').displayName('Tinted Glass Sheet')
+
+})
+
+StartupEvents.registry('block', event => {
+
+    event.create('television_housing', 'cardinal')
+    .displayName('Television Housing')
+    .soundType('wood')
+    .mapColor('brown')
+    .hardness(1.5)
+    .tagBlock('minecraft:mineable/axe')
+
+    event.create('open_television', 'cardinal')
+    .displayName('Open Television')
+    .soundType('wood')
+    .mapColor('brown')
+    .hardness(1.5)
+    .tagBlock('minecraft:mineable/axe')
 })
