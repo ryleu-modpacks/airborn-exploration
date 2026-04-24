@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
+    "#deep_aether:squash",
+	"betterend:cave_pumpkin",
     "betterend:aurora_crystal"
   ]
 }

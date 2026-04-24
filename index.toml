@@ -281,8 +281,20 @@ file = "kubejs/data/create_structures_arise/structure/pillager_massive_warship1.
 hash = "50e63a536278ef084acecc2ceb514360c75bf714a9d31592c78ddce7e6d80d49"
 
 [[files]]
+file = "kubejs/data/deep_aether/tags/block/carved_squash.json"
+hash = "32d50800da0716fa0d4934fa50b88a27d6e838e92cda6d2a81ca1e7ed4c3c11a"
+
+[[files]]
+file = "kubejs/data/deep_aether/tags/block/squash.json"
+hash = "20ac0a34d35295e1f56bc405b3a3fd7624c26dcd1d467aa48ffb23c66b6f892b"
+
+[[files]]
 file = "kubejs/data/minecraft/dimension/overworld.json"
 hash = "8451b503cc7a0b6512ee901b88fceb8a4e9119526cc6bd9196d28db59cbc7075"
+
+[[files]]
+file = "kubejs/data/minecraft/tags/block/planks.json"
+hash = "2ac7f214869160cc02fbbc85806e02e8b84df7fe3264681715f7b1581fd8eda2"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/density_function/end/base_3d_noise.json"
@@ -326,7 +338,7 @@ hash = "492a9d023c29d6fe20e2c7a12e789185c45d7f285a3ee9319e4ee8983a6e8476"
 
 [[files]]
 file = "kubejs/data/sable/tags/block/fragile.json"
-hash = "e77f8dadef7a8f9697a9bbadb03eed964c2f9ee996be130d03a1f25259644980"
+hash = "d7cd7af170afb2773cb8b7e5a46630622372982e2360dc64f94ed8c303c40154"
 
 [[files]]
 file = "kubejs/data/sable/tags/block/super_light.json"
@@ -422,6 +434,11 @@ metafile = true
 [[files]]
 file = "mods/createaddition.pw.toml"
 hash = "b5bbbdef134fb735d4a741ccb85b46c6b1707e8e974a09bdcc1dcd785c0f172e"
+metafile = true
+
+[[files]]
+file = "mods/deep-aether.pw.toml"
+hash = "e3211d7d54a7203a183ed3b453be5dd52d27f389dbef26dd7e769f20e1dea81f"
 metafile = true
 
 [[files]]
@@ -577,6 +594,11 @@ metafile = true
 [[files]]
 file = "mods/tectonic.pw.toml"
 hash = "cd5c8c1f6183f5c2ca899daed14f272890566002dfcb2d9f9a59dfbfac0bc8f6"
+metafile = true
+
+[[files]]
+file = "mods/terrablender.pw.toml"
+hash = "15962183bec2468058c70e87aa32e902a08489b0f86741088cdc9aa958ba4931"
 metafile = true
 
 [[files]]

@@ -1,0 +1,13 @@
+name = "Deep Aether"
+filename = "deep_aether-1.21.1-1.1.5.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/gcHIih5B/versions/MSW5emg8/deep_aether-1.21.1-1.1.5.1.jar"
+hash-format = "sha512"
+hash = "f848fee0a8a73d0696bf721753af1b752b067791900a19a949ce9faa0adcf1f03b29f44e5ea945404c4505891b14dadab89009253cd31cc85c241c07fe9c5684"
+
+[update]
+[update.modrinth]
+mod-id = "gcHIih5B"
+version = "MSW5emg8"
