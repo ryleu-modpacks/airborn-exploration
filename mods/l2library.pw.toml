@@ -1,0 +1,13 @@
+name = "L2 Library"
+filename = "l2library-3.0.8.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/4Vh3BQ3F/versions/640EOvKh/l2library-3.0.8.jar"
+hash-format = "sha512"
+hash = "fcae5931448a60ec2fedca5b04a6e9b489090b1b4b251be8aae216fbda4add9155bb6b1045c7171ef7c99cad979c4e88ed0acfa9ea10ac7fe4452d81f1a861cf"
+
+[update]
+[update.modrinth]
+mod-id = "4Vh3BQ3F"
+version = "640EOvKh"

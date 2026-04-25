@@ -1,0 +1,1120 @@
+{
+  "version": 2,
+  "__comment": [
+    "Mobs will be able to equip items declared here",
+    "Value is the item. It also accepts item components. The default config has an example with a harming potion",
+    "Weight is the weight of an item. Higher weight means that the item is more likely to get choosen",
+    "Quality is a modifier applied to the weight. The final weight used is weight + quality * current difficulty"
+  ],
+  "MAINHAND": [
+    {
+      "value": "aether:candy_cane_sword",
+      "weight": 32054,
+      "quality": 697.157
+    },
+    {
+      "value": "aether:flaming_sword",
+      "weight": 8353,
+      "quality": 800.6328
+    },
+    {
+      "value": "aether:gravitite_axe",
+      "weight": 4094,
+      "quality": 819.98364
+    },
+    {
+      "value": "aether:gravitite_sword",
+      "weight": 7695,
+      "quality": 803.6053
+    },
+    {
+      "value": "aether:hammer_of_kingbdogz",
+      "weight": 12572,
+      "quality": 781.68616
+    },
+    {
+      "value": "aether:holy_sword",
+      "weight": 8353,
+      "quality": 800.6328
+    },
+    {
+      "value": "aether:holystone_axe",
+      "weight": 4431,
+      "quality": 818.4437
+    },
+    {
+      "value": "aether:holystone_sword",
+      "weight": 21175,
+      "quality": 743.7655
+    },
+    {
+      "value": "aether:lightning_sword",
+      "weight": 8353,
+      "quality": 800.6328
+    },
+    {
+      "value": "aether:pig_slayer",
+      "weight": 12930,
+      "quality": 780.0916
+    },
+    {
+      "value": "aether:skyroot_axe",
+      "weight": 8895,
+      "quality": 798.1859
+    },
+    {
+      "value": "aether:skyroot_sword",
+      "weight": 32722,
+      "quality": 694.3422
+    },
+    {
+      "value": "aether:valkyrie_axe",
+      "weight": 4094,
+      "quality": 819.98364
+    },
+    {
+      "value": "aether:valkyrie_lance",
+      "weight": 7695,
+      "quality": 803.6053
+    },
+    {
+      "value": "aether:vampire_blade",
+      "weight": 7504,
+      "quality": 804.4715
+    },
+    {
+      "value": "aether:zanite_axe",
+      "weight": 4323,
+      "quality": 818.9373
+    },
+    {
+      "value": "aether:zanite_sword",
+      "weight": 12572,
+      "quality": 781.68616
+    },
+    {
+      "value": "betterend:aeternium_axe",
+      "weight": 2706,
+      "quality": 826.341
+    },
+    {
+      "value": "betterend:aeternium_sword",
+      "weight": 4611,
+      "quality": 817.62335
+    },
+    {
+      "value": "betterend:terminite_axe",
+      "weight": 3093,
+      "quality": 824.5648
+    },
+    {
+      "value": "betterend:terminite_sword",
+      "weight": 7783,
+      "quality": 803.20807
+    },
+    {
+      "value": "betterend:thallasium_axe",
+      "weight": 5053,
+      "quality": 815.6048
+    },
+    {
+      "value": "betterend:thallasium_sword",
+      "weight": 15241,
+      "quality": 769.82245
+    },
+    {
+      "value": "create:cardboard_sword",
+      "weight": 356599,
+      "quality": 0.25
+    },
+    {
+      "value": "create_ironworks:brass_axe",
+      "weight": 4287,
+      "quality": 819.1018
+    },
+    {
+      "value": "create_ironworks:brass_sword",
+      "weight": 10126,
+      "quality": 792.6424
+    },
+    {
+      "value": "create_ironworks:bronze_axe",
+      "weight": 4251,
+      "quality": 819.26636
+    },
+    {
+      "value": "create_ironworks:bronze_sword",
+      "weight": 13180,
+      "quality": 778.97833
+    },
+    {
+      "value": "create_ironworks:copper_axe",
+      "weight": 4377,
+      "quality": 818.6894
+    },
+    {
+      "value": "create_ironworks:copper_sword",
+      "weight": 16101,
+      "quality": 766.0174
+    },
+    {
+      "value": "create_ironworks:steel_axe",
+      "weight": 3546,
+      "quality": 822.49133
+    },
+    {
+      "value": "create_ironworks:steel_sword",
+      "weight": 6539,
+      "quality": 808.84546
+    },
+    {
+      "value": "create_sa:blazing_axe",
+      "weight": 5108,
+      "quality": 815.3535
+    },
+    {
+      "value": "create_sa:blazing_cleaver",
+      "weight": 24102,
+      "quality": 731.0758
+    },
+    {
+      "value": "create_sa:brass_axe",
+      "weight": 4264,
+      "quality": 819.20825
+    },
+    {
+      "value": "create_sa:brass_sword",
+      "weight": 17830,
+      "quality": 758.39746
+    },
+    {
+      "value": "create_sa:copper_axe",
+      "weight": 8810,
+      "quality": 798.5687
+    },
+    {
+      "value": "create_sa:copper_sword",
+      "weight": 31602,
+      "quality": 699.06305
+    },
+    {
+      "value": "create_sa:experience_axe",
+      "weight": 3588,
+      "quality": 822.30023
+    },
+    {
+      "value": "create_sa:experience_sword",
+      "weight": 5241,
+      "quality": 814.7509
+    },
+    {
+      "value": "create_sa:rose_quartz_axe",
+      "weight": 4064,
+      "quality": 820.1218
+    },
+    {
+      "value": "create_sa:rose_quartz_sword",
+      "weight": 10602,
+      "quality": 790.5067
+    },
+    {
+      "value": "create_sa:zinc_axe",
+      "weight": 4340,
+      "quality": 818.8608
+    },
+    {
+      "value": "create_sa:zinc_sword",
+      "weight": 29191,
+      "quality": 709.2741
+    },
+    {
+      "value": "deep_aether:blade_of_luck",
+      "weight": 42406,
+      "quality": 654.2053
+    },
+    {
+      "value": "deep_aether:skyjade_axe",
+      "weight": 36962,
+      "quality": 676.6233
+    },
+    {
+      "value": "deep_aether:skyjade_sword",
+      "weight": 2895,
+      "quality": 825.4716
+    },
+    {
+      "value": "deep_aether:storm_sword",
+      "weight": 8353,
+      "quality": 800.6328
+    },
+    {
+      "value": "deep_aether:stratus_axe",
+      "weight": 3035,
+      "quality": 824.83356
+    },
+    {
+      "value": "deep_aether:stratus_sword",
+      "weight": 5413,
+      "quality": 813.9644
+    },
+    {
+      "value": "minecraft:crossbow",
+      "weight": 16577,
+      "quality": 763.91455
+    },
+    {
+      "value": "minecraft:diamond_axe",
+      "weight": 4094,
+      "quality": 819.98364
+    },
+    {
+      "value": "minecraft:diamond_sword",
+      "weight": 7695,
+      "quality": 803.6053
+    },
+    {
+      "value": "minecraft:enchanted_book",
+      "weight": 12772,
+      "quality": 780.7957
+    },
+    {
+      "value": "minecraft:ender_pearl",
+      "weight": 13457,
+      "quality": 777.74506
+    },
+    {
+      "value": "minecraft:fishing_rod",
+      "weight": 23023,
+      "quality": 735.739
+    },
+    {
+      "value": "minecraft:flint_and_steel",
+      "weight": 25471,
+      "quality": 725.17725
+    },
+    {
+      "value": "minecraft:golden_axe",
+      "weight": 8845,
+      "quality": 798.41205
+    },
+    {
+      "value": "minecraft:golden_sword",
+      "weight": 32054,
+      "quality": 697.157
+    },
+    {
+      "value": "minecraft:iron_axe",
+      "weight": 4323,
+      "quality": 818.9373
+    },
+    {
+      "value": "minecraft:iron_sword",
+      "weight": 12572,
+      "quality": 781.68616
+    },
+    {
+      "value": "minecraft:lava_bucket",
+      "weight": 11081,
+      "quality": 788.35754
+    },
+    {
+      "value": "minecraft:netherite_axe",
+      "weight": 3035,
+      "quality": 824.83356
+    },
+    {
+      "value": "minecraft:netherite_sword",
+      "weight": 5413,
+      "quality": 813.9644
+    },
+    {
+      "value": "minecraft:stone_axe",
+      "weight": 4431,
+      "quality": 818.4437
+    },
+    {
+      "value": "minecraft:stone_sword",
+      "weight": 21175,
+      "quality": 743.7655
+    },
+    {
+      "value": "minecraft:trident",
+      "weight": 4030,
+      "quality": 820.2745
+    },
+    {
+      "value": "minecraft:wooden_axe",
+      "weight": 8895,
+      "quality": 798.1859
+    },
+    {
+      "value": "minecraft:wooden_sword",
+      "weight": 32722,
+      "quality": 694.3422
+    }
+  ],
+  "OFFHAND": [
+    {
+      "value": "aether:phoenix_bow",
+      "weight": 1081,
+      "quality": 2.9137738
+    },
+    {
+      "value": "deep_aether:storm_bow",
+      "weight": 1081,
+      "quality": 2.9137738
+    },
+    {
+      "value": "minecraft:bow",
+      "weight": 1081,
+      "quality": 2.9137738
+    },
+    {
+      "value": {
+        "id": "minecraft:lingering_potion",
+        "components": {
+          "minecraft:potion_contents": {
+            "potion": "minecraft:harming"
+          }
+        }
+      },
+      "weight": 1098,
+      "quality": 2.8789887
+    },
+    {
+      "value": "minecraft:shield",
+      "weight": 1115,
+      "quality": 2.8421354
+    },
+    {
+      "value": "minecraft:snowball",
+      "weight": 3038,
+      "quality": 0.25
+    },
+    {
+      "value": {
+        "id": "minecraft:splash_potion",
+        "components": {
+          "minecraft:potion_contents": {
+            "potion": "minecraft:harming"
+          }
+        }
+      },
+      "weight": 1098,
+      "quality": 2.8789887
+    },
+    {
+      "value": "minecraft:tnt",
+      "weight": 759,
+      "quality": 3.6324363
+    },
+    {
+      "value": "modulargolems:iron_mecha_bow",
+      "weight": 1188,
+      "quality": 2.6941285
+    },
+    {
+      "value": "modulargolems:netherite_mecha_bow",
+      "weight": 496,
+      "quality": 4.2763295
+    }
+  ],
+  "FEET": [
+    {
+      "value": "aether:gravitite_boots",
+      "weight": 2262,
+      "quality": 4.0282116
+    },
+    {
+      "value": "aether:neptune_boots",
+      "weight": 4584,
+      "quality": 2.786892
+    },
+    {
+      "value": "aether:obsidian_boots",
+      "weight": 2043,
+      "quality": 4.1571302
+    },
+    {
+      "value": "aether:phoenix_boots",
+      "weight": 2262,
+      "quality": 4.0282116
+    },
+    {
+      "value": "aether:sentry_boots",
+      "weight": 4981,
+      "quality": 2.5973034
+    },
+    {
+      "value": "aether:valkyrie_boots",
+      "weight": 2262,
+      "quality": 4.0282116
+    },
+    {
+      "value": "aether:zanite_boots",
+      "weight": 4981,
+      "quality": 2.5973034
+    },
+    {
+      "value": "betterend:aeternium_boots",
+      "weight": 1202,
+      "quality": 4.67103
+    },
+    {
+      "value": "betterend:crystalite_boots",
+      "weight": 3094,
+      "quality": 3.5573184
+    },
+    {
+      "value": "betterend:terminite_boots",
+      "weight": 2301,
+      "quality": 4.0057507
+    },
+    {
+      "value": "betterend:thallasium_boots",
+      "weight": 8575,
+      "quality": 1.1855931
+    },
+    {
+      "value": "create:cardboard_boots",
+      "weight": 12624,
+      "quality": 0.25
+    },
+    {
+      "value": "create:copper_diving_boots",
+      "weight": 10985,
+      "quality": 0.5451576
+    },
+    {
+      "value": "create:netherite_diving_boots",
+      "weight": 1703,
+      "quality": 4.3615904
+    },
+    {
+      "value": "create_ironworks:brass_armor_boots",
+      "weight": 4661,
+      "quality": 2.7492933
+    },
+    {
+      "value": "create_ironworks:bronze_armor_boots",
+      "weight": 4739,
+      "quality": 2.7120643
+    },
+    {
+      "value": "create_ironworks:copper_armor_boots",
+      "weight": 5200,
+      "quality": 2.4958303
+    },
+    {
+      "value": "create_ironworks:rose_quartz_armor_boots",
+      "weight": 2599,
+      "quality": 3.8340387
+    },
+    {
+      "value": "create_ironworks:steel_armor_boots",
+      "weight": 2422,
+      "quality": 3.935717
+    },
+    {
+      "value": "create_ironworks:sturdy_armor_boots",
+      "weight": 4418,
+      "quality": 2.8679254
+    },
+    {
+      "value": "create_sa:brass_boots",
+      "weight": 4727,
+      "quality": 2.7176414
+    },
+    {
+      "value": "create_sa:copper_boots",
+      "weight": 9425,
+      "quality": 0.93160427
+    },
+    {
+      "value": "create_sa:slime_boots",
+      "weight": 5408,
+      "quality": 2.4011006
+    },
+    {
+      "value": "create_sa:zinc_boots",
+      "weight": 4843,
+      "quality": 2.662324
+    },
+    {
+      "value": "deep_aether:skyjade_boots",
+      "weight": 2775,
+      "quality": 3.7344084
+    },
+    {
+      "value": "deep_aether:stormforged_boots",
+      "weight": 4849,
+      "quality": 2.6594298
+    },
+    {
+      "value": "deep_aether:stratus_boots",
+      "weight": 2288,
+      "quality": 4.0133157
+    },
+    {
+      "value": "minecraft:chainmail_boots",
+      "weight": 7557,
+      "quality": 1.5300422
+    },
+    {
+      "value": "minecraft:diamond_boots",
+      "weight": 1885,
+      "quality": 4.2513967
+    },
+    {
+      "value": "minecraft:golden_boots",
+      "weight": 7313,
+      "quality": 1.619098
+    },
+    {
+      "value": "minecraft:iron_boots",
+      "weight": 4151,
+      "quality": 3.000835
+    },
+    {
+      "value": "minecraft:leather_boots",
+      "weight": 8471,
+      "quality": 1.2186882
+    },
+    {
+      "value": "minecraft:netherite_boots",
+      "weight": 1703,
+      "quality": 4.3615904
+    }
+  ],
+  "LEGS": [
+    {
+      "value": "aether:gravitite_leggings",
+      "weight": 2154,
+      "quality": 86.781975
+    },
+    {
+      "value": "aether:neptune_leggings",
+      "weight": 3384,
+      "quality": 82.32423
+    },
+    {
+      "value": "aether:obsidian_leggings",
+      "weight": 2097,
+      "quality": 86.99093
+    },
+    {
+      "value": "aether:phoenix_leggings",
+      "weight": 2154,
+      "quality": 86.781975
+    },
+    {
+      "value": "aether:valkyrie_leggings",
+      "weight": 2154,
+      "quality": 86.781975
+    },
+    {
+      "value": "aether:zanite_leggings",
+      "weight": 3438,
+      "quality": 82.13155
+    },
+    {
+      "value": "betterend:aeternium_leggings",
+      "weight": 1432,
+      "quality": 89.44927
+    },
+    {
+      "value": "betterend:crystalite_leggings",
+      "weight": 3546,
+      "quality": 81.74488
+    },
+    {
+      "value": "betterend:terminite_leggings",
+      "weight": 2163,
+      "quality": 86.748535
+    },
+    {
+      "value": "betterend:thallasium_leggings",
+      "weight": 5538,
+      "quality": 74.80268
+    },
+    {
+      "value": "create:cardboard_leggings",
+      "weight": 46902,
+      "quality": 0.25
+    },
+    {
+      "value": "create_ironworks:brass_armor_leggings",
+      "weight": 3396,
+      "quality": 82.2819
+    },
+    {
+      "value": "create_ironworks:bronze_armor_leggings",
+      "weight": 3404,
+      "quality": 82.25355
+    },
+    {
+      "value": "create_ironworks:copper_armor_leggings",
+      "weight": 5702,
+      "quality": 74.2458
+    },
+    {
+      "value": "create_ironworks:rose_quartz_armor_leggings",
+      "weight": 2229,
+      "quality": 86.505775
+    },
+    {
+      "value": "create_ironworks:steel_armor_leggings",
+      "weight": 2190,
+      "quality": 86.6489
+    },
+    {
+      "value": "create_ironworks:sturdy_armor_leggings",
+      "weight": 3356,
+      "quality": 82.42598
+    },
+    {
+      "value": "create_sa:brass_leggings",
+      "weight": 3402,
+      "quality": 82.26066
+    },
+    {
+      "value": "create_sa:copper_leggings",
+      "weight": 3438,
+      "quality": 82.13155
+    },
+    {
+      "value": "create_sa:zinc_leggings",
+      "weight": 3419,
+      "quality": 82.200745
+    },
+    {
+      "value": "deep_aether:skyjade_leggings",
+      "weight": 2262,
+      "quality": 86.38339
+    },
+    {
+      "value": "deep_aether:stormforged_leggings",
+      "weight": 3690,
+      "quality": 81.23516
+    },
+    {
+      "value": "deep_aether:stratus_leggings",
+      "weight": 2159,
+      "quality": 86.761475
+    },
+    {
+      "value": "minecraft:chainmail_leggings",
+      "weight": 4659,
+      "quality": 77.83034
+    },
+    {
+      "value": "minecraft:diamond_leggings",
+      "weight": 1795,
+      "quality": 88.104385
+    },
+    {
+      "value": "minecraft:golden_leggings",
+      "weight": 8093,
+      "quality": 66.35087
+    },
+    {
+      "value": "minecraft:iron_leggings",
+      "weight": 2865,
+      "quality": 84.19092
+    },
+    {
+      "value": "minecraft:leather_leggings",
+      "weight": 16199,
+      "quality": 42.884327
+    },
+    {
+      "value": "minecraft:netherite_leggings",
+      "weight": 1747,
+      "quality": 88.279655
+    }
+  ],
+  "CHEST": [
+    {
+      "value": "aether:gravitite_chestplate",
+      "weight": 2777,
+      "quality": 608.3688
+    },
+    {
+      "value": "aether:neptune_chestplate",
+      "weight": 5751,
+      "quality": 586.11285
+    },
+    {
+      "value": "aether:obsidian_chestplate",
+      "weight": 2740,
+      "quality": 608.6479
+    },
+    {
+      "value": "aether:phoenix_chestplate",
+      "weight": 2777,
+      "quality": 608.3688
+    },
+    {
+      "value": "aether:valkyrie_chestplate",
+      "weight": 2777,
+      "quality": 608.3688
+    },
+    {
+      "value": "aether:zanite_chestplate",
+      "weight": 5810,
+      "quality": 585.6717
+    },
+    {
+      "value": "betterend:aeternium_chestplate",
+      "weight": 2012,
+      "quality": 614.1618
+    },
+    {
+      "value": "betterend:crystalite_chestplate",
+      "weight": 4806,
+      "quality": 593.13904
+    },
+    {
+      "value": "betterend:elytra_armored",
+      "weight": 2857,
+      "quality": 607.76807
+    },
+    {
+      "value": "betterend:elytra_crystalite",
+      "weight": 4353,
+      "quality": 596.51843
+    },
+    {
+      "value": "betterend:terminite_chestplate",
+      "weight": 3883,
+      "quality": 600.04376
+    },
+    {
+      "value": "betterend:thallasium_chestplate",
+      "weight": 8850,
+      "quality": 563.3554
+    },
+    {
+      "value": "create:cardboard_chestplate",
+      "weight": 121075,
+      "quality": 42.89457
+    },
+    {
+      "value": "create:copper_backtank",
+      "weight": 13791,
+      "quality": 528.01404
+    },
+    {
+      "value": "create:netherite_backtank",
+      "weight": 2271,
+      "quality": 612.1967
+    },
+    {
+      "value": "create_ironworks:brass_armor_chestplate",
+      "weight": 5764,
+      "quality": 586.0123
+    },
+    {
+      "value": "create_ironworks:bronze_armor_chestplate",
+      "weight": 5772,
+      "quality": 585.957
+    },
+    {
+      "value": "create_ironworks:copper_armor_chestplate",
+      "weight": 9012,
+      "quality": 562.178
+    },
+    {
+      "value": "create_ironworks:rose_quartz_armor_chestplate",
+      "weight": 2825,
+      "quality": 608.006
+    },
+    {
+      "value": "create_ironworks:steel_armor_chestplate",
+      "weight": 2800,
+      "quality": 608.19434
+    },
+    {
+      "value": "create_ironworks:sturdy_armor_chestplate",
+      "weight": 3928,
+      "quality": 599.7025
+    },
+    {
+      "value": "create_sa:andesite_exoskeleton_chestplate",
+      "weight": 3904,
+      "quality": 599.88324
+    },
+    {
+      "value": "create_sa:andesite_jetpack_chestplate",
+      "weight": 5666,
+      "quality": 586.74097
+    },
+    {
+      "value": "create_sa:brass_chestplate",
+      "weight": 3953,
+      "quality": 599.5181
+    },
+    {
+      "value": "create_sa:brass_exoskeleton_chestplate",
+      "weight": 2794,
+      "quality": 608.2428
+    },
+    {
+      "value": "create_sa:brass_jetpack_chestplate",
+      "weight": 6232,
+      "quality": 582.54535
+    },
+    {
+      "value": "create_sa:copper_chestplate",
+      "weight": 5810,
+      "quality": 585.6717
+    },
+    {
+      "value": "create_sa:copper_exoskeleton_chestplate",
+      "weight": 5666,
+      "quality": 586.74097
+    },
+    {
+      "value": "create_sa:copper_jetpack_chestplate",
+      "weight": 5666,
+      "quality": 586.74097
+    },
+    {
+      "value": "create_sa:netherite_jetpack_chestplate",
+      "weight": 2731,
+      "quality": 608.71356
+    },
+    {
+      "value": "create_sa:zinc_chestplate",
+      "weight": 5788,
+      "quality": 585.8328
+    },
+    {
+      "value": "deep_aether:skyjade_chestplate",
+      "weight": 2846,
+      "quality": 607.8482
+    },
+    {
+      "value": "deep_aether:stormforged_chestplate",
+      "weight": 4320,
+      "quality": 596.7654
+    },
+    {
+      "value": "deep_aether:stratus_chestplate",
+      "weight": 2781,
+      "quality": 608.34186
+    },
+    {
+      "value": "minecraft:chainmail_chestplate",
+      "weight": 7418,
+      "quality": 573.8176
+    },
+    {
+      "value": "minecraft:diamond_chestplate",
+      "weight": 2314,
+      "quality": 611.87036
+    },
+    {
+      "value": "minecraft:elytra",
+      "weight": 160578,
+      "quality": 0.25
+    },
+    {
+      "value": "minecraft:golden_chestplate",
+      "weight": 7402,
+      "quality": 573.9346
+    },
+    {
+      "value": "minecraft:iron_chestplate",
+      "weight": 4842,
+      "quality": 592.87103
+    },
+    {
+      "value": "minecraft:leather_chestplate",
+      "weight": 21912,
+      "quality": 472.40576
+    },
+    {
+      "value": "minecraft:netherite_chestplate",
+      "weight": 2283,
+      "quality": 612.10333
+    }
+  ],
+  "HEAD": [
+    {
+      "value": "aeronautics:aviators_goggles",
+      "weight": 6899,
+      "quality": 227.40602
+    },
+    {
+      "value": "aether:gravitite_helmet",
+      "weight": 2545,
+      "quality": 247.42722
+    },
+    {
+      "value": "aether:neptune_helmet",
+      "weight": 5175,
+      "quality": 235.23196
+    },
+    {
+      "value": "aether:obsidian_helmet",
+      "weight": 2298,
+      "quality": 248.59117
+    },
+    {
+      "value": "aether:phoenix_helmet",
+      "weight": 2545,
+      "quality": 247.42722
+    },
+    {
+      "value": "aether:valkyrie_helmet",
+      "weight": 2545,
+      "quality": 247.42722
+    },
+    {
+      "value": "aether:zanite_helmet",
+      "weight": 5634,
+      "quality": 233.13487
+    },
+    {
+      "value": "betterend:aeternium_helmet",
+      "weight": 1346,
+      "quality": 253.09029
+    },
+    {
+      "value": "betterend:crystalite_helmet",
+      "weight": 3497,
+      "quality": 242.97737
+    },
+    {
+      "value": "betterend:terminite_helmet",
+      "weight": 2588,
+      "quality": 247.22522
+    },
+    {
+      "value": "betterend:thallasium_helmet",
+      "weight": 5346,
+      "quality": 234.44965
+    },
+    {
+      "value": "create:cardboard_helmet",
+      "weight": 14340,
+      "quality": 195.14095
+    },
+    {
+      "value": "create:copper_diving_helmet",
+      "weight": 6065,
+      "quality": 231.17743
+    },
+    {
+      "value": "create:goggles",
+      "weight": 104580,
+      "quality": 0.25
+    },
+    {
+      "value": "create:netherite_diving_helmet",
+      "weight": 1915,
+      "quality": 250.39821
+    },
+    {
+      "value": "create_ironworks:brass_armor_helmet",
+      "weight": 2851,
+      "quality": 245.99483
+    },
+    {
+      "value": "create_ironworks:bronze_armor_helmet",
+      "weight": 5370,
+      "quality": 234.34256
+    },
+    {
+      "value": "create_ironworks:copper_armor_helmet",
+      "weight": 5862,
+      "quality": 232.10033
+    },
+    {
+      "value": "create_ironworks:rose_quartz_armor_helmet",
+      "weight": 2911,
+      "quality": 245.71397
+    },
+    {
+      "value": "create_ironworks:steel_armor_helmet",
+      "weight": 2726,
+      "quality": 246.5807
+    },
+    {
+      "value": "create_ironworks:sturdy_armor_helmet",
+      "weight": 2779,
+      "quality": 246.33232
+    },
+    {
+      "value": "create_sa:brass_helmet",
+      "weight": 5360,
+      "quality": 234.38858
+    },
+    {
+      "value": "create_sa:copper_helmet",
+      "weight": 5634,
+      "quality": 233.13487
+    },
+    {
+      "value": "create_sa:slime_helmet",
+      "weight": 6082,
+      "quality": 231.09938
+    },
+    {
+      "value": "create_sa:zinc_helmet",
+      "weight": 5487,
+      "quality": 233.80907
+    },
+    {
+      "value": "deep_aether:skyjade_helmet",
+      "weight": 3101,
+      "quality": 244.82312
+    },
+    {
+      "value": "deep_aether:stormforged_helmet",
+      "weight": 3052,
+      "quality": 245.05519
+    },
+    {
+      "value": "deep_aether:stratus_helmet",
+      "weight": 2575,
+      "quality": 247.28725
+    },
+    {
+      "value": "minecraft:chainmail_helmet",
+      "weight": 4596,
+      "quality": 237.89345
+    },
+    {
+      "value": "minecraft:diamond_helmet",
+      "weight": 2121,
+      "quality": 249.42386
+    },
+    {
+      "value": "minecraft:golden_helmet",
+      "weight": 4492,
+      "quality": 238.37032
+    },
+    {
+      "value": "minecraft:iron_helmet",
+      "weight": 4694,
+      "quality": 237.44197
+    },
+    {
+      "value": "minecraft:leather_helmet",
+      "weight": 9603,
+      "quality": 215.39622
+    },
+    {
+      "value": "minecraft:netherite_helmet",
+      "weight": 1915,
+      "quality": 250.39821
+    },
+    {
+      "value": "minecraft:turtle_helmet",
+      "weight": 4466,
+      "quality": 238.48892
+    }
+  ]
+}

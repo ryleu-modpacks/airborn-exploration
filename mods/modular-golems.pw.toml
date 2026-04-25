@@ -1,0 +1,13 @@
+name = "Modular Golems"
+filename = "modulargolems-3.1.33.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/gtGDlsAD/versions/ajoO5TkA/modulargolems-3.1.33.jar"
+hash-format = "sha512"
+hash = "cfc0e9d2bba5d7d4fa4ec53dfb5b5ea524cfe06b634e5091c4c5654794796937c33b1df503a77a11abe8025e9ea6d73c48ac6f38cf85973c6e1eee580ea39bbb"
+
+[update]
+[update.modrinth]
+mod-id = "gtGDlsAD"
+version = "ajoO5TkA"
