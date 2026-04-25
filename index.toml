@@ -10,7 +10,7 @@ hash = "9f161aa582411b64095d7a331083c13cf6e1ca38a295ef022ece5416d4bcbecd"
 
 [[files]]
 file = "config/emixx/emixx-client.toml"
-hash = "3686413236b3535afc7b8193585c392716f483cc9a6c1defac84d162cdea8f3b"
+hash = "b19b524ccde9c3869966b22d358ba14d2b2575406101329c2c4530ef9f69b87e"
 
 [[files]]
 file = "config/emixx/groups/aeronautics_envelope.json"
@@ -18,27 +18,27 @@ hash = "4cf8c805b54df6096d958582910a5420ec83d9752ba42d362a7c6b107f6cde34"
 
 [[files]]
 file = "config/emixx/groups/create_postbox.json"
-hash = "a45b31164b7ea586b7d82bed4a9acd9f4ddb4dbca3fe23b0ce55910bb86e6868"
+hash = "6cb285f90ba698057e882f66fe57b7c1e46b513042ecbfc4b1581002f3931e39"
 
 [[files]]
 file = "config/emixx/groups/create_seat.json"
-hash = "7ad638da6fffe0508a62c61bb71c8129b0d8bb5d543fa3aaea160cb48fefdf4a"
+hash = "cb1ed82a48cfa8844c1291486e662f88b5be7c965e62e1ca16f227efdf224fbf"
 
 [[files]]
 file = "config/emixx/groups/create_table_cloth.json"
-hash = "a8bc2cac0516fbfb9fd6cd78746659de6c3f395650da976a6321963043b18275"
+hash = "cbd6acac1e76572c8ad23a4af77c50cfda78a066b347d3cb9b2cbddd0f0127eb"
 
 [[files]]
 file = "config/emixx/groups/create_toolbox.json"
-hash = "dfce8a2f131c9b4b37ce199c29880bdc7effd218255b579b8a6da4a9e502e8f1"
+hash = "930f1cadeebb8b9df6103f0455e9752e2f41bfe25a480682c94371f6c20d275c"
 
 [[files]]
 file = "config/emixx/groups/create_valve_handle.json"
-hash = "8e86098a9e91b0b400a2112693f8bef9cbe975268e030c64059fdfe767c08837"
+hash = "6de11e5e9dc55bb7987a4bc4ebb3aa6879deb73bbe1dabe39e06413e21b4d0a9"
 
 [[files]]
 file = "config/emixx/groups/simulated_handle.json"
-hash = "d5c9086b3ad3facfa4b0491d8b1e50cf4c3e698bcb6acbbf22584fb70dddd288"
+hash = "c36afebcec90571fad0d009d6e4a480d248a246d2d11302591398819e2926402"
 
 [[files]]
 file = "config/emixx/groups/simulated_nameplate.json"
@@ -65,6 +65,22 @@ file = "kubejs/assets/kubejs/models/block/television_housing.json"
 hash = "184e0de0d40dba122bc67a776c23582da4416e7e00695579b944805f875ac94d"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/block/magnetic_slurry_flow.png"
+hash = "533e3d3fba6bb7fdd2c3b9e099b0718caae4a33c808a913c3f9219a40838072c"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/magnetic_slurry_flow.png.mcmeta"
+hash = "802acdb8f55f30146d5ed18414b21ba35650d4e550f81825ea104131c12dc4fc"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/magnetic_slurry_still.png"
+hash = "e2389baf13af65a1060ebf1f5e80926478bd51feb5000ce2be2c68f75a5d8f24"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/magnetic_slurry_still.png.mcmeta"
+hash = "e9b8025fde1b09b0a4d2a38427b04f98f28a593045be6d177eb2b29164c872b0"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/block/open_television.png"
 hash = "27ab69b1ff77061434a757721111f3c9fcad91dbf0d7f6d6e78ea522694d07b6"
 
@@ -74,7 +90,7 @@ hash = "2f817ccbad9fb711539ca8ece61418fb61102dbd4fa1f6f772d50fcb9d192097"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/frequency_0.png"
-hash = "17a8f6f6b3cbc85c27652ee14ed1a6a4c2df4ba2fb3490bc66981d1782854bc8"
+hash = "061484a00809a79c859cac9b4827d315a8aa503a559d7e54dc619cda4b3a6ead"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/frequency_1.png"
@@ -241,8 +257,32 @@ file = "kubejs/assets/kubejs/textures/item/frequency_z.png"
 hash = "829cbebbbee3908542fa9408c1866f3bb2d1dd90a0426f966f9a3bce4077d517"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/item/iron_dust.png"
+hash = "975afa4a8badae4359d148edfce3f41bdcc284a707e2606e783af83184e6f2b2"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/optical_mechanism.png"
+hash = "88047610d368f14d674f0229360d9875d56700f38bcc768772958cfe1b070db7"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/rose_lens.png"
+hash = "9c0cfbbe95bf27aa89a7667e158bbcede5faadb9ff889e7cec12c0bd7c09fd11"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/item/tinted_glass_sheet.png"
 hash = "5cbbf10adc0b14fa84a6548d6f4d5dd2890c1025a33e27543a7067a5e006042f"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/viewfinder_housing.png"
+hash = "72f67ef78ada1017117809e6f716f174ed7c8e4aaefb44eb9659d2fc2079cab9"
+
+[[files]]
+file = "kubejs/assets/vista/lang/en_us.json"
+hash = "43096c399ffc24a37594b0ede0cdc0b689c4a6076c89904586bfdd32911d260c"
+
+[[files]]
+file = "kubejs/assets/vista/textures/item/hollow_cassette.png"
+hash = "fc21b025dd56455ab0324eb340dbcff28e9e1df2a8b4f131f812f82ae5543a7e"
 
 [[files]]
 file = "kubejs/data/aether/floating_materials/cloud.json"
@@ -370,11 +410,11 @@ hash = "4888b836f3a67494bf2e1c98e08c7c10c5bc3def16cc9cfa24ea7d1ec2f45f3b"
 
 [[files]]
 file = "kubejs/server_scripts/main.js"
-hash = "453871438eb8440d74825375bb0689c7d059c8ce4d227d2be6ebd5e2833905a9"
+hash = "430d9bfb9408faf9c6ab315ee439dc248034b196746a68eb05d45443d894517b"
 
 [[files]]
 file = "kubejs/startup_scripts/main.js"
-hash = "fca129dce022b959cb182c06148d71bd627201c65c0a44ab20a0688831e896a7"
+hash = "4719373f98a9d332a373abb971b3f6bfe1333bd2cdd1cfbe311ee61d5c2dde52"
 
 [[files]]
 file = "mods/aether.pw.toml"
