@@ -1,0 +1,21 @@
+{
+  "id": "bits_n_bobs:chair",
+  "contents": [
+    "item:bits_n_bobs:white_chair",
+    "item:bits_n_bobs:orange_chair",
+    "item:bits_n_bobs:magenta_chair",
+    "item:bits_n_bobs:light_blue_chair",
+    "item:bits_n_bobs:yellow_chair",
+    "item:bits_n_bobs:lime_chair",
+    "item:bits_n_bobs:pink_chair",
+    "item:bits_n_bobs:gray_chair",
+    "item:bits_n_bobs:light_gray_chair",
+    "item:bits_n_bobs:cyan_chair",
+    "item:bits_n_bobs:purple_chair",
+    "item:bits_n_bobs:blue_chair",
+    "item:bits_n_bobs:brown_chair",
+    "item:bits_n_bobs:green_chair",
+    "item:bits_n_bobs:red_chair",
+    "item:bits_n_bobs:black_chair"
+  ]
+}

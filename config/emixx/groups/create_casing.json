@@ -1,0 +1,9 @@
+{
+  "id": "create:casing",
+  "contents": [
+    "item:create:andesite_casing",
+    "item:create:brass_casing",
+    "item:create:copper_casing",
+    "item:create:railway_casing",
+  ]
+}
