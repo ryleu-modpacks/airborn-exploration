@@ -1,0 +1,9 @@
+{
+  "id": "offroad:tire",
+  "contents": [
+    "item:offroad:small_tire",
+    "item:offroad:tire",
+    "item:offroad:large_tire",
+    "item:offroad:monstrous_tire",
+  ]
+}

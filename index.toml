@@ -17,36 +17,52 @@ file = "config/emixx/groups/aeronautics_envelope.json"
 hash = "4cf8c805b54df6096d958582910a5420ec83d9752ba42d362a7c6b107f6cde34"
 
 [[files]]
+file = "config/emixx/groups/bits_n_bobs_chair.json"
+hash = "f66b4d90ac708fc1246955c5c2ecc529639ce6494d296544e41bd46b843ccef6"
+
+[[files]]
+file = "config/emixx/groups/create_casing.json"
+hash = "2bb461e2f73d5f8ca044874147c769b8b3eaeff73158f019622ce614f1413b15"
+
+[[files]]
+file = "config/emixx/groups/create_chassis.json"
+hash = "9247a1a554db76d4b6ebda2ff41c47d600712be342f11e12c9db3f0c573ae989"
+
+[[files]]
 file = "config/emixx/groups/create_postbox.json"
-hash = "6cb285f90ba698057e882f66fe57b7c1e46b513042ecbfc4b1581002f3931e39"
+hash = "62d21b85425f6d39fcf95867bd5beb0c959b10de6a19c8a8d516c9b9f1a7f5c1"
 
 [[files]]
 file = "config/emixx/groups/create_seat.json"
-hash = "cb1ed82a48cfa8844c1291486e662f88b5be7c965e62e1ca16f227efdf224fbf"
+hash = "25ed2a8caf52f68ad5786064e1351601170003a58b6219a1f6b7c2d55cadf43f"
 
 [[files]]
 file = "config/emixx/groups/create_table_cloth.json"
-hash = "cbd6acac1e76572c8ad23a4af77c50cfda78a066b347d3cb9b2cbddd0f0127eb"
+hash = "621ae4be1b7dec4de4c0432a7bb3cddbd40631b91f9e2a274dbc5007f7b84e8e"
 
 [[files]]
 file = "config/emixx/groups/create_toolbox.json"
-hash = "930f1cadeebb8b9df6103f0455e9752e2f41bfe25a480682c94371f6c20d275c"
+hash = "07b0295e14b2e2d1d23bda366a8734503aaf58c634417dfc0cb122aee423521c"
 
 [[files]]
 file = "config/emixx/groups/create_valve_handle.json"
-hash = "6de11e5e9dc55bb7987a4bc4ebb3aa6879deb73bbe1dabe39e06413e21b4d0a9"
+hash = "064026fd193a46a2764d7e17c9fbf00141f7a98087a2502346202d735c031036"
+
+[[files]]
+file = "config/emixx/groups/offroad_tire.json"
+hash = "49652fc2facc898d264650a031931dd7af81d8b49cfb14e212b4dd97acb4f748"
 
 [[files]]
 file = "config/emixx/groups/simulated_handle.json"
-hash = "c36afebcec90571fad0d009d6e4a480d248a246d2d11302591398819e2926402"
+hash = "814b9764c0b00f122ed0e4db2cb1b4b6fbc9fd018fa166d328744653e5bb3df1"
 
 [[files]]
 file = "config/emixx/groups/simulated_nameplate.json"
-hash = "6496a23863fd1f770152dbd1321b6c6fe993a8322d532dfff014fd6a2f7a50bb"
+hash = "7878f99094b1bc6a1ac7d3da5f88c31d38ed8988b11c34004f1a0e16da96b42b"
 
 [[files]]
 file = "config/emixx/groups/simulated_portable_engine.json"
-hash = "33d92f6ffdac7b5eda3d2b8a5c5fcbe312d6c5987c60da0991c6fe233791cb2f"
+hash = "bbb787a80dd1079ea3abca2ef317f6988519a5465b16341063aa4fd3e8666af4"
 
 [[files]]
 file = "config/lithium.properties"
@@ -414,7 +430,7 @@ hash = "430d9bfb9408faf9c6ab315ee439dc248034b196746a68eb05d45443d894517b"
 
 [[files]]
 file = "kubejs/startup_scripts/main.js"
-hash = "4719373f98a9d332a373abb971b3f6bfe1333bd2cdd1cfbe311ee61d5c2dde52"
+hash = "cda8d6e6a7046e929931b5c4fc4af06153f7873fb11b8c35a90dddec276d0225"
 
 [[files]]
 file = "mods/aether.pw.toml"
@@ -449,6 +465,11 @@ metafile = true
 [[files]]
 file = "mods/badoptimizations.pw.toml"
 hash = "dd56ff2bcc4253d1d70c08333632743fb56cdc4cf5518dc6afc024164633145d"
+metafile = true
+
+[[files]]
+file = "mods/balm.pw.toml"
+hash = "9121b274bd87552ae976983d9bdd56061274c126a4a1b7b2e13605b1a1ec0599"
 metafile = true
 
 [[files]]
@@ -684,6 +705,16 @@ metafile = true
 [[files]]
 file = "mods/vista_tv.pw.toml"
 hash = "2c903421b7961fe8d9e343c3b114c07eb2cd28ea5a0e98e501801fcc4ce9add6"
+metafile = true
+
+[[files]]
+file = "mods/waystones-sable.pw.toml"
+hash = "f04776d974d52dfdd6e24d3326dc1e2bacabcabd7f4316fe55e99123029db563"
+metafile = true
+
+[[files]]
+file = "mods/waystones.pw.toml"
+hash = "e2978597c04f24e2e0536a6aa666ef5cc0b1d515c09af1f763c65587faa73333"
 metafile = true
 
 [[files]]

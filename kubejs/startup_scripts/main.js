@@ -3,6 +3,8 @@ console.info('Hello, World! (Loaded startup example script)')
 
 const $DataComponents = Java.loadClass('net.minecraft.core.component.DataComponents')
 
+Platform.mods.kubejs.name = 'Create: Airborn Exploration'
+
 const groups = [
     {
         type: 'Letter',
