@@ -111,7 +111,6 @@ ServerEvents.recipes(event => {
     )
 
     // Linked Cassette Assembly
-
     event.recipes.create.crushing('kubejs:iron_dust', 'minecraft:iron_ingot')
 
     event.recipes.create.mixing(
