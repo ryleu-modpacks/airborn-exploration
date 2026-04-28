@@ -317,10 +317,6 @@ file = "kubejs/data/aether/physics_block_properties/gravitite.json"
 hash = "49806be5e2fc7136b1aa011a9b361b79c581ca59634675caa9043194ae3e4d8d"
 
 [[files]]
-file = "kubejs/data/aether/tags/block/gravitite.json"
-hash = "79125262b2bfaee978dbbc0e7dd5093cfe4fc788ececb39c48cac7c4d99d3548"
-
-[[files]]
 file = "kubejs/data/aether/worldgen/noise_settings/skylands.json"
 hash = "cede294704b6b40572b660717fb37c69b548b48ba5c44fb9ced06e3a42c86bbf"
 
@@ -341,10 +337,6 @@ file = "kubejs/data/aether/worldgen/placed_feature/golden_aercloud.json"
 hash = "74bad7b74b4984322dc4a5a71d3187140c289c0e7840a4e6cb500216d93dad00"
 
 [[files]]
-file = "kubejs/data/betterend/tags/block/overgrown_end_stone.json"
-hash = "85a5556f44bf5249f8448820b354af40d6a1f6d304607abf1f61ed530a48b062"
-
-[[files]]
 file = "kubejs/data/create_structures_arise/structure/airdrop444.nbt"
 hash = "636912547621b99471aad0ce6fa4fbe3e4db6b9c741b0482fb9f261e87e11094"
 
@@ -357,20 +349,8 @@ file = "kubejs/data/create_structures_arise/structure/pillager_massive_warship1.
 hash = "50e63a536278ef084acecc2ceb514360c75bf714a9d31592c78ddce7e6d80d49"
 
 [[files]]
-file = "kubejs/data/deep_aether/tags/block/carved_squash.json"
-hash = "32d50800da0716fa0d4934fa50b88a27d6e838e92cda6d2a81ca1e7ed4c3c11a"
-
-[[files]]
-file = "kubejs/data/deep_aether/tags/block/squash.json"
-hash = "20ac0a34d35295e1f56bc405b3a3fd7624c26dcd1d467aa48ffb23c66b6f892b"
-
-[[files]]
 file = "kubejs/data/minecraft/dimension/overworld.json"
 hash = "8451b503cc7a0b6512ee901b88fceb8a4e9119526cc6bd9196d28db59cbc7075"
-
-[[files]]
-file = "kubejs/data/minecraft/tags/block/planks.json"
-hash = "833d0a7084cb1e252f440c1c0e8fee53cfcb4bd0114779c13d857780ebfe1c3b"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/density_function/end/base_3d_noise.json"
@@ -405,28 +385,12 @@ file = "kubejs/data/sable/physics_block_properties/end_stone_slabs.json"
 hash = "27365774e000388ff3d4476dde23f23be4c2e8e0ec552da12d2ebcb16e10499e"
 
 [[files]]
-file = "kubejs/data/sable/tags/block/end_stone_slabs.json"
-hash = "03cc5f908400ca0a87aade7fc395cb445a96ad4ad6e1f1b1d1fe92c4ef0d870d"
-
-[[files]]
-file = "kubejs/data/sable/tags/block/end_stones.json"
-hash = "492a9d023c29d6fe20e2c7a12e789185c45d7f285a3ee9319e4ee8983a6e8476"
-
-[[files]]
-file = "kubejs/data/sable/tags/block/fragile.json"
-hash = "d7cd7af170afb2773cb8b7e5a46630622372982e2360dc64f94ed8c303c40154"
-
-[[files]]
-file = "kubejs/data/sable/tags/block/super_light.json"
-hash = "4c39e31139db6435cd3da53c9a82e56f08b0dea1d727cd41dc762d74688471c7"
-
-[[files]]
 file = "kubejs/data/simulated/end_sea/the_aether.json"
 hash = "4888b836f3a67494bf2e1c98e08c7c10c5bc3def16cc9cfa24ea7d1ec2f45f3b"
 
 [[files]]
 file = "kubejs/server_scripts/main.js"
-hash = "430d9bfb9408faf9c6ab315ee439dc248034b196746a68eb05d45443d894517b"
+hash = "a6a10169b11ff180c7a184b29fccafb9f2a603f1dcc42dca0b9ffd38bf66944c"
 
 [[files]]
 file = "kubejs/startup_scripts/main.js"
