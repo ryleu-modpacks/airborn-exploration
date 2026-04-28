@@ -15,6 +15,105 @@ const groups = [
     ]
 ]
 
+ServerEvents.tags('block', event => {
+    event.add('aether:gravitite', 'aether:enchanted_gravitite')
+
+    const overgrownEndStone = [
+        "betterend:end_mycelium",
+        "betterend:end_mycelium_path",
+        "betterend:end_moss",
+        "betterend:end_moss_path",
+        "betterend:chorus_nylium",
+        "betterend:chorus_nylium_path",
+        "betterend:cave_moss",
+        "betterend:cave_moss_path",
+        "betterend:crystal_moss",
+        "betterend:crystal_moss_path",
+        "betterend:shadow_grass",
+        "betterend:shadow_grass_path",
+        "betterend:pink_moss",
+        "betterend:pink_moss_path",
+        "betterend:amber_moss",
+        "betterend:amber_moss_path",
+        "betterend:jungle_moss",
+        "betterend:jungle_moss_path",
+        "betterend:sangnum",
+        "betterend:sangnum_path",
+        "betterend:rutiscus",
+        "betterend:rutiscus_path"
+    ]
+
+    for (const block of overgrownEndStone) {
+        event.add('betterend:overgrown_end_stone', block)
+    }
+
+    const squash = [
+        'blue',
+        'green',
+        'purple'
+    ]
+
+    for (const block of squash) {
+        event.add('deep_aether:squash', `deep_aether:${block}_squash`)
+        event.add('deep_aether:carved_squash', `deep_aether:carved_${block}_squash`)
+    }
+
+    const planks = [
+		"aether:skyroot_planks",
+		"deep_aether:roseroot_planks",
+		"deep_aether:yagroot_planks",
+		"deep_aether:cruderoot_planks",
+		"deep_aether:conberry_planks",
+		"deep_aether:sunroot_planks"
+	]
+
+    for (const block of planks) {
+        event.add('minecraft:planks', block)
+    }
+
+    const end_stones = [
+        "#betterend:overgrown_end_stone",
+        "minecraft:end_stone_brick_wall",
+        "betterend:endstone_dust",
+        "betterend:end_stone_stairs",
+        "betterend:end_stone_wall",
+        "betterend:end_stone_brick_cracked",
+        "betterend:end_stone_brick_cracked_stairs",
+        "betterend:end_stone_brick_cracked_wall",
+        "betterend:end_stone_brick_weathered",
+        "betterend:end_stone_brick_weathered_stairs",
+        "betterend:end_stone_brick_weathered_wall"
+    ]
+
+    for (const block of end_stones) {
+        event.add('sable:end_stones', block)
+    }
+
+    const end_stone_slabs = [
+        "minecraft:end_stone_brick_slab",
+        "betterend:end_stone_slab",
+        "betterend:end_stone_brick_cracked_slab",
+        "betterend:end_stone_brick_weathered_slab"
+    ]
+
+    for (const block of end_stone_slabs) {
+        event.add('sable:end_stone_slabs', block)
+    }
+
+    const fragile = [
+        "#deep_aether:squash",
+        "betterend:cave_pumpkin",
+        "betterend:aurora_crystal"
+    ]
+
+    for (const block of fragile) {
+        event.add('sable:fragile', block)
+    }
+
+    event.add('sable:super_light', '#aether:aerogel')
+    event.remove('sable:super_light', 'aether:aerogel_slab')
+})
+
 ServerEvents.recipes(event => {
 
     // Remove existing recipes
@@ -111,7 +210,6 @@ ServerEvents.recipes(event => {
     )
 
     // Linked Cassette Assembly
-
     event.recipes.create.crushing('kubejs:iron_dust', 'minecraft:iron_ingot')
 
     event.recipes.create.mixing(

@@ -1,0 +1,13 @@
+name = "Tiny Gates"
+filename = "tinygates-1.21.1-5.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/vsk0qTRw/versions/WJTr7Hi4/tinygates-1.21.1-5.0.0.jar"
+hash-format = "sha512"
+hash = "738527663b878b6abf968d1f6e48ebce09ac74ed148d19916bd2ea2ad27ffa740f733d018eebabab90025d7fa8403ebe70d1a2aa4bcbd08601a86296f15a4f53"
+
+[update]
+[update.modrinth]
+mod-id = "vsk0qTRw"
+version = "WJTr7Hi4"

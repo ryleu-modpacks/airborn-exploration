@@ -1,0 +1,13 @@
+name = "TinyCreate"
+filename = "tinycreate_mc_1.21.1-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "aafa2b586c1934e819e17f220e45a28b83986c95"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7977257
+project-id = 1523513
