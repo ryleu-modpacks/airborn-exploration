@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/aeroworks-common.toml"
+hash = "6192154f1ed8ec972b0904405037ccda20195252e7649d7ce980a00b99e53cb1"
+
+[[files]]
 file = "config/aileron.json"
 hash = "e86b1955238d544977c4db7641f6ae04881a0c2001be3ed06a9da5e5219c714e"
 
@@ -454,6 +458,11 @@ metafile = true
 [[files]]
 file = "mods/create-aeronautics.pw.toml"
 hash = "74f3358e1070f1163d14cb62ee768a389bd758f36b5c21471910e43fbcfacc9e"
+metafile = true
+
+[[files]]
+file = "mods/create-aeroworks.pw.toml"
+hash = "4b24d47edfcb0dd5337d524ce9d8d9a1d17b0ed4f200b7353dd381f6be319e3b"
 metafile = true
 
 [[files]]
