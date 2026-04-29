@@ -305,6 +305,54 @@ file = "kubejs/assets/vista/textures/item/hollow_cassette.png"
 hash = "fc21b025dd56455ab0324eb340dbcff28e9e1df2a8b4f131f812f82ae5543a7e"
 
 [[files]]
+file = "kubejs/assets/waystones/lang/en_us.json"
+hash = "36be2de55a8b8979bfd3aa6debe8c8a37b5424a60bfd948fe6f0d69edbf19cd6"
+
+[[files]]
+file = "kubejs/assets/waystones/models/block/sharestone_bottom.json"
+hash = "ccc541b511410551283e36f11607dda824f703eaf1f71c2e60bed70b228aa510"
+
+[[files]]
+file = "kubejs/assets/waystones/models/block/sharestone_top.json"
+hash = "ebc6eb242c1acad86b030c89517ea6ff11b554a42bcf3b8a375d814c72fec396"
+
+[[files]]
+file = "kubejs/assets/waystones/models/block/warp_plate.json"
+hash = "2c0318ffee041e9ae3439c0ccf6dc4700bbf0c93851b5346a1e41f58933fa689"
+
+[[files]]
+file = "kubejs/assets/waystones/models/block/warp_plate_empty.json"
+hash = "6455962f682933116ddddb8b4e7baab5740f5d86a2f179f3256bfc0b9ca442e3"
+
+[[files]]
+file = "kubejs/assets/waystones/models/block/warp_plate_locked.json"
+hash = "df234683d9810d2a3bde9a8123babc9586c9b7fed45e4fb9257ce16fef6b93eb"
+
+[[files]]
+file = "kubejs/assets/waystones/textures/block/andesite_waystone.png"
+hash = "1bb1b55cda067f64f921ac2d4eca3f54faf1b4ec6945bd81e5a798d7071b7d5e"
+
+[[files]]
+file = "kubejs/assets/waystones/textures/block/blackstone_waystone.png"
+hash = "adf930df757f8c597c8fdeb4b0d5a4473f4e505376026a955a6d650c41f5e258"
+
+[[files]]
+file = "kubejs/assets/waystones/textures/block/chiseled_sandstone_waystone.png"
+hash = "a2d10252a74aa741d7bb9f619077485f7b6c9b8cf3eb5069bca0b833215b40a6"
+
+[[files]]
+file = "kubejs/assets/waystones/textures/block/deepslate_waystone.png"
+hash = "9d571e2c69ace60a02cb5f7ef8f9f4cc04e7bd3bad64007b0fdd9878347ffa14"
+
+[[files]]
+file = "kubejs/assets/waystones/textures/block/end_stone_waystone.png"
+hash = "c90b2cb7e4b40323bcd3bf9af03ad225957abed3f88e132b2f59773632e79f96"
+
+[[files]]
+file = "kubejs/assets/waystones/textures/block/mossy_andesite_waystone.png"
+hash = "b71b2680d422538f82d4ff4300090d5f3e1ae969f7184f3fc7595ebea2bc2dfc"
+
+[[files]]
 file = "kubejs/data/aether/floating_materials/cloud.json"
 hash = "d8676084407b7a7b6be929f35fc4cc919fd2d40bff81fba88cab73b0ba921f01"
 
@@ -394,7 +442,7 @@ hash = "4888b836f3a67494bf2e1c98e08c7c10c5bc3def16cc9cfa24ea7d1ec2f45f3b"
 
 [[files]]
 file = "kubejs/server_scripts/main.js"
-hash = "a6a10169b11ff180c7a184b29fccafb9f2a603f1dcc42dca0b9ffd38bf66944c"
+hash = "514566a4cb863ed2f44b9e94126311a267108d57799c44442613ccec850ff6be"
 
 [[files]]
 file = "kubejs/startup_scripts/main.js"
@@ -677,7 +725,7 @@ metafile = true
 
 [[files]]
 file = "mods/tinycreate.pw.toml"
-hash = "98aee2e5518a711bc444142846e14bc18d33cb2b6ef388ba66e067af663a2589"
+hash = "77b62236b26c2301a36f64f55f8ba081e694236cc9d802cbfb745a73820d58d9"
 metafile = true
 
 [[files]]
