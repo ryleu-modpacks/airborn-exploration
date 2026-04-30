@@ -393,12 +393,24 @@ file = "kubejs/data/create_structures_arise/structure/airdrop444.nbt"
 hash = "636912547621b99471aad0ce6fa4fbe3e4db6b9c741b0482fb9f261e87e11094"
 
 [[files]]
+file = "kubejs/data/create_structures_arise/structure/create_mini_sky_village_new.nbt"
+hash = "3b524aca9f4c8824e7bce3fc7b85c36252251bcbfc2f81e8f9f374ee332fffbe"
+
+[[files]]
 file = "kubejs/data/create_structures_arise/structure/pillager_boat.nbt"
 hash = "8b07790c862437ec3c0cbb91231009cd8eae95bdaaa8cded54f0a777bffbfee3"
 
 [[files]]
 file = "kubejs/data/create_structures_arise/structure/pillager_massive_warship1.nbt"
 hash = "50e63a536278ef084acecc2ceb514360c75bf714a9d31592c78ddce7e6d80d49"
+
+[[files]]
+file = "kubejs/data/create_structures_arise/structure/tower_of_ochem_new.nbt"
+hash = "7cfd731e4a3740feaff3bade441e1483866a5bb5cb4456d11b3db5b1d8a15520"
+
+[[files]]
+file = "kubejs/data/create_structures_arise/structure/tower_of_ochrum.nbt"
+hash = "c4d0e2d7459e64f47ed36d33606b5f7744d16b79b47c66d4248aabf0abb65862"
 
 [[files]]
 file = "kubejs/data/minecraft/dimension/overworld.json"
