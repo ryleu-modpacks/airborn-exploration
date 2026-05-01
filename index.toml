@@ -517,12 +517,12 @@ metafile = true
 
 [[files]]
 file = "mods/create-aeronautics.pw.toml"
-hash = "74f3358e1070f1163d14cb62ee768a389bd758f36b5c21471910e43fbcfacc9e"
+hash = "6ea6284b569b13f45bfe44f9790389de4a2f7cda92c8b3bb94511b600d64c486"
 metafile = true
 
 [[files]]
 file = "mods/create-aeroworks.pw.toml"
-hash = "4b24d47edfcb0dd5337d524ce9d8d9a1d17b0ed4f200b7353dd381f6be319e3b"
+hash = "5b59a27a9d4aed0926f2cd7a5e147597d69754a3b48eacfa3e1a8c756ae6b317"
 metafile = true
 
 [[files]]
@@ -533,6 +533,11 @@ metafile = true
 [[files]]
 file = "mods/create-connected.pw.toml"
 hash = "31508c7c87c75cec7ae03cfe2367b6e4ea37035400c2594c93c1e9c60cf64b3f"
+metafile = true
+
+[[files]]
+file = "mods/create-crafts-additions-and-aeronautics-compat.pw.toml"
+hash = "a61af43db4bdd4f0d3567f50e33203abbf1d9e1f3c8c90b5c42dcd8b0686ca94"
 metafile = true
 
 [[files]]
@@ -617,7 +622,7 @@ metafile = true
 
 [[files]]
 file = "mods/kubejs.pw.toml"
-hash = "e8c20c0c77e5df58d1386d8190ee16a957d78d62d361469db0b0c29458bf1e84"
+hash = "60d0f719a2fc1045e865fc38c0c6d04a733d0ce2e84173be86e999399bcc162d"
 metafile = true
 
 [[files]]
@@ -647,7 +652,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "e152bb9ae171e9f34c406bbc29dc36c8d8def9d8f913e1a1bbf82bd63d4e8da9"
+hash = "6c600fe7b0789b7501968f57bb33b526e8c711dc6305f64b406abccfbdb971d5"
 metafile = true
 
 [[files]]
@@ -692,7 +697,7 @@ metafile = true
 
 [[files]]
 file = "mods/sable.pw.toml"
-hash = "735f0a8e564e8c80c282a7ba97fe77c34edec0402883f7154fd0206572537afe"
+hash = "e4c43e944439f4941ba1c417ab3ac1ec3dbd9c95a8456a2069641d031317e142"
 metafile = true
 
 [[files]]
@@ -757,7 +762,7 @@ metafile = true
 
 [[files]]
 file = "mods/waystones-sable.pw.toml"
-hash = "f04776d974d52dfdd6e24d3326dc1e2bacabcabd7f4316fe55e99123029db563"
+hash = "a9b1e447e3880b99bea12d260e5366316b522231b4a9110e674144cf04b11f6a"
 metafile = true
 
 [[files]]
