@@ -15,6 +15,12 @@ const groups = [
     ]
 ]
 
+ServerEvents.tags('item', event => {
+    Color.DYE.forEach(color => {
+        event.add('waystones:portstones', `waystones:${color}_portstone`)
+    })
+})
+
 ServerEvents.tags('block', event => {
     event.add('aether:gravitite', 'aether:enchanted_gravitite')
 
@@ -120,9 +126,18 @@ ServerEvents.recipes(event => {
     event.remove({id:'vista:television'})
     event.remove({id: 'vista:viewfinder'})
     event.remove({id: 'vista:hollow_cassette'})
+    event.remove({output: '#waystones:waystones'})
+    event.remove({output: '#waystones:portstones'})
+    event.remove({output: '#waystones:sharestones'})
 
     // Misc Recipes
+    event.replaceInput({id: 'minecraft:lodestone'}, 'minecraft:netherite_ingot', 'minecraft:iron_ingot')
+
     event.recipes.create.deploying('create:turntable', [Ingredient.of('#minecraft:wooden_slabs'), 'create:shaft'])
+    event.recipes.create.deploying('create:shadow_steel_casing', [Ingredient.of('#c:stripped_logs'), 'create:shadow_steel'])
+    event.recipes.create.deploying('create:shadow_steel_casing', [Ingredient.of('#c:stripped_woods'), 'create:shadow_steel'])
+    event.recipes.create.deploying('create:refined_radiance_casing', [Ingredient.of('#c:stripped_logs'), 'create:refined_radiance'])
+    event.recipes.create.deploying('create:refined_radiance_casing', [Ingredient.of('#c:stripped_woods'), 'create:refined_radiance'])
 
     // Frequency Items
     for (const group of groups) {
@@ -278,4 +293,72 @@ ServerEvents.recipes(event => {
             't': 'create:transmitter'
         }
     )
+
+
+    // Create Waystones
+    const waystone_recipe = (material, casing, waystone) => {
+        event.recipes.create.mechanical_crafting(waystone, [
+            ' EEE ',
+            'MMMMM',
+            ' CCC ',
+            '  W  ',
+            ' CCC ',
+            'MMMMM'
+        ],
+        {
+            'E': 'minecraft:ender_pearl',
+            'M': material,
+            'C': casing,
+            'W': 'waystones:warp_stone'
+        }
+    )
+    }
+
+    const portstone_recipe = (color) => {
+        event.recipes.create.mechanical_crafting(`waystones:${color}_portstone`, [
+            '  W  ',
+            ' DCD ',
+            'MMCMM'
+        ],
+        {
+            'W': 'waystones:warp_stone',
+            'D': `minecraft:${color}_dye`,
+            'C': 'create:andesite_casing',
+            'M': 'minecraft:polished_andesite'
+        }
+    )
+    }
+
+    const sharestone_recipe = (color) => {
+        event.recipes.create.mechanical_crafting(`waystones:${color}_sharestone`, [
+            'MMCMM',
+            ' CDC ',
+            '  W  ',
+            ' CDC ',
+            'MMMMM'
+        ],
+        {
+            'W': 'waystones:warp_stone',
+            'D': `minecraft:${color}_dye`,
+            'C': 'create:andesite_casing',
+            'M': 'minecraft:polished_andesite'
+        }
+    )
+    }
+
+    waystone_recipe('minecraft:polished_andesite', 'create:andesite_casing', 'waystones:waystone')
+    waystone_recipe('minecraft:stone_bricks', 'create:copper_casing', 'waystones:mossy_waystone')
+    waystone_recipe('minecraft:stone_bricks', 'create:brass_casing', 'waystones:sandy_waystone')
+    waystone_recipe('minecraft:deepslate_bricks', 'create:railway_casing', 'waystones:deepslate_waystone')
+    waystone_recipe('minecraft:blackstone', 'create:shadow_steel_casing', 'waystones:blackstone_waystone')
+    waystone_recipe('minecraft:end_stone_bricks', 'create:refined_radiance_casing', 'waystones:end_stone_waystone')
+
+    Color.DYE.forEach(color => {
+        portstone_recipe(color)
+
+        // for some reason there is no white sharestone ¯\_(ツ)_/¯
+        if (color != 'white') {
+            sharestone_recipe(color)
+        }
+    })
 })

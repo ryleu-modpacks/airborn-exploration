@@ -74,7 +74,7 @@ hash = "38b9ea8e991522f1993d84865054f3771a4fca7a83e007fa210f11678173adda"
 
 [[files]]
 file = "config/tectonic.json"
-hash = "7a8e397b4f17d858d1f997e5e28bc515099dac14d967d4b8f8f193094742bb55"
+hash = "2c962da1b5acbd6534932967d0cd6f7d304bca10808fb7ef481f5d31c289a2f8"
 
 [[files]]
 file = "kubejs/assets/kubejs/models/block/open_television.json"
@@ -305,6 +305,54 @@ file = "kubejs/assets/vista/textures/item/hollow_cassette.png"
 hash = "fc21b025dd56455ab0324eb340dbcff28e9e1df2a8b4f131f812f82ae5543a7e"
 
 [[files]]
+file = "kubejs/assets/waystones/lang/en_us.json"
+hash = "36be2de55a8b8979bfd3aa6debe8c8a37b5424a60bfd948fe6f0d69edbf19cd6"
+
+[[files]]
+file = "kubejs/assets/waystones/models/block/sharestone_bottom.json"
+hash = "ccc541b511410551283e36f11607dda824f703eaf1f71c2e60bed70b228aa510"
+
+[[files]]
+file = "kubejs/assets/waystones/models/block/sharestone_top.json"
+hash = "ebc6eb242c1acad86b030c89517ea6ff11b554a42bcf3b8a375d814c72fec396"
+
+[[files]]
+file = "kubejs/assets/waystones/models/block/warp_plate.json"
+hash = "2c0318ffee041e9ae3439c0ccf6dc4700bbf0c93851b5346a1e41f58933fa689"
+
+[[files]]
+file = "kubejs/assets/waystones/models/block/warp_plate_empty.json"
+hash = "6455962f682933116ddddb8b4e7baab5740f5d86a2f179f3256bfc0b9ca442e3"
+
+[[files]]
+file = "kubejs/assets/waystones/models/block/warp_plate_locked.json"
+hash = "df234683d9810d2a3bde9a8123babc9586c9b7fed45e4fb9257ce16fef6b93eb"
+
+[[files]]
+file = "kubejs/assets/waystones/textures/block/andesite_waystone.png"
+hash = "1bb1b55cda067f64f921ac2d4eca3f54faf1b4ec6945bd81e5a798d7071b7d5e"
+
+[[files]]
+file = "kubejs/assets/waystones/textures/block/blackstone_waystone.png"
+hash = "adf930df757f8c597c8fdeb4b0d5a4473f4e505376026a955a6d650c41f5e258"
+
+[[files]]
+file = "kubejs/assets/waystones/textures/block/chiseled_sandstone_waystone.png"
+hash = "a2d10252a74aa741d7bb9f619077485f7b6c9b8cf3eb5069bca0b833215b40a6"
+
+[[files]]
+file = "kubejs/assets/waystones/textures/block/deepslate_waystone.png"
+hash = "9d571e2c69ace60a02cb5f7ef8f9f4cc04e7bd3bad64007b0fdd9878347ffa14"
+
+[[files]]
+file = "kubejs/assets/waystones/textures/block/end_stone_waystone.png"
+hash = "c90b2cb7e4b40323bcd3bf9af03ad225957abed3f88e132b2f59773632e79f96"
+
+[[files]]
+file = "kubejs/assets/waystones/textures/block/mossy_andesite_waystone.png"
+hash = "b71b2680d422538f82d4ff4300090d5f3e1ae969f7184f3fc7595ebea2bc2dfc"
+
+[[files]]
 file = "kubejs/data/aether/floating_materials/cloud.json"
 hash = "d8676084407b7a7b6be929f35fc4cc919fd2d40bff81fba88cab73b0ba921f01"
 
@@ -345,12 +393,24 @@ file = "kubejs/data/create_structures_arise/structure/airdrop444.nbt"
 hash = "636912547621b99471aad0ce6fa4fbe3e4db6b9c741b0482fb9f261e87e11094"
 
 [[files]]
+file = "kubejs/data/create_structures_arise/structure/create_mini_sky_village_new.nbt"
+hash = "3b524aca9f4c8824e7bce3fc7b85c36252251bcbfc2f81e8f9f374ee332fffbe"
+
+[[files]]
 file = "kubejs/data/create_structures_arise/structure/pillager_boat.nbt"
 hash = "8b07790c862437ec3c0cbb91231009cd8eae95bdaaa8cded54f0a777bffbfee3"
 
 [[files]]
 file = "kubejs/data/create_structures_arise/structure/pillager_massive_warship1.nbt"
 hash = "50e63a536278ef084acecc2ceb514360c75bf714a9d31592c78ddce7e6d80d49"
+
+[[files]]
+file = "kubejs/data/create_structures_arise/structure/tower_of_ochem_new.nbt"
+hash = "7cfd731e4a3740feaff3bade441e1483866a5bb5cb4456d11b3db5b1d8a15520"
+
+[[files]]
+file = "kubejs/data/create_structures_arise/structure/tower_of_ochrum.nbt"
+hash = "c4d0e2d7459e64f47ed36d33606b5f7744d16b79b47c66d4248aabf0abb65862"
 
 [[files]]
 file = "kubejs/data/minecraft/dimension/overworld.json"
@@ -394,11 +454,11 @@ hash = "4888b836f3a67494bf2e1c98e08c7c10c5bc3def16cc9cfa24ea7d1ec2f45f3b"
 
 [[files]]
 file = "kubejs/server_scripts/main.js"
-hash = "a6a10169b11ff180c7a184b29fccafb9f2a603f1dcc42dca0b9ffd38bf66944c"
+hash = "514566a4cb863ed2f44b9e94126311a267108d57799c44442613ccec850ff6be"
 
 [[files]]
 file = "kubejs/startup_scripts/main.js"
-hash = "cda8d6e6a7046e929931b5c4fc4af06153f7873fb11b8c35a90dddec276d0225"
+hash = "978a13243bfc1f46da63d7311b87d2dc192d7e7742552e05b743144f25d2d679"
 
 [[files]]
 file = "mods/aether.pw.toml"
@@ -456,13 +516,18 @@ hash = "75181b55e0407d1fca1e2f346c6501f919f5109545990ddfb66db9cd1b771f8a"
 metafile = true
 
 [[files]]
+file = "mods/create-aeronautics-climbable-ropes.pw.toml"
+hash = "a20c09cc027b4f446947dfab6a505484252f25c8502f51eec96ec43c193f61bf"
+metafile = true
+
+[[files]]
 file = "mods/create-aeronautics.pw.toml"
-hash = "74f3358e1070f1163d14cb62ee768a389bd758f36b5c21471910e43fbcfacc9e"
+hash = "6ea6284b569b13f45bfe44f9790389de4a2f7cda92c8b3bb94511b600d64c486"
 metafile = true
 
 [[files]]
 file = "mods/create-aeroworks.pw.toml"
-hash = "4b24d47edfcb0dd5337d524ce9d8d9a1d17b0ed4f200b7353dd381f6be319e3b"
+hash = "5b59a27a9d4aed0926f2cd7a5e147597d69754a3b48eacfa3e1a8c756ae6b317"
 metafile = true
 
 [[files]]
@@ -476,8 +541,18 @@ hash = "31508c7c87c75cec7ae03cfe2367b6e4ea37035400c2594c93c1e9c60cf64b3f"
 metafile = true
 
 [[files]]
+file = "mods/create-crafts-additions-and-aeronautics-compat.pw.toml"
+hash = "a61af43db4bdd4f0d3567f50e33203abbf1d9e1f3c8c90b5c42dcd8b0686ca94"
+metafile = true
+
+[[files]]
 file = "mods/create-structures-arise.pw.toml"
 hash = "56fb3889f1962712701a38e088da74557591d507fb3b018d63624841721091e2"
+metafile = true
+
+[[files]]
+file = "mods/create-tweaked-controllers.pw.toml"
+hash = "2c72104b4cf249d4f096f673293a41c199d611dc9b99a9055d463fa5cd90c7cd"
 metafile = true
 
 [[files]]
@@ -557,7 +632,7 @@ metafile = true
 
 [[files]]
 file = "mods/kubejs.pw.toml"
-hash = "e8c20c0c77e5df58d1386d8190ee16a957d78d62d361469db0b0c29458bf1e84"
+hash = "60d0f719a2fc1045e865fc38c0c6d04a733d0ce2e84173be86e999399bcc162d"
 metafile = true
 
 [[files]]
@@ -587,7 +662,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "e152bb9ae171e9f34c406bbc29dc36c8d8def9d8f913e1a1bbf82bd63d4e8da9"
+hash = "6c600fe7b0789b7501968f57bb33b526e8c711dc6305f64b406abccfbdb971d5"
 metafile = true
 
 [[files]]
@@ -626,13 +701,8 @@ hash = "6b91f46291891e725189b0bd54d0db0f66925b1e785bdfa737592dfcf41a79a3"
 metafile = true
 
 [[files]]
-file = "mods/rrls.pw.toml"
-hash = "b78044fd79ce21750d05dc61b6aede33c4b87cdc16a26f5aff472d4f73ab623c"
-metafile = true
-
-[[files]]
 file = "mods/sable.pw.toml"
-hash = "735f0a8e564e8c80c282a7ba97fe77c34edec0402883f7154fd0206572537afe"
+hash = "e4c43e944439f4941ba1c417ab3ac1ec3dbd9c95a8456a2069641d031317e142"
 metafile = true
 
 [[files]]
@@ -677,7 +747,7 @@ metafile = true
 
 [[files]]
 file = "mods/tinycreate.pw.toml"
-hash = "98aee2e5518a711bc444142846e14bc18d33cb2b6ef388ba66e067af663a2589"
+hash = "77b62236b26c2301a36f64f55f8ba081e694236cc9d802cbfb745a73820d58d9"
 metafile = true
 
 [[files]]
@@ -697,7 +767,7 @@ metafile = true
 
 [[files]]
 file = "mods/waystones-sable.pw.toml"
-hash = "f04776d974d52dfdd6e24d3326dc1e2bacabcabd7f4316fe55e99123029db563"
+hash = "a9b1e447e3880b99bea12d260e5366316b522231b4a9110e674144cf04b11f6a"
 metafile = true
 
 [[files]]

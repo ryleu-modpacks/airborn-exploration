@@ -3,11 +3,11 @@ filename = "waystonessable-1.0.0.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "ef6d2fbf9b0f216831d07b3059ac59ec73ae23f3"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/BxhPGfcK/versions/gqxbnKwV/waystonessable-1.0.0.jar"
+hash-format = "sha512"
+hash = "3dcfa12cf351fd185bb94cc6394fefdfb85819b8a6631c816094067fd8794e08c01b728e109265ff74f31bc6871e1d46497e768d5c0f6e5309a1fc8b67ca1018"
 
 [update]
-[update.curseforge]
-file-id = 7982067
-project-id = 1524471
+[update.modrinth]
+mod-id = "BxhPGfcK"
+version = "gqxbnKwV"
