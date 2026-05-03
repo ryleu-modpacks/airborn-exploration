@@ -1,12 +1,12 @@
 {
   "__notice": "Tectonic has a config screen that explains every setting if you go to the in-game mod menu! You can also find config info here -> https://github.com/Apollounknowndev/tectonic/wiki/Config",
   "biomes": {
-    "temperature_multiplier": 1.0,
+    "temperature_multiplier": 1.1,
     "temperature_offset": 0.0,
-    "temperature_scale": 0.25,
-    "vegetation_multiplier": 1.0,
+    "temperature_scale": 0.06,
+    "vegetation_multiplier": 1.1,
     "vegetation_offset": 0.0,
-    "vegetation_scale": 0.25
+    "vegetation_scale": 0.06
   },
   "caves": {
     "carvers_enabled": true,

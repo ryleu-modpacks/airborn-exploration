@@ -74,7 +74,7 @@ hash = "38b9ea8e991522f1993d84865054f3771a4fca7a83e007fa210f11678173adda"
 
 [[files]]
 file = "config/tectonic.json"
-hash = "7a8e397b4f17d858d1f997e5e28bc515099dac14d967d4b8f8f193094742bb55"
+hash = "2c962da1b5acbd6534932967d0cd6f7d304bca10808fb7ef481f5d31c289a2f8"
 
 [[files]]
 file = "kubejs/assets/kubejs/models/block/open_television.json"
