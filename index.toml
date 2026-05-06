@@ -824,3 +824,8 @@ metafile = true
 file = "mods/xaeros-world-map.pw.toml"
 hash = "192a4685f8a182d1fa2fae67e2fad8b74ba547726beecfe8868174b4172d76a8"
 metafile = true
+
+[[files]]
+file = "resourcepacks/ccc.pw.toml"
+hash = "eb32394b065f923d7ca504acb25e869f9fa08352e04c82f47d2ce77f861228f0"
+metafile = true
