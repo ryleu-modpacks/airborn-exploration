@@ -22,6 +22,7 @@ ServerEvents.tags('item', event => {
 })
 
 ServerEvents.tags('block', event => {
+
     event.add('aether:gravitite', 'aether:enchanted_gravitite')
 
     const overgrownEndStone = [
@@ -49,9 +50,9 @@ ServerEvents.tags('block', event => {
         "betterend:rutiscus_path"
     ]
 
-    for (const block of overgrownEndStone) {
+    overgrownEndStone.forEach(block => {
         event.add('betterend:overgrown_end_stone', block)
-    }
+    })
 
     const squash = [
         'blue',
@@ -59,10 +60,21 @@ ServerEvents.tags('block', event => {
         'purple'
     ]
 
-    for (const block of squash) {
+    squash.forEach(block => {
         event.add('deep_aether:squash', `deep_aether:${block}_squash`)
         event.add('deep_aether:carved_squash', `deep_aether:carved_${block}_squash`)
-    }
+    })
+
+    const storage_blocks = [
+        'betterend:aeternium_block',
+        'betterend:charcoal_block',
+        'betterend:ender_block',
+        'betterend:terminite_block',
+        'betterend:thallasium_block'
+    ]
+    storage_blocks.forEach(block => {
+        event.add('c:storage_blocks', block)
+    })
 
     const planks = [
 		"aether:skyroot_planks",
@@ -73,9 +85,9 @@ ServerEvents.tags('block', event => {
 		"deep_aether:sunroot_planks"
 	]
 
-    for (const block of planks) {
+    planks.forEach(block => {
         event.add('minecraft:planks', block)
-    }
+    })
 
     const end_stones = [
         "#betterend:overgrown_end_stone",
@@ -91,9 +103,9 @@ ServerEvents.tags('block', event => {
         "betterend:end_stone_brick_weathered_wall"
     ]
 
-    for (const block of end_stones) {
+    end_stones.forEach(block => {
         event.add('sable:end_stones', block)
-    }
+    })
 
     const end_stone_slabs = [
         "minecraft:end_stone_brick_slab",
@@ -102,9 +114,9 @@ ServerEvents.tags('block', event => {
         "betterend:end_stone_brick_weathered_slab"
     ]
 
-    for (const block of end_stone_slabs) {
+    end_stone_slabs.forEach(block => {
         event.add('sable:end_stone_slabs', block)
-    }
+    })
 
     const fragile = [
         "#deep_aether:squash",
@@ -112,12 +124,32 @@ ServerEvents.tags('block', event => {
         "betterend:aurora_crystal"
     ]
 
-    for (const block of fragile) {
+    fragile.forEach(block => {
         event.add('sable:fragile', block)
-    }
+    })
 
-    event.add('sable:super_light', '#aether:aerogel')
+    const super_light = [
+        '#aether:aerogel',
+        'bits_n_bobs:nixie_board',
+        'toms_storage:inventory_cable',
+        'toms_storage:inventory_cable_framed',
+        'toms_storage:inventory_cable_connector',
+        'toms_storage:inventory_cable_connector_framed'
+    ]
+    super_light.forEach(block => {
+        event.add('sable:super_light', block)
+    })
     event.remove('sable:super_light', 'aether:aerogel_slab')
+
+    const light = [
+        'betterend:neon_cactus',
+        'betterend:neon_cactus_block',
+        'toms_storage:storage_terminal',
+        'toms_storage:crafting_terminal'
+    ]
+    light.forEach(block => {
+        event.add('sable:light', block)
+    })
 })
 
 ServerEvents.recipes(event => {
