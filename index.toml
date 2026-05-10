@@ -486,6 +486,11 @@ hash = "e2fa0a0c652d1a4cdec2ecc122c968c2a4b1cb36c2cdd874e10d8b04edb737fa"
 metafile = true
 
 [[files]]
+file = "mods/architectury-api.pw.toml"
+hash = "ea336d25c3e21ef168aec20e1ea470c96949ad29632646ee8e8ab0d74b4bbfc9"
+metafile = true
+
+[[files]]
 file = "mods/astrocraft-lite.pw.toml"
 hash = "b7c6da8a12107bf3994893255e29a7714ed9c4dffcdb98f9955f8c6a08caa46e"
 metafile = true
