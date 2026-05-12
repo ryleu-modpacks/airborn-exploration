@@ -1,0 +1,15 @@
+name = "ccc-redstone-link"
+filename = "cccredstonelink-0.0.0.jar"
+side = "both"
+
+[download]
+url = "https://github.com/ryleu/ccc-redstone-link/releases/download/v0.0.0/cccredstonelink-0.0.0.jar"
+hash-format = "sha256"
+hash = "d7d0fee900f842990ad996c69838183d482f38193e08a74a7a3207ff64781eeb"
+
+[update]
+[update.github]
+branch = "main"
+regex = "^.+(?<!-api|-dev|-dev-preshadow|-sources)\\.jar$"
+slug = "ryleu/ccc-redstone-link"
+tag = "v0.0.0"
