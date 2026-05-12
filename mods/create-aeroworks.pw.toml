@@ -1,13 +1,13 @@
 name = "Create: Aeroworks"
-filename = "aeroworks-1.2.6.jar"
+filename = "aeroworks-1.2.8.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "2d62b84a59ec1d2fd96bf63f7aa78f5d91aa3617"
+hash = "e8b81ae7bb944ff9b5162c0217b077558f32939e"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8014023
+file-id = 8046657
 project-id = 1522473
