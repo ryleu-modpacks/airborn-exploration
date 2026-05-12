@@ -1,13 +1,13 @@
 name = "TinyCreate"
-filename = "tinycreate_mc_1.21.1-1.1.0.jar"
+filename = "tinycreate_mc_1.21.1-1.2.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "bf9a904a8363e9a8ad5422b6ac670f66dbf31487"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/3YYD9Onk/versions/ylgPDztW/tinycreate_mc_1.21.1-1.2.1.jar"
+hash-format = "sha512"
+hash = "370a0e87567ed69d60b27ec0e755cb3b7f244680625bef3d719010263d5c94180c2ee37c6c16f4629a7f1c62f7434a34e3d6ad3be6ebd35c5d844eb82f319434"
 
 [update]
-[update.curseforge]
-file-id = 8006397
-project-id = 1523513
+[update.modrinth]
+mod-id = "3YYD9Onk"
+version = "ylgPDztW"
