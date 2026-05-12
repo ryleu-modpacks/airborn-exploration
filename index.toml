@@ -458,7 +458,7 @@ hash = "a45d16e7799eee2b7db468271b0f31484705e8ec94d9185a7f56fdef089d8226"
 
 [[files]]
 file = "kubejs/startup_scripts/main.js"
-hash = "9bd5856711b6c67ce47ace11019b1d9178b18c23541f5a2822507f05ff91e714"
+hash = "030d88f5731e26232d9f1c9900d80ee5bde3da89a5cad6c5dca57ee24e6a4543"
 
 [[files]]
 file = "mods/aether.pw.toml"
