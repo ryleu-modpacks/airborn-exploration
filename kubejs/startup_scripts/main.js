@@ -35,7 +35,7 @@ const groups = [
 
 ItemEvents.modification(event => {
     event.modify('betterend:charcoal_block', item => {
-        item.burnTime = 1600
+        item.burnTime = 16000
     })
 })
 
