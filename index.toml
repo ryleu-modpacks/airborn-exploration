@@ -461,6 +461,11 @@ file = "kubejs/startup_scripts/main.js"
 hash = "030d88f5731e26232d9f1c9900d80ee5bde3da89a5cad6c5dca57ee24e6a4543"
 
 [[files]]
+file = "mods/advancedperipherals.pw.toml"
+hash = "37a7a5a7d013603e5b1ea8a472f318b8e0dce6a78abd163e851721415263a519"
+metafile = true
+
+[[files]]
 file = "mods/aether.pw.toml"
 hash = "cc3f6e6e8f1838d16e47cce9241e32176279673efb1438ff4451ccffa9579b14"
 metafile = true
@@ -541,8 +546,8 @@ hash = "75181b55e0407d1fca1e2f346c6501f919f5109545990ddfb66db9cd1b771f8a"
 metafile = true
 
 [[files]]
-file = "mods/create-aeronautics-climbable-ropes.pw.toml"
-hash = "0e33cf792fefd09f1b5b3e6b3e922ea6ac7d86bba492c8bdd98957c5c1641b15"
+file = "mods/create-aeronautics-climbable-rope.pw.toml"
+hash = "84345805ff0ded2cd1b591755196c6f1bbb311bd0e8453a3bfd186bbaf3d77cf"
 metafile = true
 
 [[files]]
@@ -553,6 +558,11 @@ metafile = true
 [[files]]
 file = "mods/create-aeroworks.pw.toml"
 hash = "785a3313d1bd895c20a0c0ca15884483a824b59d3ad5d1e8b8063ddddcf74919"
+metafile = true
+
+[[files]]
+file = "mods/create-avionics.pw.toml"
+hash = "8cccda3a227b1a929d391f33fa33ec15582db2b6164a3e36bf89ce756f5c08fd"
 metafile = true
 
 [[files]]
@@ -796,13 +806,18 @@ hash = "0af91d3f6a2237347bef0b1c10b268c75f48ff6f07267149736131063e27440f"
 metafile = true
 
 [[files]]
+file = "mods/toms-peripherals.pw.toml"
+hash = "b5be069a2fae0df4cf4d032a8332c6011029f9ab9c3b9532d209747d44961dee"
+metafile = true
+
+[[files]]
 file = "mods/toms-storage.pw.toml"
 hash = "0f67fdb37d6ef354f36a1da5805b5c083be21e7367868ec81d29426d94749609"
 metafile = true
 
 [[files]]
 file = "mods/vista-aeronautics-fix.pw.toml"
-hash = "e6984ff406125d06bd2b27acbc7c9ed3f524e2110649963461fa5a18ea39ac96"
+hash = "72010b09a0bf4d7622d86bae25852c88d71f7259eea2d1c6955b90af4935b682"
 metafile = true
 
 [[files]]
