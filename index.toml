@@ -366,7 +366,7 @@ hash = "5e28e45d5f4a6a44c30e08fe9ef7841d85617706dd025cb50a1f073bbe64ea2e"
 
 [[files]]
 file = "kubejs/data/aether/physics_block_properties/gravitite.json"
-hash = "49806be5e2fc7136b1aa011a9b361b79c581ca59634675caa9043194ae3e4d8d"
+hash = "bea5d2be3456f48822d0660c67e6d4781dab0c633e269af1c50242007ea0c030"
 
 [[files]]
 file = "kubejs/data/aether/worldgen/noise_settings/skylands.json"
@@ -454,7 +454,7 @@ hash = "4888b836f3a67494bf2e1c98e08c7c10c5bc3def16cc9cfa24ea7d1ec2f45f3b"
 
 [[files]]
 file = "kubejs/server_scripts/main.js"
-hash = "706469c4dcb0cdebfe4c90a84fe4d58a4164cd7dda2edc8305c3c126afcc57d7"
+hash = "9dd9c76b8477fa2917588ca2a023e51abd7ab13598b2904ae6392e5829fe54c6"
 
 [[files]]
 file = "kubejs/startup_scripts/main.js"

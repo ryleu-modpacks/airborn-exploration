@@ -23,8 +23,6 @@ ServerEvents.tags('item', event => {
 
 ServerEvents.tags('block', event => {
 
-    event.add('aether:gravitite', 'aether:enchanted_gravitite')
-
     const overgrownEndStone = [
         "betterend:end_mycelium",
         "betterend:end_mycelium_path",
@@ -182,10 +180,10 @@ ServerEvents.recipes(event => {
             'SSS'
         ],
         {
-            'S': 'minecraft:end_stone_bricks'
+            'S': 'minecraft:end_stone'
         }
     )
-    event.stonecutting('betterend:end_stone_wall', 'minecraft:end_stone_bricks')
+    event.stonecutting('betterend:end_stone_wall', 'minecraft:end_stone')
 
     event.shapeless(Item.of('tinycreate:tiny_redstone_link', 2), ['create:redstone_link', 'tinyredstone:silicon'])
     event.shapeless(Item.of('tinycreate:tiny_analog_lever', 8), ['create:analog_lever', 'tinyredstone:silicon'])
@@ -198,13 +196,13 @@ ServerEvents.recipes(event => {
     event.recipes.create.deploying('create:turntable', [Ingredient.of('#minecraft:wooden_slabs'), 'create:shaft'])
 
     const casings = [
-        {material: 'create:shadow_steel', casing: 'create:shadow_steel_casing'},
-        {material: 'create:refined_radiance', casing: 'create:refined_radiance_casing'}
+        {'material': 'create:shadow_steel', 'casing': 'create:shadow_steel_casing'},
+        {'material': 'create:refined_radiance', 'casing': 'create:refined_radiance_casing'}
     ]
 
-    casings.forEach(({material, casing}) => {
-        event.recipes.create.deploying(casing, [Ingredient.of('#c:stripped_logs'), material])
-        event.recipes.create.deploying(casing, [Ingredient.of('#c:stripped_woods'), material])
+    casings.forEach(casing => {
+        event.recipes.create.deploying(casing.casing, [Ingredient.of('#c:stripped_logs'), casing.material])
+        event.recipes.create.deploying(casing.casing, [Ingredient.of('#c:stripped_woods'), casing.material])
     })
 
     // Frequency Items

@@ -1,5 +1,5 @@
 {
-  "selector": "#aether:gravitite",
+  "selector": "aether:enchanted_gravitite",
 
   "properties": {
 	"sable:floating_material": "aether:gravitite",
