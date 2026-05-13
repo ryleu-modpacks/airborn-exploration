@@ -165,6 +165,20 @@ ServerEvents.recipes(event => {
 
     // Misc Recipes
     event.replaceInput({id: 'minecraft:lodestone'}, 'minecraft:netherite_ingot', 'minecraft:iron_ingot')
+    event.replaceInput({id: 'betterend:end_stone_brick_cracked_wall'}, 'minecraft:end_stone_bricks', 'betterend:end_stone_brick_cracked')
+    event.replaceInput({id: 'betterend:end_stone_brick_weathered_wall'}, 'minecraft:end_stone_bricks', 'betterend:end_stone_brick_weathered')
+
+    event.shaped(
+        'betterend:end_stone_wall',
+        [
+            'SSS',
+            'SSS'
+        ],
+        {
+            'S': 'minecraft:end_stone_bricks'
+        }
+    )
+    event.stonecutting('betterend:end_stone_wall', 'minecraft:end_stone_bricks')
 
     event.recipes.create.deploying('create:turntable', [Ingredient.of('#minecraft:wooden_slabs'), 'create:shaft'])
     event.recipes.create.deploying('create:shadow_steel_casing', [Ingredient.of('#c:stripped_logs'), 'create:shadow_steel'])
