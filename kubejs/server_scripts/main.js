@@ -121,7 +121,8 @@ ServerEvents.tags('block', event => {
     const fragile = [
         "#deep_aether:squash",
         "betterend:cave_pumpkin",
-        "betterend:aurora_crystal"
+        "betterend:aurora_crystal",
+        "betterend:emerald_ice"
     ]
 
     fragile.forEach(block => {
