@@ -167,6 +167,7 @@ ServerEvents.recipes(event => {
     event.remove({id: 'tinycreate:tiny_pulse_timer'})
     event.remove({id: 'tinycreate:tiny_inductor_simulated'})
     event.remove({id: 'tinycreate:tiny_accumulator_simulated'})
+    event.remove({id: 'simulated:spring'})
 
     // Misc Recipes
     event.replaceInput({id: 'minecraft:lodestone'}, 'minecraft:netherite_ingot', 'minecraft:iron_ingot')
@@ -194,6 +195,15 @@ ServerEvents.recipes(event => {
     event.shapeless(Item.of('tinycreate:tiny_accumulator', 8), ['simulated:redstone_accumulator', 'tinyredstone:silicon'])
 
     event.recipes.create.deploying('create:turntable', [Ingredient.of('#minecraft:wooden_slabs'), 'create:shaft'])
+    event.custom({
+        "type": "createaddition:rolling",
+        "ingredients": [
+            {"tag": "c:rods/iron"}
+        ],
+        "results": [
+            {"id": "simulated:spring", "count": 1}
+        ]
+    })
 
     const casings = [
         {'material': 'create:shadow_steel', 'casing': 'create:shadow_steel_casing'},
