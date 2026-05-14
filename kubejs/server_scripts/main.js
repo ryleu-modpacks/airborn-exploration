@@ -23,8 +23,6 @@ ServerEvents.tags('item', event => {
 
 ServerEvents.tags('block', event => {
 
-    event.add('aether:gravitite', 'aether:enchanted_gravitite')
-
     const overgrownEndStone = [
         "betterend:end_mycelium",
         "betterend:end_mycelium_path",
@@ -121,7 +119,8 @@ ServerEvents.tags('block', event => {
     const fragile = [
         "#deep_aether:squash",
         "betterend:cave_pumpkin",
-        "betterend:aurora_crystal"
+        "betterend:aurora_crystal",
+        "betterend:emerald_ice"
     ]
 
     fragile.forEach(block => {
@@ -161,15 +160,60 @@ ServerEvents.recipes(event => {
     event.remove({output: '#waystones:waystones'})
     event.remove({output: '#waystones:portstones'})
     event.remove({output: '#waystones:sharestones'})
+    event.remove({id: 'tinycreate:tiny_redstone_link'})
+    event.remove({id: 'tinycreate:tiny_analog_lever'})
+    event.remove({id: 'tinycreate:tiny_eight_segment'})
+    event.remove({id: 'tinycreate:tiny_pulse_extender'})
+    event.remove({id: 'tinycreate:tiny_pulse_timer'})
+    event.remove({id: 'tinycreate:tiny_inductor_simulated'})
+    event.remove({id: 'tinycreate:tiny_accumulator_simulated'})
+    event.remove({id: 'simulated:spring'})
 
     // Misc Recipes
     event.replaceInput({id: 'minecraft:lodestone'}, 'minecraft:netherite_ingot', 'minecraft:iron_ingot')
+    event.replaceInput({id: 'betterend:end_stone_brick_cracked_wall'}, 'minecraft:end_stone_bricks', 'betterend:end_stone_brick_cracked')
+    event.replaceInput({id: 'betterend:end_stone_brick_weathered_wall'}, 'minecraft:end_stone_bricks', 'betterend:end_stone_brick_weathered')
+
+    event.shaped(
+        'betterend:end_stone_wall',
+        [
+            'SSS',
+            'SSS'
+        ],
+        {
+            'S': 'minecraft:end_stone'
+        }
+    )
+    event.stonecutting('betterend:end_stone_wall', 'minecraft:end_stone')
+
+    event.shapeless(Item.of('tinycreate:tiny_redstone_link', 2), ['create:redstone_link', 'tinyredstone:silicon'])
+    event.shapeless(Item.of('tinycreate:tiny_analog_lever', 8), ['create:analog_lever', 'tinyredstone:silicon'])
+    event.shapeless(Item.of('tinycreate:tiny_eight_segment', 8), ['create:nixie_tube', 'tinyredstone:silicon'])
+    event.shapeless(Item.of('tinycreate:tiny_pulse_extender', 8), ['create:pulse_extender', 'tinyredstone:silicon'])
+    event.shapeless(Item.of('tinycreate:tiny_pulse_timer', 8), ['create:pulse_timer', 'tinyredstone:silicon'])
+    event.shapeless(Item.of('tinycreate:tiny_inductor', 8), ['simulated:redstone_inductor', 'tinyredstone:silicon'])
+    event.shapeless(Item.of('tinycreate:tiny_accumulator', 8), ['simulated:redstone_accumulator', 'tinyredstone:silicon'])
 
     event.recipes.create.deploying('create:turntable', [Ingredient.of('#minecraft:wooden_slabs'), 'create:shaft'])
-    event.recipes.create.deploying('create:shadow_steel_casing', [Ingredient.of('#c:stripped_logs'), 'create:shadow_steel'])
-    event.recipes.create.deploying('create:shadow_steel_casing', [Ingredient.of('#c:stripped_woods'), 'create:shadow_steel'])
-    event.recipes.create.deploying('create:refined_radiance_casing', [Ingredient.of('#c:stripped_logs'), 'create:refined_radiance'])
-    event.recipes.create.deploying('create:refined_radiance_casing', [Ingredient.of('#c:stripped_woods'), 'create:refined_radiance'])
+    event.custom({
+        "type": "createaddition:rolling",
+        "ingredients": [
+            {"tag": "c:rods/iron"}
+        ],
+        "results": [
+            {"id": "simulated:spring", "count": 1}
+        ]
+    })
+
+    const casings = [
+        {'material': 'create:shadow_steel', 'casing': 'create:shadow_steel_casing'},
+        {'material': 'create:refined_radiance', 'casing': 'create:refined_radiance_casing'}
+    ]
+
+    casings.forEach(casing => {
+        event.recipes.create.deploying(casing.casing, [Ingredient.of('#c:stripped_logs'), casing.material])
+        event.recipes.create.deploying(casing.casing, [Ingredient.of('#c:stripped_woods'), casing.material])
+    })
 
     // Frequency Items
     for (const group of groups) {

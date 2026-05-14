@@ -366,7 +366,7 @@ hash = "5e28e45d5f4a6a44c30e08fe9ef7841d85617706dd025cb50a1f073bbe64ea2e"
 
 [[files]]
 file = "kubejs/data/aether/physics_block_properties/gravitite.json"
-hash = "49806be5e2fc7136b1aa011a9b361b79c581ca59634675caa9043194ae3e4d8d"
+hash = "bea5d2be3456f48822d0660c67e6d4781dab0c633e269af1c50242007ea0c030"
 
 [[files]]
 file = "kubejs/data/aether/worldgen/noise_settings/skylands.json"
@@ -454,11 +454,16 @@ hash = "4888b836f3a67494bf2e1c98e08c7c10c5bc3def16cc9cfa24ea7d1ec2f45f3b"
 
 [[files]]
 file = "kubejs/server_scripts/main.js"
-hash = "a45d16e7799eee2b7db468271b0f31484705e8ec94d9185a7f56fdef089d8226"
+hash = "3b205258c7969e934a017ba556b87aa08764cefc349bc92af9a5ce64113344bd"
 
 [[files]]
 file = "kubejs/startup_scripts/main.js"
 hash = "030d88f5731e26232d9f1c9900d80ee5bde3da89a5cad6c5dca57ee24e6a4543"
+
+[[files]]
+file = "mods/advancedperipherals.pw.toml"
+hash = "37a7a5a7d013603e5b1ea8a472f318b8e0dce6a78abd163e851721415263a519"
+metafile = true
 
 [[files]]
 file = "mods/aether.pw.toml"
@@ -541,8 +546,8 @@ hash = "75181b55e0407d1fca1e2f346c6501f919f5109545990ddfb66db9cd1b771f8a"
 metafile = true
 
 [[files]]
-file = "mods/create-aeronautics-climbable-ropes.pw.toml"
-hash = "0e33cf792fefd09f1b5b3e6b3e922ea6ac7d86bba492c8bdd98957c5c1641b15"
+file = "mods/create-aeronautics-climbable-rope.pw.toml"
+hash = "84345805ff0ded2cd1b591755196c6f1bbb311bd0e8453a3bfd186bbaf3d77cf"
 metafile = true
 
 [[files]]
@@ -552,7 +557,12 @@ metafile = true
 
 [[files]]
 file = "mods/create-aeroworks.pw.toml"
-hash = "785a3313d1bd895c20a0c0ca15884483a824b59d3ad5d1e8b8063ddddcf74919"
+hash = "d11bb3a4c43cdbe205c949bbb50977d12f3b22d129f738de7996b5722df3ac60"
+metafile = true
+
+[[files]]
+file = "mods/create-avionics.pw.toml"
+hash = "8cccda3a227b1a929d391f33fa33ec15582db2b6164a3e36bf89ce756f5c08fd"
 metafile = true
 
 [[files]]
@@ -573,6 +583,31 @@ metafile = true
 [[files]]
 file = "mods/create-crafts-additions-and-aeronautics-compat.pw.toml"
 hash = "a61af43db4bdd4f0d3567f50e33203abbf1d9e1f3c8c90b5c42dcd8b0686ca94"
+metafile = true
+
+[[files]]
+file = "mods/create-diesel-generators.pw.toml"
+hash = "d31fbf89364ee8130adca0dfba3d6aa774d1771632aa60f3f13e1b4ed9e073e5"
+metafile = true
+
+[[files]]
+file = "mods/create-encased.pw.toml"
+hash = "eef3ee7ba1a3731edf183824a30c720132fcec5d55d83c734dd846bd2ebf92f4"
+metafile = true
+
+[[files]]
+file = "mods/create-food.pw.toml"
+hash = "9659152903c07ccc018e00e09ffe021d78da8be78a83a19ffe269c251e0cd191"
+metafile = true
+
+[[files]]
+file = "mods/create-new-age.pw.toml"
+hash = "85048cc2c3269c990d551c6ebe5058662087ea5eb89e9da9ade81e3637654934"
+metafile = true
+
+[[files]]
+file = "mods/create-prismatic-shine.pw.toml"
+hash = "cbc7ea97d76516a5005a86388c65aaf36ff1e0558272c2e09a9533d3a4d5e82f"
 metafile = true
 
 [[files]]
@@ -628,6 +663,11 @@ metafile = true
 [[files]]
 file = "mods/entityculling.pw.toml"
 hash = "590437e0f344c87791842b791a400e95ffd4154f02a04c2d8d78b43a76c659ad"
+metafile = true
+
+[[files]]
+file = "mods/farmers-delight.pw.toml"
+hash = "9aab64fbec4cc794817026caf84e7d0dff14ba3892da94aa0e00d23c84560499"
 metafile = true
 
 [[files]]
@@ -731,6 +771,11 @@ hash = "84cb0dcad9ac46d22adba4fb7924951affa6ac5e46027a3b25fa9a0db8d91b2b"
 metafile = true
 
 [[files]]
+file = "mods/polymorph.pw.toml"
+hash = "152769b5dfbb92a836634e315898b23b6a555c60b6f05ddf38c00085f2b784f6"
+metafile = true
+
+[[files]]
 file = "mods/remove-terralith-intro-message.pw.toml"
 hash = "2e9dead89853555c8d909fe2549af2db5e5051c690fae695df93d2369aa8314c"
 metafile = true
@@ -796,13 +841,18 @@ hash = "0af91d3f6a2237347bef0b1c10b268c75f48ff6f07267149736131063e27440f"
 metafile = true
 
 [[files]]
+file = "mods/toms-peripherals.pw.toml"
+hash = "b5be069a2fae0df4cf4d032a8332c6011029f9ab9c3b9532d209747d44961dee"
+metafile = true
+
+[[files]]
 file = "mods/toms-storage.pw.toml"
 hash = "0f67fdb37d6ef354f36a1da5805b5c083be21e7367868ec81d29426d94749609"
 metafile = true
 
 [[files]]
 file = "mods/vista-aeronautics-fix.pw.toml"
-hash = "e6984ff406125d06bd2b27acbc7c9ed3f524e2110649963461fa5a18ea39ac96"
+hash = "72010b09a0bf4d7622d86bae25852c88d71f7259eea2d1c6955b90af4935b682"
 metafile = true
 
 [[files]]
