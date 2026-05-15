@@ -109,176 +109,192 @@ file = "kubejs/assets/kubejs/textures/block/television_housing.png"
 hash = "2f817ccbad9fb711539ca8ece61418fb61102dbd4fa1f6f772d50fcb9d192097"
 
 [[files]]
-file = "kubejs/assets/kubejs/textures/item/frequency_0.png"
-hash = "fa67bc1f61f369ce4470f00ca6b35a9689c78c3aa5cc8084a10969fe595094fd"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/frequency_1.png"
-hash = "8fd5e6a2caefc167fb67ab982de22cfdd9809e191b4de7e17426ec905806bcb8"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/frequency_2.png"
-hash = "a8972d6fa1ff0873d8b9c26673d8744febd03dd2cf2603725cce4bbe80a419db"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/frequency_3.png"
-hash = "6ec6692d910561791943b2cc11b177bcaffb28e1046b6bf86c9dab31ce5128bd"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/frequency_4.png"
-hash = "12f62a1ecac6062e6022b29c220728420be5545cb535c7e109f34681f26b698d"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/frequency_5.png"
-hash = "074ea757c7e5e179db8e0db93037785d09dc1dc62c06bc6bf066e5660ae23479"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/frequency_6.png"
-hash = "5833b49f2d7eed91df991a86af944190bddaf7803fa99140f948f451b33d5acd"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/frequency_7.png"
-hash = "d2e78dc0a928a6b2f1882c369e57fc4ae7ce13bf3aa4e99ca62c35fd8b53323d"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/frequency_8.png"
-hash = "82ec9f1baf231aa2ff9dc0e14e8ac02b0365abf49d203d0321523613d2d6a645"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/frequency_9.png"
-hash = "5e0af756bff4fd3a08957485fee6c83f61ac260667d6f6a810d76319536edb00"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/frequency_a.png"
-hash = "0fa922b47a2ca99b7a39d5a210bb47917fe06c4a1efee2b25ba7778ef233735a"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/frequency_b.png"
-hash = "f014e1103fe9b7d18ef7c98cc7a9c7ff79c42197b56474c71a2e16a4384c94ed"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/frequency_base.png"
+file = "kubejs/assets/kubejs/textures/item/frequency/base.png"
 hash = "a0fae52e4d4051c37cafd581a4c977d454bbf396a9b7cc9f14b8536dd8299fb5"
 
 [[files]]
-file = "kubejs/assets/kubejs/textures/item/frequency_c.png"
+file = "kubejs/assets/kubejs/textures/item/frequency/letter/a.png"
+hash = "0fa922b47a2ca99b7a39d5a210bb47917fe06c4a1efee2b25ba7778ef233735a"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/frequency/letter/b.png"
+hash = "f014e1103fe9b7d18ef7c98cc7a9c7ff79c42197b56474c71a2e16a4384c94ed"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/frequency/letter/c.png"
 hash = "806b5578f22ad3a563be9cf58278ca8b4a769c2b8fe4559f1c16b7051dfe4eb0"
 
 [[files]]
-file = "kubejs/assets/kubejs/textures/item/frequency_d.png"
+file = "kubejs/assets/kubejs/textures/item/frequency/letter/d.png"
 hash = "868a411103466f35b18a798a0afcdd3818b414937e95b7cf877dce1deb736327"
 
 [[files]]
-file = "kubejs/assets/kubejs/textures/item/frequency_down_arrow.png"
-hash = "9ed698852f61a696acc157a0c66554aa1ce876d2ab35ea8c958d0d1b7e52c701"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/frequency_e.png"
+file = "kubejs/assets/kubejs/textures/item/frequency/letter/e.png"
 hash = "8990b526cfbc7beab394738f9fcb4b1b4edeed686d8b191279ec33ea5435afc1"
 
 [[files]]
-file = "kubejs/assets/kubejs/textures/item/frequency_f.png"
+file = "kubejs/assets/kubejs/textures/item/frequency/letter/f.png"
 hash = "5f4f34b5b015107893ba9725ab8fe21544d986d68085715625f1a5a79361801a"
 
 [[files]]
-file = "kubejs/assets/kubejs/textures/item/frequency_g.png"
+file = "kubejs/assets/kubejs/textures/item/frequency/letter/g.png"
 hash = "bfd0e6ef11e5ccd6eab5bffa38d4f6f35a7144173a42f56363d801b2150a402b"
 
 [[files]]
-file = "kubejs/assets/kubejs/textures/item/frequency_h.png"
+file = "kubejs/assets/kubejs/textures/item/frequency/letter/h.png"
 hash = "448a4eccfdda298e1ac2b46638943b5cb6c8724d8dd17127898d64ee93b53de6"
 
 [[files]]
-file = "kubejs/assets/kubejs/textures/item/frequency_i.png"
+file = "kubejs/assets/kubejs/textures/item/frequency/letter/i.png"
 hash = "c6fa69b56e16ee4bdfe1ebe11d0e373ee1861f25b3757860b3b87e76478870d3"
 
 [[files]]
-file = "kubejs/assets/kubejs/textures/item/frequency_j.png"
+file = "kubejs/assets/kubejs/textures/item/frequency/letter/j.png"
 hash = "32bf6e56f919d0cc0d6037bed42963fff55cb33359b5db3a51b147d026fbc4f9"
 
 [[files]]
-file = "kubejs/assets/kubejs/textures/item/frequency_k.png"
+file = "kubejs/assets/kubejs/textures/item/frequency/letter/k.png"
 hash = "af0df14703c5006ab493374c965d242cbe5b8fff3ead42cbd3d7c9d4dcb80b91"
 
 [[files]]
-file = "kubejs/assets/kubejs/textures/item/frequency_l.png"
+file = "kubejs/assets/kubejs/textures/item/frequency/letter/l.png"
 hash = "1e98f85542c4b204bf4d191c317ca69769d40455d5f92a47361ad2fe73da33a8"
 
 [[files]]
-file = "kubejs/assets/kubejs/textures/item/frequency_left_arrow.png"
-hash = "759c807f335b4892a2f402ee95d9748589e25c08a9d99421f0e4115b4b9f0268"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/frequency_m.png"
+file = "kubejs/assets/kubejs/textures/item/frequency/letter/m.png"
 hash = "05d2e8cfc8ef2aff9f801f1660a65773ed717181b6208d6d79d2e91e60e2916c"
 
 [[files]]
-file = "kubejs/assets/kubejs/textures/item/frequency_minus.png"
-hash = "8febba7e16391e352780f42e546fc4a9fd68dfe026b0e55d81d9155b0c206075"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/frequency_n.png"
+file = "kubejs/assets/kubejs/textures/item/frequency/letter/n.png"
 hash = "fc62a57ed215f154b54e1cea98a569070905a7c088ccf9e42a593c6abbb8ca0c"
 
 [[files]]
-file = "kubejs/assets/kubejs/textures/item/frequency_o.png"
+file = "kubejs/assets/kubejs/textures/item/frequency/letter/o.png"
 hash = "d787babe180bc720e0c5cfc72d0cef6e0ba8b0954ba905c031fb4994508a6c67"
 
 [[files]]
-file = "kubejs/assets/kubejs/textures/item/frequency_p.png"
+file = "kubejs/assets/kubejs/textures/item/frequency/letter/p.png"
 hash = "1d8f6ffa606a028fb6ec80e02776f474ddc4aa3664123542457941dfd5e22f36"
 
 [[files]]
-file = "kubejs/assets/kubejs/textures/item/frequency_plus.png"
-hash = "8ee615602db1ac185c1f525f073ca575e2925bb680c0954d161ade36a5fccb9c"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/frequency_q.png"
+file = "kubejs/assets/kubejs/textures/item/frequency/letter/q.png"
 hash = "b0d4abf46fbdce2792cbad0226b87f620502c861645f5cf5d4b24b39f5a20edd"
 
 [[files]]
-file = "kubejs/assets/kubejs/textures/item/frequency_r.png"
+file = "kubejs/assets/kubejs/textures/item/frequency/letter/r.png"
 hash = "b6ec5d1f0e10c926b5938b2a42181ee9251c519c29138439ba62b9994b0820a9"
 
 [[files]]
-file = "kubejs/assets/kubejs/textures/item/frequency_right_arrow.png"
-hash = "aaa7cb1614f77dcbf928d29c0ea69306e9b5cb3967733295449f187e2d462f9c"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/frequency_s.png"
+file = "kubejs/assets/kubejs/textures/item/frequency/letter/s.png"
 hash = "7b0eb3c0368f795a8898fd75b5d4883cf264c79c3240a92a9427291869800c64"
 
 [[files]]
-file = "kubejs/assets/kubejs/textures/item/frequency_t.png"
+file = "kubejs/assets/kubejs/textures/item/frequency/letter/t.png"
 hash = "2a392b2d771fd9a6f9b2b36fa8df97798f3c71f9d233fb8dc4286e77643ee333"
 
 [[files]]
-file = "kubejs/assets/kubejs/textures/item/frequency_u.png"
+file = "kubejs/assets/kubejs/textures/item/frequency/letter/u.png"
 hash = "3bb539267573ed67d04d2d6ecdd6abbb318119c55e59ebec02b5879beefe05ae"
 
 [[files]]
-file = "kubejs/assets/kubejs/textures/item/frequency_up_arrow.png"
-hash = "c2df6bdab2f590a4ea35c6281f4e0c633441714a3e7078683a23da811748878e"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/frequency_v.png"
+file = "kubejs/assets/kubejs/textures/item/frequency/letter/v.png"
 hash = "0536cb69d0af35bbcaf5c618946734051522a3c76e8b80dd460cdcaeb5f85e2f"
 
 [[files]]
-file = "kubejs/assets/kubejs/textures/item/frequency_w.png"
+file = "kubejs/assets/kubejs/textures/item/frequency/letter/w.png"
 hash = "d706a4872252b039fc49775815ede7429d7277b8c8078a84582927b142e3a720"
 
 [[files]]
-file = "kubejs/assets/kubejs/textures/item/frequency_x.png"
+file = "kubejs/assets/kubejs/textures/item/frequency/letter/x.png"
 hash = "a4cfcf9dd0fca5356eaf466d9204337e62424f1a8eb03b0e58090839aca909fd"
 
 [[files]]
-file = "kubejs/assets/kubejs/textures/item/frequency_y.png"
+file = "kubejs/assets/kubejs/textures/item/frequency/letter/y.png"
 hash = "2b8593579f37f71844a90ac82fb92e2077205d7338045026a40de24d885af3bc"
 
 [[files]]
-file = "kubejs/assets/kubejs/textures/item/frequency_z.png"
+file = "kubejs/assets/kubejs/textures/item/frequency/letter/z.png"
 hash = "ffe0eb8e0c95d1e41d1279cc46072e370e723a2a77f359390bab4bd4cc089a48"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/frequency/number/0.png"
+hash = "fa67bc1f61f369ce4470f00ca6b35a9689c78c3aa5cc8084a10969fe595094fd"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/frequency/number/1.png"
+hash = "8fd5e6a2caefc167fb67ab982de22cfdd9809e191b4de7e17426ec905806bcb8"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/frequency/number/2.png"
+hash = "a8972d6fa1ff0873d8b9c26673d8744febd03dd2cf2603725cce4bbe80a419db"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/frequency/number/3.png"
+hash = "6ec6692d910561791943b2cc11b177bcaffb28e1046b6bf86c9dab31ce5128bd"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/frequency/number/4.png"
+hash = "12f62a1ecac6062e6022b29c220728420be5545cb535c7e109f34681f26b698d"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/frequency/number/5.png"
+hash = "074ea757c7e5e179db8e0db93037785d09dc1dc62c06bc6bf066e5660ae23479"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/frequency/number/6.png"
+hash = "5833b49f2d7eed91df991a86af944190bddaf7803fa99140f948f451b33d5acd"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/frequency/number/7.png"
+hash = "d2e78dc0a928a6b2f1882c369e57fc4ae7ce13bf3aa4e99ca62c35fd8b53323d"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/frequency/number/8.png"
+hash = "82ec9f1baf231aa2ff9dc0e14e8ac02b0365abf49d203d0321523613d2d6a645"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/frequency/number/9.png"
+hash = "5e0af756bff4fd3a08957485fee6c83f61ac260667d6f6a810d76319536edb00"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/frequency/symbol/down_arrow.png"
+hash = "9ed698852f61a696acc157a0c66554aa1ce876d2ab35ea8c958d0d1b7e52c701"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/frequency/symbol/downleft_arrow.png"
+hash = "af922e41fce6d909c4f9006613ca686682fe311ac46282ae55d74588cafc1763"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/frequency/symbol/downright_arrow.png"
+hash = "21f6c9ff1e42686b8fb582b2290fffcf3b1ec12bd3472efd6a0d6b3f55a022c8"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/frequency/symbol/left_arrow.png"
+hash = "759c807f335b4892a2f402ee95d9748589e25c08a9d99421f0e4115b4b9f0268"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/frequency/symbol/minus.png"
+hash = "8febba7e16391e352780f42e546fc4a9fd68dfe026b0e55d81d9155b0c206075"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/frequency/symbol/plus.png"
+hash = "8ee615602db1ac185c1f525f073ca575e2925bb680c0954d161ade36a5fccb9c"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/frequency/symbol/right_arrow.png"
+hash = "aaa7cb1614f77dcbf928d29c0ea69306e9b5cb3967733295449f187e2d462f9c"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/frequency/symbol/up_arrow.png"
+hash = "c2df6bdab2f590a4ea35c6281f4e0c633441714a3e7078683a23da811748878e"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/frequency/symbol/upleft_arrow.png"
+hash = "2680143d5c80b0bc06ef514a560c390b69a1695c3937797859eaa47225689c20"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/frequency/symbol/upright_arrow.png"
+hash = "1a8ad7786f66d865bdb08aa436480ac2eae77822be8e81eb8e0b597e777e2f2e"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/iron_dust.png"
@@ -458,11 +474,11 @@ hash = "4888b836f3a67494bf2e1c98e08c7c10c5bc3def16cc9cfa24ea7d1ec2f45f3b"
 
 [[files]]
 file = "kubejs/server_scripts/main.js"
-hash = "38d4440cd7fac24c81ecc3a45bc3f5b7ca7cd98da221abf481a049f4eb53503a"
+hash = "e3b342a631f7f37dbe9539259733abcaebce8045f2292ba91444e81b34d8a033"
 
 [[files]]
 file = "kubejs/startup_scripts/main.js"
-hash = "022d2e8fe06f6d435bfc408b4d3cce66485442b8500466594b21829fcf4a9597"
+hash = "ab988311b1787a7fcc5e0102c8d7ec7408da404685235cba2e89a0c0e0dcf368"
 
 [[files]]
 file = "mods/advancedperipherals.pw.toml"

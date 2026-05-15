@@ -4,9 +4,13 @@ const groups = [
     '0123456789'.split(''),
     [
         'up_arrow',
-        'down_arrow',
-        'left_arrow',
+        'upright_arrow',
         'right_arrow',
+        'downright_arrow',
+        'down_arrow',
+        'downleft_arrow',
+        'left_arrow',
+        'upleft_arrow',
         'plus',
         'minus'
     ],

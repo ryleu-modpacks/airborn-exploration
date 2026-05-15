@@ -5,25 +5,29 @@ Platform.mods.kubejs.name = 'Create: Airborn Exploration'
 
 const groups = [
     {
-        type: 'Blank'
+        type: 'blank'
     },
     {
-        type: 'L',
+        type: 'letter',
         values: 'abcdefghijklmnopqrstuvwxyz'.split(''),
         tooltipValue: char => char.toUpperCase()
     },
     {
-        type: '#',
+        type: 'number',
         values: '0123456789'.split(''),
         tooltipValue: char => char
     },
     {
-        type: 'S',
+        type: 'symbol',
         values: [
             'up_arrow',
-            'down_arrow',
-            'left_arrow',
+            'upright_arrow',
             'right_arrow',
+            'downright_arrow',
+            'down_arrow',
+            'downleft_arrow',
+            'left_arrow',
+            'upleft_arrow',
             'plus',
             'minus'
         ],
@@ -40,9 +44,9 @@ ItemEvents.modification(event => {
 StartupEvents.registry('item', event => {
 
     for (const group of groups) {
-        if (group.type === 'Blank') {
+        if (group.type === 'blank') {
             event.create('frequency_blank').displayName('Blank Frequency')
-            .texture('layer0', 'kubejs:item/frequency_base')
+            .texture('layer0', 'kubejs:item/frequency/base')
             .tag('minecraft:dyeable').tag('kubejs:frequency')
             .color((stack, tintIndex) => {
                 const dyed = stack.get($DataComponents.DYED_COLOR);
@@ -52,10 +56,10 @@ StartupEvents.registry('item', event => {
         }
         for (const value of group.values) {
             event.create(`frequency_${value}`).displayName('Frequency')
-            .tooltip(Text.aqua(`Frequency: (${group.type}) ${group.tooltipValue(value)}`))
-            .texture('layer0', 'kubejs:item/frequency_base')
-            .texture('layer1', `kubejs:item/frequency_${value}`)
-            .tag('minecraft:dyeable').tag('kubejs:frequency')
+            .tooltip(Text.aqua(`Frequency: ${group.tooltipValue(value)}`))
+            .texture('layer0', 'kubejs:item/frequency/base')
+            .texture('layer1', `kubejs:item/frequency/${group.type}/${value}`)
+            .tag('minecraft:dyeable').tag('kubejs:frequency').tag(`kubejs:frequency/${group.type}`)
             .color((stack, tintIndex) => {
                 const dyed = stack.get($DataComponents.DYED_COLOR);
                 if (tintIndex != 0) {
