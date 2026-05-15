@@ -1,6 +1,3 @@
-// Visit the wiki for more info - https://kubejs.com/
-console.info('Hello, World! (Loaded server example script)')
-
 
 const groups = [
     'abcdefghijklmnopqrstuvwxyz'.split(''),
@@ -12,7 +9,8 @@ const groups = [
         'right_arrow',
         'plus',
         'minus'
-    ]
+    ],
+    ['blank']
 ]
 
 ServerEvents.tags('item', event => {
