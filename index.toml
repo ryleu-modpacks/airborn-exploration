@@ -541,8 +541,13 @@ hash = "bc792ba30b8b96a4451720488348b375d5eccdcd6d83f7527f960a1ea552f251"
 metafile = true
 
 [[files]]
+file = "mods/cbcperipheral.pw.toml"
+hash = "08445928f48420d77f459d497ba6be84e2fbce65cd45328e89df901bf1d6df11"
+metafile = true
+
+[[files]]
 file = "mods/cc-sable.pw.toml"
-hash = "f4be9e4c8e4b694ed37b14ee0a3cc8196f08c029778db64ddf13b92bf9273d1a"
+hash = "253a414e73f57c890ae5e03f49517191267b1bef0a89252ae1221748cd0de4f9"
 metafile = true
 
 [[files]]
@@ -567,7 +572,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-aeronautics-climbable-rope.pw.toml"
-hash = "84345805ff0ded2cd1b591755196c6f1bbb311bd0e8453a3bfd186bbaf3d77cf"
+hash = "5e05fff9986a1811f2a4001640992e805dc18af7795dda7dfddecb89f56199b8"
 metafile = true
 
 [[files]]
@@ -583,6 +588,16 @@ metafile = true
 [[files]]
 file = "mods/create-avionics.pw.toml"
 hash = "8cccda3a227b1a929d391f33fa33ec15582db2b6164a3e36bf89ce756f5c08fd"
+metafile = true
+
+[[files]]
+file = "mods/create-big-cannons-equally-opposite.pw.toml"
+hash = "94b885988904b8acdbc04ee69b3b203ffd15c58e689ebdb322e9e172797c6e42"
+metafile = true
+
+[[files]]
+file = "mods/create-big-cannons.pw.toml"
+hash = "47a456dc38c5bfa9604ad2ecb0627cf5271132a022fc0867b6059f92e841203d"
 metafile = true
 
 [[files]]
@@ -632,7 +647,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-structures-arise.pw.toml"
-hash = "56fb3889f1962712701a38e088da74557591d507fb3b018d63624841721091e2"
+hash = "84308711b81c8207e4c73039671cb2760f4446777d69bbe991facd9896d0ce7c"
 metafile = true
 
 [[files]]
@@ -647,7 +662,7 @@ metafile = true
 
 [[files]]
 file = "mods/createaddition.pw.toml"
-hash = "b5bbbdef134fb735d4a741ccb85b46c6b1707e8e974a09bdcc1dcd785c0f172e"
+hash = "5b529724427fd8b04538c2f49cc8f9b38de49fe46218eb9e07f955f5725d727a"
 metafile = true
 
 [[files]]
@@ -672,7 +687,7 @@ metafile = true
 
 [[files]]
 file = "mods/emi.pw.toml"
-hash = "d3c9b48d7caa2ed964e5d1a4dab1da5655c63f0a7e4a59231c4369be7ffc30e1"
+hash = "67bb77eae0b644960be3b1074178ceb5d54facbb42f326981b9d94625238a54a"
 metafile = true
 
 [[files]]
@@ -707,7 +722,7 @@ metafile = true
 
 [[files]]
 file = "mods/jade-sable-compat.pw.toml"
-hash = "5d3c4ea820599f6660909d3e6795a187b7c93e15a2e904cc11eb4d26af1305ff"
+hash = "de4a88126c0c9ab4304ff4b6a9cf708d2587d0f572d035b51b3384e784dc6b2e"
 metafile = true
 
 [[files]]
@@ -732,7 +747,7 @@ metafile = true
 
 [[files]]
 file = "mods/kubejs.pw.toml"
-hash = "60d0f719a2fc1045e865fc38c0c6d04a733d0ce2e84173be86e999399bcc162d"
+hash = "99bea71046529d65463fc12acb505ab363c91133ebbcc1d976e49a5d33150702"
 metafile = true
 
 [[files]]
@@ -742,7 +757,7 @@ metafile = true
 
 [[files]]
 file = "mods/lithostitched.pw.toml"
-hash = "bc2d592dc0107406f3564f968daf6b84d9379cdb66997305855ae68886fd5502"
+hash = "dffd5e0950b3bd121da4d6be559b13e4917d9ef901ca92e26ad125dc8ec85c26"
 metafile = true
 
 [[files]]
@@ -767,7 +782,7 @@ metafile = true
 
 [[files]]
 file = "mods/moonlight.pw.toml"
-hash = "bbac8cbc56c4a1a14d30f0671a81252978b229066896cba45384c593f67fff7d"
+hash = "1cc192126d1dcd27e12066bd7b78b9f9ab682f01e6fb538963371f7c4ed99e79"
 metafile = true
 
 [[files]]
@@ -806,8 +821,13 @@ hash = "6b91f46291891e725189b0bd54d0db0f66925b1e785bdfa737592dfcf41a79a3"
 metafile = true
 
 [[files]]
+file = "mods/rpl.pw.toml"
+hash = "7815e5a589de0c02a62ae83590e1f75f4d0c269e48f2435ce2ac448976ddf49f"
+metafile = true
+
+[[files]]
 file = "mods/sable-x-xaero-bridge.pw.toml"
-hash = "4b49133f0823060dcfb638513e8bd746886890edc869f6363f9aa768c39a293a"
+hash = "910de760c284e7a94711f222a521d2bcad3d03f70eca4acb4a740effb0cf813e"
 metafile = true
 
 [[files]]
@@ -867,7 +887,7 @@ metafile = true
 
 [[files]]
 file = "mods/tinycreate.pw.toml"
-hash = "0af91d3f6a2237347bef0b1c10b268c75f48ff6f07267149736131063e27440f"
+hash = "d8cbe78541504a1fbf22694a29ed20ed4290de3ae31fdcc10bcb520172134902"
 metafile = true
 
 [[files]]
@@ -887,17 +907,17 @@ metafile = true
 
 [[files]]
 file = "mods/vista_tv.pw.toml"
-hash = "0fd96856b3d7cb1f8bf7d361656f082f10345e543843a61b7c778dea27bc0bae"
+hash = "094554b8c5af2dbdcbda924450ffb8e969864ceba5b110bdfa1375ba73d30d27"
 metafile = true
 
 [[files]]
 file = "mods/waystones-sable.pw.toml"
-hash = "563ffb6ec0969912017a8f86a5df49c5289ebc65879074d7924d4476e322e1b8"
+hash = "e1c4d32608e9da4e92c6151c445196b75eb6b41893cb1a64f4c5f0ba205ae97a"
 metafile = true
 
 [[files]]
 file = "mods/waystones.pw.toml"
-hash = "65242951f26a65cce20bcc2c796805b655046970ee8fe13990976e649fa6ba04"
+hash = "8e8279c29671803cae3f9ab39c87956e4a4300fe8f9da9a9222850ca3253fb45"
 metafile = true
 
 [[files]]
