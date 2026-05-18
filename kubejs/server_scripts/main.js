@@ -135,7 +135,10 @@ ServerEvents.tags('block', event => {
         'toms_storage:inventory_cable',
         'toms_storage:inventory_cable_framed',
         'toms_storage:inventory_cable_connector',
-        'toms_storage:inventory_cable_connector_framed'
+        'toms_storage:inventory_cable_connector_framed',
+        'computercraft:cable',
+        'computercraft:wireless_modem_normal',
+        'computercraft:wireless_modem_advanced'
     ]
     super_light.forEach(block => {
         event.add('sable:super_light', block)

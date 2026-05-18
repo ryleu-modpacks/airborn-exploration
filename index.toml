@@ -474,7 +474,7 @@ hash = "4888b836f3a67494bf2e1c98e08c7c10c5bc3def16cc9cfa24ea7d1ec2f45f3b"
 
 [[files]]
 file = "kubejs/server_scripts/main.js"
-hash = "e3b342a631f7f37dbe9539259733abcaebce8045f2292ba91444e81b34d8a033"
+hash = "f4da9f9e4074aca2ec13e43d65cbffe1a5e31c75e85f1e9f6b08592787541437"
 
 [[files]]
 file = "kubejs/startup_scripts/main.js"
@@ -483,6 +483,11 @@ hash = "ab988311b1787a7fcc5e0102c8d7ec7408da404685235cba2e89a0c0e0dcf368"
 [[files]]
 file = "mods/advancedperipherals.pw.toml"
 hash = "37a7a5a7d013603e5b1ea8a472f318b8e0dce6a78abd163e851721415263a519"
+metafile = true
+
+[[files]]
+file = "mods/aeronauticscovers.pw.toml"
+hash = "cc3b08302d82ccc5c708093d8075689a7c298cc675392ddfbab14e08f0911e3b"
 metafile = true
 
 [[files]]
@@ -538,6 +543,11 @@ metafile = true
 [[files]]
 file = "mods/betterend-neoforge.pw.toml"
 hash = "bc792ba30b8b96a4451720488348b375d5eccdcd6d83f7527f960a1ea552f251"
+metafile = true
+
+[[files]]
+file = "mods/cable-facades.pw.toml"
+hash = "77d9d82e6bcf4f39f42cca22774ae09f2ab21f07116f2097f602a7438725440a"
 metafile = true
 
 [[files]]

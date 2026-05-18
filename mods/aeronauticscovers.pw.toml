@@ -1,0 +1,13 @@
+name = "Aeronautics Covers"
+filename = "aeronauticscovers-1.21.1-NeoForge-1.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/eWrKPy9E/versions/R35biaZf/aeronauticscovers-1.21.1-NeoForge-1.0.1.jar"
+hash-format = "sha512"
+hash = "635fbdba8eba8527a0de944d77a9f0c10eca47135ecbca4070e7cae9609e41e61723ed2c70108b71be45021cbdc78c1bb746420e37e268100342995d42dd978d"
+
+[update]
+[update.modrinth]
+mod-id = "eWrKPy9E"
+version = "R35biaZf"
