@@ -851,6 +851,11 @@ hash = "e4c43e944439f4941ba1c417ab3ac1ec3dbd9c95a8456a2069641d031317e142"
 metafile = true
 
 [[files]]
+file = "mods/schematicians-goggles.pw.toml"
+hash = "7d5155300b2466fd000d9668c218ecdaf69995b08db2f82c07ae61bf2635ee7f"
+metafile = true
+
+[[files]]
 file = "mods/servercore.pw.toml"
 hash = "80e939eab66ffbab6e762ff7686ed5532012ca5b1f59015d6ba98e1f70f156a6"
 metafile = true
