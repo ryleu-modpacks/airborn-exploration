@@ -1,0 +1,13 @@
+name = "Create Big Cannons: Peripherals"
+filename = "cbcperipheral-0.1.0.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/CbWWEI68/versions/BQRcDDiT/cbcperipheral-0.1.0.jar"
+hash-format = "sha512"
+hash = "79b73593d5bc341cbc41c871741b919396605a7761961de99e577b5a81400cdb5315791fd96d6013fa67e71455879108322a4b8e7076c816a2d4d19ec11d2477"
+
+[update]
+[update.modrinth]
+mod-id = "CbWWEI68"
+version = "BQRcDDiT"

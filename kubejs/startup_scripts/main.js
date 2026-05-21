@@ -1,5 +1,3 @@
-// Visit the wiki for more info - https://kubejs.com/
-console.info('Hello, World! (Loaded startup example script)')
 
 const $DataComponents = Java.loadClass('net.minecraft.core.component.DataComponents')
 
@@ -7,29 +5,33 @@ Platform.mods.kubejs.name = 'Create: Airborn Exploration'
 
 const groups = [
     {
-        type: 'Letter',
+        type: 'blank'
+    },
+    {
+        type: 'letter',
         values: 'abcdefghijklmnopqrstuvwxyz'.split(''),
-        tooltipValue: char => char.toUpperCase(),
-        textureValue: char => char
+        tooltipValue: char => char.toUpperCase()
     },
     {
-        type: 'Number',
+        type: 'number',
         values: '0123456789'.split(''),
-        tooltipValue: char => char,
-        textureValue: char => char
+        tooltipValue: char => char
     },
     {
-        type: 'Symbol',
+        type: 'symbol',
         values: [
             'up_arrow',
-            'down_arrow',
-            'left_arrow',
+            'upright_arrow',
             'right_arrow',
+            'downright_arrow',
+            'down_arrow',
+            'downleft_arrow',
+            'left_arrow',
+            'upleft_arrow',
             'plus',
             'minus'
         ],
-        tooltipValue: symbol => symbol.split('_').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' '),
-        textureValue: symbol => symbol
+        tooltipValue: symbol => symbol.split('_').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ')
     }
 ]
 
@@ -42,10 +44,35 @@ ItemEvents.modification(event => {
 StartupEvents.registry('item', event => {
 
     for (const group of groups) {
-        for (const value of group.values) {
-            event.create(`frequency_${value}`).displayName('Frequency').tooltip(Text.aqua(`${group.type}: ${group.tooltipValue(value)}`)).tag('minecraft:dyeable')
+        if (group.type === 'blank') {
+            event.create('frequency_blank').displayName('Blank Frequency')
+            .texture('layer0', 'kubejs:item/frequency/base')
+            .tag('minecraft:dyeable').tag('kubejs:frequency')
             .color((stack, tintIndex) => {
                 const dyed = stack.get($DataComponents.DYED_COLOR);
+                return dyed ? dyed.rgb() : -1;
+            });
+            continue;
+        }
+        for (const value of group.values) {
+            event.create(`frequency_${value}`).displayName('Frequency')
+            .tooltip(Text.aqua(`Frequency: ${group.tooltipValue(value)}`))
+            .texture('layer0', 'kubejs:item/frequency/base')
+            .texture('layer1', `kubejs:item/frequency/${group.type}/${value}`)
+            .tag('minecraft:dyeable').tag('kubejs:frequency').tag(`kubejs:frequency/${group.type}`)
+            .color((stack, tintIndex) => {
+                const dyed = stack.get($DataComponents.DYED_COLOR);
+                if (tintIndex != 0) {
+                    if (dyed) {
+                        const rgb = dyed.rgb();
+                        const r = (rgb >> 16) & 0xFF;
+                        const g = (rgb >> 8) & 0xFF;
+                        const b = rgb & 0xFF;
+                        const brightness = (r + g + b) / 3;
+                        return brightness > 200 ? 0x010101 : -1;
+                    }
+                    return 0x993333;
+                }
                 return dyed ? dyed.rgb() : -1;
             });
         }

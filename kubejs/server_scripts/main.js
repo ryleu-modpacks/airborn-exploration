@@ -1,18 +1,20 @@
-// Visit the wiki for more info - https://kubejs.com/
-console.info('Hello, World! (Loaded server example script)')
-
 
 const groups = [
     'abcdefghijklmnopqrstuvwxyz'.split(''),
     '0123456789'.split(''),
     [
         'up_arrow',
-        'down_arrow',
-        'left_arrow',
+        'upright_arrow',
         'right_arrow',
+        'downright_arrow',
+        'down_arrow',
+        'downleft_arrow',
+        'left_arrow',
+        'upleft_arrow',
         'plus',
         'minus'
-    ]
+    ],
+    ['blank']
 ]
 
 ServerEvents.tags('item', event => {
@@ -133,7 +135,10 @@ ServerEvents.tags('block', event => {
         'toms_storage:inventory_cable',
         'toms_storage:inventory_cable_framed',
         'toms_storage:inventory_cable_connector',
-        'toms_storage:inventory_cable_connector_framed'
+        'toms_storage:inventory_cable_connector_framed',
+        'computercraft:cable',
+        'computercraft:wireless_modem_normal',
+        'computercraft:wireless_modem_advanced'
     ]
     super_light.forEach(block => {
         event.add('sable:super_light', block)

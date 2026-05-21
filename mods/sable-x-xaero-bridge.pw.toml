@@ -1,13 +1,13 @@
 name = "Sable x Xaero Bridge"
-filename = "sable_xaero_bridge-0.1.3.jar"
+filename = "sable_xaero_bridge-0.1.11.jar"
 side = "client"
 
 [download]
 hash-format = "sha1"
-hash = "7a85b55088894fa3c7572a0006373dd47c9254dc"
+hash = "a9aa4658dadf3c7ea6c1bcbfd53e001567682611"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8029477
+file-id = 8079771
 project-id = 1529727

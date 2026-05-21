@@ -1,0 +1,13 @@
+name = "Grappling Hook Mod: Skybound"
+filename = "grapplemod-1.1+1.21.1.neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/tHHGzOFQ/versions/ejlIzfJ8/grapplemod-1.1%2B1.21.1.neoforge.jar"
+hash-format = "sha512"
+hash = "c3081c0a8d62e90388c7d2c281d459c3b4b61f42a83d182a1a0dc2fa15599ffa10aec91528ba685980341a007a619c38aca92d75ad6747cef0e5f814d44fdbcb"
+
+[update]
+[update.modrinth]
+mod-id = "tHHGzOFQ"
+version = "ejlIzfJ8"
