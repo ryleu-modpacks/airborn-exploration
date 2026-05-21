@@ -77,6 +77,11 @@ file = "config/tectonic.json"
 hash = "2c962da1b5acbd6534932967d0cd6f7d304bca10808fb7ef481f5d31c289a2f8"
 
 [[files]]
+file = "kubejs/assets/ccc.pw.toml"
+hash = "eb32394b065f923d7ca504acb25e869f9fa08352e04c82f47d2ce77f861228f0"
+metafile = true
+
+[[files]]
 file = "kubejs/assets/kubejs/models/block/open_television.json"
 hash = "a0175404bb62780b1bfd24ab93e98b82851fc778cc9edf79ea86d349a3ce22a0"
 
@@ -659,7 +664,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-diesel-generators.pw.toml"
-hash = "d31fbf89364ee8130adca0dfba3d6aa774d1771632aa60f3f13e1b4ed9e073e5"
+hash = "9e6e9e3d5f93e77d45b57e6219998b3604b58a628c76d4762ed06deaf9e98e71"
 metafile = true
 
 [[files]]
@@ -739,7 +744,7 @@ metafile = true
 
 [[files]]
 file = "mods/ecliptic-seasons.pw.toml"
-hash = "de21ecdd6a305cf32b12a80db3991b79f31e641f0b578922ae57e31669dff58c"
+hash = "ab5f4c7bfe96bee9d195f7b941535d978ac4b1e6a2c8357c4b3537ef2ea862e3"
 metafile = true
 
 [[files]]
@@ -859,7 +864,7 @@ metafile = true
 
 [[files]]
 file = "mods/moonlight.pw.toml"
-hash = "d10128214f360c5ce6f6de632a1be907677edeb912412cc0fb5c086aeadee92d"
+hash = "0216ec773cdb866842d65dd52c9342574f2ff9240576b0dc1c69f3990b100b75"
 metafile = true
 
 [[files]]
@@ -1014,7 +1019,7 @@ metafile = true
 
 [[files]]
 file = "mods/vista_tv.pw.toml"
-hash = "0e8ab1d2658dfd3faca375ea3f40e3f60217f0a3e97c42475e984393ec70dbd3"
+hash = "ae383cdada253313a708a094c0f01d6d4fb79435f4346f52473e07d05624b122"
 metafile = true
 
 [[files]]
@@ -1050,9 +1055,4 @@ metafile = true
 [[files]]
 file = "mods/yacl.pw.toml"
 hash = "539f362e9e192cf3b2813e0dfdfc51a5e6814129c6e82a9733842529beea6242"
-metafile = true
-
-[[files]]
-file = "resourcepacks/ccc.pw.toml"
-hash = "eb32394b065f923d7ca504acb25e869f9fa08352e04c82f47d2ce77f861228f0"
 metafile = true
