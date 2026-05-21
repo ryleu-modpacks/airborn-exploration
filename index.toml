@@ -82,6 +82,22 @@ hash = "eb32394b065f923d7ca504acb25e869f9fa08352e04c82f47d2ce77f861228f0"
 metafile = true
 
 [[files]]
+file = "kubejs/assets/computercraft/textures/block/redstone_relay_bottom.png"
+hash = "62dd8d5f137ce3781258bc594b2acba7e3aede3869cdbf4215231288603d8990"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/redstone_relay_front.png"
+hash = "6c7814043295159ed943bad3e79229a036aaf4cef602ed2d6a69c1fdd650332a"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/redstone_relay_side.png"
+hash = "b3dfe04d4781a33850c13e6666221a32d116a27ac9eb58365ea96ff3c6d363b1"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/redstone_relay_top.png"
+hash = "096492f0f37448713eb68bcc5febe0cc025e5da86a1a5db63b1d631b9b74e3b5"
+
+[[files]]
 file = "kubejs/assets/kubejs/models/block/open_television.json"
 hash = "a0175404bb62780b1bfd24ab93e98b82851fc778cc9edf79ea86d349a3ce22a0"
 
@@ -320,6 +336,26 @@ hash = "5cbbf10adc0b14fa84a6548d6f4d5dd2890c1025a33e27543a7067a5e006042f"
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/viewfinder_housing.png"
 hash = "72f67ef78ada1017117809e6f716f174ed7c8e4aaefb44eb9659d2fc2079cab9"
+
+[[files]]
+file = "kubejs/assets/toms_peripherals/models/block/monitor.json"
+hash = "821fa05763119f1949e78df087bfe9f963af4b673d674ad0778f614031d2b6ce"
+
+[[files]]
+file = "kubejs/assets/toms_peripherals/textures/block/gpu_bottom.png"
+hash = "bec7fab21ab7db70275232feb6772ad4c94b95ca0925da7eebe45e3c9d82cabc"
+
+[[files]]
+file = "kubejs/assets/toms_peripherals/textures/block/gpu_front.png"
+hash = "991e4ce31fb0a19b1a488816d3ca1ebc0a77bb2dcd4ee4ad81a8464db4bc924b"
+
+[[files]]
+file = "kubejs/assets/toms_peripherals/textures/block/gpu_top.png"
+hash = "57163f0a057f5a9596c8e3e7560ce818073024951a6f418135d068ba2fe46845"
+
+[[files]]
+file = "kubejs/assets/toms_peripherals/textures/block/monitor_side.png"
+hash = "9c656ae316fa38ef319baded039d05639ca0a7e3660d1c0528aa4f146151b6dc"
 
 [[files]]
 file = "kubejs/assets/vista/lang/en_us.json"
