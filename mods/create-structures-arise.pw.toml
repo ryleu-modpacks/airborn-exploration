@@ -1,13 +1,13 @@
 name = "Create: Structures Arise"
-filename = "create_structures_arise NeoForge 1.21.1 -175.48.47.jar"
+filename = "create_structures_arise-176.49.48 NeoForge 1.21.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/9enMEvoc/versions/UjUbuTq1/create_structures_arise%20NeoForge%201.21.1%20-175.48.47.jar"
+url = "https://cdn.modrinth.com/data/9enMEvoc/versions/ZFrDlvkl/create_structures_arise-176.49.48%20NeoForge%201.21.1.jar"
 hash-format = "sha512"
-hash = "fc0aec06ad87d15217f2266b73ca59e5378d92b2c54ca598263b68c6d47866d8b8b5490e0d082e30b937d2bf253ab0a86de47c61101ec7ac2166454517204fdb"
+hash = "95ff65a83ae3f41fcee3bb1327ce6dacf4e916e0ea841a8e584b1d1927edad028970b0f6a8014971cc2444ccef00baa62a33a2021e61d60f2cf94df8b377c4a8"
 
 [update]
 [update.modrinth]
 mod-id = "9enMEvoc"
-version = "UjUbuTq1"
+version = "ZFrDlvkl"

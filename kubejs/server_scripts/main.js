@@ -165,13 +165,6 @@ ServerEvents.recipes(event => {
     event.remove({output: '#waystones:waystones'})
     event.remove({output: '#waystones:portstones'})
     event.remove({output: '#waystones:sharestones'})
-    event.remove({id: 'tinycreate:tiny_redstone_link'})
-    event.remove({id: 'tinycreate:tiny_analog_lever'})
-    event.remove({id: 'tinycreate:tiny_eight_segment'})
-    event.remove({id: 'tinycreate:tiny_pulse_extender'})
-    event.remove({id: 'tinycreate:tiny_pulse_timer'})
-    event.remove({id: 'tinycreate:tiny_inductor_simulated'})
-    event.remove({id: 'tinycreate:tiny_accumulator_simulated'})
     event.remove({id: 'simulated:spring'})
 
     // Misc Recipes
@@ -190,14 +183,6 @@ ServerEvents.recipes(event => {
         }
     )
     event.stonecutting('betterend:end_stone_wall', 'minecraft:end_stone')
-
-    event.shapeless(Item.of('tinycreate:tiny_redstone_link', 2), ['create:redstone_link', 'tinyredstone:silicon'])
-    event.shapeless(Item.of('tinycreate:tiny_analog_lever', 8), ['create:analog_lever', 'tinyredstone:silicon'])
-    event.shapeless(Item.of('tinycreate:tiny_eight_segment', 8), ['create:nixie_tube', 'tinyredstone:silicon'])
-    event.shapeless(Item.of('tinycreate:tiny_pulse_extender', 8), ['create:pulse_extender', 'tinyredstone:silicon'])
-    event.shapeless(Item.of('tinycreate:tiny_pulse_timer', 8), ['create:pulse_timer', 'tinyredstone:silicon'])
-    event.shapeless(Item.of('tinycreate:tiny_inductor', 8), ['simulated:redstone_inductor', 'tinyredstone:silicon'])
-    event.shapeless(Item.of('tinycreate:tiny_accumulator', 8), ['simulated:redstone_accumulator', 'tinyredstone:silicon'])
 
     event.recipes.create.deploying('create:turntable', [Ingredient.of('#minecraft:wooden_slabs'), 'create:shaft'])
     event.custom({
