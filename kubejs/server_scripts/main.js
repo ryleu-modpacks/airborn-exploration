@@ -17,13 +17,62 @@ const groups = [
     ['blank']
 ]
 
+const vanilla_dyes = [
+    'white',
+    'orange',
+    'magenta',
+    'light_blue',
+    'yellow',
+    'lime',
+    'pink',
+    'gray',
+    'light_gray',
+    'cyan',
+    'purple',
+    'blue',
+    'brown',
+    'green',
+    'red',
+    'black'
+]
+
+const isVanillaDye = (color) => {
+    return vanilla_dyes.includes(color)
+}
+
+
+const dyeName = (color) => {
+    const namespace = isVanillaDye(color) ? 'minecraft' : 'dye_depot'
+    return `${namespace}:${color}`
+}
+
 ServerEvents.tags('item', event => {
     Color.DYE.forEach(color => {
         event.add('waystones:portstones', `waystones:${color}_portstone`)
     })
+
+    Color.DYE.forEach(color => {
+        if (!isVanillaDye(color)) {
+            event.add('bits_n_bobs:chairs', `bits_n_bobs:${color}_chair`)
+        }
+    })
 })
 
 ServerEvents.tags('block', event => {
+
+    Color.DYE.forEach(color => {
+        event.add('bits_n_bobs:nixie_boards', `bits_n_bobs:${color}_nixie_board`)
+        if (!isVanillaDye(color)) {
+            event.add('bits_n_bobs:chairs', `bits_n_bobs:${color}_chair`)
+            event.add('minecraft:mineable/axe', `bits_n_bobs:${color}_chair`)
+
+            event.add('minecraft:mineable/pickaxe', `bits_n_bobs:${color}_nixie_board`)
+            event.add('minecraft:mineable/pickaxe', `bits_n_bobs:${color}_large_nixie_tube`)
+            
+        }
+    })
+
+    event.add('bits_n_bobs:nixie_boards', 'bits_n_bobs:nixie_board')
 
     const overgrownEndStone = [
         "betterend:end_mycelium",
@@ -131,7 +180,7 @@ ServerEvents.tags('block', event => {
 
     const super_light = [
         '#aether:aerogel',
-        'bits_n_bobs:nixie_board',
+        '#bits_n_bobs:nixie_boards',
         'toms_storage:inventory_cable',
         'toms_storage:inventory_cable_framed',
         'toms_storage:inventory_cable_connector',
@@ -166,6 +215,16 @@ ServerEvents.recipes(event => {
     event.remove({output: '#waystones:portstones'})
     event.remove({output: '#waystones:sharestones'})
     event.remove({id: 'simulated:spring'})
+
+    // Dyed Block/Item Recipes
+    Color.DYE.forEach(color => {
+        if (!isVanillaDye(color)) {
+            event.shapeless(`bits_n_bobs:${color}_chair`, [`dye_depot:${color}_wool`, Ingredient.of('#minecraft:wooden_stairs')])
+            event.shapeless(`bits_n_bobs:${color}_chair`, [`dye_depot:${color}_dye`, Ingredient.of('#bits_n_bobs:chairs')])
+
+            event.recipes.create.mixing([`createdieselgenerators:${color}_cement`, CreateItem.of(`dye_depot:${color}_concrete_powder`, 0.25)], [Fluid.of('minecraft:water', 100), `dye_depot:${color}_concrete_powder`])
+        }
+    })
 
     // Misc Recipes
     event.replaceInput({id: 'minecraft:lodestone'}, 'minecraft:netherite_ingot', 'minecraft:iron_ingot')
@@ -388,7 +447,7 @@ ServerEvents.recipes(event => {
         ],
         {
             'W': 'waystones:warp_stone',
-            'D': `minecraft:${color}_dye`,
+            'D': `${dyeName(color)}_dye`,
             'C': 'create:andesite_casing',
             'M': 'minecraft:polished_andesite'
         }
@@ -405,7 +464,7 @@ ServerEvents.recipes(event => {
         ],
         {
             'W': 'waystones:warp_stone',
-            'D': `minecraft:${color}_dye`,
+            'D': `${dyeName(color)}_dye`,
             'C': 'create:andesite_casing',
             'M': 'minecraft:polished_andesite'
         }
@@ -425,6 +484,21 @@ ServerEvents.recipes(event => {
         // for some reason there is no white sharestone ¯\_(ツ)_/¯
         if (color != 'white') {
             sharestone_recipe(color)
+        }
+    })
+})
+
+LootJS.modifiers((event) => {
+    Color.DYE.forEach(color => {
+        if (!isVanillaDye(color)) {
+            event.addBlockModifier(`bits_n_bobs:${color}_chair`)
+                .addLoot(LootEntry.of(`bits_n_bobs:${color}_chair`))
+
+            event.addBlockModifier(`bits_n_bobs:${color}_nixie_board`)
+                .addLoot(LootEntry.of(`bits_n_bobs:nixie_board`))
+
+            event.addBlockModifier(`bits_n_bobs:${color}_large_nixie_tube`)
+                .addLoot(LootEntry.of(`bits_n_bobs:large_nixie_tube`))
         }
     })
 })

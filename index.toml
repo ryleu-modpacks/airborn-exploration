@@ -98,6 +98,10 @@ file = "kubejs/assets/computercraft/textures/block/redstone_relay_top.png"
 hash = "096492f0f37448713eb68bcc5febe0cc025e5da86a1a5db63b1d631b9b74e3b5"
 
 [[files]]
+file = "kubejs/assets/dye_deop_compat.zip"
+hash = "6d04eccedd8e64c8564391acca0da102c695234c9a65ae163cfa3a3880af14be"
+
+[[files]]
 file = "kubejs/assets/kubejs/models/block/open_television.json"
 hash = "a0175404bb62780b1bfd24ab93e98b82851fc778cc9edf79ea86d349a3ce22a0"
 
@@ -527,7 +531,7 @@ hash = "4888b836f3a67494bf2e1c98e08c7c10c5bc3def16cc9cfa24ea7d1ec2f45f3b"
 
 [[files]]
 file = "kubejs/server_scripts/main.js"
-hash = "f6d4004f0038f5206bcc1550e503796187e48d034de0ab184329f09cd357e9e9"
+hash = "7552ad7d9a12bfe1b6fc899bc42dd94737297eb1ebba9a94e8d1aeb66ba70008"
 
 [[files]]
 file = "kubejs/startup_scripts/main.js"
@@ -789,6 +793,16 @@ hash = "a98dd7f86518a0de7bb3451bee7c8e1d7cec1b7fe00d97504ce7afd7e715ae2d"
 metafile = true
 
 [[files]]
+file = "mods/dye-depot.pw.toml"
+hash = "80b348059fd89aa96ada0ccb1ec872ddd8af9898a5cdf47fee4ec021ffb8bb3d"
+metafile = true
+
+[[files]]
+file = "mods/dye-the-world.pw.toml"
+hash = "64977f7098f1386de7258e28b7fb48fa3e3e5ce2f034ee6c3be63ef15318cb5b"
+metafile = true
+
+[[files]]
 file = "mods/dynamic-fps.pw.toml"
 hash = "ae6fd52d8bdcbeca5bbe6db840f22f92c1928fe0fda22017b19612b9b00a245a"
 metafile = true
@@ -901,6 +915,11 @@ metafile = true
 [[files]]
 file = "mods/lmft.pw.toml"
 hash = "35725a7bee95c5f0df1eeccd3ed406036c35fae26a7d7864fae1127a85957fdb"
+metafile = true
+
+[[files]]
+file = "mods/lootjs.pw.toml"
+hash = "9b32e1374a3d85ccdd4803c8932f72fbeb6357e69d895980e3f24e1974a07ca6"
 metafile = true
 
 [[files]]
