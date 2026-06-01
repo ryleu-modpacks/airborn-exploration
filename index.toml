@@ -99,7 +99,7 @@ hash = "096492f0f37448713eb68bcc5febe0cc025e5da86a1a5db63b1d631b9b74e3b5"
 
 [[files]]
 file = "kubejs/assets/dye_depot_compat.zip"
-hash = "bfe464292d8c3104f836af401ad91ba3e59ad02389c56bb4e731f631775ca7b2"
+hash = "6d04eccedd8e64c8564391acca0da102c695234c9a65ae163cfa3a3880af14be"
 
 [[files]]
 file = "kubejs/assets/kubejs/models/block/open_television.json"
