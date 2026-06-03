@@ -17,13 +17,62 @@ const groups = [
     ['blank']
 ]
 
+const vanilla_dyes = [
+    'white',
+    'orange',
+    'magenta',
+    'light_blue',
+    'yellow',
+    'lime',
+    'pink',
+    'gray',
+    'light_gray',
+    'cyan',
+    'purple',
+    'blue',
+    'brown',
+    'green',
+    'red',
+    'black'
+]
+
+const isVanillaDye = (color) => {
+    return vanilla_dyes.includes(color)
+}
+
+
+const dyeName = (color) => {
+    const namespace = isVanillaDye(color) ? 'minecraft' : 'dye_depot'
+    return `${namespace}:${color}`
+}
+
 ServerEvents.tags('item', event => {
     Color.DYE.forEach(color => {
         event.add('waystones:portstones', `waystones:${color}_portstone`)
     })
+
+    Color.DYE.forEach(color => {
+        if (!isVanillaDye(color)) {
+            event.add('bits_n_bobs:chairs', `bits_n_bobs:${color}_chair`)
+        }
+    })
 })
 
 ServerEvents.tags('block', event => {
+
+    Color.DYE.forEach(color => {
+        event.add('bits_n_bobs:nixie_boards', `bits_n_bobs:${color}_nixie_board`)
+        if (!isVanillaDye(color)) {
+            event.add('bits_n_bobs:chairs', `bits_n_bobs:${color}_chair`)
+            event.add('minecraft:mineable/axe', `bits_n_bobs:${color}_chair`)
+
+            event.add('minecraft:mineable/pickaxe', `bits_n_bobs:${color}_nixie_board`)
+            event.add('minecraft:mineable/pickaxe', `bits_n_bobs:${color}_large_nixie_tube`)
+            
+        }
+    })
+
+    event.add('bits_n_bobs:nixie_boards', 'bits_n_bobs:nixie_board')
 
     const overgrownEndStone = [
         "betterend:end_mycelium",
@@ -131,7 +180,7 @@ ServerEvents.tags('block', event => {
 
     const super_light = [
         '#aether:aerogel',
-        'bits_n_bobs:nixie_board',
+        '#bits_n_bobs:nixie_boards',
         'toms_storage:inventory_cable',
         'toms_storage:inventory_cable_framed',
         'toms_storage:inventory_cable_connector',
@@ -165,17 +214,41 @@ ServerEvents.recipes(event => {
     event.remove({output: '#waystones:waystones'})
     event.remove({output: '#waystones:portstones'})
     event.remove({output: '#waystones:sharestones'})
-    event.remove({id: 'tinycreate:tiny_redstone_link'})
-    event.remove({id: 'tinycreate:tiny_analog_lever'})
-    event.remove({id: 'tinycreate:tiny_eight_segment'})
-    event.remove({id: 'tinycreate:tiny_pulse_extender'})
-    event.remove({id: 'tinycreate:tiny_pulse_timer'})
-    event.remove({id: 'tinycreate:tiny_inductor_simulated'})
-    event.remove({id: 'tinycreate:tiny_accumulator_simulated'})
     event.remove({id: 'simulated:spring'})
+    event.remove({id: 'createbigcannons:mixing/alloy_steel'})
+    event.remove({id: 'createbigcannons:steel_scrap'})
+    event.remove({id: 'createbigcannons:mixing/alloy_bronze_brass'})
+    event.remove({id: 'createbigcannons:mixing/alloy_bronze_tin'})
+    event.remove({id: 'createbigcannons:mixing/alloy_bronze_tinless'})
+    event.remove({id: 'createbigcannons:bronze_scrap'})
+
+    // Dyed Block/Item Recipes
+    Color.DYE.forEach(color => {
+        if (!isVanillaDye(color)) {
+            event.shapeless(`bits_n_bobs:${color}_chair`, [`dye_depot:${color}_wool`, Ingredient.of('#minecraft:wooden_stairs')])
+            event.shapeless(`bits_n_bobs:${color}_chair`, [`dye_depot:${color}_dye`, Ingredient.of('#bits_n_bobs:chairs')])
+
+            event.recipes.create.mixing([`createdieselgenerators:${color}_cement`, CreateItem.of(`dye_depot:${color}_concrete_powder`, 0.25)], [Fluid.of('minecraft:water', 100), `dye_depot:${color}_concrete_powder`])
+        }
+    })
 
     // Misc Recipes
-    event.replaceInput({id: 'minecraft:lodestone'}, 'minecraft:netherite_ingot', 'minecraft:iron_ingot')
+    event.replaceOutput({output: 'createbigcannons:steel_ingot'}, 'createbigcannons:steel_ingot', 'create_ironworks:steel_ingot')
+    event.replaceOutput({output: 'createbigcannons:steel_block'}, 'createbigcannons:steel_block', 'create_ironworks:steel_block')
+    event.replaceOutput({output: 'createbigcannons:steel_scrap'}, 'createbigcannons:steel_scrap', 'create_ironworks:steel_nugget')
+    event.replaceOutput({output: 'createbigcannons:bronze_ingot'}, 'createbigcannons:bronze_ingot', 'create_ironworks:bronze_ingot')
+    event.replaceOutput({output: 'createbigcannons:bronze_block'}, 'createbigcannons:bronze_block', 'create_ironworks:bronze_block')
+    event.replaceOutput({output: 'createbigcannons:bronze_scrap'}, 'createbigcannons:bronze_scrap', 'create_ironworks:bronze_nugget')
+
+    event.shapeless('create_ironworks:steel_ingot', ['createbigcannons:steel_ingot'])
+    event.shapeless('create_ironworks:steel_block', ['createbigcannons:steel_block'])
+    event.shapeless('create_ironworks:steel_nugget', ['createbigcannons:steel_scrap'])
+    event.shapeless('create_ironworks:bronze_ingot', ['createbigcannons:bronze_ingot'])
+    event.shapeless('create_ironworks:bronze_block', ['createbigcannons:bronze_block'])
+    event.shapeless('create_ironworks:bronze_nugget', ['createbigcannons:bronze_scrap'])
+
+    event.replaceInput({id: 'minecraft:lodestone'}, 'minecraft:netherite_ingot', Ingredient.of('#c:ingots/iron'))
+
     event.replaceInput({id: 'betterend:end_stone_brick_cracked_wall'}, 'minecraft:end_stone_bricks', 'betterend:end_stone_brick_cracked')
     event.replaceInput({id: 'betterend:end_stone_brick_weathered_wall'}, 'minecraft:end_stone_bricks', 'betterend:end_stone_brick_weathered')
 
@@ -190,14 +263,6 @@ ServerEvents.recipes(event => {
         }
     )
     event.stonecutting('betterend:end_stone_wall', 'minecraft:end_stone')
-
-    event.shapeless(Item.of('tinycreate:tiny_redstone_link', 2), ['create:redstone_link', 'tinyredstone:silicon'])
-    event.shapeless(Item.of('tinycreate:tiny_analog_lever', 8), ['create:analog_lever', 'tinyredstone:silicon'])
-    event.shapeless(Item.of('tinycreate:tiny_eight_segment', 8), ['create:nixie_tube', 'tinyredstone:silicon'])
-    event.shapeless(Item.of('tinycreate:tiny_pulse_extender', 8), ['create:pulse_extender', 'tinyredstone:silicon'])
-    event.shapeless(Item.of('tinycreate:tiny_pulse_timer', 8), ['create:pulse_timer', 'tinyredstone:silicon'])
-    event.shapeless(Item.of('tinycreate:tiny_inductor', 8), ['simulated:redstone_inductor', 'tinyredstone:silicon'])
-    event.shapeless(Item.of('tinycreate:tiny_accumulator', 8), ['simulated:redstone_accumulator', 'tinyredstone:silicon'])
 
     event.recipes.create.deploying('create:turntable', [Ingredient.of('#minecraft:wooden_slabs'), 'create:shaft'])
     event.custom({
@@ -403,7 +468,7 @@ ServerEvents.recipes(event => {
         ],
         {
             'W': 'waystones:warp_stone',
-            'D': `minecraft:${color}_dye`,
+            'D': `${dyeName(color)}_dye`,
             'C': 'create:andesite_casing',
             'M': 'minecraft:polished_andesite'
         }
@@ -420,7 +485,7 @@ ServerEvents.recipes(event => {
         ],
         {
             'W': 'waystones:warp_stone',
-            'D': `minecraft:${color}_dye`,
+            'D': `${dyeName(color)}_dye`,
             'C': 'create:andesite_casing',
             'M': 'minecraft:polished_andesite'
         }
@@ -440,6 +505,21 @@ ServerEvents.recipes(event => {
         // for some reason there is no white sharestone ¯\_(ツ)_/¯
         if (color != 'white') {
             sharestone_recipe(color)
+        }
+    })
+})
+
+LootJS.modifiers((event) => {
+    Color.DYE.forEach(color => {
+        if (!isVanillaDye(color)) {
+            event.addBlockModifier(`bits_n_bobs:${color}_chair`)
+                .addLoot(LootEntry.of(`bits_n_bobs:${color}_chair`))
+
+            event.addBlockModifier(`bits_n_bobs:${color}_nixie_board`)
+                .addLoot(LootEntry.of(`bits_n_bobs:nixie_board`))
+
+            event.addBlockModifier(`bits_n_bobs:${color}_large_nixie_tube`)
+                .addLoot(LootEntry.of(`bits_n_bobs:large_nixie_tube`))
         }
     })
 })

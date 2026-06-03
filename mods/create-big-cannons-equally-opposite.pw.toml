@@ -1,13 +1,13 @@
 name = "Create Big Cannons: Equally Opposite"
-filename = "cbc_equally_opposite-0.1.1.jar"
+filename = "cbc_equally_opposite-0.1.3.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/9PsdRq7Q/versions/aoRyreZe/cbc_equally_opposite-0.1.1.jar"
+url = "https://cdn.modrinth.com/data/9PsdRq7Q/versions/NHXvaWNX/cbc_equally_opposite-0.1.3.jar"
 hash-format = "sha512"
-hash = "5f52ed6ee594a4778c94633dedbe811e0e9c2835802abde2bfe8e6cac73758e8b2b1355fc8b218c4bd3ee589ca2a25e92dc6f814ea9a1ff8681f2388cee37ca0"
+hash = "a32e91408f149b44269326de89b2f8872ad40ea43891ba3d8e39129aa3fed119c1e5074b0de23239d0d16d245381215e0e6917fb89f4ddc34e3a64659f77b8cd"
 
 [update]
 [update.modrinth]
 mod-id = "9PsdRq7Q"
-version = "aoRyreZe"
+version = "NHXvaWNX"

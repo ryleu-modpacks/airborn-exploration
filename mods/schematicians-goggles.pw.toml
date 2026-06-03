@@ -1,13 +1,13 @@
 name = "Schematician's Goggles"
-filename = "schematician-0.8.5.jar"
+filename = "schematician-0.9.0.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/1ia4vWrJ/versions/5MOOWq5E/schematician-0.8.5.jar"
+url = "https://cdn.modrinth.com/data/1ia4vWrJ/versions/zS7abycM/schematician-0.9.0.jar"
 hash-format = "sha512"
-hash = "4028d4ed120a8d1c990ca858116f782bf3b8d0a418071548fb69ded79fdcb913745a923575dd0f5cd55e18416f4973ed371e22518010d3563541680584e80741"
+hash = "361b5101e060a6103758635578127400cac6e5962c288287074702f496417faf7ae9aa89f0b16ef29c08c3fba7e677930e83f59cf37b3cb1c7bc0f37b7db2194"
 
 [update]
 [update.modrinth]
 mod-id = "1ia4vWrJ"
-version = "5MOOWq5E"
+version = "zS7abycM"

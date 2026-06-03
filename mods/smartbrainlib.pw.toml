@@ -1,6 +1,6 @@
 name = "SmartBrainLib"
 filename = "SmartBrainLib-neoforge-1.21.1-1.16.11.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/PuyPazRT/versions/O5EpeqI3/SmartBrainLib-neoforge-1.21.1-1.16.11.jar"
