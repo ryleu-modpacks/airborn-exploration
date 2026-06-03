@@ -215,6 +215,12 @@ ServerEvents.recipes(event => {
     event.remove({output: '#waystones:portstones'})
     event.remove({output: '#waystones:sharestones'})
     event.remove({id: 'simulated:spring'})
+    event.remove({id: 'createbigcannons:mixing/alloy_steel'})
+    event.remove({id: 'createbigcannons:steel_scrap'})
+    event.remove({id: 'createbigcannons:mixing/alloy_bronze_brass'})
+    event.remove({id: 'createbigcannons:mixing/alloy_bronze_tin'})
+    event.remove({id: 'createbigcannons:mixing/alloy_bronze_tinless'})
+    event.remove({id: 'createbigcannons:bronze_scrap'})
 
     // Dyed Block/Item Recipes
     Color.DYE.forEach(color => {
@@ -227,7 +233,22 @@ ServerEvents.recipes(event => {
     })
 
     // Misc Recipes
-    event.replaceInput({id: 'minecraft:lodestone'}, 'minecraft:netherite_ingot', 'minecraft:iron_ingot')
+    event.replaceOutput({output: 'createbigcannons:steel_ingot'}, 'createbigcannons:steel_ingot', 'create_ironworks:steel_ingot')
+    event.replaceOutput({output: 'createbigcannons:steel_block'}, 'createbigcannons:steel_block', 'create_ironworks:steel_block')
+    event.replaceOutput({output: 'createbigcannons:steel_scrap'}, 'createbigcannons:steel_scrap', 'create_ironworks:steel_nugget')
+    event.replaceOutput({output: 'createbigcannons:bronze_ingot'}, 'createbigcannons:bronze_ingot', 'create_ironworks:bronze_ingot')
+    event.replaceOutput({output: 'createbigcannons:bronze_block'}, 'createbigcannons:bronze_block', 'create_ironworks:bronze_block')
+    event.replaceOutput({output: 'createbigcannons:bronze_scrap'}, 'createbigcannons:bronze_scrap', 'create_ironworks:bronze_nugget')
+
+    event.shapeless('create_ironworks:steel_ingot', ['createbigcannons:steel_ingot'])
+    event.shapeless('create_ironworks:steel_block', ['createbigcannons:steel_block'])
+    event.shapeless('create_ironworks:steel_nugget', ['createbigcannons:steel_scrap'])
+    event.shapeless('create_ironworks:bronze_ingot', ['createbigcannons:bronze_ingot'])
+    event.shapeless('create_ironworks:bronze_block', ['createbigcannons:bronze_block'])
+    event.shapeless('create_ironworks:bronze_nugget', ['createbigcannons:bronze_scrap'])
+
+    event.replaceInput({id: 'minecraft:lodestone'}, 'minecraft:netherite_ingot', Ingredient.of('#c:ingots/iron'))
+
     event.replaceInput({id: 'betterend:end_stone_brick_cracked_wall'}, 'minecraft:end_stone_bricks', 'betterend:end_stone_brick_cracked')
     event.replaceInput({id: 'betterend:end_stone_brick_weathered_wall'}, 'minecraft:end_stone_bricks', 'betterend:end_stone_brick_weathered')
 
