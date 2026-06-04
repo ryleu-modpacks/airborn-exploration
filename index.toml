@@ -928,6 +928,11 @@ hash = "99bea71046529d65463fc12acb505ab363c91133ebbcc1d976e49a5d33150702"
 metafile = true
 
 [[files]]
+file = "mods/ldlib.pw.toml"
+hash = "c612279713a71eda1632c72666a1faeb5d0dcf738da3b20b2b1e80c729788d26"
+metafile = true
+
+[[files]]
 file = "mods/lithium.pw.toml"
 hash = "58e0bebd41fa44f3f0dd6c053ec3eb1529d4bfe0c054c0741ba6e2e1b8e4523e"
 metafile = true
@@ -1005,6 +1010,11 @@ metafile = true
 [[files]]
 file = "mods/polymorph.pw.toml"
 hash = "152769b5dfbb92a836634e315898b23b6a555c60b6f05ddf38c00085f2b784f6"
+metafile = true
+
+[[files]]
+file = "mods/ponder.pw.toml"
+hash = "5ead8d8bc26cdbe1a17dc055f7f0fe762a08254d0199d6ea8fcc58839ab274f2"
 metafile = true
 
 [[files]]
