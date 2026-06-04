@@ -558,6 +558,11 @@ hash = "a86b49f3eebe85445b5e7c8f9a7ef1e8cb84fa84939fe1f2b933dfb5feb92926"
 metafile = true
 
 [[files]]
+file = "mods/all-with-you.pw.toml"
+hash = "79aa7ac1b3f1aa4c72b9327d08c606cf7ec671a05cfe2ab077e2c9840d866e5b"
+metafile = true
+
+[[files]]
 file = "mods/almanac.pw.toml"
 hash = "c65748ba4e13309eeba1dae2dfb348ad9b6348a093dc02a901e3e5a2a6110b0d"
 metafile = true
