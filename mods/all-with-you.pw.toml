@@ -1,0 +1,13 @@
+name = "All with You"
+filename = "all_with_you-1.2.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/NMsnUhE6/versions/ACDfbQfG/all_with_you-1.2.3.jar"
+hash-format = "sha512"
+hash = "60af763c2eb0c03137acb3f348e969a7d630236f606d91db690dc161b712c5f7fdfddc36de9797ed75dc2bbada4545dd126c303907cb0662a16549c07287c911"
+
+[update]
+[update.modrinth]
+mod-id = "NMsnUhE6"
+version = "ACDfbQfG"
