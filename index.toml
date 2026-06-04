@@ -535,7 +535,7 @@ hash = "9d148e5d2a5930b48bfead7766f1a5d9e64959cbdf995278accbb3accb10d36a"
 
 [[files]]
 file = "kubejs/startup_scripts/main.js"
-hash = "ab988311b1787a7fcc5e0102c8d7ec7408da404685235cba2e89a0c0e0dcf368"
+hash = "bf7250df8e5e727cfebe03c46b73d95beef218caecac26187c262aef7f17b6ae"
 
 [[files]]
 file = "mods/advancedperipherals.pw.toml"
@@ -610,6 +610,11 @@ metafile = true
 [[files]]
 file = "mods/betterend-neoforge.pw.toml"
 hash = "bc792ba30b8b96a4451720488348b375d5eccdcd6d83f7527f960a1ea552f251"
+metafile = true
+
+[[files]]
+file = "mods/bundle-crafting.pw.toml"
+hash = "daa9b6c70ae0fc8a1d593962445addca1fe72a19f330b5a0728753367f7fb7cf"
 metafile = true
 
 [[files]]

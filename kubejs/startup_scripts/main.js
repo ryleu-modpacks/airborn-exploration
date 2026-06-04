@@ -120,3 +120,7 @@ StartupEvents.registry('fluid', event => {
     .displayName('Magnetic Slurry')
     .noBlock()
 })
+
+StartupEvents.modifyCreativeTab('minecraft:tools_and_utilities', event => {
+    event.addAfter('minecraft:fishing_rod', 'minecraft:bundle')
+})
