@@ -1,0 +1,70 @@
+# Create Aeronautics: Delivery Required contract item price config
+# Every listed trade id maps to its base price in spurs.
+# Item ids use namespace:path, fluids use fluid:namespace:path, and Create potion fluids use potion:namespace:path.
+# Add modded entries here explicitly; recipes are not used for price calculation.
+# Entries not listed here are not priced by goggles and are not automatically assigned a value.
+
+[item_prices]
+"minecraft:coal" = 2
+"minecraft:charcoal" = 1
+"minecraft:redstone" = 4
+"minecraft:copper_ingot" = 6
+"minecraft:iron_ingot" = 10
+"minecraft:gold_ingot" = 15
+"minecraft:lapis_lazuli" = 8
+"minecraft:quartz" = 10
+"minecraft:amethyst_shard" = 40
+"minecraft:diamond" = 100
+"minecraft:emerald" = 80
+"minecraft:netherite_scrap" = 100
+"minecraft:netherite_ingot" = 400
+"minecraft:clay_ball" = 2
+"minecraft:brick" = 3
+"minecraft:slime_ball" = 8
+"minecraft:ender_pearl" = 20
+"minecraft:blaze_rod" = 15
+"minecraft:leather" = 4
+"minecraft:string" = 2
+"minecraft:feather" = 2
+"minecraft:gunpowder" = 10
+"minecraft:wheat" = 2
+"minecraft:bread" = 3
+"minecraft:paper" = 2
+"minecraft:sugar" = 2
+"minecraft:glass" = 2
+"minecraft:obsidian" = 10
+"minecraft:glowstone_dust" = 6
+"minecraft:prismarine_shard" = 8
+"minecraft:prismarine_crystals" = 8
+"minecraft:echo_shard" = 70
+"minecraft:nether_star" = 1200
+"create:andesite_alloy" = 4
+"create:precision_mechanism" = 60
+"kubejs:optical_mechanism" = 80
+"create:copper_sheet" = 7
+"create:iron_sheet" = 11
+"create:golden_sheet" = 17
+"create:brass_ingot" = 10
+"create:brass_sheet" = 11
+"create_ironworks:bronze_ingot" = 10
+"create_ironworks:bronze_sheet" = 11
+"create_ironworks:steel_ingot" = 30
+"create_ironworks:steel_sheet" = 33
+"create_new_age:nuclear_fuel" = 30
+"create_new_age:magnitite" = 10
+"create_new_age:redstone_magnet" = 40
+"create_new_age:layered_magnet" = 110
+"create_new_age:fluxuated_magnet" = 220
+"create_new_age:netherite_magnet" = 940
+"fluid:minecraft:lava" = 1
+"fluid:createdieselgenerators:crude_oil" = 4
+"fluid:createdieselgenerators:biodiesel" = 8
+"fluid:createdieselgenerators:diesel" = 8
+"fluid:createdieselgenerators:gasoline" = 8
+"potion:minecraft:healing" = 12
+"potion:minecraft:regeneration" = 12
+"potion:minecraft:swiftness" = 12
+"potion:minecraft:strength" = 12
+"potion:minecraft:fire_resistance" = 12
+"potion:minecraft:night_vision" = 12
+"potion:minecraft:water_breathing" = 12
