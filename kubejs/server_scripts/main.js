@@ -54,8 +54,12 @@ ServerEvents.tags('item', event => {
     Color.DYE.forEach(color => {
         if (!isVanillaDye(color)) {
             event.add('bits_n_bobs:chairs', `bits_n_bobs:${color}_chair`)
+
+            event.add('numismatics:cards', `numismatics:${color}_card`)
+            event.add('numismatics:id_cards', `numismatics:${color}_id_card`)
         }
     })
+    
 })
 
 ServerEvents.tags('block', event => {
@@ -229,6 +233,31 @@ ServerEvents.recipes(event => {
             event.shapeless(`bits_n_bobs:${color}_chair`, [`dye_depot:${color}_dye`, Ingredient.of('#bits_n_bobs:chairs')])
 
             event.recipes.create.mixing([`createdieselgenerators:${color}_cement`, CreateItem.of(`dye_depot:${color}_concrete_powder`, 0.25)], [Fluid.of('minecraft:water', 100), `dye_depot:${color}_concrete_powder`])
+
+            event.shaped(
+                `numismatics:${color}_card`,
+                [
+                    'PID'
+                ],
+                {
+                    'P': 'create:precision_mechanism',
+                    'I': 'create:iron_sheet',
+                    'D': `dye_depot:${color}_dye`
+                }
+            )
+            event.shaped(
+                `numismatics:${color}_id_card`,
+                [
+                    ' D ',
+                    'IPB'
+                ],
+                {
+                    'D': `dye_depot:${color}_dye`,
+                    'I': 'create:iron_sheet',
+                    'P': 'minecraft:paper',
+                    'B': 'create:brass_nugget'
+                }
+            )
         }
     })
 

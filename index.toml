@@ -13,6 +13,14 @@ file = "config/create_connected-common.toml"
 hash = "9f161aa582411b64095d7a331083c13cf6e1ca38a295ef022ece5416d4bcbecd"
 
 [[files]]
+file = "config/createdeliveryrequired-contract-item-prices.toml"
+hash = "b50b881d33e534c4fece02510ea7082ac06fda635cf022c6b89824b8d582374c"
+
+[[files]]
+file = "config/createdeliveryrequired-market-item-prices.toml"
+hash = "04141b7d6b5b2076ddba00ad8fd112878bddd8cfca0c6967fc5ed9e20ef5552f"
+
+[[files]]
 file = "config/emixx/emixx-client.toml"
 hash = "b19b524ccde9c3869966b22d358ba14d2b2575406101329c2c4530ef9f69b87e"
 
@@ -99,7 +107,7 @@ hash = "096492f0f37448713eb68bcc5febe0cc025e5da86a1a5db63b1d631b9b74e3b5"
 
 [[files]]
 file = "kubejs/assets/dye_depot_compat.zip"
-hash = "6d04eccedd8e64c8564391acca0da102c695234c9a65ae163cfa3a3880af14be"
+hash = "61d5293c6f69a0ae02aaf463836e372e9eb666f040d9323621b1c3de6cc01fcc"
 
 [[files]]
 file = "kubejs/assets/kubejs/models/block/open_television.json"
@@ -531,7 +539,7 @@ hash = "4888b836f3a67494bf2e1c98e08c7c10c5bc3def16cc9cfa24ea7d1ec2f45f3b"
 
 [[files]]
 file = "kubejs/server_scripts/main.js"
-hash = "9d148e5d2a5930b48bfead7766f1a5d9e64959cbdf995278accbb3accb10d36a"
+hash = "6234a70c70d1f080e7a631cc4ed672dac17c6c860c708ff3f4d322fc36c7fb99"
 
 [[files]]
 file = "kubejs/startup_scripts/main.js"
