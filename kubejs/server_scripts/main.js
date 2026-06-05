@@ -54,8 +54,12 @@ ServerEvents.tags('item', event => {
     Color.DYE.forEach(color => {
         if (!isVanillaDye(color)) {
             event.add('bits_n_bobs:chairs', `bits_n_bobs:${color}_chair`)
+
+            event.add('numismatics:cards', `numismatics:${color}_card`)
+            event.add('numismatics:id_cards', `numismatics:${color}_id_card`)
         }
     })
+    
 })
 
 ServerEvents.tags('block', event => {
