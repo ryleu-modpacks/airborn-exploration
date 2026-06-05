@@ -47,6 +47,8 @@ const dyeName = (color) => {
 }
 
 ServerEvents.tags('item', event => {
+    event.add('minecraft:dyeable', '#computercraft:dyeable')
+
     Color.DYE.forEach(color => {
         event.add('waystones:portstones', `waystones:${color}_portstone`)
     })
