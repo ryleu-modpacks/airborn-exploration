@@ -1,0 +1,13 @@
+name = "Vanilla Backport"
+filename = "VanillaBackport-neoforge-1.21.1-1.1.7.7.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/6xwxDTgf/versions/GnQwRIY8/VanillaBackport-neoforge-1.21.1-1.1.7.7.jar"
+hash-format = "sha512"
+hash = "5ad24e0253fd6d918defedeaf1d4adef2bae66b3fbd46da17aba7383742ffd69600892311e4870b9459b9ed81487488c4ed22ad231f0dd312202e1b97a454032"
+
+[update]
+[update.modrinth]
+mod-id = "6xwxDTgf"
+version = "GnQwRIY8"

@@ -543,7 +543,7 @@ hash = "2385bb55c502eb89967586ec841495cc6fa11691c399aa86defcb81e2b530977"
 
 [[files]]
 file = "kubejs/startup_scripts/main.js"
-hash = "bf7250df8e5e727cfebe03c46b73d95beef218caecac26187c262aef7f17b6ae"
+hash = "ab988311b1787a7fcc5e0102c8d7ec7408da404685235cba2e89a0c0e0dcf368"
 
 [[files]]
 file = "mods/advancedperipherals.pw.toml"
@@ -618,11 +618,6 @@ metafile = true
 [[files]]
 file = "mods/betterend-neoforge.pw.toml"
 hash = "bc792ba30b8b96a4451720488348b375d5eccdcd6d83f7527f960a1ea552f251"
-metafile = true
-
-[[files]]
-file = "mods/bundle-crafting.pw.toml"
-hash = "daa9b6c70ae0fc8a1d593962445addca1fe72a19f330b5a0728753367f7fb7cf"
 metafile = true
 
 [[files]]
@@ -1031,6 +1026,11 @@ hash = "6f24e7f5ecef862b1bdb61031637e27b093f185c3219023bea94d2d954ec4180"
 metafile = true
 
 [[files]]
+file = "mods/platform.pw.toml"
+hash = "00887452f4c902a5f98fc42875d522e59948b60c20d887855a183c0f7235c641"
+metafile = true
+
+[[files]]
 file = "mods/polymorph.pw.toml"
 hash = "152769b5dfbb92a836634e315898b23b6a555c60b6f05ddf38c00085f2b784f6"
 metafile = true
@@ -1153,6 +1153,11 @@ metafile = true
 [[files]]
 file = "mods/toms-storage.pw.toml"
 hash = "0f67fdb37d6ef354f36a1da5805b5c083be21e7367868ec81d29426d94749609"
+metafile = true
+
+[[files]]
+file = "mods/vanillabackport.pw.toml"
+hash = "de1c3ce98add2a76db8756ff390ea05dbed4b60f9c4d6cd81eaf01c25aed9f5e"
 metafile = true
 
 [[files]]
