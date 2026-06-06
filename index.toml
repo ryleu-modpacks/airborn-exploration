@@ -14,11 +14,11 @@ hash = "9f161aa582411b64095d7a331083c13cf6e1ca38a295ef022ece5416d4bcbecd"
 
 [[files]]
 file = "config/createdeliveryrequired-contract-item-prices.toml"
-hash = "b50b881d33e534c4fece02510ea7082ac06fda635cf022c6b89824b8d582374c"
+hash = "87f770dfbad935164be04be1bdd4b39eeec3fe5f8cf0e86465321f559086737d"
 
 [[files]]
 file = "config/createdeliveryrequired-market-item-prices.toml"
-hash = "04141b7d6b5b2076ddba00ad8fd112878bddd8cfca0c6967fc5ed9e20ef5552f"
+hash = "0991276c8868501203438d691082cad54ca6575f6aa100a0054d292bfdee905a"
 
 [[files]]
 file = "config/emixx/emixx-client.toml"
@@ -539,11 +539,11 @@ hash = "4888b836f3a67494bf2e1c98e08c7c10c5bc3def16cc9cfa24ea7d1ec2f45f3b"
 
 [[files]]
 file = "kubejs/server_scripts/main.js"
-hash = "6234a70c70d1f080e7a631cc4ed672dac17c6c860c708ff3f4d322fc36c7fb99"
+hash = "2385bb55c502eb89967586ec841495cc6fa11691c399aa86defcb81e2b530977"
 
 [[files]]
 file = "kubejs/startup_scripts/main.js"
-hash = "bf7250df8e5e727cfebe03c46b73d95beef218caecac26187c262aef7f17b6ae"
+hash = "ab988311b1787a7fcc5e0102c8d7ec7408da404685235cba2e89a0c0e0dcf368"
 
 [[files]]
 file = "mods/advancedperipherals.pw.toml"
@@ -621,11 +621,6 @@ hash = "bc792ba30b8b96a4451720488348b375d5eccdcd6d83f7527f960a1ea552f251"
 metafile = true
 
 [[files]]
-file = "mods/bundle-crafting.pw.toml"
-hash = "daa9b6c70ae0fc8a1d593962445addca1fe72a19f330b5a0728753367f7fb7cf"
-metafile = true
-
-[[files]]
 file = "mods/cable-facades.pw.toml"
 hash = "f8beefa0455fab90e32f440ccd67242aa4891951419c5b16b2af29821a565934"
 metafile = true
@@ -673,6 +668,16 @@ metafile = true
 [[files]]
 file = "mods/controlling.pw.toml"
 hash = "65c8086d2ec3d39acc7bd36c7a0306ccc43b602b38fa07d13291bc478ef7dfff"
+metafile = true
+
+[[files]]
+file = "mods/copycats+-aeronautics-weight.pw.toml"
+hash = "a1e68ec75524eb10a4522c27e3429a43c22861ac3c081686bd948a06bc4cfc91"
+metafile = true
+
+[[files]]
+file = "mods/copycats.pw.toml"
+hash = "e002fab16a9b9ef0a35844030339612a38d3c58b0b93e97a34eb43ddc9108be7"
 metafile = true
 
 [[files]]
@@ -783,6 +788,11 @@ metafile = true
 [[files]]
 file = "mods/create-structures-arise.pw.toml"
 hash = "bd48df02197c531fc58f203c2b6616f8327f5c18208414060e24b12e93c8afe0"
+metafile = true
+
+[[files]]
+file = "mods/create-tracks.pw.toml"
+hash = "6652073f815bed51608dc9d6a9e769ec783a131526054b35e8de6f47c8745fa2"
 metafile = true
 
 [[files]]
@@ -1016,6 +1026,11 @@ hash = "6f24e7f5ecef862b1bdb61031637e27b093f185c3219023bea94d2d954ec4180"
 metafile = true
 
 [[files]]
+file = "mods/platform.pw.toml"
+hash = "00887452f4c902a5f98fc42875d522e59948b60c20d887855a183c0f7235c641"
+metafile = true
+
+[[files]]
 file = "mods/polymorph.pw.toml"
 hash = "152769b5dfbb92a836634e315898b23b6a555c60b6f05ddf38c00085f2b784f6"
 metafile = true
@@ -1138,6 +1153,11 @@ metafile = true
 [[files]]
 file = "mods/toms-storage.pw.toml"
 hash = "0f67fdb37d6ef354f36a1da5805b5c083be21e7367868ec81d29426d94749609"
+metafile = true
+
+[[files]]
+file = "mods/vanillabackport.pw.toml"
+hash = "de1c3ce98add2a76db8756ff390ea05dbed4b60f9c4d6cd81eaf01c25aed9f5e"
 metafile = true
 
 [[files]]
