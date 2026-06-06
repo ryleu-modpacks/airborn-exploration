@@ -51,10 +51,10 @@
 "create_ironworks:steel_ingot" = 30
 "create_ironworks:steel_sheet" = 33
 "create_new_age:nuclear_fuel" = 30
-"create_new_age:magnitite" = 10
+"create_new_age:magnetite" = 10
 "create_new_age:redstone_magnet" = 40
 "create_new_age:layered_magnet" = 110
-"create_new_age:fluxuated_magnet" = 220
+"create_new_age:fluxuated_magnetite" = 220
 "create_new_age:netherite_magnet" = 940
 "fluid:minecraft:lava" = 1
 "fluid:createdieselgenerators:crude_oil" = 4

@@ -14,11 +14,11 @@ hash = "9f161aa582411b64095d7a331083c13cf6e1ca38a295ef022ece5416d4bcbecd"
 
 [[files]]
 file = "config/createdeliveryrequired-contract-item-prices.toml"
-hash = "b50b881d33e534c4fece02510ea7082ac06fda635cf022c6b89824b8d582374c"
+hash = "87f770dfbad935164be04be1bdd4b39eeec3fe5f8cf0e86465321f559086737d"
 
 [[files]]
 file = "config/createdeliveryrequired-market-item-prices.toml"
-hash = "04141b7d6b5b2076ddba00ad8fd112878bddd8cfca0c6967fc5ed9e20ef5552f"
+hash = "0991276c8868501203438d691082cad54ca6575f6aa100a0054d292bfdee905a"
 
 [[files]]
 file = "config/emixx/emixx-client.toml"
