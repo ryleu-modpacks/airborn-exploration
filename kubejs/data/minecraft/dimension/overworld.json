@@ -2002,6 +2002,36 @@
                             0.2
                         ],
                         "humidity": [
+                            0.3,
+                            0.5650000000000001
+                        ],
+                        "depth": [
+                            -0.005,
+                            0
+                        ],
+                        "offset": 0
+                    },
+                    "biome": "minecraft:pale_garden"
+                },
+                {
+                    "parameters": {
+                        "weirdness": [
+                            -1,
+                            -0.26666668
+                        ],
+                        "continentalness": [
+                            -0.2,
+                            0.62
+                        ],
+                        "erosion": [
+                            -0.2225,
+                            0.05
+                        ],
+                        "temperature": [
+                            -0.155,
+                            0.2
+                        ],
+                        "humidity": [
                             0.5650000000000001,
                             1
                         ],
@@ -51092,6 +51122,37 @@
                             0.5
                         ]
                     }
+                },
+                {
+                    "biome": "minecraft:sulfur_caves",
+                    "parameters": {
+						"continentalness": [
+							-0.19,
+							0.55
+						],
+						"depth": [
+							0.2,
+							0.9
+						],
+						"erosion": [
+							0.45,
+							1.0
+						],
+						"humidity": [
+							-1.0,
+							1.0
+						],
+						"offset": 0.0,
+						"temperature": [
+							-1.0,
+							1.0
+						],
+						"weirdness": [
+							-1.1,
+							-0.85
+						]
+					  }
+
                 },
                 {
                     "biome": "terralith:cave/underground_jungle",

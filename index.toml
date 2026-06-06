@@ -499,7 +499,19 @@ hash = "acf378da8faf3ec11f64de0c081ff59b392632528dd90e550eca37b90b254147"
 
 [[files]]
 file = "kubejs/data/minecraft/dimension/overworld.json"
-hash = "8451b503cc7a0b6512ee901b88fceb8a4e9119526cc6bd9196d28db59cbc7075"
+hash = "e609cafe49e504c42ca2cb6782acd05baf3549394231cd2f7400bcb1cbd8e7cf"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/pale_garden.json"
+hash = "f1d36837eef2be80d8e8e12a85b87f1e41140fac8429a36e89446c526aa7e4e1"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/configured_feature/pale_oak.json"
+hash = "e7928aa3cbbc81a579380cfeec45d4a04900e1b70567f25cf7c00cd289d9f68e"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/configured_feature/pale_oak_creaking.json"
+hash = "9d0aba2cb297f675caf1930cb4fadd0f38e9a460844255ce65ae2188a8d1df40"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/density_function/end/base_3d_noise.json"
@@ -512,6 +524,10 @@ hash = "6751c08442039fcd444b43206c9170cb5e8a08701f08fee423d6c37a820903cc"
 [[files]]
 file = "kubejs/data/minecraft/worldgen/noise_settings/nether.json"
 hash = "115d41a07e6381c4b0e230ea68d0a14f8e6d2929d2cc5e3d570efb3ab8bf5fb4"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/placed_feature/pale_garden_vegetation.json"
+hash = "6ae178bc45b91509ec9a4b2d50884ad2b6ec39e59189bc1f7afd3e5f654005f5"
 
 [[files]]
 file = "kubejs/data/sable/physics_block_properties/aerogel_slab.json"
@@ -618,6 +634,11 @@ metafile = true
 [[files]]
 file = "mods/betterend-neoforge.pw.toml"
 hash = "bc792ba30b8b96a4451720488348b375d5eccdcd6d83f7527f960a1ea552f251"
+metafile = true
+
+[[files]]
+file = "mods/c2me-neoforge.pw.toml"
+hash = "17cf45aaab6d4964d4d851cfcbe4b5e6db539a2329216392bec4aea1c90b83a7"
 metafile = true
 
 [[files]]
@@ -972,7 +993,7 @@ metafile = true
 
 [[files]]
 file = "mods/lootjs.pw.toml"
-hash = "9b32e1374a3d85ccdd4803c8932f72fbeb6357e69d895980e3f24e1974a07ca6"
+hash = "e42581d8eb65aa947dcbe6edb71b2082e84f31936b01f131758395d88dabc919"
 metafile = true
 
 [[files]]
@@ -1078,11 +1099,6 @@ metafile = true
 [[files]]
 file = "mods/servercore.pw.toml"
 hash = "2136d1ae9c1ac47eb202d7389a83566d056e785006290604ee7b0b77f5cb8761"
-metafile = true
-
-[[files]]
-file = "mods/simple-voice-chat.pw.toml"
-hash = "a4af1bf7389eddd65fb5b665b711e0b25e9e8ccb6b17a1fb50aff8d886859ad6"
 metafile = true
 
 [[files]]
