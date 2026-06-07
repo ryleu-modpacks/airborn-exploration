@@ -1,6 +1,6 @@
 name = "Create Big Cannons: Peripherals"
 filename = "cbcperipheral-0.1.0.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/CbWWEI68/versions/BQRcDDiT/cbcperipheral-0.1.0.jar"

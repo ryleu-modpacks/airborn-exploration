@@ -665,7 +665,7 @@ metafile = true
 
 [[files]]
 file = "mods/cbcperipheral.pw.toml"
-hash = "08445928f48420d77f459d497ba6be84e2fbce65cd45328e89df901bf1d6df11"
+hash = "f816bb7867f0eac5f0506cb1d42da974c20b52bc189c37fddf0087f871df1baa"
 metafile = true
 
 [[files]]
@@ -780,7 +780,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-crafts-additions-and-aeronautics-compat.pw.toml"
-hash = "a61af43db4bdd4f0d3567f50e33203abbf1d9e1f3c8c90b5c42dcd8b0686ca94"
+hash = "6d755d77df375d5893897d3b4a053bf919930bbdac32abc3e264b3df7634ea31"
 metafile = true
 
 [[files]]
@@ -855,7 +855,7 @@ metafile = true
 
 [[files]]
 file = "mods/ct-overhaul-village.pw.toml"
-hash = "f86855a3645203b1d477cdb6a55b7b1e0bed7cc744207b37bb5d59bc5891af56"
+hash = "8e63fec28c22201636bd56f0170e9b85e26b558c4ec7215e068f53d3518dc5bb"
 metafile = true
 
 [[files]]
@@ -925,7 +925,7 @@ metafile = true
 
 [[files]]
 file = "mods/figura.pw.toml"
-hash = "c698251ff4f07eea3883df070862fd567dab84ba160acf4d5c6ebef1227e787c"
+hash = "6fe50660910d045832bd7608e053d183026b88f20d127e008779533e19b2b72b"
 metafile = true
 
 [[files]]
