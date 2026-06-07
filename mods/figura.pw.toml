@@ -5,4 +5,4 @@ side = "client"
 [download]
 url = "https://github.com/penguinencounter/Figura/releases/download/sodium-patched-jars-placeholder/figura-0.1.5+1.21.1-neoforge-patched.jar"
 hash-format = "sha512"
-hash = "68bf1695baa2c624e22e934267666140bb0eb6299463de80ce878e955438ad920ae8c0179174be8294bd819ed28ec0a76199ba0402417ebbb9f705b92d459688"
+hash = "de6fcf50c3db87fdec3c9ab1630c4fc5f00976da46e00d77fbc31c2fa9dd19f771a589fcd5913ab33728c0d589be0d1d43b9f1ab49ab524cfb08769c773a742a"

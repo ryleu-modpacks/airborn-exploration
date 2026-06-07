@@ -1,6 +1,6 @@
 name = "Create: Crafts & Additions and Aeronautics Compat"
 filename = "aeroadditionbridge-1.0.0.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/tum2vG0T/versions/zibO5DQH/aeroadditionbridge-1.0.0.jar"
