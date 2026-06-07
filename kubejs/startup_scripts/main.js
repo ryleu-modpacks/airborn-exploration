@@ -98,12 +98,69 @@ StartupEvents.registry('item', event => {
 
     event.create('cornmeal').displayName('Cornmeal').tag('c:cornmeal').tag('c:flours/corn').tag('c:flours')
     event.create('polenta').displayName('Polenta').tag('kubejs:polenta')
-        .unstackable()
+        .maxStackSize(16)
         .food(food => {
             food.nutrition(6)
             .saturation(0.4)
             .usingConvertsTo('minecraft:bowl')
         })
+
+    event.create('corn_whiskey').displayName('Corn Whiskey')
+    .texture('brewinandchewin:item/vodka').tag('brewinandchewin:fermented_drinks')
+        .tooltip(Text.red('Tipsy (03:00)'))
+        .tooltip(Text.red('Intoxication (02:30)'))
+        .maxStackSize(16)
+        .containerItem('brewinandchewin:tankard')
+        .useAnimation('drink')
+        .useDuration(itemstack => 40)
+        .use((level, player, hand) => true)
+        .finishUsing((itemstack, level, entity) => {
+            if (!entity.player) return itemstack
+            
+            const effects = entity.potionEffects
+
+            let id = 'brewinandchewin:tipsy'
+
+            effects.add('brewinandchewin:intoxication', 150*20, 0, false, false)
+            // the tipsy effect increases in level by 1 and length by 3 minutes for each consecutive drink
+            if (effects.isActive(id)) {
+                let current = effects.getActive(id)
+
+                effects.add(
+                    id,
+                    current.duration + 3600,
+                    Math.min(current.amplifier + 1, 10),
+                    false,
+                    true
+                )
+            } else {
+                effects.add(id, 3600, 0, false, true)
+            }
+
+            if (!entity.creative) {
+                itemstack.shrink(1)
+
+                if (itemstack.empty) {
+                    return Item.of('brewinandchewin:tankard')
+                }
+
+                entity.give(Item.of('brewinandchewin:tankard'))
+            }
+
+            return itemstack
+        })
+        // .attachCapability(
+        //     CapabilityBuilder.FLUID.customItemStack()
+        //     .withCapacity(250)
+        //     .getFluid(container => Fluid.of('kubejs:corn_whiskey', 250))
+
+        //     .onFill((container, fluid, amount) => 0)
+        //     .onDrain((container, fluid, amount) => {
+        //         if (fluid.id != 'kubejs:corn_whiskey') return Fluid.empty
+        //         if (fluid.amount < 250) return Fluid.empty
+        //         return Fluid.of('kubejs:corn_whiskey', 250)
+        //     })
+        // )
 
 })
 
@@ -128,4 +185,10 @@ StartupEvents.registry('fluid', event => {
     event.create('magnetic_slurry')
     .displayName('Magnetic Slurry')
     .noBlock()
+
+    event.create('corn_whiskey', 'thin')
+    .displayName('Corn Whiskey')
+    .noBlock()
+    .tint('#F5DEB3')
+    .translucent()
 })

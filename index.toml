@@ -567,11 +567,11 @@ hash = "4888b836f3a67494bf2e1c98e08c7c10c5bc3def16cc9cfa24ea7d1ec2f45f3b"
 
 [[files]]
 file = "kubejs/server_scripts/main.js"
-hash = "5b9fba7f8842d01b73218979a1563550fdae3c3c9745a287d8806b87066df60e"
+hash = "d67bc36e3227593eed7f12aad519e0293a6eadee1a67c525e7d4f7d8a4e1c0bc"
 
 [[files]]
 file = "kubejs/startup_scripts/main.js"
-hash = "fddf5d39e067265b4620574ffa7fa9beed9c00e94f7f170d0fcccd94c9ae0d00"
+hash = "0140c7e69f026c9b2ce0197e2aba2e114626b67d6b10655b770ee6b144aa63a8"
 
 [[files]]
 file = "mods/advancedperipherals.pw.toml"
@@ -646,6 +646,11 @@ metafile = true
 [[files]]
 file = "mods/betterend-neoforge.pw.toml"
 hash = "bc792ba30b8b96a4451720488348b375d5eccdcd6d83f7527f960a1ea552f251"
+metafile = true
+
+[[files]]
+file = "mods/brewin-and-chewin.pw.toml"
+hash = "0236c16fae038f834245ad6c9b05f385f75db2e82630bdbf71a4b1a2e6def57d"
 metafile = true
 
 [[files]]
