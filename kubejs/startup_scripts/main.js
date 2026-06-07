@@ -96,6 +96,15 @@ StartupEvents.registry('item', event => {
     event.create('incomplete_television', 'create:sequenced_assembly').displayName('Incomplete Television').parentModel('kubejs:block/open_television')
     event.create('incomplete_viewfinder', 'create:sequenced_assembly').displayName('Incomplete Viewfinder').texture('kubejs:item/viewfinder_housing')
 
+    event.create('cornmeal').displayName('Cornmeal').tag('c:cornmeal').tag('c:flours/corn').tag('c:flours')
+    event.create('polenta').displayName('Polenta').tag('kubejs:polenta')
+        .unstackable()
+        .food(food => {
+            food.nutrition(6)
+            .saturation(0.4)
+            .usingConvertsTo('minecraft:bowl')
+        })
+
 })
 
 StartupEvents.registry('block', event => {

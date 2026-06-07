@@ -227,6 +227,10 @@ ServerEvents.recipes(event => {
     event.remove({id: 'createbigcannons:mixing/alloy_bronze_tin'})
     event.remove({id: 'createbigcannons:mixing/alloy_bronze_tinless'})
     event.remove({id: 'createbigcannons:bronze_scrap'})
+    event.remove({output: 'farmersdelight:wheat_dough'})
+    event.remove({id: 'farmersdelight:wheat_dough_from_wheat'}) // y no work?
+    event.remove({output: 'corn_delight:cornbread_batter'})
+    event.remove({output: 'corn_delight:creamy_corn_drink'}) // this isn't for dedup. I just think "corn drink" sounds gross
 
     // Dyed Block/Item Recipes
     Color.DYE.forEach(color => {
@@ -538,6 +542,36 @@ ServerEvents.recipes(event => {
             sharestone_recipe(color)
         }
     })
+
+    // Corn
+    event.recipes.create.milling(['kubejs:cornmeal', CreateItem.of('2x kubejs:cornmeal', 0.25), CreateItem.of('corn_delight:corn_seeds', 0.125)], 'corn_delight:corn_seeds')
+    event.recipes.farmersdelight.cooking(
+        'meals',
+        [
+            'kubejs:cornmeal',
+            'minecraft:milk_bucket'
+        ],
+        'kubejs:polenta',
+        0.35,
+        100,
+        'minecraft:bowl'
+    )
+    event.shapeless(
+        'corn_delight:cornbread_batter',
+        [
+            Ingredient.of('#c:flours/corn'),
+            'minecraft:milk_bucket',
+            'minecraft:egg'
+        ]
+    )
+    event.recipes.create.mixing(
+        'corn_delight:cornbread_batter',
+        [
+            Ingredient.of('#c:flours/corn'),
+            Fluid.of('minecraft:milk', 1000),
+            'minecraft:egg'
+        ]
+    )
 })
 
 LootJS.modifiers((event) => {
