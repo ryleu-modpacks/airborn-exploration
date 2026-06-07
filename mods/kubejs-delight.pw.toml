@@ -1,0 +1,13 @@
+name = "KubeJS Delight"
+filename = "kubejsdelight-1.1.6.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/apt5xJoR/versions/YM06FtFG/kubejsdelight-1.1.6.jar"
+hash-format = "sha512"
+hash = "6e3e8d2e9b4f95cca2fd9cd068b560d9650262802ffa0cc857342a8535ecb1ab6c7e718c0b73fa15f4663a98fc9d8849d7c0a1a2e6f0f406d76ca351589ae678"
+
+[update]
+[update.modrinth]
+mod-id = "apt5xJoR"
+version = "YM06FtFG"

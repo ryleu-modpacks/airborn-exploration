@@ -27,8 +27,6 @@
 "minecraft:string" = 2
 "minecraft:feather" = 2
 "minecraft:gunpowder" = 10
-"minecraft:wheat" = 2
-"minecraft:bread" = 3
 "minecraft:paper" = 2
 "minecraft:sugar" = 2
 "minecraft:glass" = 2
@@ -38,6 +36,7 @@
 "minecraft:prismarine_crystals" = 8
 "minecraft:echo_shard" = 70
 "minecraft:nether_star" = 1200
+
 "create:andesite_alloy" = 4
 "create:precision_mechanism" = 60
 "kubejs:optical_mechanism" = 80
@@ -51,11 +50,32 @@
 "create_ironworks:steel_ingot" = 30
 "create_ironworks:steel_sheet" = 33
 "create_new_age:nuclear_fuel" = 30
-"create_new_age:magnetite" = 10
+"create_new_age:magnetite_block" = 10
 "create_new_age:redstone_magnet" = 40
 "create_new_age:layered_magnet" = 110
 "create_new_age:fluxuated_magnetite" = 220
 "create_new_age:netherite_magnet" = 940
+
+"minecraft:wheat" = 2
+"minecraft:carrot" = 2
+"minecraft:potato" = 2
+"minecraft:beetroot" = 4 # Made it 4x more expensive to buy than sell because screw you. You will not profit from selling beetroot.
+"farmersdelight:tomato" = 2
+"farmersdelight:cabbage" = 2
+"farmersdelight:onion" = 2
+"farmersdelight:rice" = 2
+
+"minecraft:hay_block" = 18
+"farmersdelight:carrot_crate" = 18
+"farmersdelight:potato_crate" = 18
+"farmersdelight:beetroot_crate" = 36 # Ditto with the crate
+"farmersdelight:tomato_crate" = 18
+"farmersdelight:cabbage_crate" = 18
+"farmersdelight:onion_crate" = 18
+"farmersdelight:rice_bag" = 18
+
+"minecraft:bread" = 3
+
 "fluid:minecraft:lava" = 4
 "fluid:createdieselgenerators:crude_oil" = 6
 "fluid:createdieselgenerators:biodiesel" = 10
