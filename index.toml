@@ -77,6 +77,10 @@ file = "config/emixx/groups/simulated_portable_engine.json"
 hash = "bbb787a80dd1079ea3abca2ef317f6988519a5465b16341063aa4fd3e8666af4"
 
 [[files]]
+file = "config/farmersdelight-client.toml"
+hash = "d649d9c3ea4c808b2e23833375e8145c58e3e1ae04857e46a8346e89e8fd1f05"
+
+[[files]]
 file = "config/lithium.properties"
 hash = "38b9ea8e991522f1993d84865054f3771a4fca7a83e007fa210f11678173adda"
 
@@ -1147,6 +1151,11 @@ metafile = true
 [[files]]
 file = "mods/sodium.pw.toml"
 hash = "0281ed9713f3141bdac363056a791845510e14761ea65b4b2813cf96d664b20a"
+metafile = true
+
+[[files]]
+file = "mods/sol-valheim.pw.toml"
+hash = "24771d4d52851b9d92a85ce963f325adfccaef8f8aa7d5b2a3ba281e93e78c3e"
 metafile = true
 
 [[files]]
