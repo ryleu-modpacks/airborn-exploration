@@ -105,8 +105,8 @@ StartupEvents.registry('item', event => {
             .usingConvertsTo('minecraft:bowl')
         })
 
-    event.create('corn_whiskey').displayName('Corn Whiskey')
-    .texture('brewinandchewin:item/vodka').tag('brewinandchewin:fermented_drinks')
+    event.create('bourbon').displayName('Bourbon')
+    .tag('brewinandchewin:fermented_drinks')
         .tooltip(Text.red('Tipsy (03:00)'))
         .tooltip(Text.red('Intoxication (02:30)'))
         .maxStackSize(16)
@@ -149,18 +149,6 @@ StartupEvents.registry('item', event => {
 
             return itemstack
         })
-        // .attachCapability(
-        //     CapabilityBuilder.FLUID.customItemStack()
-        //     .withCapacity(250)
-        //     .getFluid(container => Fluid.of('kubejs:corn_whiskey', 250))
-
-        //     .onFill((container, fluid, amount) => 0)
-        //     .onDrain((container, fluid, amount) => {
-        //         if (fluid.id != 'kubejs:corn_whiskey') return Fluid.empty
-        //         if (fluid.amount < 250) return Fluid.empty
-        //         return Fluid.of('kubejs:corn_whiskey', 250)
-        //     })
-        // )
 
 })
 
@@ -186,9 +174,9 @@ StartupEvents.registry('fluid', event => {
     .displayName('Magnetic Slurry')
     .noBlock()
 
-    event.create('corn_whiskey', 'thin')
-    .displayName('Corn Whiskey')
+    event.create('bourbon', 'thin')
+    .displayName('Bourbon')
     .noBlock()
-    .tint('#F5DEB3')
+    .tint('#8F3E18')
     .translucent()
 })

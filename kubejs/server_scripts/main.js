@@ -626,7 +626,7 @@ ServerEvents.recipes(event => {
         fillAndPour(output, output)
     }
 
-    fermenting([{"tag": 'c:crops/corn'}, {"tag": 'c:seeds/corn'}, [], []], 'kubejs:corn_whiskey')
+    fermenting([{"tag": 'c:crops/corn'}, {"tag": 'c:seeds/corn'}, [], []], 'kubejs:bourbon')
 
     const drinks = [
         'beer',
