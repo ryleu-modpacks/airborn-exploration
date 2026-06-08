@@ -14,11 +14,11 @@ hash = "9f161aa582411b64095d7a331083c13cf6e1ca38a295ef022ece5416d4bcbecd"
 
 [[files]]
 file = "config/createdeliveryrequired-contract-item-prices.toml"
-hash = "f1f1af4d48f78038824147851a43cedeecbf190b5696a2c42d618308e9e4f31b"
+hash = "adaf372add6d7e8c96516b8ef1d92472f30a89ba266aef7eea9f42c59035aec0"
 
 [[files]]
 file = "config/createdeliveryrequired-market-item-prices.toml"
-hash = "2f86dcdd180445a34078f6233d275ce24fc8e7232c5b2390c0747f6383be07a7"
+hash = "d18bb11be32a844c10eb874a85481ac3ccde57b26256ec5af8c2fe8173d18555"
 
 [[files]]
 file = "config/emixx/emixx-client.toml"
@@ -342,6 +342,10 @@ file = "kubejs/assets/kubejs/textures/item/frequency/symbol/upright_arrow.png"
 hash = "1a8ad7786f66d865bdb08aa436480ac2eae77822be8e81eb8e0b597e777e2f2e"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/item/garlic_tomato_polenta.png"
+hash = "d88f4a0d3a005519c15266b4a8ac963808f0827a5d18b6eb1793d54d1c4a8728"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/item/iron_dust.png"
 hash = "975afa4a8badae4359d148edfce3f41bdcc284a707e2606e783af83184e6f2b2"
 
@@ -571,11 +575,11 @@ hash = "4888b836f3a67494bf2e1c98e08c7c10c5bc3def16cc9cfa24ea7d1ec2f45f3b"
 
 [[files]]
 file = "kubejs/server_scripts/main.js"
-hash = "732e82eddcfd4383ec7835c860295a10fca8600d7478d864c0517c93076f87db"
+hash = "11f590fd3b90b1ca5d856772a1e8975630df4118d688a2142dff98c17016da00"
 
 [[files]]
 file = "kubejs/startup_scripts/main.js"
-hash = "1ab59b2d13a770a3f133693f4732b16b01d73ede9a633893b91b6a18a364ee2f"
+hash = "062ab769d6a66f555251d36621e62372526aa95073322cb7cf7d925364478430"
 
 [[files]]
 file = "mods/advancedperipherals.pw.toml"
@@ -1215,6 +1219,11 @@ metafile = true
 [[files]]
 file = "mods/vanillabackport.pw.toml"
 hash = "de1c3ce98add2a76db8756ff390ea05dbed4b60f9c4d6cd81eaf01c25aed9f5e"
+metafile = true
+
+[[files]]
+file = "mods/veggies-delight.pw.toml"
+hash = "5dd23a011f0441722527617d65eaa2c49b9e094d028d63dd361f1e4eca790846"
 metafile = true
 
 [[files]]
