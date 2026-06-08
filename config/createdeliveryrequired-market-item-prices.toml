@@ -64,6 +64,14 @@
 "farmersdelight:cabbage" = 2
 "farmersdelight:onion" = 2
 "farmersdelight:rice" = 2
+"corn_delight:corn" = 2
+"veggiesdelight:bellpepper" = 2
+"veggiesdelight:broccoli" = 2
+"veggiesdelight:cauliflower" = 2
+"veggiesdelight:garlic" = 2
+"veggiesdelight:sweet_potato" = 2
+"veggiesdelight:turnip" = 2
+"veggiesdelight:zucchini" = 2
 
 "minecraft:hay_block" = 18
 "farmersdelight:carrot_crate" = 18
@@ -73,6 +81,14 @@
 "farmersdelight:cabbage_crate" = 18
 "farmersdelight:onion_crate" = 18
 "farmersdelight:rice_bag" = 18
+"corn_delight:corn_crate" = 18
+"veggiesdelight:bellpepper_crate" = 18
+"veggiesdelight:broccoli_crate" = 18
+"veggiesdelight:cauliflower_crate" = 18
+"veggiesdelight:garlic_crate" = 18
+"veggiesdelight:sweet_potato_crate" = 18
+"veggiesdelight:turnip_crate" = 18
+"veggiesdelight:zucchini_crate" = 18
 
 "minecraft:bread" = 3
 
