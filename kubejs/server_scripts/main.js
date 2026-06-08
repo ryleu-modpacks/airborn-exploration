@@ -556,6 +556,20 @@ ServerEvents.recipes(event => {
         100,
         'minecraft:bowl'
     )
+    event.recipes.farmersdelight.cooking(
+        'meals',
+        [
+            'kubejs:cornmeal',
+            'minecraft:milk_bucket',
+            'veggiesdelight:garlic_clove',
+            'veggiesdelight:garlic_clove',
+            'farmersdelight:tomato'
+        ],
+        'kubejs:garlic_tomato_polenta',
+        0.5,
+        200,
+        'minecraft:bowl'
+    )
     event.shapeless(
         'corn_delight:cornbread_batter',
         [

@@ -98,10 +98,21 @@ StartupEvents.registry('item', event => {
 
     event.create('cornmeal').displayName('Cornmeal').tag('c:cornmeal').tag('c:flours/corn').tag('c:flours')
     event.create('polenta').displayName('Polenta').tag('kubejs:polenta')
+        .tooltip(Text.blue('Nourishment (00:30)'))
         .maxStackSize(16)
         .food(food => {
-            food.nutrition(6)
-            .saturation(0.4)
+            food.nutrition(8)
+            .saturation(0.5)
+            .effect('farmersdelight:nourishment', 600, 0, 1)
+            .usingConvertsTo('minecraft:bowl')
+        })
+    event.create('garlic_tomato_polenta').displayName('Garlic Tomato Polenta').tag('kubejs:polenta')
+        .tooltip(Text.blue('Nourishment (03:00)'))
+        .maxStackSize(16)
+        .food(food => {
+            food.nutrition(16)
+            .saturation(0.7)
+            .effect('farmersdelight:nourishment', 3600, 0, 1)
             .usingConvertsTo('minecraft:bowl')
         })
 
