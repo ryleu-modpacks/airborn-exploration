@@ -573,6 +573,7 @@ ServerEvents.recipes(event => {
         ]
     )
 
+    // Brewin' and Chewin'
     const fillAndPour = (item, fluid) => {
         event.recipes.create.filling(
             Item.of(item),
@@ -589,6 +590,42 @@ ServerEvents.recipes(event => {
             ],
             Item.of(item)
         )
+    }
+
+    const bulkFermenting = (inputs, output, time, heat) => {
+        if (heat) {
+            event.custom({
+                "type": "createdieselgenerators:bulk_fermenting",
+                "ingredients": inputs,
+                "processing_time": time,
+                "results": output,
+                "heat_requirement": heat
+            })
+
+            event.custom({
+                "type": "createdieselgenerators:basin_fermenting",
+                "ingredients": inputs,
+                "processing_time": time,
+                "results": output,
+                "heat_requirement": heat
+            })
+
+            return
+        }
+
+        event.custom({
+            "type": "createdieselgenerators:bulk_fermenting",
+            "ingredients": inputs,
+            "processing_time": time,
+            "results": output
+        })
+
+        event.custom({
+            "type": "createdieselgenerators:basin_fermenting",
+            "ingredients": inputs,
+            "processing_time": time,
+            "results": output
+        })
     }
 
     const fermenting = (input, output) => {
@@ -627,6 +664,12 @@ ServerEvents.recipes(event => {
     }
 
     fermenting([{"tag": 'c:crops/corn'}, {"tag": 'c:seeds/corn'}, [], []], 'kubejs:bourbon')
+    bulkFermenting([
+            {"tag": 'c:crops/corn'},
+            {"tag": 'c:seeds/corn'},
+            {"type": "fluid_stack", "fluid": "minecraft:water", "amount": 1000}
+    ], 
+    [{"id": 'kubejs:bourbon', "amount": 1000}], 9600, false)
 
     const drinks = [
         'beer',
@@ -650,6 +693,102 @@ ServerEvents.recipes(event => {
         fillAndPour(`brewinandchewin:${drink}`, `brewinandchewin:${drink}`)
     })
 
+    bulkFermenting([
+        {"item": "minecraft:wheat"},
+        {"item": "minecraft:wheat_seeds"},
+        {"item": "minecraft:brown_mushroom"},
+        {"type": "fluid_stack", "fluid": "minecraft:water", "amount": 1000}
+    ], 
+    [{"id": 'brewinandchewin:beer', "amount": 1000}], 9600, false)
+
+    bulkFermenting([
+        {"tag": "c:crops/potato"},
+        {"item": "minecraft:wheat"},
+        {"item": "minecraft:wheat_seeds"},
+        {"type": "fluid_stack", "fluid": "minecraft:water", "amount": 1000}
+    ],
+    [{"id": 'brewinandchewin:vodka', "amount": 1000}], 9600, false)
+
+    bulkFermenting([
+        {"item": "minecraft:wheat"},
+        {"item": "minecraft:wheat_seeds"},
+        {"item": "minecraft:sweet_berries"},
+        {"type": "fluid_stack", "fluid": "create:honey", "amount": 1000}
+    ], 
+    [{"id": 'brewinandchewin:mead', "amount": 1000}], 9600, false)
+
+    bulkFermenting([
+        {"tag": "c:crops/rice"},
+        {"item": "minecraft:brown_mushroom"},
+        {"type": "fluid_stack", "fluid": "minecraft:water", "amount": 1000}
+    ], 
+    [{"id": 'brewinandchewin:rice_wine', "amount": 1000}], 9600, false)
+
+    bulkFermenting([
+        {"item": "minecraft:honey_bottle"},
+        {"item": "farmersdelight:tree_bark"},
+        {"item": "minecraft:lily_of_the_valley"},
+        {"item": "minecraft:sugar"},
+        {"type": "fluid_stack", "fluid": "brewinandchewin:rice_wine", "amount": 1000}
+    ],
+    [{"id": 'brewinandchewin:pale_jane', "amount": 1000}], 4800, 'heated')
+
+    bulkFermenting([
+        {"tag": "c:eggs"},
+        {"tag": "c:crops/cabbage"},
+        {"item": "minecraft:sugar"},
+        {"type": "fluid_stack", "fluid": "minecraft:milk", "amount": 1000}
+    ], 
+    [{"id": 'brewinandchewin:egg_grog', "amount": 1000}], 9600, false)
+
+    // glittering grenadine requires chilling, but bulk fermenting doesn't support that, so no bulk fermenting recipe for it :(
+
+    bulkFermenting([
+        {"item": "minecraft:sweet_berries"},
+        {"item": "minecraft:sugar_cane"},
+        {"item": "minecraft:melon"},
+        {"type": "fluid_stack", "fluid": "brewinandchewin:mead", "amount": 1000}
+    ],
+    [{"id": 'brewinandchewin:saccharine_rum', "amount": 1000}], 4800, 'heated')
+
+    // salty folly requires chilling, but bulk fermenting doesn't support that, so no bulk fermenting recipe for it :(
+
+    bulkFermenting([
+        {"tag": "c:crops/tomato"},
+        {"tag": "c:crops/cabbage"},
+        {"item": "minecraft:sweet_berries"},
+        {"type": "fluid_stack", "fluid": "brewinandchewin:vodka", "amount": 1000}
+    ],
+    [{"id": 'brewinandchewin:bloody_mary', "amount": 1000}], 4800, 'heated')
+
+    bulkFermenting([
+        {"item": "minecraft:crimson_fungus"},
+        {"item": "minecraft:nether_wart"},
+        {"item": "minecraft:fermented_spider_eye"},
+        {"item": "minecraft:shroomlight"},
+        {"type": "fluid_stack", "fluid": "brewinandchewin:bloody_mary", "amount": 1000}
+    ],
+    [{"id": 'brewinandchewin:red_rum', "amount": 1000}], 4800, 'superheated')
+
+    bulkFermenting([
+        {"tag": "c:crops/beetroot"},
+        {"tag": "c:crops/potato"},
+        {"item": "minecraft:brown_mushroom"},
+        {"item": "brewinandchewin:jerky"},
+        {"type": "fluid_stack", "fluid": "brewinandchewin:beer", "amount": 1000}
+    ],
+    [{"id": 'brewinandchewin:strongroot_ale', "amount": 1000}], 4800, false)
+
+    // steel-toed stout and dread nog requires freezing, but bulk fermenting doesn't support that, so no bulk fermenting recipe for them :(
+
+    bulkFermenting([
+        {"item": "minecraft:wither_rose"},
+        {"item": "minecraft:ink_sac"},
+        {"item": "minecraft:nether_wart"},
+        {"item": "minecraft:bone"},
+        {"type": "fluid_stack", "fluid": "brewinandchewin:salty_folly", "amount": 1000}
+    ],
+    [{"id": 'brewinandchewin:withering_dross', "amount": 1000}], 9600, 'superheated')
 })
 
 LootJS.modifiers((event) => {

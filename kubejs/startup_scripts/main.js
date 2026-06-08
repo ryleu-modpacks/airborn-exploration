@@ -177,6 +177,7 @@ StartupEvents.registry('fluid', event => {
     event.create('bourbon', 'thin')
     .displayName('Bourbon')
     .noBlock()
+    .noBucket()
     .tint('#8F3E18')
     .translucent()
 })
