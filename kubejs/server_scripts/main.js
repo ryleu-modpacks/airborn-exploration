@@ -572,6 +572,84 @@ ServerEvents.recipes(event => {
             'minecraft:egg'
         ]
     )
+
+    const fillAndPour = (item, fluid) => {
+        event.recipes.create.filling(
+            Item.of(item),
+            [
+                Fluid.of(fluid, 250),
+                'brewinandchewin:tankard'
+            ]
+        )
+
+        event.recipes.create.emptying(
+            [
+                Fluid.of(fluid, 250),
+                'brewinandchewin:tankard'
+            ],
+            Item.of(item)
+        )
+    }
+
+    const fermenting = (input, output) => {
+        event.custom({
+            "type": "brewinandchewin:fermenting",
+            "base_fluid": {
+                "amount": 1000,
+                "ingredient": {
+                "tag": "#c:water"
+                },
+                "unit": "millibuckets"
+            },
+            "experience": 1.0,
+            "ingredients": input,
+            "result": {
+                "amount": 1000,
+                "id": output
+            },
+            "unit": "millibuckets"
+        })
+
+        event.custom({
+            'type': 'brewinandchewin:keg_pouring',
+            'fluid': {
+                'amount': 250,
+                'id': output,
+            },
+            'output': {
+                'count': 1,
+                'id': output
+            },
+            'unit': 'millibuckets'
+        })
+
+        fillAndPour(output, output)
+    }
+
+    fermenting([{"tag": 'c:crops/corn'}, {"tag": 'c:seeds/corn'}, [], []], 'kubejs:bourbon')
+
+    const drinks = [
+        'beer',
+        'vodka',
+        'mead',
+        'rice_wine',
+        'pale_jane',
+        'egg_grog',
+        'glittering_grenadine',
+        'saccharine_rum',
+        'salty_folly',
+        'bloody_mary',
+        'red_rum',
+        'strongroot_ale',
+        'steel_toe_stout',
+        'dread_nog',
+        'withering_dross'
+    ]
+    
+    drinks.forEach(drink => {
+        fillAndPour(`brewinandchewin:${drink}`, `brewinandchewin:${drink}`)
+    })
+
 })
 
 LootJS.modifiers((event) => {

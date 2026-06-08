@@ -146,6 +146,10 @@ file = "kubejs/assets/kubejs/textures/block/television_housing.png"
 hash = "2f817ccbad9fb711539ca8ece61418fb61102dbd4fa1f6f772d50fcb9d192097"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/item/bourbon.png"
+hash = "85da2705749c1e5513a53e617bcff80eccdd95acd0b2519a74a895c20307f9e5"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/item/cornmeal.png"
 hash = "b6e55b40dc1ede7af68851c1ce7a5b62e143c7b6632306e836e9666204a7771a"
 
@@ -567,11 +571,11 @@ hash = "4888b836f3a67494bf2e1c98e08c7c10c5bc3def16cc9cfa24ea7d1ec2f45f3b"
 
 [[files]]
 file = "kubejs/server_scripts/main.js"
-hash = "5b9fba7f8842d01b73218979a1563550fdae3c3c9745a287d8806b87066df60e"
+hash = "ced6272a224f567ddfb79ca0384da849e62c13f061e68f8451766096d6755daa"
 
 [[files]]
 file = "kubejs/startup_scripts/main.js"
-hash = "fddf5d39e067265b4620574ffa7fa9beed9c00e94f7f170d0fcccd94c9ae0d00"
+hash = "e9f40a6a0ddc41d5960f03f0051dce47c70d6f119077619424418cf14831e6b7"
 
 [[files]]
 file = "mods/advancedperipherals.pw.toml"
@@ -646,6 +650,11 @@ metafile = true
 [[files]]
 file = "mods/betterend-neoforge.pw.toml"
 hash = "bc792ba30b8b96a4451720488348b375d5eccdcd6d83f7527f960a1ea552f251"
+metafile = true
+
+[[files]]
+file = "mods/brewin-and-chewin.pw.toml"
+hash = "0236c16fae038f834245ad6c9b05f385f75db2e82630bdbf71a4b1a2e6def57d"
 metafile = true
 
 [[files]]
