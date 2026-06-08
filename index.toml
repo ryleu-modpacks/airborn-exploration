@@ -14,7 +14,7 @@ hash = "9f161aa582411b64095d7a331083c13cf6e1ca38a295ef022ece5416d4bcbecd"
 
 [[files]]
 file = "config/createdeliveryrequired-contract-item-prices.toml"
-hash = "adaf372add6d7e8c96516b8ef1d92472f30a89ba266aef7eea9f42c59035aec0"
+hash = "1ed8afb73f0987ffa8ebb37d2b1e2aca1801c23671a1cbcc69ca30b808e68272"
 
 [[files]]
 file = "config/createdeliveryrequired-market-item-prices.toml"
