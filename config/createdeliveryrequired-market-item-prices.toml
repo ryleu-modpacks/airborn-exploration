@@ -93,10 +93,28 @@
 "minecraft:bread" = 3
 
 "fluid:minecraft:lava" = 4
-"fluid:createdieselgenerators:crude_oil" = 6
-"fluid:createdieselgenerators:biodiesel" = 10
-"fluid:createdieselgenerators:diesel" = 10
-"fluid:createdieselgenerators:gasoline" = 10
+"fluid:createdieselgenerators:crude_oil" = 35
+"fluid:createdieselgenerators:biodiesel" = 12
+"fluid:createdieselgenerators:diesel" = 50
+"fluid:createdieselgenerators:gasoline" = 50
+
+"fluid:brewinandchewin:beer" = 12
+"fluid:brewinandchewin:vodka" = 12
+"fluid:brewinandchewin:mead" = 12
+"fluid:brewinandchewin:rice_wine" = 12
+"fluid:kubejs:bourbon" = 14
+"fluid:brewinandchewin:pale_jane" = 16
+"fluid:brewinandchewin:egg_grog" = 16
+"fluid:brewinandchewin:saccharine_rum" = 16
+"fluid:brewinandchewin:bloody_mary" = 16
+"fluid:brewinandchewin:strongroot_ale" = 16
+"fluid:brewinandchewin:glittering_grenadine" = 18
+"fluid:brewinandchewin:salty_folly" = 18
+"fluid:brewinandchewin:red_rum" = 20
+"fluid:brewinandchewin:steel_toe_stout" = 20
+"fluid:brewinandchewin:dread_nog" = 22
+"fluid:brewinandchewin:withering_dross" = 24
+
 "potion:minecraft:healing" = 16
 "potion:minecraft:regeneration" = 16
 "potion:minecraft:swiftness" = 16

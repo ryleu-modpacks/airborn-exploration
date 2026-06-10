@@ -1,0 +1,147 @@
+[contractorOffers]
+	#How often Contractor delivery offers refresh.
+	# Default: 30
+	# Range: 1 ~ 1440
+	refreshIntervalMinutes = 30
+	#Number of generated delivery offers shown by each Contractor.
+	# Default: 10
+	# Range: 1 ~ 32
+	generatedOfferCount = 10
+	#Minimum base travel distance in blocks for generated Contractor offers. Star distance multipliers apply on top of this base distance.
+	# Default: 500
+	# Range: 1 ~ 1000000
+	generatedMinimumTravelDistanceBlocks = 2000
+	#Maximum base travel distance in blocks for generated Contractor offers. Star distance multipliers apply on top of this base distance.
+	# Default: 800
+	# Range: 1 ~ 1000000
+	generatedMaximumTravelDistanceBlocks = 4000
+	#Minimum random contract time limit in minutes.
+	# Default: 60
+	# Range: 1 ~ 1440
+	minimumTimeLimitMinutes = 60
+	#Maximum random contract time limit in minutes.
+	# Default: 120
+	# Range: 1 ~ 1440
+	maximumTimeLimitMinutes = 120
+	#Total spur value of items demanded per contract slot per refresh. demand = budget / itemPrice.
+	# Default: 1000000
+	# Range: > 1
+	demandBudgetSpurs = 1000000
+	#Multiplier applied to all contract item prices loaded from the price list. Default 1.0 = no change.
+	# Default: 1.0
+	# Range: 0.0 ~ 1000.0
+	priceMultiplier = 1.0
+	#Maximum reward bonus from star rating for contracts.
+	# Default: 10.0
+	# Range: 0.0 ~ 100.0
+	maximumStarRewardBonusPercent = 10.0
+	#Maximum reward bonus from contractor rank.
+	# Default: 10.0
+	# Range: 0.0 ~ 100.0
+	maximumRankRewardBonusPercent = 10.0
+	#Distance multiplier for the easiest normal star rating.
+	# Default: 1.0
+	# Range: 0.05 ~ 10.0
+	minimumStarDistanceMultiplier = 1.0
+	#Distance multiplier for the hardest normal star rating.
+	# Default: 2.0
+	# Range: 0.05 ~ 10.0
+	maximumStarDistanceMultiplier = 4.0
+	#Minimum number of item-storage blocks a marked sub-level must contain before delivery contents are accepted. Counts chests, Create Item Vaults, compatible modded vaults/shipping containers, and other blocks exposing item inventories. Set to 0 to disable this requirement.
+	# Default: 0
+	# Range: 0 ~ 1000000
+	minimumDeliveryStorageBlockCount = 0
+	#Minimum number of fluid tank blocks a marked sub-level must contain before fluid delivery contents are accepted. Counts Create Fluid Tanks, TFMG fluid tanks, and other blocks exposing fluid tanks. Set to 0 to disable this requirement.
+	# Default: 0
+	# Range: 0 ~ 1000000
+	minimumDeliveryFluidTankBlockCount = 0
+
+[marketOffers]
+	#How often Market pickup offers refresh.
+	# Default: 30
+	# Range: 1 ~ 1440
+	refreshIntervalMinutes = 30
+	#Number of generated pickup offers shown by each Market.
+	# Default: 6
+	# Range: 1 ~ 32
+	generatedOfferCount = 6
+	#Minimum pickup distance in blocks for generated Market offers.
+	# Default: 300
+	# Range: 1 ~ 1000000
+	generatedMinimumPickupDistanceBlocks = 300
+	#Maximum pickup distance in blocks for generated Market offers.
+	# Default: 500
+	# Range: 1 ~ 1000000
+	generatedMaximumPickupDistanceBlocks = 500
+	#Maximum amount that can be bought from a market offer.
+	# Default: 103680
+	# Range: 1 ~ 103680
+	maximumPurchasableAmount = 103680
+	#Multiplier applied to all market item prices loaded from the price list. Default 1.0 = no change.
+	# Default: 3.0
+	# Range: 0.0 ~ 1000.0
+	priceMultiplier = 3.0
+	#Maximum discount from buying the full market payload.
+	# Default: 10.0
+	# Range: 0.0 ~ 100.0
+	maximumBulkDiscountPercent = 10.0
+
+[p2pTerminal]
+	#Minutes a player has to deliver items into a P2P Link supply zone before the listing supply contract expires.
+	# Default: 10
+	# Range: 1 ~ 1440
+	listingSupplyTimeoutMinutes = 10
+	#Horizontal radius in blocks of the delivery zone around the P2P Link for request fulfillment. Default 4 creates a 9×9 footprint.
+	# Default: 4
+	# Range: 1 ~ 64
+	requestZoneRadius = 4
+	#Distance in blocks from the P2P terminal to the pickup spawn point when a player buys from a player market listing.
+	# Default: 256
+	# Range: 1 ~ 1000000
+	listingPickupDistanceBlocks = 256
+
+[contractorRanks]
+	#XP required to advance from contractor rank 1 to rank 2.
+	# Default: 100
+	# Range: 1 ~ 1000000
+	rank2RequiredXp = 100
+	#XP required to advance from contractor rank 2 to rank 3.
+	# Default: 250
+	# Range: 1 ~ 1000000
+	rank3RequiredXp = 250
+	#XP required to advance from contractor rank 3 to rank 4.
+	# Default: 500
+	# Range: 1 ~ 1000000
+	rank4RequiredXp = 500
+	#XP required to advance from contractor rank 4 to rank 5.
+	# Default: 900
+	# Range: 1 ~ 1000000
+	rank5RequiredXp = 900
+	#XP required to advance from contractor rank 5 to rank 6.
+	# Default: 1400
+	# Range: 1 ~ 1000000
+	rank6RequiredXp = 1400
+	#XP required to advance from contractor rank 6 to rank 7.
+	# Default: 2200
+	# Range: 1 ~ 1000000
+	rank7RequiredXp = 2200
+	#Base XP awarded for every completed delivery contract.
+	# Default: 0
+	# Range: 0 ~ 1000000
+	completionBaseXp = 0
+	#XP awarded per contract rating star.
+	# Default: 20.0
+	# Range: 0.0 ~ 1000000.0
+	completionXpPerStar = 20.0
+	#XP awarded per 100 blocks of delivery distance.
+	# Default: 10.0
+	# Range: 0.0 ~ 1000000.0
+	completionXpPer100Blocks = 10.0
+	#XP awarded per remaining delivery minute when the contract is completed.
+	# Default: 2.0
+	# Range: 0.0 ~ 1000000.0
+	completionXpPerRemainingMinute = 2.0
+	#XP awarded per delivered item.
+	# Default: 1.0
+	# Range: 0.0 ~ 1000000.0
+	completionXpPerDeliveredItem = 1.0
