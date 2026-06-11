@@ -14,11 +14,15 @@ hash = "9f161aa582411b64095d7a331083c13cf6e1ca38a295ef022ece5416d4bcbecd"
 
 [[files]]
 file = "config/createdeliveryrequired-contract-item-prices.toml"
-hash = "1ed8afb73f0987ffa8ebb37d2b1e2aca1801c23671a1cbcc69ca30b808e68272"
+hash = "cec317905cf69e8bc88b5899c99d21f43981e2e90b12d69f247586e6aede394a"
 
 [[files]]
 file = "config/createdeliveryrequired-market-item-prices.toml"
-hash = "d18bb11be32a844c10eb874a85481ac3ccde57b26256ec5af8c2fe8173d18555"
+hash = "e1b929fb10a7d4b66a00b684f91c7f206db15f0a4b91420abfa24b50d8052f2f"
+
+[[files]]
+file = "config/createdeliveryrequired-server.toml"
+hash = "b8e558473a94b6f8f531b98a29e4a20ac58d44fef5718f44b3c4117963bdab7c"
 
 [[files]]
 file = "config/emixx/emixx-client.toml"
@@ -575,7 +579,7 @@ hash = "4888b836f3a67494bf2e1c98e08c7c10c5bc3def16cc9cfa24ea7d1ec2f45f3b"
 
 [[files]]
 file = "kubejs/server_scripts/main.js"
-hash = "11f590fd3b90b1ca5d856772a1e8975630df4118d688a2142dff98c17016da00"
+hash = "ba299748083c6c2a8ce875d1900c491cc90702ada18dfd6e8b492364a7d73185"
 
 [[files]]
 file = "kubejs/startup_scripts/main.js"
@@ -739,6 +743,11 @@ metafile = true
 [[files]]
 file = "mods/create-aeronautics-delivery-required.pw.toml"
 hash = "3249678012dd5bc27af549464569253986c315dcf8d9a10d1924ca053e61e2c4"
+metafile = true
+
+[[files]]
+file = "mods/create-aeronautics-toolgun.pw.toml"
+hash = "bc8e973498380bf0bbcfe26da585575097a9a9d168cba68e328e09e453d603e3"
 metafile = true
 
 [[files]]
