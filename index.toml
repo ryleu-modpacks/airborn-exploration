@@ -497,6 +497,10 @@ file = "configureddefaults/config/xaero/world-map/profiles/default.cfg"
 hash = "7b24c882801bcc7f0a8aedc625d419f661fa490fa0e9d5ebe39599a1ce2dcbd5"
 
 [[files]]
+file = "configureddefaults/options.txt"
+hash = "de22b114b94712333845894fe111e8b7b02df6acf9a7556506c6b8c3d51587de"
+
+[[files]]
 file = "kubejs/assets/ccc.pw.toml"
 hash = "eb32394b065f923d7ca504acb25e869f9fa08352e04c82f47d2ce77f861228f0"
 metafile = true
