@@ -1043,7 +1043,11 @@ hash = "4888b836f3a67494bf2e1c98e08c7c10c5bc3def16cc9cfa24ea7d1ec2f45f3b"
 
 [[files]]
 file = "kubejs/server_scripts/main.js"
-hash = "ba299748083c6c2a8ce875d1900c491cc90702ada18dfd6e8b492364a7d73185"
+hash = "933bdaf82710d42bd3a99a14176bfdfef19dffaf287824d36d779795417c0fb4"
+
+[[files]]
+file = "kubejs/server_scripts/sable_physics.js"
+hash = "8da7a1e8163e41e45a646c4045b3b1a3fa343a9d72dbfd92f2d3e1e18a7bb4b7"
 
 [[files]]
 file = "kubejs/startup_scripts/main.js"
