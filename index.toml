@@ -530,27 +530,27 @@ hash = "d1e4cdea1f9c2e2716ff0ffb8226551b06fa3ed5c92e7bf56d7f2326095d4363"
 
 [[files]]
 file = "global_packs/required_resources/airborn-exploration/assets/minecraft/textures/gui/title/background/panorama_0.png"
-hash = "d9e27589b2d2f3911348c4217053249c8c50fd5576f6448d9c85fafc0aba8d5b"
+hash = "e5cefcfd7280082ea4530164306f7140db14b7eacde09fe4e129a055df5d7797"
 
 [[files]]
 file = "global_packs/required_resources/airborn-exploration/assets/minecraft/textures/gui/title/background/panorama_1.png"
-hash = "9889e3e25a70924db24aea5fb43d12ef2ee1ca5073d0b3502360f306eb2be5c7"
+hash = "eb38e6417c8196a7dcf0efd8d36e5379d35a5ada780fe1ced5621fb97042fa29"
 
 [[files]]
 file = "global_packs/required_resources/airborn-exploration/assets/minecraft/textures/gui/title/background/panorama_2.png"
-hash = "8bcd832a4a0e7aa0a53a6d40c16098308b28d0e03f19bcda99e86fd499de27c1"
+hash = "487621f51a9254a64d602f0cec2abeba0ce9c6e6b68c6d0e669012c984e94196"
 
 [[files]]
 file = "global_packs/required_resources/airborn-exploration/assets/minecraft/textures/gui/title/background/panorama_3.png"
-hash = "6a189433dcd938823acba0a1868257f427395ae230c38019e8d4e55c26f081fa"
+hash = "133b1be89da51075e07e8cffe2e70ee0ffce45f55b0c95dcd54fbe51e1e3abfc"
 
 [[files]]
 file = "global_packs/required_resources/airborn-exploration/assets/minecraft/textures/gui/title/background/panorama_4.png"
-hash = "59f356e695ebc5185929e33724a35d0a9dd67afe73b7590c777c4ffa2c183b45"
+hash = "73dd9b1baadecb7f27d4c0f609989d82f36f17e931d9b2c6c2f5512905d31ef8"
 
 [[files]]
 file = "global_packs/required_resources/airborn-exploration/assets/minecraft/textures/gui/title/background/panorama_5.png"
-hash = "9f5cdc87e65654709bb50123a7d3554bb6636cb2f8145e9a53a652a18aad4c4e"
+hash = "7014d48f2927f2122fabfebaaa1c06bd1a89b4db36dc9e910f32a6ea8962e88e"
 
 [[files]]
 file = "global_packs/required_resources/airborn-exploration/pack.mcmeta"
