@@ -1043,15 +1043,11 @@ hash = "4da432b7a8edf1a6f6ce6efeaf580873fad8accde37b1e8e78b5d6d18633e941"
 
 [[files]]
 file = "kubejs/server_scripts/main.js"
-hash = "c694f0326ed0436571e3618cfe48a6927f38bd807bfe069557de1d14cc2b06aa"
-
-[[files]]
-file = "kubejs/server_scripts/sable_physics.js"
-hash = "7148e0de8357e3dc52834401783317943932e0bd51d793349dd891af8a25aac0"
+hash = "ba299748083c6c2a8ce875d1900c491cc90702ada18dfd6e8b492364a7d73185"
 
 [[files]]
 file = "kubejs/startup_scripts/main.js"
-hash = "23c727c9a1c86ec6f4e8d5442a23c845621d16430fef2717e92458554e236322"
+hash = "062ab769d6a66f555251d36621e62372526aa95073322cb7cf7d925364478430"
 
 [[files]]
 file = "mods/accessories-compat-layer.pw.toml"
