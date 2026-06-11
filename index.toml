@@ -293,6 +293,18 @@ file = "config/emixx/groups/simulated_portable_engine.json"
 hash = "bbb787a80dd1079ea3abca2ef317f6988519a5465b16341063aa4fd3e8666af4"
 
 [[files]]
+file = "config/fancymenu/custom_gui_screens.txt"
+hash = "ff492043eaf454c46e949d5eef32ece90cc5a19feb50a161dd29a43b5732c880"
+
+[[files]]
+file = "config/fancymenu/customizablemenus.txt"
+hash = "9f0ada5a7f0193d2d717d1c1736f545f5235c2597213731493b97488617ebbf2"
+
+[[files]]
+file = "config/fancymenu/customization/title_screen_layout.txt"
+hash = "4b7c28a3ce6f13fa4a92a9aa4a35f0bbcb7ff7a6351298be90c3f5f6344bdb76"
+
+[[files]]
 file = "config/farmersdelight-client.toml"
 hash = "d649d9c3ea4c808b2e23833375e8145c58e3e1ae04857e46a8346e89e8fd1f05"
 
@@ -499,6 +511,14 @@ hash = "7b24c882801bcc7f0a8aedc625d419f661fa490fa0e9d5ebe39599a1ce2dcbd5"
 [[files]]
 file = "configureddefaults/options.txt"
 hash = "de22b114b94712333845894fe111e8b7b02df6acf9a7556506c6b8c3d51587de"
+
+[[files]]
+file = "global_packs/required_resources/airborn-title/assets/airborn_exploration/textures/gui/logo.png"
+hash = "d1e4cdea1f9c2e2716ff0ffb8226551b06fa3ed5c92e7bf56d7f2326095d4363"
+
+[[files]]
+file = "global_packs/required_resources/airborn-title/pack.mcmeta"
+hash = "3ebb559290cd50325768c176c19593cff2726a2bbea4ea6ce6d3219838709a47"
 
 [[files]]
 file = "kubejs/assets/ccc.pw.toml"
@@ -1349,6 +1369,11 @@ hash = "590437e0f344c87791842b791a400e95ffd4154f02a04c2d8d78b43a76c659ad"
 metafile = true
 
 [[files]]
+file = "mods/fancymenu.pw.toml"
+hash = "f9398de9ed43f360533cd4a58763a48ccc0674ab7943401e297d1f4a58e775e7"
+metafile = true
+
+[[files]]
 file = "mods/farmers-delight.pw.toml"
 hash = "9aab64fbec4cc794817026caf84e7d0dff14ba3892da94aa0e00d23c84560499"
 metafile = true
@@ -1371,6 +1396,11 @@ metafile = true
 [[files]]
 file = "mods/freecam.pw.toml"
 hash = "184c6768f11e0c33c22c104397ad559c5b9337c709d1d05c8e9c93891dcddaee"
+metafile = true
+
+[[files]]
+file = "mods/globalpacks.pw.toml"
+hash = "a7f2ae8ea415e95ce1a3518b66edcaf124d8903ff9101d07331f7fec92b3400f"
 metafile = true
 
 [[files]]
@@ -1406,6 +1436,11 @@ metafile = true
 [[files]]
 file = "mods/jei.pw.toml"
 hash = "5367193d3f87b7bc5a81bcd64a5b96a843e76d4df7a83c8bb7e1911aa82dd52e"
+metafile = true
+
+[[files]]
+file = "mods/konkrete.pw.toml"
+hash = "054a1887da4f14b791910660a2a7a2035ac1382461b881a65fe07b224c03735f"
 metafile = true
 
 [[files]]
@@ -1456,6 +1491,11 @@ metafile = true
 [[files]]
 file = "mods/lootjs.pw.toml"
 hash = "e42581d8eb65aa947dcbe6edb71b2082e84f31936b01f131758395d88dabc919"
+metafile = true
+
+[[files]]
+file = "mods/melody.pw.toml"
+hash = "9dff522b00f5269538d0351536f34b22384996de30be454ef1369f1b1e5c1aeb"
 metafile = true
 
 [[files]]
