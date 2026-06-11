@@ -2,3 +2,7 @@
 .gitattributes
 README.md
 .github/
+flake.nix
+flake.lock
+.envrc
+.direnv/

@@ -3,10 +3,7 @@
   "includeList": [],
   "includeListInSuperCategory": true,
   "excludeMode": "ONLY",
-  "excludeList": [
-    "minecraft:glow_item_frame",
-    "minecraft:item_frame"
-  ],
+  "excludeList": ["minecraft:glow_item_frame", "minecraft:item_frame"],
   "name": "gui.xaero_entity_category_root",
   "protection": true,
   "settingOverrides": {
@@ -32,9 +29,7 @@
       "includeList": [],
       "includeListInSuperCategory": true,
       "excludeMode": "ONLY",
-      "excludeList": [
-        "minecraft:armor_stand"
-      ],
+      "excludeList": ["minecraft:armor_stand"],
       "name": "gui.xaero_entity_category_living",
       "protection": true,
       "settingOverrides": {

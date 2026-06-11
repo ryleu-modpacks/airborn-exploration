@@ -3,7 +3,7 @@
 
   "properties": {
     "sable:floating_material": "sable:end_stone",
-	"sable:floating_scale": 0.5,
-	"sable:mass": 0.5
+    "sable:floating_scale": 0.5,
+    "sable:mass": 0.5
   }
 }
