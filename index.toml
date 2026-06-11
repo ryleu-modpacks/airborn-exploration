@@ -477,6 +477,10 @@ file = "configureddefaults/config/aether/aether_customizations.txt"
 hash = "113f7dfc56b7b2efdc782e45356c87c47174bb76dc34dcef24ca2ec32c7908e1"
 
 [[files]]
+file = "configureddefaults/config/figura.json"
+hash = "4c41984587658bee6d881af99f64458a58edf4d9a8665f5d2be5bffd43a100c2"
+
+[[files]]
 file = "configureddefaults/config/sable_xaero_bridge-client.toml"
 hash = "2b850f2bd88e6f51d583ac7941c4916340e439b1a9f1232029595d667ba65b25"
 
