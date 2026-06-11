@@ -305,6 +305,10 @@ file = "config/fancymenu/customization/title_screen_layout.txt"
 hash = "4b7c28a3ce6f13fa4a92a9aa4a35f0bbcb7ff7a6351298be90c3f5f6344bdb76"
 
 [[files]]
+file = "config/fancymenu/options.txt"
+hash = "077f1619330d9214c73346382992303ebb2b85fd02f988dd36a83ce29ac32731"
+
+[[files]]
 file = "config/farmersdelight-client.toml"
 hash = "d649d9c3ea4c808b2e23833375e8145c58e3e1ae04857e46a8346e89e8fd1f05"
 
@@ -498,7 +502,11 @@ hash = "a4c13e76500473fe8d555225022542d0ef89708c3d885e233dca15f91e437774"
 
 [[files]]
 file = "configureddefaults/config/xaero/minimap/profiles/default.cfg"
-hash = "db49c4dde15db318eb25e8a43fa06992778f0e17b3a963fff5cbee35da11fb81"
+hash = "22dd7f25bd75f24f54080249a7ecb52668fa62af4733a788d2ec747c7474a9d0"
+
+[[files]]
+file = "configureddefaults/config/xaero/minimap/profiles/entity_radar_categories/default.cfg.json"
+hash = "8ec85ecdff2a7b60389a80cbffa420876fcf83b3a72120e3564076da50dc3fca"
 
 [[files]]
 file = "configureddefaults/config/xaero/minimap/profiles/info_display_config/default.cfg.txt"
@@ -519,6 +527,30 @@ hash = "de22b114b94712333845894fe111e8b7b02df6acf9a7556506c6b8c3d51587de"
 [[files]]
 file = "global_packs/required_resources/airborn-exploration/assets/airborn_exploration/textures/gui/logo.png"
 hash = "d1e4cdea1f9c2e2716ff0ffb8226551b06fa3ed5c92e7bf56d7f2326095d4363"
+
+[[files]]
+file = "global_packs/required_resources/airborn-exploration/assets/minecraft/textures/gui/title/background/panorama_0.png"
+hash = "d9e27589b2d2f3911348c4217053249c8c50fd5576f6448d9c85fafc0aba8d5b"
+
+[[files]]
+file = "global_packs/required_resources/airborn-exploration/assets/minecraft/textures/gui/title/background/panorama_1.png"
+hash = "9889e3e25a70924db24aea5fb43d12ef2ee1ca5073d0b3502360f306eb2be5c7"
+
+[[files]]
+file = "global_packs/required_resources/airborn-exploration/assets/minecraft/textures/gui/title/background/panorama_2.png"
+hash = "8bcd832a4a0e7aa0a53a6d40c16098308b28d0e03f19bcda99e86fd499de27c1"
+
+[[files]]
+file = "global_packs/required_resources/airborn-exploration/assets/minecraft/textures/gui/title/background/panorama_3.png"
+hash = "6a189433dcd938823acba0a1868257f427395ae230c38019e8d4e55c26f081fa"
+
+[[files]]
+file = "global_packs/required_resources/airborn-exploration/assets/minecraft/textures/gui/title/background/panorama_4.png"
+hash = "59f356e695ebc5185929e33724a35d0a9dd67afe73b7590c777c4ffa2c183b45"
+
+[[files]]
+file = "global_packs/required_resources/airborn-exploration/assets/minecraft/textures/gui/title/background/panorama_5.png"
+hash = "9f5cdc87e65654709bb50123a7d3554bb6636cb2f8145e9a53a652a18aad4c4e"
 
 [[files]]
 file = "global_packs/required_resources/airborn-exploration/pack.mcmeta"
