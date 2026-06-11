@@ -93,6 +93,410 @@ file = "config/tectonic.json"
 hash = "2c962da1b5acbd6534932967d0cd6f7d304bca10808fb7ef481f5d31c289a2f8"
 
 [[files]]
+file = "configureddefaults/config/Advancedperipherals/general.toml"
+hash = "b066928d8192c178df0e5992a61063f8bf3ddee90c35d2bbfb078f558b9ec40d"
+
+[[files]]
+file = "configureddefaults/config/Advancedperipherals/metaphysics.toml"
+hash = "39ab4ab00bd9486c935d66456579089574955842b1676d98c5bfba9b75c28163"
+
+[[files]]
+file = "configureddefaults/config/Advancedperipherals/peripherals.toml"
+hash = "b24cdd30d83d6a0be3b311765903a1e6f0d7b5115d8be261b9c2ac43dc8463bf"
+
+[[files]]
+file = "configureddefaults/config/Advancedperipherals/world.toml"
+hash = "43476a2db03f3d8eb55d49ebbcdd8beddee9c7113bae2f2c520b86b4f3ff1355"
+
+[[files]]
+file = "configureddefaults/config/DistantHorizons.toml"
+hash = "45141f1533b3a927561124f9043cfe2ead7ba2cadbb33d6e2a416caa416ae537"
+
+[[files]]
+file = "configureddefaults/config/accessories.json5"
+hash = "ff022e02369fe7d87db4eda00e38ea723e9867b200cb2f56bc25cec5db1d58c7"
+
+[[files]]
+file = "configureddefaults/config/aeroadditionbridge-common.toml"
+hash = "8d4010ba2ec742a45714b69def8da40d25e31db3cd670573047f541dcd96f8fe"
+
+[[files]]
+file = "configureddefaults/config/aeroblender-common.toml"
+hash = "fecdd9988a6f8f2d08ebaefa6889b71dbbbb432f2c8d15f8d5945eae0f28d28c"
+
+[[files]]
+file = "configureddefaults/config/aeronautics-server.toml"
+hash = "733a50c4a935c18257572c88cf0df06e85978671930984248d4dac1ffdfb6b19"
+
+[[files]]
+file = "configureddefaults/config/aeronautics_utility_objects-server.toml"
+hash = "c16f2363ae6500501d83bf53da22ef81c4c69eb82bda7ad68a264d0f09adf9b2"
+
+[[files]]
+file = "configureddefaults/config/aether-common.toml"
+hash = "5e22b88f6fa43a4238a8846078695d962fdc96526a5e946ae0b2cf94a617c695"
+
+[[files]]
+file = "configureddefaults/config/aether-server.toml"
+hash = "578abca7702fcecdb39845a7043f6ec1c504f153f6d3b4af45daedb29df931de"
+
+[[files]]
+file = "configureddefaults/config/aether-startup.toml"
+hash = "432879e99cd2acb05c86479487b28bca59d00ed4b1451cefffddb5c96fc155b9"
+
+[[files]]
+file = "configureddefaults/config/aether/aether_customizations.txt"
+hash = "113f7dfc56b7b2efdc782e45356c87c47174bb76dc34dcef24ca2ec32c7908e1"
+
+[[files]]
+file = "configureddefaults/config/aethersdelight-common.toml"
+hash = "d640c77b9cbb56c6ca4bd3bf4194ad5fa6dd3572cd22934e29c547d9d8942632"
+
+[[files]]
+file = "configureddefaults/config/all_with_you-server.toml"
+hash = "74bbd56a16175ba29a8df1048c467b316c3137c4b5f5c7c912ef15c78aa7ed20"
+
+[[files]]
+file = "configureddefaults/config/almanac-common.toml"
+hash = "60804e0ec79a4117e82b9a4c8506077e916a5dc1a0f9bd7eebea977cce9b6a94"
+
+[[files]]
+file = "configureddefaults/config/bclib/client.json"
+hash = "22e476770259c7f945962f96607db367ab3e4c694b7bc6b1e17e9e5cd60c93a3"
+
+[[files]]
+file = "configureddefaults/config/bclib/main.json"
+hash = "cb8a9cf255848cb68f00eadbaf83d5d2e62a1b21f265c46df9f09818107b5538"
+
+[[files]]
+file = "configureddefaults/config/betterend/client.json"
+hash = "6f21620779a58e70427597c3b96b9fcd9dd26e0a66b4a14532e4a547010a5924"
+
+[[files]]
+file = "configureddefaults/config/betterend/generator.json"
+hash = "8ba630cdcd27724d9e17358bae308052301b269d540cee30944b51c9b6cb7391"
+
+[[files]]
+file = "configureddefaults/config/betterend/portals.json"
+hash = "c0900ca41e9721a30bf49f00762f9fb80367908cd668d5c32ab2816e61ff51d7"
+
+[[files]]
+file = "configureddefaults/config/bits_n_bobs-common.toml"
+hash = "07d43b2d02e4d8e6588736973af399ac1ff0e30a3855bb9cc1ef89fdf646f9e4"
+
+[[files]]
+file = "configureddefaults/config/bits_n_bobs-server.toml"
+hash = "4478eae9b70774b0568c09c758e63ebd37b1579c80ca88804498f7129c69f2f4"
+
+[[files]]
+file = "configureddefaults/config/brewinandchewin-common.toml"
+hash = "cf7e8f3ae75a942e0c8b62f14fa68df3963b47c9c38895c2d7ba59c2bcb079ab"
+
+[[files]]
+file = "configureddefaults/config/c2me.toml"
+hash = "4afed71a821207e144885b9dce4199ac9f0c7182222e6992637b3b38f712ec8e"
+
+[[files]]
+file = "configureddefaults/config/cable_facades-common.toml"
+hash = "2769299fdeb4f5bf45a687bacf41704899b58ba83f66430b7135b08dcf78ec4d"
+
+[[files]]
+file = "configureddefaults/config/cbc_equally_opposite-common.toml"
+hash = "3387eac1f57b95c5fe758df8005a065c54d2f174efd0b921679891f3e583eb1d"
+
+[[files]]
+file = "configureddefaults/config/climbable_ropes-server.toml"
+hash = "f72f094ea3c2af730edcadf11e4d883ec348acae5dfff66984ca3bc19a7d4bf2"
+
+[[files]]
+file = "configureddefaults/config/comforts-common.toml"
+hash = "d1ff6e8f5aa2b77d6708b9d4a566d2de96e6f1ec594139742162b1dfdf92c476"
+
+[[files]]
+file = "configureddefaults/config/comforts-server.toml"
+hash = "00097d03bb5a4016c869695ecce545a38391c7089d8bd9f80cd6feccbae9738e"
+
+[[files]]
+file = "configureddefaults/config/computercraft-server.toml"
+hash = "7ba770f3612ebf571a4f18191a3151f16f97102251475f2bbf63c6d0a6d4f12d"
+
+[[files]]
+file = "configureddefaults/config/copycats-common.toml"
+hash = "14818ac4ed5c487630e917c6bcbb986b6dfad26357111cdb4619ad5456b3a46e"
+
+[[files]]
+file = "configureddefaults/config/copycats-server.toml"
+hash = "dac18a20718319d6556a7b2709d8f7a64b5da718d2b05ab9d32604087860322a"
+
+[[files]]
+file = "configureddefaults/config/corn_delight-common.toml"
+hash = "fe6b577161d585acdd2650ce9b475e2ae2ff93fa0af13e322d019512eaea6125"
+
+[[files]]
+file = "configureddefaults/config/create-common.toml"
+hash = "1c632f62c30f4e1223669267196d2ff1a2c03e400bf565ff4fe81e20c7cd2bdf"
+
+[[files]]
+file = "configureddefaults/config/create-server.toml"
+hash = "f1a3edd31cdcf2b602b7d51d1fe8ba5e88d6403580ba382ba4cbfab1ecb3a365"
+
+[[files]]
+file = "configureddefaults/config/create_connected-server.toml"
+hash = "97ab42f2c742b3dcd16fd05ed590654da629f223d0f15eb544dcc4026b1508fb"
+
+[[files]]
+file = "configureddefaults/config/create_new_age-common.toml"
+hash = "c55dbf07a7ba940e2d7358cb548fa27a99b12919fec262413629b91bdfc25079"
+
+[[files]]
+file = "configureddefaults/config/create_radar-server.toml"
+hash = "b7c2eb9ea43200be3c3837f948f697ee7d096b9564bb89d4552d5ca18db86c40"
+
+[[files]]
+file = "configureddefaults/config/create_structures_arise-server.toml"
+hash = "4982dc491e521afb0ccc0f1bc0dc6d7bad3ebaaf905d8416c7aa743ec5e0e959"
+
+[[files]]
+file = "configureddefaults/config/createaddition-common.toml"
+hash = "a9ac73605dc02f11a5e5a059f44e15e389d5e16d98b6bfbebaac22cff42891d4"
+
+[[files]]
+file = "configureddefaults/config/createbigcannons-server.toml"
+hash = "ed1f99827104bc23ebb8b1fbaa42dd7c298cbd0ac7c7068a115bb8247ffc1e01"
+
+[[files]]
+file = "configureddefaults/config/createcasing-common.toml"
+hash = "0c1dad6864554697f9dc917727b5585f7540709daba7e4d946460ed504bffad1"
+
+[[files]]
+file = "configureddefaults/config/createdieselgenerators-common.toml"
+hash = "be7551d5b0d7f454c5fb33539429e3a389343f80eb2af6de95bde442a13b9c92"
+
+[[files]]
+file = "configureddefaults/config/createdieselgenerators-server.toml"
+hash = "674cc1290b257251ed29107ce56e5059152ee7f75f8d13d5739d61a34db58486"
+
+[[files]]
+file = "configureddefaults/config/createdynlight-server.toml"
+hash = "392d9a004db43fd218a0aeb0a22a0daebdd21d2d06acfcab0cb6580ebc6b6f08"
+
+[[files]]
+file = "configureddefaults/config/ctov-common.toml"
+hash = "0c2bfe4c04c4f7136c4f924b66dc291c36efdb3ed9d47634872701fbe76f28c6"
+
+[[files]]
+file = "configureddefaults/config/curios-common.toml"
+hash = "16c71790deac2bbdea0099e39cdf8eb47b3dd7ef6337b69ba9fce793a1bf9674"
+
+[[files]]
+file = "configureddefaults/config/curios-server.toml"
+hash = "3c34cf9f7918c6a9ec15b14a87aa4570a751c1688f8ac01cb2e9acfb9392a734"
+
+[[files]]
+file = "configureddefaults/config/deep_aether-common.toml"
+hash = "aa1c8dc84cd25550d6cc838af70b69ccc3be365d9b2260be35cd1582a9cf8641"
+
+[[files]]
+file = "configureddefaults/config/deep_aether-server.toml"
+hash = "8b71ff0aff449b243eeeed2600d01fb3bf6409950cf5823c87be4434292af0a5"
+
+[[files]]
+file = "configureddefaults/config/eclipticseasons-common.toml"
+hash = "539255e7f81451df4288c855c231f42287976ab159dc8984705632ee078eff45"
+
+[[files]]
+file = "configureddefaults/config/eclipticseasons-mixins.toml"
+hash = "886abec6f2b5273b9f081750c3c7e6b0010c8b1def9fa1f6903a9a8e4ab0ab30"
+
+[[files]]
+file = "configureddefaults/config/eclipticseasons-startup.toml"
+hash = "f44cd2b65f10a28590cb64dd48341bc78f1c6ff85f903687aad40cc9c619b0c6"
+
+[[files]]
+file = "configureddefaults/config/farmersdelight-common.toml"
+hash = "1eecc5b541b94652f11619de138f2f958a71034e3466a7d7096f1b739060dce6"
+
+[[files]]
+file = "configureddefaults/config/ferritecore-mixin.toml"
+hash = "b6c85cb392f799ed932ffe8d6051f48a283a0df3f8674acf4f8d89341836e686"
+
+[[files]]
+file = "configureddefaults/config/fml.toml"
+hash = "ae54768733410adc27681c133e6879af43482b3e05dabd9ef25a13ed13ceb994"
+
+[[files]]
+file = "configureddefaults/config/gravestone-server.toml"
+hash = "746ced134e9f2bf1cf0ce28931028457d5cffa3fec6b2e3f5496d33786686d8a"
+
+[[files]]
+file = "configureddefaults/config/jei-server.toml"
+hash = "57d741871716e29b3a318b625e740d590598f001c362b6a4a95e3ee628c5cbc3"
+
+[[files]]
+file = "configureddefaults/config/lithostitched.json"
+hash = "d8a63933ec4757186a594debea59dd35724a0a895fe601b324f96217c28312df"
+
+[[files]]
+file = "configureddefaults/config/modernfix-common.toml"
+hash = "ee24e2b1bc100942a1c605f996255742cd6a5bb3662877aa906bc301100ccf27"
+
+[[files]]
+file = "configureddefaults/config/modernfix-mixins.properties"
+hash = "f7684457ca67d68a8df81e6f63b2f1bc6e3d9e3633ef60eef45c55d9c50d026a"
+
+[[files]]
+file = "configureddefaults/config/moonlight-common.toml"
+hash = "ce17e22174f8d796e792c87dbe7c2cff8360686edfb59080adf905e26df144ea"
+
+[[files]]
+file = "configureddefaults/config/mysterious_mountain_lib-common.toml"
+hash = "ac7e6050eb8acfbb88c7f0d638bb071e75cc58e9a4b0143846a12b255c3267f9"
+
+[[files]]
+file = "configureddefaults/config/neoforge-common.toml"
+hash = "e6f7578cf8c11ade0a47e36bf3863fc96f84cdf4bb679c0fceabb1e8a2f42399"
+
+[[files]]
+file = "configureddefaults/config/neoforge-server.toml"
+hash = "0f1415d7fef6d7f6194275501d500b633dd3310aea40d64128edd1b096372f60"
+
+[[files]]
+file = "configureddefaults/config/offroad-server.toml"
+hash = "7dda83d4436419564b495e65b4123ab8453eb926cdd8dabc526e41d3ace6bf40"
+
+[[files]]
+file = "configureddefaults/config/packetfixer.properties"
+hash = "8f4bf0e08ad3fda8acca969f78351ad0201ac7d5c67db286b478b9734400d5d5"
+
+[[files]]
+file = "configureddefaults/config/ritchiesprojectilelib-server.toml"
+hash = "0118936ae0375d6c318582b47e0cf631540ba683d4a5db25a3ca7f090eda54c1"
+
+[[files]]
+file = "configureddefaults/config/sable-common.toml"
+hash = "9a1ba0617b4544eb8bded0995de05f26837fdc53215453ccc58012b468ff9dde"
+
+[[files]]
+file = "configureddefaults/config/sable_xaero_bridge-client.toml"
+hash = "2b850f2bd88e6f51d583ac7941c4916340e439b1a9f1232029595d667ba65b25"
+
+[[files]]
+file = "configureddefaults/config/servercore/config.yml"
+hash = "9d763af7cc238e74eb606de162c50fc4a45205bd3901985f6992ca2ed17494d4"
+
+[[files]]
+file = "configureddefaults/config/servercore/optimizations.yml"
+hash = "63ba7034fdf1f45f1b40798d3212f8d838f7c299fbe5795075fbafe1e2265192"
+
+[[files]]
+file = "configureddefaults/config/simulated-server.toml"
+hash = "ad8b07f24d63fbb18d9e203600f5deca603d299283b464e051e4ea4adfd7d804"
+
+[[files]]
+file = "configureddefaults/config/sliceanddice-common.toml"
+hash = "2243b6025389c25e688c28231f4a68342da76f14d1d2da9e601c275203d6708f"
+
+[[files]]
+file = "configureddefaults/config/sodium-mixins.properties"
+hash = "b627c4456e6fa0bc4b5f85e2f1cd949faedae3cb9afdaf2a5f52e6f3b6ae1f01"
+
+[[files]]
+file = "configureddefaults/config/sparsestructures.json5"
+hash = "75a830a8a005a44bbc21b51066d54558f6dd1fa61960e9fedd173ade24913725"
+
+[[files]]
+file = "configureddefaults/config/terrablender.toml"
+hash = "499d188162ddcf7fcf450cdcdc96bd41ac582501ecad5ed4a74dd9ed6b01990a"
+
+[[files]]
+file = "configureddefaults/config/tinyredstone-server.toml"
+hash = "5a00c9c9a4a9f4407079324fc0295bddbf3f3c074a66c90d8f5176cbdc4b2916"
+
+[[files]]
+file = "configureddefaults/config/toms_peripherals-common.toml"
+hash = "b93eb71c64291e4dd148a0b8f2370615a70bf6aa395bb37a6da941ba78f8d04a"
+
+[[files]]
+file = "configureddefaults/config/toms_peripherals-server.toml"
+hash = "91689381d5151eac079c84334986a4c8417386c813c7295ccb30d3397dcd6d73"
+
+[[files]]
+file = "configureddefaults/config/toms_storage-common.toml"
+hash = "b54cd94393754928944a5705e3c3c783144efa6541231895482eb3e031834605"
+
+[[files]]
+file = "configureddefaults/config/toms_storage-server.toml"
+hash = "651be2527df4e2cfb49c9a93789b7aa2730e146745808bc1931b37db15a6d22f"
+
+[[files]]
+file = "configureddefaults/config/tracks-server.toml"
+hash = "e7d06e98aee80706a60a8e54887c8c37395103a98c33d03c86f986bb184dfe9f"
+
+[[files]]
+file = "configureddefaults/config/vanillabackport-common.toml"
+hash = "7fc838f9e0b822533dbcd0e7116d583af8fef0eed00d304b67d3d0ab6f9f1a2f"
+
+[[files]]
+file = "configureddefaults/config/veggiesdelight-common.toml"
+hash = "564a3ea9022d5d537ed51a3dbad56a5772ff4a5f90b90f2d3d920383b801d691"
+
+[[files]]
+file = "configureddefaults/config/vista-common.toml"
+hash = "9972cf467ff35750b21cb653e14e5f3458a67289fa9d3fbe05ed7fc6dc08938f"
+
+[[files]]
+file = "configureddefaults/config/waystones-common.toml"
+hash = "f72833762e4fc48b59d0071a6aedef1ec46b9e1c389ab9a524ea2d3158fd56f4"
+
+[[files]]
+file = "configureddefaults/config/wover/client.json"
+hash = "461d32718f2d4a4805233dfc646bf95fe8456f0b40c7a7a5b1764a59f2e7b510"
+
+[[files]]
+file = "configureddefaults/config/wover/main.json"
+hash = "cca432a261bebacbe40098a7c08597db7ece725b56cd5cc6ea3421f81116e3ea"
+
+[[files]]
+file = "configureddefaults/config/xaero/lib/client.cfg"
+hash = "43ed9dbfa5b4d6f0f3d2e8c2ced17ad298164b22c68ff11d415257a39b074336"
+
+[[files]]
+file = "configureddefaults/config/xaero/lib/common.cfg"
+hash = "98f698d96a6d21d830a455b4ad045b70516fa63c298021742d8499e7f0366cd2"
+
+[[files]]
+file = "configureddefaults/config/xaero/minimap/client.cfg"
+hash = "80c77d2c2882d29b5ae19be7588b19fd6e9ef6ef1a9b66feda121bde76943263"
+
+[[files]]
+file = "configureddefaults/config/xaero/minimap/common.cfg"
+hash = "2b49df024c03a369c62a303c72755e7fedeb4f4653ff53a12fd37bd83ccd4ed0"
+
+[[files]]
+file = "configureddefaults/config/xaero/minimap/default_radar_categories_client.json"
+hash = "a4c13e76500473fe8d555225022542d0ef89708c3d885e233dca15f91e437774"
+
+[[files]]
+file = "configureddefaults/config/xaero/minimap/profiles/default.cfg"
+hash = "db49c4dde15db318eb25e8a43fa06992778f0e17b3a963fff5cbee35da11fb81"
+
+[[files]]
+file = "configureddefaults/config/xaero/minimap/profiles/info_display_config/default.cfg.txt"
+hash = "184e654fa1fc8ad09943c97c4e65ab78acb5b3cfca22417a831513d1b6d9bbc6"
+
+[[files]]
+file = "configureddefaults/config/xaero/world-map/client.cfg"
+hash = "5becce9b6f4a7c83c4ffd6568562b81f613f14b9ea0455981478e42eb1aef1f5"
+
+[[files]]
+file = "configureddefaults/config/xaero/world-map/common.cfg"
+hash = "0c229eb0daf85bd09af51f21eeeb99497a3bd50a825d5ab1ca695fb21bf6cf9d"
+
+[[files]]
+file = "configureddefaults/config/xaero/world-map/profiles/default.cfg"
+hash = "7b24c882801bcc7f0a8aedc625d419f661fa490fa0e9d5ebe39599a1ce2dcbd5"
+
+[[files]]
 file = "kubejs/assets/ccc.pw.toml"
 hash = "eb32394b065f923d7ca504acb25e869f9fa08352e04c82f47d2ce77f861228f0"
 metafile = true
@@ -713,6 +1117,11 @@ metafile = true
 [[files]]
 file = "mods/comforts.pw.toml"
 hash = "36f2f6e74b7dbeccb504572d47006582207544fa234a095093b97adfc7ecd5ac"
+metafile = true
+
+[[files]]
+file = "mods/configured-defaults.pw.toml"
+hash = "edccf044df3d6519c3f8cb35e1044687d1b5bdc676fdce919d0844a4d2515685"
 metafile = true
 
 [[files]]
