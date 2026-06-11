@@ -513,12 +513,12 @@ file = "configureddefaults/options.txt"
 hash = "de22b114b94712333845894fe111e8b7b02df6acf9a7556506c6b8c3d51587de"
 
 [[files]]
-file = "global_packs/required_resources/airborn-title/assets/airborn_exploration/textures/gui/logo.png"
+file = "global_packs/required_resources/airborn-exploration/assets/airborn_exploration/textures/gui/logo.png"
 hash = "d1e4cdea1f9c2e2716ff0ffb8226551b06fa3ed5c92e7bf56d7f2326095d4363"
 
 [[files]]
-file = "global_packs/required_resources/airborn-title/pack.mcmeta"
-hash = "3ebb559290cd50325768c176c19593cff2726a2bbea4ea6ce6d3219838709a47"
+file = "global_packs/required_resources/airborn-exploration/pack.mcmeta"
+hash = "afc2f6567dfc6247ef2ce00b21672c6fb862443828d385d020a9da968f2b29da"
 
 [[files]]
 file = "kubejs/assets/ccc.pw.toml"
@@ -1007,7 +1007,7 @@ hash = "4888b836f3a67494bf2e1c98e08c7c10c5bc3def16cc9cfa24ea7d1ec2f45f3b"
 
 [[files]]
 file = "kubejs/server_scripts/main.js"
-hash = "0b3317823c9983c0020874e3f8fc545921f6cd004251d5b756b5940d1c915988"
+hash = "ba299748083c6c2a8ce875d1900c491cc90702ada18dfd6e8b492364a7d73185"
 
 [[files]]
 file = "kubejs/startup_scripts/main.js"
@@ -1186,6 +1186,11 @@ metafile = true
 [[files]]
 file = "mods/create-aeronautics-delivery-required.pw.toml"
 hash = "3249678012dd5bc27af549464569253986c315dcf8d9a10d1924ca053e61e2c4"
+metafile = true
+
+[[files]]
+file = "mods/create-aeronautics-toolgun.pw.toml"
+hash = "bc8e973498380bf0bbcfe26da585575097a9a9d168cba68e328e09e453d603e3"
 metafile = true
 
 [[files]]
