@@ -234,6 +234,7 @@ ServerEvents.recipes(event => {
     event.remove({id: 'farmersdelight:wheat_dough_from_wheat'}) // y no work?
     event.remove({output: 'corn_delight:cornbread_batter'})
     event.remove({output: 'corn_delight:creamy_corn_drink'}) // this isn't for dedup. I just think "corn drink" sounds gross
+    event.remove({mod: 'create_aeronautics_toolgun'})
 
     // Dyed Block/Item Recipes
     Color.DYE.forEach(color => {

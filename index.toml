@@ -579,7 +579,7 @@ hash = "4888b836f3a67494bf2e1c98e08c7c10c5bc3def16cc9cfa24ea7d1ec2f45f3b"
 
 [[files]]
 file = "kubejs/server_scripts/main.js"
-hash = "0b3317823c9983c0020874e3f8fc545921f6cd004251d5b756b5940d1c915988"
+hash = "ba299748083c6c2a8ce875d1900c491cc90702ada18dfd6e8b492364a7d73185"
 
 [[files]]
 file = "kubejs/startup_scripts/main.js"
@@ -743,6 +743,11 @@ metafile = true
 [[files]]
 file = "mods/create-aeronautics-delivery-required.pw.toml"
 hash = "3249678012dd5bc27af549464569253986c315dcf8d9a10d1924ca053e61e2c4"
+metafile = true
+
+[[files]]
+file = "mods/create-aeronautics-toolgun.pw.toml"
+hash = "bc8e973498380bf0bbcfe26da585575097a9a9d168cba68e328e09e453d603e3"
 metafile = true
 
 [[files]]
