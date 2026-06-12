@@ -1770,7 +1770,7 @@ metafile = true
 
 [[files]]
 file = "mods/ponder.pw.toml"
-hash = "5ead8d8bc26cdbe1a17dc055f7f0fe762a08254d0199d6ea8fcc58839ab274f2"
+hash = "279fac60372d5c4ca8b94727f744946fcda6a677f7cebd5afac5e58ddd08bc9a"
 metafile = true
 
 [[files]]
