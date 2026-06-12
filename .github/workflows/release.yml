@@ -43,8 +43,11 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           ASSET: ${{ steps.pack.outputs.slug }}.mrpack
-          TITLE: ${{ steps.pack.outputs.name }} ${{ steps.pack.outputs.version }}
-          NOTES: Modpack built from ${{ github.sha }}
+          TITLE: Latest
+          NOTES: |
+            Use the zip file in Prism Launcher for automatic updates.
+
+            Modpack built from ${{ github.sha }}
         run: |
           if gh release view latest --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
             gh release upload latest "$ASSET" --clobber --repo "$GITHUB_REPOSITORY"

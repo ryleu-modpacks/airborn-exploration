@@ -1,6 +1,9 @@
 ServerEvents.tags('item', event => {
     event.add('c:foods/milk', 'minecraft:milk_bucket')
     event.add('c:drinks/milk', 'aether:skyroot_milk_bucket')
+
+    event.add("create:upright_on_belt", "brewinandchewin:tankard")
+    event.add("create:upright_on_belt", "#brewinandchewin:fermented_drinks")
 })
 
 ServerEvents.recipes(event => {
