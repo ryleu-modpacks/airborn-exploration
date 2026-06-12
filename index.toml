@@ -182,11 +182,11 @@ hash = "0c1dad6864554697f9dc917727b5585f7540709daba7e4d946460ed504bffad1"
 
 [[files]]
 file = "config/createdeliveryrequired-contract-item-prices.toml"
-hash = "cec317905cf69e8bc88b5899c99d21f43981e2e90b12d69f247586e6aede394a"
+hash = "d9d079db730b7290b963a11ac009b9d35aa592b8f49a767e8da8f3488f720f7f"
 
 [[files]]
 file = "config/createdeliveryrequired-market-item-prices.toml"
-hash = "e1b929fb10a7d4b66a00b684f91c7f206db15f0a4b91420abfa24b50d8052f2f"
+hash = "9f1a151ecd2720c1df2ab1a2d57b3753c284375cdc3109c688c5121974813a38"
 
 [[files]]
 file = "config/createdeliveryrequired-server.toml"

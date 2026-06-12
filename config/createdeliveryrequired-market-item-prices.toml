@@ -64,6 +64,12 @@
 "farmersdelight:cabbage" = 2
 "farmersdelight:onion" = 2
 "farmersdelight:rice" = 2
+"aethersdelight:ginger" = 4
+"aethersdelight:parsnip" = 4
+"aethersdelight:leek" = 4
+"aethersdelight:peppermint_leaf" = 4
+"aether:blue_berry" = 4
+"aether:enchanted_berry" = 6
 "corn_delight:corn" = 2
 "veggiesdelight:bellpepper" = 2
 "veggiesdelight:broccoli" = 2
@@ -81,6 +87,12 @@
 "farmersdelight:cabbage_crate" = 18
 "farmersdelight:onion_crate" = 18
 "farmersdelight:rice_bag" = 18
+"aethersdelight:ginger_crate" = 36
+"aethersdelight:parsnip_crate" = 36
+"aethersdelight:leek_crate" = 36
+"aethersdelight:peppermint_leaf_bag" = 36
+"aethersdelight:blue_berry_crate" = 36
+"aethersdelight:enchanted_berry_crate" = 54
 "corn_delight:corn_crate" = 18
 "veggiesdelight:bellpepper_crate" = 18
 "veggiesdelight:broccoli_crate" = 18
