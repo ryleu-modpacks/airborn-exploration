@@ -1,0 +1,287 @@
+[general]
+	#Whether cannons mounted on Sable sublevels should apply recoil impulses when fired.
+	disableRecoil = false
+	#Whether projectiles should apply impact impulses when striking Sable sublevels.
+	disableImpact = false
+	#Whether escaping muzzle gases apply forces and potentially damage to entities and Sable sublevels caught within a cannon blast.
+	disableMuzzleBlast = false
+	#Logs the details of recoil and impact events
+	debugImpulses = false
+
+[units]
+	#Converts SI impulse in kg*m/s or N*s into Sable impulse units. Default assumes 4 Sable kpg = 7873 kg (based off of the iron block kpg weight vs irl weight), so scale = 4 / 7873.
+	# Default: 5.080655404547187E-4
+	# Range: 0.0 ~ 1.7976931348623157E308
+	impulseScale = 5.080655404547187E-4
+
+[recoil]
+	#Multiplier for projectile momentum in the recoil equation.
+	# Default: 1.0
+	# Range: 0.0 ~ 1000.0
+	projectileMomentumMultiplier = 1.0
+	#Multiplier for propellant gas momentum when Going Ballistic data or fallback gas impulse is used.
+	# Default: 1.0
+	# Range: 0.0 ~ 1000.0
+	gasMomentumMultiplier = 1.0
+	#Effective propellant gas velocity as a multiple of projectile velocity.
+	# Default: 1.25
+	# Range: 0.0 ~ 1000.0
+	gasVelocityMultiplier = 1.25
+	#Distance behind the projectile spawn point where recoil is applied. This approximates the breech position.
+	# Default: 1.0
+	# Range: 0.0 ~ 16.0
+	recoilApplicationOffsetBlocks = 1.0
+	#Additional recoil application ticks per powder charge equivalent, approximating propellant vent time.
+	# Default: 1.0
+	# Range: 0.0 ~ 100.0
+	recoilVentTicksPerCharge = 1.0
+
+[baseCbcFallbacks]
+	#Fallback projectile mass for base cannon recoil when Going Ballistic is absent.
+	# Default: 3000.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	baseCannonProjectileMass = 3000.0
+	#Fallback projectile mass for base autocannon recoil when Going Ballistic is absent.
+	# Default: 33.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	baseAutocannonProjectileMass = 33.0
+	#Fallback cannon gas impulse in N*s.
+	# Default: 50000.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	baseCannonGasImpulse = 50000.0
+	#Fallback autocannon gas impulse in N*s.
+	# Default: 750.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	baseAutocannonGasImpulse = 750.0
+
+[impact]
+	#Fraction of projectile momentum transferred to the hit sublevel.
+	# Default: 0.65
+	# Range: 0.0 ~ 1000.0
+	impactEfficiency = 0.65
+	#Multiplier applied to lost-momentum impact impulse when the projectile penetrates.
+	# Default: 1.0
+	# Range: 0.0 ~ 1000.0
+	penetrationImpulseMultiplier = 1.0
+	#Fraction of projectile kinetic energy lost to plowing through each penetrated block before material scaling.
+	# Default: 0.08
+	# Range: 0.0 ~ 1.0
+	penetrationEnergyLossFraction = 0.08
+	#Effective velocity used to convert penetration energy loss into impulse: impulse = lostEnergy / transferVelocity.
+	# Default: 50.0
+	# Range: 0.001 ~ 1.7976931348623157E308
+	penetrationEnergyTransferVelocity = 50.0
+	#Multiplier applied to the energy-loss impulse before penetrationImpulseMultiplier and global impact clamps.
+	# Default: 1.0
+	# Range: 0.0 ~ 1000.0
+	penetrationEfficiency = 1.0
+	#Block destroy speed/hardness treated as a neutral material factor for penetration energy loss. Stone is about 1.5.
+	# Default: 1.5
+	# Range: 0.001 ~ 1.7976931348623157E308
+	penetrationHardnessReference = 1.5
+	#Exponent applied to block hardness scaling for penetration energy loss. 0 disables material scaling; 1 is linear hardness scaling.
+	# Default: 0.5
+	# Range: 0.0 ~ 8.0
+	penetrationMaterialExponent = 0.5
+	#Multiplier applied to impact impulse when the projectile stops, is destroyed, or shatters.
+	# Default: 1.0
+	# Range: 0.0 ~ 1000.0
+	destroyedImpulseMultiplier = 1.0
+	#Multiplier applied to lost-momentum impact impulse when the projectile bounces or ricochets.
+	# Default: 1.0
+	# Range: 0.0 ~ 1000.0
+	ricochetImpulseMultiplier = 1.0
+	#Fraction of the surface-normal velocity component retained and reversed by a ricochet.
+	# Default: 0.35
+	# Range: 0.0 ~ 2.0
+	ricochetNormalRestitution = 0.35
+	#Fraction of the surface-tangential velocity component retained by a ricochet.
+	# Default: 0.85
+	# Range: 0.0 ~ 2.0
+	ricochetTangentialRetention = 0.85
+	#Fraction of incoming projectile momentum assumed to remain in forward-moving fragments when the projectile shatters/is removed.
+	# Default: 0.25
+	# Range: 0.0 ~ 1.0
+	shatterMomentumRetention = 0.25
+
+[muzzleBlast]
+	#Half-angle of the big-cannon gas jet cone in degrees. Values outside a finite physical range cause the blast calculation to be skipped rather than capped.
+	# Default: 14.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	bigCannonHalfAngleDegrees = 14.0
+	#Half-angle of the autocannon gas jet cone in degrees. Values outside a finite physical range cause the blast calculation to be skipped rather than capped.
+	# Default: 7.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	autocannonHalfAngleDegrees = 7.0
+	#Radial jet profile exponent n in W=(n+1)/(pi*R^2)*(1-eta^2)^n.
+	# Default: 1.5
+	# Range: 0.0 ~ 1.7976931348623157E308
+	profileExponent = 1.5
+	#Fraction of local gas momentum density coupled into targets instead of flowing around them.
+	# Default: 0.25
+	# Range: 0.0 ~ 1.7976931348623157E308
+	momentumCoupling = 0.25
+	#Effective big-cannon bore radius used as the starting radius of the blast cone.
+	# Default: 0.25
+	# Range: 0.0 ~ 1.7976931348623157E308
+	bigCannonBoreRadiusMeters = 0.25
+	#Effective autocannon bore radius used as the starting radius of the blast cone.
+	# Default: 0.04
+	# Range: 0.0 ~ 1.7976931348623157E308
+	autocannonBoreRadiusMeters = 0.04
+	#Maximum distance ahead of the muzzle searched for blast targets. This is a computational search boundary, not a force clamp.
+	# Default: 16.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	calculationRangeBlocks = 16.0
+	#Fallback effective density for entities whose true mass is unknown. Entity mass = bounding-box volume * this density.
+	# Default: 110.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	entityEffectiveDensityKgPerBlock3 = 110.0
+	#Impulse-equivalent force dose in N*s per Minecraft damage point from muzzle blast loading.
+	# Default: 12000.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	forceDosePerDamage = 12000.0
+	#Pressure impulse in N*s/m^2 per Minecraft damage point. This makes close muzzle blast trauma scale with local gas momentum density.
+	# Default: 900.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	pressureImpulsePerDamage = 900.0
+	#Kinetic energy in joules transferred to an entity per Minecraft damage point from sudden blast acceleration.
+	# Default: 250.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	kineticEnergyPerDamage = 250.0
+	#Hot-gas heat dose in J/m^2 per Minecraft damage point before ignition/fire damage is considered.
+	# Default: 30000.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	thermalDosePerDamage = 30000.0
+	#Drag/transmittance coefficient for entities in muzzle gas. Larger values make entities absorb more of each gas packet and leave less wake behind them.
+	# Default: 1.1
+	# Range: 0.0 ~ 1.7976931348623157E308
+	entityDragCoefficient = 1.1
+	#Chemical energy of the propellant used for thermal muzzle blast calculations.
+	# Default: 3000000.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	powderSpecificEnergyJPerKg = 3000000.0
+	#Fraction of propellant chemical energy initially available as hot-gas thermal energy before projectile/gas kinetic losses.
+	# Default: 0.35
+	# Range: 0.0 ~ 1.7976931348623157E308
+	thermalEfficiency = 0.35
+	#Propellant-gas constant-pressure specific heat used for heat transfer.
+	# Default: 1050.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	gasCpJPerKgK = 1050.0
+	#Propellant-gas constant-volume specific heat used for gas temperature.
+	# Default: 750.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	gasCvJPerKgK = 750.0
+	#Ambient air temperature in kelvin for gas expansion/mixing.
+	# Default: 293.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	ambientTemperatureK = 293.0
+	#Target body/surface reference temperature in kelvin for heat-flow direction.
+	# Default: 310.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	bodyTemperatureK = 310.0
+	#Exponent for cooling by conical expansion/mixing: T = ambient + (T0-ambient)*(boreArea/jetArea)^exponent.
+	# Default: 0.55
+	# Range: 0.0 ~ 1.7976931348623157E308
+	temperatureMixingExponent = 0.55
+	#Fraction of hot gas sensible heat transferred into caught entities per gas tick.
+	# Default: 0.06
+	# Range: 0.0 ~ 1.7976931348623157E308
+	heatTransferEfficiency = 0.06
+	#Local gas temperature required before accumulated heat dose can ignite an entity.
+	# Default: 800.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	ignitionTemperatureK = 800.0
+	#Accumulated heat dose per square meter required before an entity ignites.
+	# Default: 20000.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	ignitionDoseJPerM2 = 20000.0
+	#Excess heat dose per square meter required to add one second of burning.
+	# Default: 10000.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	burnDosePerSecondJPerM2 = 10000.0
+	#Fraction of propellant thermal energy converted into the primary muzzle overpressure shockwave.
+	# Default: 0.08
+	# Range: 0.0 ~ 1.7976931348623157E308
+	shockEfficiency = 0.08
+	#Direct multiplier for muzzle shock pressure impulse and peak pressure after propellant-energy scaling. Use this to scale shockwave impulse per powder charge without changing blast range, heat, or gas-jet recoil.
+	# Default: 1.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	shockImpulseScale = 1.0
+	#Maximum path length searched by primary and reflected muzzle shock rays. This is a computational boundary, not a force clamp.
+	# Default: 20.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	shockRangeBlocks = 20.0
+	#Number of quasi-uniform spherical rays used to integrate the muzzle overpressure shockwave.
+	# Default: 384
+	# Range: > 1
+	shockRayCount = 384
+	#Extra energy weighting for shock rays traveling with the cannon axis. 0 is spherical; larger values emphasize the forward near-field muzzle blast.
+	# Default: 0.35
+	# Range: 0.0 ~ 1.7976931348623157E308
+	shockForwardBias = 0.35
+	#Air density used by the acoustic impulse relation E/A = I^2/(rho*c*tau).
+	# Default: 1.225
+	# Range: 0.0 ~ 1.7976931348623157E308
+	shockAirDensityKgPerM3 = 1.225
+	#Speed of sound used by the acoustic impulse relation E/A = I^2/(rho*c*tau).
+	# Default: 343.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	shockSoundSpeedMps = 343.0
+	#Duration of the initial positive overpressure phase in seconds for pressure and damage calculations.
+	# Default: 0.004
+	# Range: 0.0 ~ 1.7976931348623157E308
+	shockPositivePhaseSeconds = 0.004
+	#Shock pressure impulse in Pa*s per Minecraft damage point.
+	# Default: 120.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	shockPressureImpulsePerDamage = 120.0
+	#Shock peak overpressure in Pa per Minecraft damage point.
+	# Default: 80000.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	shockPeakPressurePerDamage = 80000.0
+	#Exponential reflection coefficient for solid blocks and sublevel block surfaces hit by the muzzle shock. Higher values reflect more shock energy.
+	# Default: 1.1
+	# Range: 0.0 ~ 1.7976931348623157E308
+	shockSolidReflectionCoefficient = 1.1
+	#Exponential absorption coefficient for entity bodies in the shockwave. Entities mostly transmit overpressure, but still absorb damaging momentum.
+	# Default: 0.12
+	# Range: 0.0 ~ 1.7976931348623157E308
+	shockEntityAbsorptionCoefficient = 0.12
+	#Exponential reflection coefficient for entity bodies in the shockwave. This lets entities reflect some overpressure without acting like solid walls.
+	# Default: 0.035
+	# Range: 0.0 ~ 1.7976931348623157E308
+	shockEntityReflectionCoefficient = 0.035
+	#Enables first-order image-source shock reflections when greater than 0. Higher-order recursive reflections are intentionally not simulated for performance.
+	# Default: 2
+	# Range: > 0
+	shockMaxReflections = 2
+	#Maximum number of image-source reflected shock emitters retained after the initial wall scan. Lower values greatly reduce enclosed-space lag spikes.
+	# Default: 48
+	# Range: > 0
+	shockMaxReflectionSources = 48
+	#Reflected shock sources below this fractional energy are discarded. This removes tiny reflection paths that cost CPU but have little gameplay effect.
+	# Default: 0.001
+	# Range: 0.0 ~ 1.7976931348623157E308
+	shockMinReflectionEnergyFraction = 0.001
+	#Maximum number of cached direct shock/sublevel surface contacts retained per cannon blast. Lower values reduce enclosed-space cost; higher values improve force distribution on complex hollow vehicles.
+	# Default: 96
+	# Range: > 0
+	shockMaxSubLevelSurfaceContacts = 96
+	#Maximum number of cached direct shock/sublevel surface contacts retained for any single sublevel body per cannon blast.
+	# Default: 16
+	# Range: > 0
+	shockMaxSubLevelContactsPerBody = 16
+	#Fraction of the positive shock energy represented by the trailing negative-pressure suction phase.
+	# Default: 0.3
+	# Range: 0.0 ~ 1.7976931348623157E308
+	shockNegativePhaseFraction = 0.3
+	#Ticks after the positive shock to apply the negative-pressure phase. If the gas blast ends sooner, it is applied on the final active blast tick.
+	# Default: 1
+	# Range: > 0
+	shockNegativePhaseDelayTicks = 1
+	#Negative pressure phase duration as a multiple of the positive phase duration. Longer duration lowers peak suction for the same phase energy.
+	# Default: 3.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	shockNegativePhaseDurationMultiplier = 3.0

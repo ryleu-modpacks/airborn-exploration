@@ -1,0 +1,23 @@
+["Backpack Settings"]
+	#Maximum capacity (weight) of the backpack. Vanilla bundle is 64. Default is 256 (4 stacks).
+	# Default: 256
+	# Range: 64 ~ 1024
+	backpackCapacity = 256
+	#Enable slowness effect when carrying too many heavy backpacks.
+	enableWeightPenalty = true
+	#First level penalty.
+	# Default: 2
+	# Range: 1 ~ 36
+	weight_1 = 2
+	#Second level penalty.
+	# Default: 4
+	# Range: 2 ~ 36
+	weight_2 = 4
+	#Third level penalty.
+	# Default: 6
+	# Range: 3 ~ 36
+	weight_3 = 6
+	#Fourth level penalty.
+	# Default: 8
+	# Range: 4 ~ 36
+	weight_4 = 8

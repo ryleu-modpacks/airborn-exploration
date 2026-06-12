@@ -1,0 +1,62 @@
+name: Release modpack
+
+on:
+  push:
+    branches: main
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: "stable"
+          cache: true
+
+      - name: Install packwiz
+        run: go install github.com/packwiz/packwiz@latest
+
+      - name: Read pack metadata
+        id: pack
+        run: |
+          name=$(sed -nE 's/^name = "(.*)"/\1/p' pack.toml)
+          version=$(sed -nE 's/^version = "(.*)"/\1/p' pack.toml)
+          slug=$(echo "$name" | tr '[:upper:] ' '[:lower:]-')
+          echo "name=$name" >> "$GITHUB_OUTPUT"
+          echo "version=$version" >> "$GITHUB_OUTPUT"
+          echo "slug=$slug" >> "$GITHUB_OUTPUT"
+
+      - name: Export Modrinth pack
+        run: |
+          "$HOME/go/bin/packwiz" modrinth export \
+            -o "${{ steps.pack.outputs.slug }}.mrpack"
+
+      - name: Publish latest release
+        if: ${{ !env.ACT }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ASSET: ${{ steps.pack.outputs.slug }}.mrpack
+          TITLE: ${{ steps.pack.outputs.name }} ${{ steps.pack.outputs.version }}
+          NOTES: Modpack built from ${{ github.sha }}
+        run: |
+          if gh release view latest --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            gh release upload latest "$ASSET" --clobber --repo "$GITHUB_REPOSITORY"
+            gh release edit latest \
+              --repo "$GITHUB_REPOSITORY" \
+              --title "$TITLE" \
+              --notes "$NOTES" \
+              --latest
+          else
+            gh release create latest "$ASSET" \
+              --repo "$GITHUB_REPOSITORY" \
+              --title "$TITLE" \
+              --notes "$NOTES" \
+              --latest
+          fi
