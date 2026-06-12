@@ -734,6 +734,10 @@ file = "kubejs/assets/kubejs/models/block/television_housing.json"
 hash = "91f5642454582caf2d9f8527d65097d6415608fa4e5c801d339e8069d734a497"
 
 [[files]]
+file = "kubejs/assets/kubejs/models/item/bourbon.json"
+hash = "6fc53931771855c1a606a91bfb5732c833d65554d93d15b36d6384ebc4c4d1df"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/block/magnetic_slurry_flow.png"
 hash = "533e3d3fba6bb7fdd2c3b9e099b0718caae4a33c808a913c3f9219a40838072c"
 
@@ -1195,7 +1199,7 @@ hash = "02c60b0d956a4e695dfc5568f997800c76153e3b3979e1eb3df9ddad2530a8c8"
 
 [[files]]
 file = "kubejs/server_scripts/food_integrations.js"
-hash = "ef0431e9f3efe276480833f8c8746fa7e3ba48bd1b949434689823af3c2e5cbf"
+hash = "a4e4982fac853f7f32541b83de6b6fe4f036e9e784c8e125425fb3f52fd45e14"
 
 [[files]]
 file = "kubejs/server_scripts/main.js"
