@@ -46,12 +46,6 @@ const dyeName = (color) => {
     return `${namespace}:${color}`
 }
 
-ServerEvents.tags('item', event => {
-    event.add('c:foods/milk', 'minecraft:milk_bucket')
-    event.add('c:drinks/milk', 'aether:skyroot_milk_bucket')
-    
-})
-
 ServerEvents.tags('block', event => {
 
     event.add('bits_n_bobs:nixie_boards', 'bits_n_bobs:nixie_board')

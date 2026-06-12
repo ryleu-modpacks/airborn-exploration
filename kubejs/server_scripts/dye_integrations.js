@@ -3,6 +3,8 @@ ServerEvents.tags("item", event => {
     event.add("minecraft:dyeable", "#computercraft:dyeable")
     
     Color.DYE.forEach(color => {
+        event.add("simulated:portable_engines", `simulated:${color}_portable_engine`)
+        event.add("dye_depot:dye_baskets", `dye_depot:${color}_dye_basket`)
         event.add("waystones:portstones", `waystones:${color}_portstone`)
         if (!isVanillaDye(color)) {
             event.add("bits_n_bobs:chairs", `bits_n_bobs:${color}_chair`)

@@ -1,3 +1,8 @@
+ServerEvents.tags('item', event => {
+    event.add('c:foods/milk', 'minecraft:milk_bucket')
+    event.add('c:drinks/milk', 'aether:skyroot_milk_bucket')
+})
+
 ServerEvents.recipes(event => {
     
     event.remove({output: "farmersdelight:wheat_dough"})

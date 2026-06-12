@@ -241,56 +241,200 @@ file = "config/emixx/emixx-client.toml"
 hash = "b19b524ccde9c3869966b22d358ba14d2b2575406101329c2c4530ef9f69b87e"
 
 [[files]]
-file = "config/emixx/groups/aeronautics_envelope.json"
-hash = "4cf8c805b54df6096d958582910a5420ec83d9752ba42d362a7c6b107f6cde34"
+file = "config/emixx/groups/aeronautics__envelope.json"
+hash = "fa941b977a76da13e59ff4d6aa9a39ccb28827c71931f052f4e02ae57158c4ed"
 
 [[files]]
-file = "config/emixx/groups/bits_n_bobs_chair.json"
-hash = "f66b4d90ac708fc1246955c5c2ecc529639ce6494d296544e41bd46b843ccef6"
+file = "config/emixx/groups/bits_n_bobs_chairs.json"
+hash = "fb3ccc7235a02a66cb37a8903f93ff7c65bf3d257b35f97b6e2e24085c1b9ee2"
 
 [[files]]
-file = "config/emixx/groups/create_casing.json"
-hash = "2bb461e2f73d5f8ca044874147c769b8b3eaeff73158f019622ce614f1413b15"
+file = "config/emixx/groups/c__concrete.json"
+hash = "618b4334f863a947b3eff9ff064d7d5148ec356b916db0053a8d3389e6e865e5"
+
+[[files]]
+file = "config/emixx/groups/create__adjustable_chain_gearshift.json"
+hash = "2c6fa78ed6104807011a16c4e986e38aebda49e64dc16c4855bd9fdab7069835"
+
+[[files]]
+file = "config/emixx/groups/create__automatic_clutch.json"
+hash = "92a696bdb8695603e51f49999ba564bea35b0f750fedc8a115ca6065b89a513b"
+
+[[files]]
+file = "config/emixx/groups/create__casing.json"
+hash = "ce18dd8c1080883ce8e29babe72c8bfe51371bc1737da6483959db0b69807e10"
+
+[[files]]
+file = "config/emixx/groups/create__chain_conveyor.json"
+hash = "97e9a302e2c51cca9fcccda0ad8f1ff1406aa84e1bce134b32b6db2ff475ad55"
+
+[[files]]
+file = "config/emixx/groups/create__clutch.json"
+hash = "9f837a42bbbf3990908d8e2ec03dc29ad7d82cde61410c9bee91422822741293"
+
+[[files]]
+file = "config/emixx/groups/create__cogwheel.json"
+hash = "0f025409dff00b03e47406551f5f2ec1d90a8f20a3ace085316c75ae0b3f25bd"
+
+[[files]]
+file = "config/emixx/groups/create__configurable_gearbox.json"
+hash = "8669cd9692007505511182f64010d74705071f9aebbf2bba9c8b717902b11886"
+
+[[files]]
+file = "config/emixx/groups/create__deployer.json"
+hash = "02c9e7ff0e1589c328ff4b76272c4578edba5fdb3c2859ce19ad95a32140446a"
+
+[[files]]
+file = "config/emixx/groups/create__depot.json"
+hash = "0e3f89c6f632e9e2b894574237a35c4adaf6c7597aeaec0d8f162f2947457cdb"
+
+[[files]]
+file = "config/emixx/groups/create__dyed_table_cloths.json"
+hash = "5f0c14684cd7d7b135a43a062034d757dfdec997b97679e6a19b4ec895bfe01c"
+
+[[files]]
+file = "config/emixx/groups/create__encased_chain_drive.json"
+hash = "2e1956f52a6c032fb6961b1bdf36a1a7aabc80dde6753a20e852275fce1284a4"
+
+[[files]]
+file = "config/emixx/groups/create__encased_fan.json"
+hash = "d2a74dbd3e0b48a249002778a51199c942bbd96859c0e6b62f66e26d4cdf7e37"
+
+[[files]]
+file = "config/emixx/groups/create__gearbox.json"
+hash = "40ed72769ae1176051d134cd15e75bf2e04e141f6ad428bf5fc1cc220ad3ad57"
+
+[[files]]
+file = "config/emixx/groups/create__gearshift.json"
+hash = "44fc69cb8dabb49dae09b8a7326ead2ab61fb30113521ceca630faf841ee28cd"
+
+[[files]]
+file = "config/emixx/groups/create__large_cogwheel.json"
+hash = "80bcc58f0ba48b6eb691d0ba6ea32b70eea6efa1493bc99203748b33aa9dd109"
+
+[[files]]
+file = "config/emixx/groups/create__mechanical_drill.json"
+hash = "d5e1d53f4f419e2cd9dc1ec3cdd730cc4ddddce95d17d17f41ede4374ac09d94"
+
+[[files]]
+file = "config/emixx/groups/create__mechanical_harvester.json"
+hash = "c93056fc647951ea4fe125f121b3088001425bab93c4d975ca36aa9405020824"
+
+[[files]]
+file = "config/emixx/groups/create__mechanical_plough.json"
+hash = "9101560863c2e2691cff0ced5bb07dfbf63bc6e827704d9cc1647b3f7c47cf3d"
+
+[[files]]
+file = "config/emixx/groups/create__mechanical_roller.json"
+hash = "b2c26fb83cf89543a344fe937a2787f6da39e272f5310a0d770b221daa7b8fc4"
+
+[[files]]
+file = "config/emixx/groups/create__mechanical_saw.json"
+hash = "949563a57e7bc37f301e17d354ac64fce13983d2a8156dd53e04127196e2db6a"
+
+[[files]]
+file = "config/emixx/groups/create__mixer.json"
+hash = "053af532606cc457a7a3b806590a05ebb7dad2a7542e66fc0dc7279488d48755"
+
+[[files]]
+file = "config/emixx/groups/create__portable_storage_interface.json"
+hash = "fc2d6daa1611bdfde50d3f370fd4f87b9ccdb31d0b7cd284dc30e331ad2869a7"
+
+[[files]]
+file = "config/emixx/groups/create__postboxes.json"
+hash = "0cc126393f27d984948d6c2768654d26525a0637a262593598684ae69504dbd0"
+
+[[files]]
+file = "config/emixx/groups/create__press.json"
+hash = "c4e3373ed725078d36faa7f2242090ff7d98c48e5e8db983222f128965776e6a"
+
+[[files]]
+file = "config/emixx/groups/create__seats.json"
+hash = "7b3ec62ffb18d70201cbaf44a5ca02c5d52c65cb102e8ca8d9d8da46dc0c24bb"
+
+[[files]]
+file = "config/emixx/groups/create__shaft.json"
+hash = "fbc23b9e3ffee67f10b947ac1518fe8e633b00c4c397bf2fc227d7bdc6032cfc"
+
+[[files]]
+file = "config/emixx/groups/create__toolboxes.json"
+hash = "903875c59172ee8531ed0f8aa6643b60167a425fed653bda0218b0ae3d2b409d"
+
+[[files]]
+file = "config/emixx/groups/create__valve_handles.json"
+hash = "705db42ebeafd1227bdf16a4d81f40fd72a3dbf7bf4c0201c137b28c3b0098b9"
 
 [[files]]
 file = "config/emixx/groups/create_chassis.json"
 hash = "9247a1a554db76d4b6ebda2ff41c47d600712be342f11e12c9db3f0c573ae989"
 
 [[files]]
-file = "config/emixx/groups/create_postbox.json"
-hash = "62d21b85425f6d39fcf95867bd5beb0c959b10de6a19c8a8d516c9b9f1a7f5c1"
+file = "config/emixx/groups/createdeco__placards.json"
+hash = "049f2907c8ab78b89b275842a89faec24001012d0bf639b1050ba857fa681029"
 
 [[files]]
-file = "config/emixx/groups/create_seat.json"
-hash = "25ed2a8caf52f68ad5786064e1351601170003a58b6219a1f6b7c2d55cadf43f"
+file = "config/emixx/groups/dye_depot__dye_baskets.json"
+hash = "eeedf2a8292a36a431379f2a54b5ea3140fc6df182bcb03b9b26299f87a351d3"
 
 [[files]]
-file = "config/emixx/groups/create_table_cloth.json"
-hash = "621ae4be1b7dec4de4c0432a7bb3cddbd40631b91f9e2a274dbc5007f7b84e8e"
+file = "config/emixx/groups/kubejs__frequency.json"
+hash = "96a693b3d7771130e3107e5010a3c11ee5fc39ca09ea0f729de2ccd90715c712"
 
 [[files]]
-file = "config/emixx/groups/create_toolbox.json"
-hash = "07b0295e14b2e2d1d23bda366a8734503aaf58c634417dfc0cb122aee423521c"
+file = "config/emixx/groups/minecraft__bundles.json"
+hash = "a80ed5e74a3ca5d4e7f4af4f7b7af997b8d44afc3554f93d53b596491b10aefd"
 
 [[files]]
-file = "config/emixx/groups/create_valve_handle.json"
-hash = "064026fd193a46a2764d7e17c9fbf00141f7a98087a2502346202d735c031036"
+file = "config/emixx/groups/minecraft__harnesses.json"
+hash = "264c9e1e36c86890ce07f501c738252e2d9e60fe032cbca0ec2a3e378de6a50a"
+
+[[files]]
+file = "config/emixx/groups/numismatics__cards.json"
+hash = "9547d7d0ecda044b14ebb1d03bbb404d8f7b67a7f1f3e6bbcee7dfcbbf5d3837"
+
+[[files]]
+file = "config/emixx/groups/numismatics__coins.json"
+hash = "ccbbf68395605576009f1fdf4964b8396a0c5dc25b0dfe6ca42cd8518d0b4469"
+
+[[files]]
+file = "config/emixx/groups/numismatics__id_cards.json"
+hash = "1a5425c5fcc8637ad566fa7ba950568e9482a5fddbf11f17828efa2362247c06"
 
 [[files]]
 file = "config/emixx/groups/offroad_tire.json"
 hash = "49652fc2facc898d264650a031931dd7af81d8b49cfb14e212b4dd97acb4f748"
 
 [[files]]
-file = "config/emixx/groups/simulated_handle.json"
-hash = "814b9764c0b00f122ed0e4db2cb1b4b6fbc9fd018fa166d328744653e5bb3df1"
+file = "config/emixx/groups/simulated__handle_variants.json"
+hash = "c28bc7a797db7815a97b96742db12d083638edb9543b62a966fa4c71e95adeef"
 
 [[files]]
-file = "config/emixx/groups/simulated_nameplate.json"
-hash = "7878f99094b1bc6a1ac7d3da5f88c31d38ed8988b11c34004f1a0e16da96b42b"
+file = "config/emixx/groups/simulated__nameplate_items.json"
+hash = "68dfcc2462c66ee3313c3fdda43ebade96ca6e14c28d367239da4204bccdaebc"
 
 [[files]]
-file = "config/emixx/groups/simulated_portable_engine.json"
-hash = "bbb787a80dd1079ea3abca2ef317f6988519a5465b16341063aa4fd3e8666af4"
+file = "config/emixx/groups/simulated__portable_engines.json"
+hash = "a8e8103bf03fa8da4e0930829c619850aee59f229246ae32406c925e02503f6b"
+
+[[files]]
+file = "config/emixx/groups/sliceanddice__slicer.json"
+hash = "544d800b48781129a5bc9417ac1e80f4332c5038bccf38efe38f86b8b02ac1be"
+
+[[files]]
+file = "config/emixx/groups/waystones__portstones.json"
+hash = "c455fe63e2297cd63273034e7a3ecfc2dbe21b98b718f35c9fd8422083cc3c75"
+
+[[files]]
+file = "config/emixx/groups/waystones__scrolls.json"
+hash = "17ca2b7e31728af6ccaf983f47941b637988bf8410a2509cfb21b6cf50d11c7e"
+
+[[files]]
+file = "config/emixx/groups/waystones__sharestones.json"
+hash = "4de282de5b3522987faa1e2faf180604f0ded8e4df1b4c48e6189a6711eb503a"
+
+[[files]]
+file = "config/emixx/groups/waystones__waystones.json"
+hash = "650fa64d2d496d3368fac720db4a0de276d757de69accf37b69a9f671b91deaf"
 
 [[files]]
 file = "config/fancymenu/custom_gui_screens.txt"
@@ -1042,20 +1186,24 @@ file = "kubejs/data/simulated/end_sea/the_aether.json"
 hash = "4da432b7a8edf1a6f6ce6efeaf580873fad8accde37b1e8e78b5d6d18633e941"
 
 [[files]]
+file = "kubejs/server_scripts/casing_tags.js"
+hash = "5580f3653f6599468fb0215fd7c1f17d926aafaeaeac34723fb7a69d5c793a8b"
+
+[[files]]
 file = "kubejs/server_scripts/dye_integrations.js"
-hash = "bbb888edcd13c421f71dafc0b721dc8e342cafb378c6782b91fc7efa2bc0da68"
+hash = "40c9d91d3b992031fe3abc9f3ac47cbcd3f88992a69165a818f41eaaabb27ee3"
 
 [[files]]
 file = "kubejs/server_scripts/food_integrations.js"
-hash = "4e747adf3f40e11d25bed6680a9ffc756b56b490bc9e9ff0c8dd478d32f8426c"
+hash = "ef0431e9f3efe276480833f8c8746fa7e3ba48bd1b949434689823af3c2e5cbf"
 
 [[files]]
 file = "kubejs/server_scripts/main.js"
-hash = "ae2b974fd8e0bd41bde949fc011b4d34d54b1c986b000162c5f3c35d4676855e"
+hash = "57b37f154d6d062d669bf7bb251ebdabc9cf3c7012dd2716ea22c4162bd81024"
 
 [[files]]
 file = "kubejs/server_scripts/sable_integrations.js"
-hash = "a27cd7d86e5734dec5e48becd5c88e99dfa4083121088633f410ab585a3b5beb"
+hash = "08aa7511c08549c39cfe25bb091f06460a646d4efd2e056df0a65ad28682db5b"
 
 [[files]]
 file = "kubejs/startup_scripts/main.js"
