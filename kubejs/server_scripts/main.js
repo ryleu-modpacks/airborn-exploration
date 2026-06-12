@@ -46,8 +46,13 @@ const dyeName = (color) => {
     return `${namespace}:${color}`
 }
 
+ServerEvents.tags("item", event => {
+    event.add("minecraft:doors", "copycats:copycat_iron_door")
+})
+
 ServerEvents.tags('block', event => {
 
+    event.add("minecraft:doors", "copycats:copycat_iron_door")
     event.add('bits_n_bobs:nixie_boards', 'bits_n_bobs:nixie_board')
 
     const overgrownEndStone = [
@@ -95,10 +100,23 @@ ServerEvents.tags('block', event => {
         'betterend:charcoal_block',
         'betterend:ender_block',
         'betterend:terminite_block',
-        'betterend:thallasium_block'
+        'betterend:thallasium_block',
+        "corn_delight:corn_crate",
+        "corn_delight:corn_kernel_bag"
     ]
     storage_blocks.forEach(block => {
         event.add('c:storage_blocks', block)
+    })
+
+    const catalysts = [
+        "create_connected:empty_fan_catalyst",
+        "create_connected:fan_blasting_catalyst",
+        "create_connected:fan_smoking_catalyst",
+        "create_connected:fan_splashing_catalyst",
+        "create_connected:fan_haunting_catalyst"
+    ]
+    catalysts.forEach(block => {
+        event.add("create_connected:catalysts", block)
     })
 
     const planks = [
