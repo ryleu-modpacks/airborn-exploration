@@ -8,6 +8,8 @@ ServerEvents.tags("item", event => {
         event.add("waystones:portstones", `waystones:${color}_portstone`)
         if (!isVanillaDye(color)) {
             event.add("bits_n_bobs:chairs", `bits_n_bobs:${color}_chair`)
+            event.add("c:glazed_terracotta", `dye_depot:${color}_glazed_terracotta`)
+            event.add("c:glazed_terracottas", `dye_depot:${color}_glazed_terracotta`)
 
             event.add("numismatics:cards", `numismatics:${color}_card`)
             event.add("numismatics:id_cards", `numismatics:${color}_id_card`)
@@ -21,6 +23,8 @@ ServerEvents.tags("block", event => {
         if (!isVanillaDye(color)) {
             event.add("bits_n_bobs:chairs", `bits_n_bobs:${color}_chair`)
             event.add("minecraft:mineable/axe", `bits_n_bobs:${color}_chair`)
+            event.add("c:glazed_terracotta", `dye_depot:${color}_glazed_terracotta`)
+            event.add("c:glazed_terracottas", `dye_depot:${color}_glazed_terracotta`)
 
             event.add("minecraft:mineable/pickaxe", `bits_n_bobs:${color}_nixie_board`)
             event.add("minecraft:mineable/pickaxe", `bits_n_bobs:${color}_large_nixie_tube`)
