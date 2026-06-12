@@ -1199,11 +1199,11 @@ hash = "02c60b0d956a4e695dfc5568f997800c76153e3b3979e1eb3df9ddad2530a8c8"
 
 [[files]]
 file = "kubejs/server_scripts/food_integrations.js"
-hash = "a4e4982fac853f7f32541b83de6b6fe4f036e9e784c8e125425fb3f52fd45e14"
+hash = "181bce6d25ec772182a970b5ad5322b2d9487ce5aaec1c5ba2ad2bd896e0195e"
 
 [[files]]
 file = "kubejs/server_scripts/main.js"
-hash = "cedad8ffc2c097f7f7ba0b292bac3b25eebd1686f8e90fb3ec9f71d7f81e1e4d"
+hash = "03d50145f112bcf8f8483cfb0d020af5eb64dda5e9dbf5186ab2385d2334bc21"
 
 [[files]]
 file = "kubejs/server_scripts/sable_integrations.js"
