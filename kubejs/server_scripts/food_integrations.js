@@ -23,7 +23,7 @@ ServerEvents.recipes(event => {
         "meals",
         [
             "kubejs:cornmeal",
-            "minecraft:milk_bucket"
+            Ingredient.of("#c:drinks/milk")
         ],
         "kubejs:polenta",
         0.35,
@@ -34,7 +34,7 @@ ServerEvents.recipes(event => {
         "meals",
         [
             "kubejs:cornmeal",
-            "minecraft:milk_bucket",
+            Ingredient.of("#c:drinks/milk"),
             "veggiesdelight:garlic_clove",
             "veggiesdelight:garlic_clove",
             "farmersdelight:tomato"
@@ -48,7 +48,7 @@ ServerEvents.recipes(event => {
         "corn_delight:cornbread_batter",
         [
             Ingredient.of("#c:flours/corn"),
-            "minecraft:milk_bucket",
+            Ingredient.of("#c:buckets/milk"),
             "minecraft:egg"
         ]
     )

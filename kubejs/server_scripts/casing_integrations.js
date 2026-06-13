@@ -1,7 +1,10 @@
-const create_encasing_shaft_materials = [
+const create_encasing_metal_shaft_materials = [
     "brass",
     "copper",
-    "zinc",
+    "zinc"
+]
+
+const create_encasing_wooden_shaft_materials = [
     "acacia",
     "birch",
     "bamboo",
@@ -53,22 +56,34 @@ ServerEvents.tags("item", event => {
 
     // Shafts, Cogwheels, and Large Cogwheels
     event.add("create:shaft", "create:shaft")
-    event.add("create:shaft", "copycats:copycat_shaft")
-    event.add("create:shaft", "createcasing:glass_shaft")
-    event.add("create:shaft", "createcasing:spruce_shaft")
+    event.add("create:shaft/special", "copycats:copycat_shaft")
+    event.add("create:shaft/special", "createcasing:glass_shaft")
+    event.add("create:shaft/wood", "createcasing:spruce_shaft")
 
     event.add("create:cogwheel", "create:cogwheel")
     event.add("create:cogwheel", "copycats:copycat_cogwheel")
-    event.add("create:cogwheel", "createcasing:andesite_cogwheel")
+    event.add("create:cogwheel/metal", "createcasing:andesite_cogwheel")
 
     event.add("create:large_cogwheel", "create:large_cogwheel")
     event.add("create:large_cogwheel", "copycats:copycat_large_cogwheel")
-    event.add("create:large_cogwheel", "createcasing:andesite_large_cogwheel")
-    create_encasing_shaft_materials.forEach(material => {
-        event.add("create:shaft", `createcasing:${material}_shaft`)
-        event.add("create:cogwheel", `createcasing:${material}_cogwheel`)
-        event.add("create:large_cogwheel", `createcasing:${material}_large_cogwheel`)
+    event.add("create:large_cogwheel/metal", "createcasing:andesite_large_cogwheel")
+    create_encasing_metal_shaft_materials.forEach(material => {
+        event.add("create:shaft/metal", `createcasing:${material}_shaft`)
+        event.add("create:cogwheel/metal", `createcasing:${material}_cogwheel`)
+        event.add("create:large_cogwheel/metal", `createcasing:${material}_large_cogwheel`)
     })
+    create_encasing_wooden_shaft_materials.forEach(material => {
+        event.add("create:shaft/wood", `createcasing:${material}_shaft`)
+        event.add("create:cogwheel/wood", `createcasing:${material}_cogwheel`)
+        event.add("create:large_cogwheel/wood", `createcasing:${material}_large_cogwheel`)
+    })
+    event.add("create:shaft", "#create:shaft/wood")
+    event.add("create:shaft", "#create:shaft/metal")
+    event.add("create:shaft", "#create:shaft/special")
+    event.add("create:cogwheel", "#create:cogwheel/wood")
+    event.add("create:cogwheel", "#create:cogwheel/metal")
+    event.add("create:large_cogwheel", "#create:large_cogwheel/wood")
+    event.add("create:large_cogwheel", "#create:large_cogwheel/metal")
 
     // Machines
     Object.keys(create_machines).forEach(machine => {
@@ -105,22 +120,34 @@ ServerEvents.tags("block", event => {
 
     // Shafts, Cogwheels, and Large Cogwheels
     event.add("create:shaft", "create:shaft")
-    event.add("create:shaft", "copycats:copycat_shaft")
-    event.add("create:shaft", "createcasing:glass_shaft")
-    event.add("create:shaft", "createcasing:spruce_shaft")
+    event.add("create:shaft/special", "copycats:copycat_shaft")
+    event.add("create:shaft/special", "createcasing:glass_shaft")
+    event.add("create:shaft/wood", "createcasing:spruce_shaft")
 
     event.add("create:cogwheel", "create:cogwheel")
     event.add("create:cogwheel", "copycats:copycat_cogwheel")
-    event.add("create:cogwheel", "createcasing:andesite_cogwheel")
+    event.add("create:cogwheel/metal", "createcasing:andesite_cogwheel")
 
     event.add("create:large_cogwheel", "create:large_cogwheel")
     event.add("create:large_cogwheel", "copycats:copycat_large_cogwheel")
-    event.add("create:large_cogwheel", "createcasing:andesite_large_cogwheel")
-    create_encasing_shaft_materials.forEach(material => {
-        event.add("create:shaft", `createcasing:${material}_shaft`)
-        event.add("create:cogwheel", `createcasing:${material}_cogwheel`)
-        event.add("create:large_cogwheel", `createcasing:${material}_large_cogwheel`)
+    event.add("create:large_cogwheel/metal", "createcasing:andesite_large_cogwheel")
+    create_encasing_metal_shaft_materials.forEach(material => {
+        event.add("create:shaft/metal", `createcasing:${material}_shaft`)
+        event.add("create:cogwheel/metal", `createcasing:${material}_cogwheel`)
+        event.add("create:large_cogwheel/metal", `createcasing:${material}_large_cogwheel`)
     })
+    create_encasing_wooden_shaft_materials.forEach(material => {
+        event.add("create:shaft/wood", `createcasing:${material}_shaft`)
+        event.add("create:cogwheel/wood", `createcasing:${material}_cogwheel`)
+        event.add("create:large_cogwheel/wood", `createcasing:${material}_large_cogwheel`)
+    })
+    event.add("create:shaft", "#create:shaft/wood")
+    event.add("create:shaft", "#create:shaft/metal")
+    event.add("create:shaft", "#create:shaft/special")
+    event.add("create:cogwheel", "#create:cogwheel/wood")
+    event.add("create:cogwheel", "#create:cogwheel/metal")
+    event.add("create:large_cogwheel", "#create:large_cogwheel/wood")
+    event.add("create:large_cogwheel", "#create:large_cogwheel/metal")
 
     // Machines
     Object.keys(create_machines).forEach(machine => {
@@ -151,4 +178,20 @@ ServerEvents.tags("block", event => {
             }
         })
     })
+})
+
+ServerEvents.recipes(event => {
+    create_casings.forEach(casing => {
+        if (casing === "industrial_iron") {
+            event.shapeless("createcasing:industrial_iron_encased_chain_drive", ["create:industrial_iron_block", Ingredient.of("create:zinc_nugget", 3)])
+        } else if (casing === "weathered_iron") {
+            event.shapeless("createcasing:weathered_iron_encased_chain_drive", ["create:weathered_iron_block", Ingredient.of("create:zinc_nugget", 3)])
+        } else if (casing !== "andesite") {
+            event.shapeless(`createcasing:${casing}_encased_chain_drive`, [`create:${casing}_casing`, Ingredient.of("create:zinc_nugget", 3)])
+        }
+    })
+
+    event.replaceInput({input: "create:shaft"}, "create:shaft", "#create:shaft")
+    event.replaceInput({input: "create:cogwheel"}, "create:cogwheel", "#create:cogwheel/wood")
+    event.replaceInput({input: "create:large_cogwheel"}, "create:large_cogwheel", "#create:large_cogwheel/wood")
 })
