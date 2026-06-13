@@ -52,19 +52,18 @@ const create_machines = {
     "slicer": false
 }
 
-ServerEvents.tags("item", event => {
-
+const generateTags = (event) => {
     // Shafts, Cogwheels, and Large Cogwheels
     event.add("create:shaft", "create:shaft")
     event.add("create:shaft/special", "copycats:copycat_shaft")
     event.add("create:shaft/special", "createcasing:glass_shaft")
     event.add("create:shaft/wood", "createcasing:spruce_shaft")
 
-    event.add("create:cogwheel", "create:cogwheel")
+    event.add("create:cogwheel/wood", "create:cogwheel")
     event.add("create:cogwheel", "copycats:copycat_cogwheel")
     event.add("create:cogwheel/metal", "createcasing:andesite_cogwheel")
 
-    event.add("create:large_cogwheel", "create:large_cogwheel")
+    event.add("create:large_cogwheel/wood", "create:large_cogwheel")
     event.add("create:large_cogwheel", "copycats:copycat_large_cogwheel")
     event.add("create:large_cogwheel/metal", "createcasing:andesite_large_cogwheel")
     create_encasing_metal_shaft_materials.forEach(material => {
@@ -114,80 +113,26 @@ ServerEvents.tags("item", event => {
             }
         })
     })
+}
+
+ServerEvents.tags("item", event => {
+    generateTags(event)
 })
 
 ServerEvents.tags("block", event => {
-
-    // Shafts, Cogwheels, and Large Cogwheels
-    event.add("create:shaft", "create:shaft")
-    event.add("create:shaft/special", "copycats:copycat_shaft")
-    event.add("create:shaft/special", "createcasing:glass_shaft")
-    event.add("create:shaft/wood", "createcasing:spruce_shaft")
-
-    event.add("create:cogwheel", "create:cogwheel")
-    event.add("create:cogwheel", "copycats:copycat_cogwheel")
-    event.add("create:cogwheel/metal", "createcasing:andesite_cogwheel")
-
-    event.add("create:large_cogwheel", "create:large_cogwheel")
-    event.add("create:large_cogwheel", "copycats:copycat_large_cogwheel")
-    event.add("create:large_cogwheel/metal", "createcasing:andesite_large_cogwheel")
-    create_encasing_metal_shaft_materials.forEach(material => {
-        event.add("create:shaft/metal", `createcasing:${material}_shaft`)
-        event.add("create:cogwheel/metal", `createcasing:${material}_cogwheel`)
-        event.add("create:large_cogwheel/metal", `createcasing:${material}_large_cogwheel`)
-    })
-    create_encasing_wooden_shaft_materials.forEach(material => {
-        event.add("create:shaft/wood", `createcasing:${material}_shaft`)
-        event.add("create:cogwheel/wood", `createcasing:${material}_cogwheel`)
-        event.add("create:large_cogwheel/wood", `createcasing:${material}_large_cogwheel`)
-    })
-    event.add("create:shaft", "#create:shaft/wood")
-    event.add("create:shaft", "#create:shaft/metal")
-    event.add("create:shaft", "#create:shaft/special")
-    event.add("create:cogwheel", "#create:cogwheel/wood")
-    event.add("create:cogwheel", "#create:cogwheel/metal")
-    event.add("create:large_cogwheel", "#create:large_cogwheel/wood")
-    event.add("create:large_cogwheel", "#create:large_cogwheel/metal")
-
-    // Machines
-    Object.keys(create_machines).forEach(machine => {
-        const has_andesite_casing = create_machines[machine]
-        if (!has_andesite_casing) {
-            if (machine === "slicer") {
-                event.add("sliceanddice:slicer", "sliceanddice:slicer")
-            } else if (machine === "gearbox") {
-                event.add("create:gearbox", "create:gearbox")
-                event.add("create:gearbox", "create:vertical_gearbox")
-            } else if (machine === "press" || machine === "mixer") {
-                event.add(`create:${machine}`, `create:mechanical_${machine}`)
-            } else {
-                event.add(`create:${machine}`, `create:${machine}`)
-            }
-        }
-
-        create_casings.forEach(casing => {
-            if (has_andesite_casing || casing !== "andesite") {
-                if (machine === "slicer") {
-                    event.add(`sliceanddice:slicer`, `createcasing:${casing}_slicer`)
-                } else if (machine === "gearbox") {
-                    event.add(`create:gearbox`, `createcasing:${casing}_gearbox`)
-                    event.add(`create:gearbox`, `createcasing:vertical_${casing}_gearbox`)
-                } else {
-                    event.add(`create:${machine}`, `createcasing:${casing}_${machine}`)
-                }
-            }
-        })
-    })
+    generateTags(event)
 })
 
 ServerEvents.recipes(event => {
     create_casings.forEach(casing => {
         if (casing === "industrial_iron") {
-            event.shapeless("createcasing:industrial_iron_encased_chain_drive", ["create:industrial_iron_block", Ingredient.of("create:zinc_nugget", 3)])
+            event.shapeless("createcasing:industrial_iron_encased_chain_drive", ["create:industrial_iron_block", "3x create:zinc_nugget"])
         } else if (casing === "weathered_iron") {
-            event.shapeless("createcasing:weathered_iron_encased_chain_drive", ["create:weathered_iron_block", Ingredient.of("create:zinc_nugget", 3)])
+            event.shapeless("createcasing:weathered_iron_encased_chain_drive", ["create:weathered_iron_block", "3x create:zinc_nugget"])
+        } else if (casing === "creative") {
+            event.shapeless("createcasing:creative_encased_chain_drive", ["createcasing:creative_casing", "3x create:zinc_nugget"])
         } else if (casing !== "andesite") {
-            event.shapeless(`createcasing:${casing}_encased_chain_drive`, [`create:${casing}_casing`, Ingredient.of("create:zinc_nugget", 3)])
+            event.shapeless(`createcasing:${casing}_encased_chain_drive`, [`create:${casing}_casing`, "3x create:zinc_nugget"])
         }
     })
 
