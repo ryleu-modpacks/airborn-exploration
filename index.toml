@@ -1190,8 +1190,8 @@ file = "kubejs/data/simulated/end_sea/the_aether.json"
 hash = "4da432b7a8edf1a6f6ce6efeaf580873fad8accde37b1e8e78b5d6d18633e941"
 
 [[files]]
-file = "kubejs/server_scripts/casing_tags.js"
-hash = "5580f3653f6599468fb0215fd7c1f17d926aafaeaeac34723fb7a69d5c793a8b"
+file = "kubejs/server_scripts/casing_integrations.js"
+hash = "d6230be0e99a871aed839d28b2b9ef1a860e09b040aab6fa06b0c5a4d819c432"
 
 [[files]]
 file = "kubejs/server_scripts/dye_integrations.js"
@@ -1199,7 +1199,7 @@ hash = "02c60b0d956a4e695dfc5568f997800c76153e3b3979e1eb3df9ddad2530a8c8"
 
 [[files]]
 file = "kubejs/server_scripts/food_integrations.js"
-hash = "181bce6d25ec772182a970b5ad5322b2d9487ce5aaec1c5ba2ad2bd896e0195e"
+hash = "4ad08e0fcebbc89a5c81bc3ebbb681e9d53471e2f0aee563622dfe950fe0ccd9"
 
 [[files]]
 file = "kubejs/server_scripts/main.js"
