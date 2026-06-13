@@ -1191,7 +1191,7 @@ hash = "4da432b7a8edf1a6f6ce6efeaf580873fad8accde37b1e8e78b5d6d18633e941"
 
 [[files]]
 file = "kubejs/server_scripts/casing_integrations.js"
-hash = "d6230be0e99a871aed839d28b2b9ef1a860e09b040aab6fa06b0c5a4d819c432"
+hash = "4c842a7c6f76cd903ca701345032b42b6832a1aca161e496ca99d45cd69d93d7"
 
 [[files]]
 file = "kubejs/server_scripts/dye_integrations.js"
