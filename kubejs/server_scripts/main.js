@@ -136,6 +136,7 @@ ServerEvents.tags("block", event => {
 ServerEvents.recipes(event => {
 
     // Remove existing recipes
+    event.remove({id: "aether:aether_saddle"})
     event.remove({id:"vista:television"})
     event.remove({id: "vista:viewfinder"})
     event.remove({id: "vista:hollow_cassette"})
@@ -172,7 +173,6 @@ ServerEvents.recipes(event => {
 
     event.replaceInput({id: "betterend:end_stone_brick_cracked_wall"}, "minecraft:end_stone_bricks", "betterend:end_stone_brick_cracked")
     event.replaceInput({id: "betterend:end_stone_brick_weathered_wall"}, "minecraft:end_stone_bricks", "betterend:end_stone_brick_weathered")
-
     event.shaped(
         "betterend:end_stone_wall",
         [
@@ -185,6 +185,7 @@ ServerEvents.recipes(event => {
     )
     event.stonecutting("betterend:end_stone_wall", "minecraft:end_stone")
 
+    event.recipes.create.milling([CreateItem.of("minecraft:leather", 0.5)], Ingredient.of("#minecraft:bundles"))
     event.recipes.create.deploying("create:turntable", [Ingredient.of("#minecraft:wooden_slabs"), "create:shaft"])
     event.custom({
         "type": "createaddition:rolling",
