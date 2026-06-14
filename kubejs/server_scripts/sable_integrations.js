@@ -3,6 +3,7 @@ ServerEvents.tags("block", event => {
     const super_light = [
         "#aether:aerogel",
         "#bits_n_bobs:nixie_boards",
+        "#minecraft:beds",
         "toms_storage:inventory_cable",
         "toms_storage:inventory_cable_framed",
         "toms_storage:inventory_cable_connector",
@@ -10,7 +11,7 @@ ServerEvents.tags("block", event => {
         "computercraft:cable",
         "computercraft:wireless_modem_normal",
         "computercraft:wireless_modem_advanced",
-        "waystones:warp_plate"
+        "waystones:warp_plate",
     ]
     super_light.forEach(block => {
         event.add("sable:super_light", block)
