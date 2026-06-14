@@ -1,3 +1,21 @@
+const drinks = [
+        "beer",
+        "vodka",
+        "mead",
+        "rice_wine",
+        "pale_jane",
+        "egg_grog",
+        "glittering_grenadine",
+        "saccharine_rum",
+        "salty_folly",
+        "bloody_mary",
+        "red_rum",
+        "strongroot_ale",
+        "steel_toe_stout",
+        "dread_nog",
+        "withering_dross"
+    ]
+
 ServerEvents.tags("item", event => {
     event.add("c:foods/milk", "minecraft:milk_bucket")
     event.add("c:drinks/milk", "aether:skyroot_milk_bucket")
@@ -8,6 +26,13 @@ ServerEvents.tags("item", event => {
     event.add("create:upright_on_belt", "brewinandchewin:tankard")
     event.add("create:upright_on_belt", "#brewinandchewin:fermented_drinks")
     event.add("create:upright_on_belt", "brewinandchewin:quiche")
+})
+
+ServerEvents.tags("fluid", event => {
+    drinks.forEach(drink => {
+        event.add("create_dragons_plus:fragile_fluid_tank/explosive", `brewinandchewin:${drink}`)
+    })
+    event.add("create_dragons_plus:fragile_fluid_tank/explosive", "kubejs:bourbon")
 })
 
 ServerEvents.recipes(event => {
@@ -142,25 +167,6 @@ ServerEvents.recipes(event => {
     }
 
     fermenting([{"tag": "c:crops/corn"}, {"tag": "c:seeds/corn"}, [], []], "kubejs:bourbon")
-
-
-    const drinks = [
-        "beer",
-        "vodka",
-        "mead",
-        "rice_wine",
-        "pale_jane",
-        "egg_grog",
-        "glittering_grenadine",
-        "saccharine_rum",
-        "salty_folly",
-        "bloody_mary",
-        "red_rum",
-        "strongroot_ale",
-        "steel_toe_stout",
-        "dread_nog",
-        "withering_dross"
-    ]
 
     const cheeses = [
         "flaxen_cheese",

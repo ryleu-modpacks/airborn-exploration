@@ -1199,7 +1199,7 @@ hash = "02c60b0d956a4e695dfc5568f997800c76153e3b3979e1eb3df9ddad2530a8c8"
 
 [[files]]
 file = "kubejs/server_scripts/food_integrations.js"
-hash = "05593a25b6d922447efb1d499a4317c6ab13dc688fc2172f4af6fdd56f33ceb8"
+hash = "208c237b3065a9f9711c6660becbd36e6fe5a62c18f3e28a744c967ea23b34dd"
 
 [[files]]
 file = "kubejs/server_scripts/main.js"
@@ -1459,8 +1459,18 @@ hash = "9e6e9e3d5f93e77d45b57e6219998b3604b58a628c76d4762ed06deaf9e98e71"
 metafile = true
 
 [[files]]
+file = "mods/create-dragons-plus.pw.toml"
+hash = "cab6f316cb4ef454bbfa18b32263c3fb7c246a0405a505611c1e36b5eabd48f0"
+metafile = true
+
+[[files]]
 file = "mods/create-encased.pw.toml"
 hash = "c3cbea800ad6c0b2442f89f83a40b7bb950c1c3645192348e5ba389dacdc3e55"
+metafile = true
+
+[[files]]
+file = "mods/create-enchantment-industry.pw.toml"
+hash = "9632e3a695f69473d879e285e46007fd5037cb5abc8db02a8bec79689864d0fc"
 metafile = true
 
 [[files]]
@@ -1470,7 +1480,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-new-age.pw.toml"
-hash = "85048cc2c3269c990d551c6ebe5058662087ea5eb89e9da9ade81e3637654934"
+hash = "39499039e11a6e0f50542d80af94c172342fdb686f3a59d5ee4457d978a54e75"
 metafile = true
 
 [[files]]
