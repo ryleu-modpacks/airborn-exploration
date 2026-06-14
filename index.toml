@@ -1199,11 +1199,11 @@ hash = "02c60b0d956a4e695dfc5568f997800c76153e3b3979e1eb3df9ddad2530a8c8"
 
 [[files]]
 file = "kubejs/server_scripts/food_integrations.js"
-hash = "4ad08e0fcebbc89a5c81bc3ebbb681e9d53471e2f0aee563622dfe950fe0ccd9"
+hash = "05593a25b6d922447efb1d499a4317c6ab13dc688fc2172f4af6fdd56f33ceb8"
 
 [[files]]
 file = "kubejs/server_scripts/main.js"
-hash = "eacb3d3d57f49e7ca59bd30fa5c3b56a678fab7e8c63e03a132501d7e9038268"
+hash = "1a59b995440cf96594af7471a60ace1772b4e54156d8150846faf51f0e649390"
 
 [[files]]
 file = "kubejs/server_scripts/sable_integrations.js"
@@ -1910,12 +1910,12 @@ metafile = true
 
 [[files]]
 file = "mods/vista-aeronautics-fix.pw.toml"
-hash = "72010b09a0bf4d7622d86bae25852c88d71f7259eea2d1c6955b90af4935b682"
+hash = "71a14d002ab26a6542e3f50bc8054ec5d42632bf7d9d113beb06f70281c95d11"
 metafile = true
 
 [[files]]
 file = "mods/vista_tv.pw.toml"
-hash = "c493f2722c4a9c08029f43140babc8f37bacfda57932ce5b29b29e388710fe82"
+hash = "0e8ab1d2658dfd3faca375ea3f40e3f60217f0a3e97c42475e984393ec70dbd3"
 metafile = true
 
 [[files]]
