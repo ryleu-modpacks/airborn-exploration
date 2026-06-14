@@ -13,7 +13,7 @@ ServerEvents.tags("item", event => {
 ServerEvents.recipes(event => {
     
     event.remove({output: "farmersdelight:wheat_dough"})
-    event.remove({id: "farmersdelight:wheat_dough_from_wheat"})
+    event.remove({id: "farmersdelight:wheat_dough_from_water"})
     event.remove({output: "corn_delight:cornbread_batter"})
     event.remove({output: "corn_delight:creamy_corn_drink"}) // this isn"t for dedup. I just think "corn drink" sounds gross
 

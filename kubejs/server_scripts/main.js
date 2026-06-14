@@ -143,6 +143,7 @@ ServerEvents.recipes(event => {
     event.remove({output: "#waystones:waystones"})
     event.remove({output: "#waystones:portstones"})
     event.remove({output: "#waystones:sharestones"})
+    event.remove({output: "createdeco:zinc_sheet"})
     event.remove({id: "simulated:spring"})
     event.remove({id: "createbigcannons:mixing/alloy_steel"})
     event.remove({id: "createbigcannons:steel_scrap"})
@@ -166,8 +167,6 @@ ServerEvents.recipes(event => {
     event.shapeless("create_ironworks:bronze_ingot", ["createbigcannons:bronze_ingot"])
     event.shapeless("create_ironworks:bronze_block", ["createbigcannons:bronze_block"])
     event.shapeless("create_ironworks:bronze_nugget", ["createbigcannons:bronze_scrap"])
-
-    event.replaceInput({id: "minecraft:lodestone"}, "minecraft:netherite_ingot", Ingredient.of("#c:ingots/iron"))
 
     event.replaceInput({input: "minecraft:egg"}, "minecraft:egg", "#c:eggs")
 
