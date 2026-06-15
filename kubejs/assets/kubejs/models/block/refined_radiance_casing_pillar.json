@@ -1,0 +1,10 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"parent": "kubejs:block/casing_pillar_template",
+	"textures": {
+		"particle": "createcasing:block/encased_chain_drive/refined_radiance",
+		"side": "createcasing:block/encased_chain_drive/refined_radiance",
+		"end": "create:block/refined_radiance_casing"
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"parent": "kubejs:block/casing_pillar_template",
+	"textures": {
+		"particle": "create:block/encased_chain_drive",
+		"side": "create:block/encased_chain_drive",
+		"end": "create:block/andesite_casing"
+	}
+}
