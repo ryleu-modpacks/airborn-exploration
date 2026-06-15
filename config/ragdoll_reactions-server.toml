@@ -108,7 +108,7 @@ enabled = true
 	#Sharp horizontal velocity change reactions.
 	[triggers.impact]
 		#When true, sharp horizontal velocity changes can ragdoll the player.
-		enabled = true
+		enabled = false
 		#Minimum horizontal player velocity change over the 5-tick window (m/s) required to trigger.
 		# Default: 20.0
 		# Range: 0.1 ~ 128.0
@@ -150,7 +150,7 @@ enabled = true
 		#Launch speed multiplier applied to explosion power before the global max launch speed clamp.
 		# Default: 6.0
 		# Range: 0.0 ~ 128.0
-		launchMultiplier = 6.0
+		launchMultiplier = 3.0
 
 	#Hard fall landing reactions.
 	[triggers.fall]
@@ -159,7 +159,7 @@ enabled = true
 		#Minimum fall damage actually taken (after feather falling, protection, resistance, etc.) required to trigger a ragdoll.
 		# Default: 4.0
 		# Range: 0.0 ~ 1024.0
-		minDamage = 4.0
+		minDamage = 20.0
 		#Fraction of the landing impact speed driven downward to smash the ragdoll into the ground.
 		# Default: 0.5
 		# Range: 0.0 ~ 2.0
@@ -172,7 +172,7 @@ enabled = true
 		#Minimum fly-into-wall damage required to trigger a ragdoll.
 		# Default: 4.0
 		# Range: 0.0 ~ 1024.0
-		minDamage = 4.0
+		minDamage = 20.0
 		#Forward crash drive speed (m/s) per point of crash damage, scaled down before launch.
 		# Default: 3.0
 		# Range: 0.0 ~ 64.0
@@ -185,11 +185,11 @@ enabled = true
 		#Minimum damage required to trigger a ragdoll.
 		# Default: 8.0
 		# Range: 0.0 ~ 1024.0
-		minDamage = 8.0
+		minDamage = 20.0
 		#Launch speed (m/s) per point of damage taken.
 		# Default: 1.5
 		# Range: 0.0 ~ 64.0
-		launchMultiplier = 1.5
+		launchMultiplier = 0.5
 
 	#Lightning strike reactions.
 	[triggers.lightning]
