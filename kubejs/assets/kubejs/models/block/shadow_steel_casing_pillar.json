@@ -1,0 +1,10 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"parent": "kubejs:block/casing_pillar_template",
+	"textures": {
+		"particle": "createcasing:block/encased_chain_drive/shadow_steel",
+		"side": "createcasing:block/encased_chain_drive/shadow_steel",
+		"end": "create:block/shadow_steel_casing"
+	}
+}

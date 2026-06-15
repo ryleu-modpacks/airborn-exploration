@@ -213,6 +213,21 @@ ServerEvents.recipes(event => {
         }
     }
 
+    const pillar_casings = [
+        "andesite",
+        "brass",
+        "copper",
+        "railway",
+        "shadow_steel",
+        "refined_radiance"
+    ]
+    pillar_casings.forEach(casing => {
+        event.stonecutting(`kubejs:${casing}_casing_pillar`, `create:${casing}_casing`)
+        event.stonecutting(`create:${casing}_casing`, `kubejs:${casing}_casing_pillar`)
+    })
+    event.stonecutting("kubejs:creative_casing_pillar", "createcasing:creative_casing")
+    event.stonecutting("createcasing:creative_casing", "kubejs:creative_casing_pillar")
+
     // Television Assembly
     event.recipes.create.sequenced_assembly(
         [

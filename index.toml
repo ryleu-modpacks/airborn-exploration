@@ -517,6 +517,10 @@ file = "config/packetfixer.properties"
 hash = "8f4bf0e08ad3fda8acca969f78351ad0201ac7d5c67db286b478b9734400d5d5"
 
 [[files]]
+file = "config/ragdoll_reactions-server.toml"
+hash = "eafd70ffdadf21be8e794b03331535ad5079cc3a6859a9f8bad49031ef7ff7ba"
+
+[[files]]
 file = "config/ritchiesprojectilelib-server.toml"
 hash = "0118936ae0375d6c318582b47e0cf631540ba683d4a5db25a3ca7f090eda54c1"
 
@@ -726,8 +730,68 @@ file = "kubejs/assets/dye_depot_compat.zip"
 hash = "61d5293c6f69a0ae02aaf463836e372e9eb666f040d9323621b1c3de6cc01fcc"
 
 [[files]]
+file = "kubejs/assets/kubejs/blockstates/andesite_casing_pillar.json"
+hash = "612bc6a521a69ab6adbe30d1ebe2dd71966d7df427ea78fc1057ba17353a7b0b"
+
+[[files]]
+file = "kubejs/assets/kubejs/blockstates/brass_casing_pillar.json"
+hash = "d50ca2a4f57820ba2957d33bbc9574f70ffb75ff828e5d7b7575086d664a51ee"
+
+[[files]]
+file = "kubejs/assets/kubejs/blockstates/copper_casing_pillar.json"
+hash = "be620fd9d7088798b6cb9a09be7d4e38224c28ab49228384df8e0ec4b9b37581"
+
+[[files]]
+file = "kubejs/assets/kubejs/blockstates/creative_casing_pillar.json"
+hash = "1ef667cac64b9b6c37538123900c6b9ca1489c1534950bcca569025bf85a34bd"
+
+[[files]]
+file = "kubejs/assets/kubejs/blockstates/railway_casing_pillar.json"
+hash = "a5273b9fc40ea85923f7d5d8226cad1d9b1078a70c6535dfefd80d7a37e75904"
+
+[[files]]
+file = "kubejs/assets/kubejs/blockstates/refined_radiance_casing_pillar.json"
+hash = "38603bc727e617e5db531ea0b035b5659d2ce86e0ce5b3b490270d4bd913e073"
+
+[[files]]
+file = "kubejs/assets/kubejs/blockstates/shadow_steel_casing_pillar.json"
+hash = "d42bd99d1e03b4a788fc82de698dfa1052a146953e778d4bf478d8aaaac83593"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/block/andesite_casing_pillar.json"
+hash = "a22c805d542c2610202a9c7cb38711ac7c12febce0de5673d79e3aa4a57838b3"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/block/brass_casing_pillar.json"
+hash = "13cb29f5c81a6e821e53829a0364708ec4dc1b330c6f3f808c959c2a524ad716"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/block/casing_pillar_template.json"
+hash = "d04d29c90cee9b2c40d3425a50c2aa50f446565bc40f80e9428ebd0bff34bafe"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/block/copper_casing_pillar.json"
+hash = "093132fdf76b403792e243666d431614ed389c9c7ba7137ab0206813892d05d5"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/block/creative_casing_pillar.json"
+hash = "a096358df2619b88769668fd4d9ef52b85b6f4c31e9779b2b10930ea32c612c0"
+
+[[files]]
 file = "kubejs/assets/kubejs/models/block/open_television.json"
 hash = "638a72a854969deb8f29fd2e55e474f7e037ec93bc7f7e6875c86272f3c499be"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/block/railway_casing_pillar.json"
+hash = "29bcf09634e7b51e90c8ef1193d0cbcb9c253ae11a363dc87fbaa375cfdc0151"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/block/refined_radiance_casing_pillar.json"
+hash = "23123ba5e40a09758391d584508d77236362abb6b94661d4394c08dd112f9d4f"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/block/shadow_steel_casing_pillar.json"
+hash = "26a435df03ee5ac491ebf32a9f62f2ce48430054b7670eac5d24906669adf0ec"
 
 [[files]]
 file = "kubejs/assets/kubejs/models/block/television_housing.json"
@@ -1203,7 +1267,7 @@ hash = "208c237b3065a9f9711c6660becbd36e6fe5a62c18f3e28a744c967ea23b34dd"
 
 [[files]]
 file = "kubejs/server_scripts/main.js"
-hash = "1a59b995440cf96594af7471a60ace1772b4e54156d8150846faf51f0e649390"
+hash = "40b70137654fecb6478fdf796e740e9305f75f7bfd821967f70b8d2ae9ba9b2d"
 
 [[files]]
 file = "kubejs/server_scripts/sable_integrations.js"
@@ -1211,7 +1275,7 @@ hash = "fda5e55fd5bcfad9bbfd825a7f34669a7448e5ee3157939cf7d6c5a3c745340d"
 
 [[files]]
 file = "kubejs/startup_scripts/main.js"
-hash = "062ab769d6a66f555251d36621e62372526aa95073322cb7cf7d925364478430"
+hash = "3a44a8791771f123523a3d76c54388e6d81742a6fa248db5459afc47f5ce124a"
 
 [[files]]
 file = "mods/accessories-compat-layer.pw.toml"
