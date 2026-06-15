@@ -517,6 +517,10 @@ file = "config/packetfixer.properties"
 hash = "8f4bf0e08ad3fda8acca969f78351ad0201ac7d5c67db286b478b9734400d5d5"
 
 [[files]]
+file = "config/ragdoll_reactions-server.toml"
+hash = "eafd70ffdadf21be8e794b03331535ad5079cc3a6859a9f8bad49031ef7ff7ba"
+
+[[files]]
 file = "config/ritchiesprojectilelib-server.toml"
 hash = "0118936ae0375d6c318582b47e0cf631540ba683d4a5db25a3ca7f090eda54c1"
 
