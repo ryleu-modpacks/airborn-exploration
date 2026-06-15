@@ -518,7 +518,7 @@ hash = "8f4bf0e08ad3fda8acca969f78351ad0201ac7d5c67db286b478b9734400d5d5"
 
 [[files]]
 file = "config/ragdoll_reactions-server.toml"
-hash = "eafd70ffdadf21be8e794b03331535ad5079cc3a6859a9f8bad49031ef7ff7ba"
+hash = "319c6d77bd975d1d269d367475bba675968739c246f81ab4cfa48c3d67d27fa4"
 
 [[files]]
 file = "config/ritchiesprojectilelib-server.toml"
