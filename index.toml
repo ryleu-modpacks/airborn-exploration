@@ -1794,6 +1794,11 @@ hash = "279fac60372d5c4ca8b94727f744946fcda6a677f7cebd5afac5e58ddd08bc9a"
 metafile = true
 
 [[files]]
+file = "mods/ragdoll-reactions.pw.toml"
+hash = "71a960755348f9eabdcc9387022ddd56f8e699d2b94afb04cfbfb31e9bd6a89d"
+metafile = true
+
+[[files]]
 file = "mods/remove-terralith-intro-message.pw.toml"
 hash = "2e9dead89853555c8d909fe2549af2db5e5051c690fae695df93d2369aa8314c"
 metafile = true
@@ -1806,6 +1811,11 @@ metafile = true
 [[files]]
 file = "mods/rpl.pw.toml"
 hash = "7815e5a589de0c02a62ae83590e1f75f4d0c269e48f2435ce2ac448976ddf49f"
+metafile = true
+
+[[files]]
+file = "mods/sable-player-ragdolls.pw.toml"
+hash = "b0254b4d5e44c530fc0db7c1713f531de9e5abfd383b388347075f099b4e9c14"
 metafile = true
 
 [[files]]
