@@ -3,7 +3,7 @@
 	#Restoring-torque gain (Kp) at reference RPM, in Nm. Peak torque is roughly Kp·sin(tilt). Effective Kp scales linearly with current RPM up to referenceRpm.
 	# Default: 16000.0
 	# Range: 0.0 ~ 1.0E9
-	strength = 40.0
+	strength = 400.0
 	#Angular-velocity damping (Kd) at reference RPM, in Nm·s/rad. Effective Kd scales linearly with current RPM up to referenceRpm.
 	# Default: 4000.0
 	# Range: 0.0 ~ 1.0E9
