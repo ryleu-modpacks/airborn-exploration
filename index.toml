@@ -38,7 +38,7 @@ hash = "c16f2363ae6500501d83bf53da22ef81c4c69eb82bda7ad68a264d0f09adf9b2"
 
 [[files]]
 file = "config/aeroworks-common.toml"
-hash = "6192154f1ed8ec972b0904405037ccda20195252e7649d7ce980a00b99e53cb1"
+hash = "58b94a1e4ebecbb4bdc9992c3959b367d30b0c48372e754d1d75e16e96961919"
 
 [[files]]
 file = "config/aether-common.toml"
@@ -527,6 +527,10 @@ hash = "0118936ae0375d6c318582b47e0cf631540ba683d4a5db25a3ca7f090eda54c1"
 [[files]]
 file = "config/sable-common.toml"
 hash = "9a1ba0617b4544eb8bded0995de05f26837fdc53215453ccc58012b468ff9dde"
+
+[[files]]
+file = "config/sable_player_ragdoll-server.toml"
+hash = "e43a328c93e04882c5a112d416cbd51454300b8639b58b48b05a7ef1aa223115"
 
 [[files]]
 file = "config/servercore/config.yml"
