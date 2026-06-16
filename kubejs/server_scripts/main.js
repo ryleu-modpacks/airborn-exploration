@@ -151,6 +151,7 @@ ServerEvents.recipes(event => {
     event.remove({id: "createbigcannons:mixing/alloy_bronze_tin"})
     event.remove({id: "createbigcannons:mixing/alloy_bronze_tinless"})
     event.remove({id: "createbigcannons:bronze_scrap"})
+    event.remove({id: "createaddition:compacting/seed_oil"})
     event.remove({mod: "create_aeronautics_toolgun"})
 
     // Misc Recipes
