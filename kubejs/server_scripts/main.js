@@ -185,6 +185,8 @@ ServerEvents.recipes(event => {
     )
     event.stonecutting("betterend:end_stone_wall", "minecraft:end_stone")
 
+    event.shapeless("kubejs:concrete_powder", ["4x minecraft:gravel", "4x minecraft:sand"])
+
     event.recipes.create.milling([CreateItem.of("minecraft:leather", 0.5)], Ingredient.of("#minecraft:bundles"))
     event.recipes.create.deploying("create:turntable", [Ingredient.of("#minecraft:wooden_slabs"), "create:shaft"])
     event.custom({
