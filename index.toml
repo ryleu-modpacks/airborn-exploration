@@ -806,6 +806,10 @@ file = "kubejs/assets/kubejs/models/item/bourbon.json"
 hash = "6fc53931771855c1a606a91bfb5732c833d65554d93d15b36d6384ebc4c4d1df"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/block/concrete_powder.png"
+hash = "834db5281e3a38173ab370c007aebe308fc5367f07ceed1c39cfe07652a30f89"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/block/magnetic_slurry_flow.png"
 hash = "533e3d3fba6bb7fdd2c3b9e099b0718caae4a33c808a913c3f9219a40838072c"
 
@@ -1263,7 +1267,7 @@ hash = "4c842a7c6f76cd903ca701345032b42b6832a1aca161e496ca99d45cd69d93d7"
 
 [[files]]
 file = "kubejs/server_scripts/dye_integrations.js"
-hash = "02c60b0d956a4e695dfc5568f997800c76153e3b3979e1eb3df9ddad2530a8c8"
+hash = "596525f03b3d894edca48cffce4f8ff02c4726f9df52b3cee0779a2aa87d1319"
 
 [[files]]
 file = "kubejs/server_scripts/food_integrations.js"
@@ -1271,7 +1275,7 @@ hash = "208c237b3065a9f9711c6660becbd36e6fe5a62c18f3e28a744c967ea23b34dd"
 
 [[files]]
 file = "kubejs/server_scripts/main.js"
-hash = "3c994b0ef4c1790de76cf451177ca58ba0cffae7a617c9a2810dc53aa63d12f4"
+hash = "b75c003d6ed04e77b191c33862f376fd31ce74158067c7ed5bd6d4501c714dad"
 
 [[files]]
 file = "kubejs/server_scripts/sable_integrations.js"
@@ -1279,7 +1283,7 @@ hash = "fda5e55fd5bcfad9bbfd825a7f34669a7448e5ee3157939cf7d6c5a3c745340d"
 
 [[files]]
 file = "kubejs/startup_scripts/main.js"
-hash = "3a44a8791771f123523a3d76c54388e6d81742a6fa248db5459afc47f5ce124a"
+hash = "000fe7a8a0146c628be0acb62a3cb4f9f97d3ba0fd645ed6657afe163c37638d"
 
 [[files]]
 file = "mods/accessories-compat-layer.pw.toml"

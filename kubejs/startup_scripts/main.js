@@ -167,17 +167,25 @@ StartupEvents.registry('block', event => {
 
     event.create('television_housing', 'cardinal')
     .displayName('Television Housing')
-    .soundType('wood')
+    .woodSoundType()
     .mapColor('wood')
     .hardness(1.5)
     .tagBlock('minecraft:mineable/axe')
 
     event.create('open_television', 'cardinal')
     .displayName('Open Television')
-    .soundType('wood')
+    .woodSoundType()
     .mapColor('wood')
     .hardness(1.5)
     .tagBlock('minecraft:mineable/axe')
+
+    event.create('concrete_powder', 'falling')
+    .displayName('Concrete Powder')
+    .sandSoundType()
+    .hardness(0.5)
+    .tagBlock('minecraft:mineable/shovel')
+    .tagBlock('minecraft:concrete_powder')
+    .tagItem('c:concrete_powders')
 
     // Casing Pillars
     event.create('andesite_casing_pillar', 'pillar')

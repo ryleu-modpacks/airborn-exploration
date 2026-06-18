@@ -35,6 +35,9 @@ ServerEvents.tags("block", event => {
 
 ServerEvents.recipes(event => {
     Color.DYE.forEach(color => {
+        let dye_name = dyeName(color)
+        event.shapeless(`${dye_name}_concrete_powder`, ["kubejs:concrete_powder", `${dye_name}_dye`])
+
         if (!isVanillaDye(color)) {
             event.shapeless(`bits_n_bobs:${color}_chair`, [`dye_depot:${color}_wool`, Ingredient.of("#minecraft:wooden_stairs")])
             event.shapeless(`bits_n_bobs:${color}_chair`, [`dye_depot:${color}_dye`, Ingredient.of("#bits_n_bobs:chairs")])
