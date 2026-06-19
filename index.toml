@@ -226,7 +226,7 @@ hash = "8b71ff0aff449b243eeeed2600d01fb3bf6409950cf5823c87be4434292af0a5"
 
 [[files]]
 file = "config/eclipticseasons-common.toml"
-hash = "539255e7f81451df4288c855c231f42287976ab159dc8984705632ee078eff45"
+hash = "1118f0db3d8fb5cadde210c6e924646c4ba8f0403c86eaaeccf8d6e7b2264e7f"
 
 [[files]]
 file = "config/eclipticseasons-mixins.toml"
