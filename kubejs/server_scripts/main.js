@@ -192,7 +192,7 @@ ServerEvents.recipes(event => {
     event.custom({
         "type": "createaddition:rolling",
         "ingredients": [
-            {"tag": "c:rods/iron"}
+            {"item": "minecraft:iron_ingot"}
         ],
         "results": [
             {"id": "simulated:spring", "count": 1}
@@ -250,8 +250,8 @@ ServerEvents.recipes(event => {
         "kubejs:television_housing",
         [
             event.recipes.create.deploying("kubejs:incomplete_television", ["kubejs:incomplete_television", "create:electron_tube"]),
-            event.recipes.create.deploying("kubejs:incomplete_television", ["kubejs:incomplete_television", "createaddition:capacitor"]),
-            event.recipes.create.deploying("kubejs:incomplete_television", ["kubejs:incomplete_television", "createaddition:copper_wire"]),
+            event.recipes.create.deploying("kubejs:incomplete_television", ["kubejs:incomplete_television", "create_new_age:copper_circuit"]),
+            event.recipes.create.deploying("kubejs:incomplete_television", ["kubejs:incomplete_television", "create_new_age:copper_wire"]),
         ]
     ).transitionalItem("kubejs:incomplete_television").loops(3)
 
