@@ -214,7 +214,7 @@ ServerEvents.recipes(event => {
     for (const group of groups) {
         for (const value of group) {
             event.stonecutting(`kubejs:frequency_${value}`, "minecraft:name_tag")
-            event.stonecutting(`kubejs:frequency_${value}`, Ingredient.of("#kubejs:frequencies"))
+            event.stonecutting(`kubejs:frequency_${value}`, Ingredient.of("#kubejs:frequency"))
         }
     }
 
