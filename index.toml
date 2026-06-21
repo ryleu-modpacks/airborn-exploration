@@ -1275,11 +1275,11 @@ hash = "596525f03b3d894edca48cffce4f8ff02c4726f9df52b3cee0779a2aa87d1319"
 
 [[files]]
 file = "kubejs/server_scripts/food_integrations.js"
-hash = "208c237b3065a9f9711c6660becbd36e6fe5a62c18f3e28a744c967ea23b34dd"
+hash = "67f41182605d886705bd35ca96472b1e69e96e0ebf59c920bcf0122f6c514c29"
 
 [[files]]
 file = "kubejs/server_scripts/main.js"
-hash = "7865994733002baf8b1200998ce565e7b2abc2173805e8c48caa3dc3a1beea7d"
+hash = "37d843f767e38f3d72281582d594ffa607ea098f21ea4a13796ead8959708591"
 
 [[files]]
 file = "kubejs/server_scripts/sable_integrations.js"
@@ -1560,6 +1560,11 @@ hash = "39499039e11a6e0f50542d80af94c172342fdb686f3a59d5ee4457d978a54e75"
 metafile = true
 
 [[files]]
+file = "mods/create-numismatics-utils.pw.toml"
+hash = "074ca95e8d18a331b47f2363b254392a3bb84adbedee69c53d7f103a7dd3f9e6"
+metafile = true
+
+[[files]]
 file = "mods/create-prismatic-shine.pw.toml"
 hash = "cbc7ea97d76516a5005a86388c65aaf36ff1e0558272c2e09a9533d3a4d5e82f"
 metafile = true
@@ -1676,7 +1681,7 @@ metafile = true
 
 [[files]]
 file = "mods/figura.pw.toml"
-hash = "6fe50660910d045832bd7608e053d183026b88f20d127e008779533e19b2b72b"
+hash = "eedcb7fff4e1e6e1e9b81920521277596b0907b0de377f06dc306d2d6624c69d"
 metafile = true
 
 [[files]]

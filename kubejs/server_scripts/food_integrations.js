@@ -42,6 +42,8 @@ ServerEvents.recipes(event => {
     event.remove({output: "corn_delight:cornbread_batter"})
     event.remove({output: "corn_delight:creamy_corn_drink"}) // this isn"t for dedup. I just think "corn drink" sounds gross
 
+    event.replaceInput({input: "minecraft:egg"}, "minecraft:egg", "#c:eggs")
+
     // Corn
     event.recipes.create.milling(["kubejs:cornmeal", CreateItem.of("2x kubejs:cornmeal", 0.25), CreateItem.of("corn_delight:corn_seeds", 0.125)], "corn_delight:corn_seeds")
     event.recipes.farmersdelight.cooking(
