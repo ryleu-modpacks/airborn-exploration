@@ -154,7 +154,7 @@ ServerEvents.recipes(event => {
     event.remove({id: "createaddition:compacting/seed_oil"})
     event.remove({mod: "create_aeronautics_toolgun"})
 
-    // Misc Recipes
+    // Alloy Deduplication
     event.replaceOutput({output: "createbigcannons:steel_ingot"}, "createbigcannons:steel_ingot", "create_ironworks:steel_ingot")
     event.replaceOutput({output: "createbigcannons:steel_block"}, "createbigcannons:steel_block", "create_ironworks:steel_block")
     event.replaceOutput({output: "createbigcannons:steel_scrap"}, "createbigcannons:steel_scrap", "create_ironworks:steel_nugget")
@@ -168,8 +168,6 @@ ServerEvents.recipes(event => {
     event.shapeless("create_ironworks:bronze_ingot", ["createbigcannons:bronze_ingot"])
     event.shapeless("create_ironworks:bronze_block", ["createbigcannons:bronze_block"])
     event.shapeless("create_ironworks:bronze_nugget", ["createbigcannons:bronze_scrap"])
-
-    event.replaceInput({input: "minecraft:egg"}, "minecraft:egg", "#c:eggs")
 
     event.replaceInput({id: "betterend:end_stone_brick_cracked_wall"}, "minecraft:end_stone_bricks", "betterend:end_stone_brick_cracked")
     event.replaceInput({id: "betterend:end_stone_brick_weathered_wall"}, "minecraft:end_stone_bricks", "betterend:end_stone_brick_weathered")
@@ -185,7 +183,10 @@ ServerEvents.recipes(event => {
     )
     event.stonecutting("betterend:end_stone_wall", "minecraft:end_stone")
 
+
     event.shapeless("8x kubejs:concrete_powder", ["4x minecraft:gravel", "4x minecraft:sand"])
+
+    event.recipes.create.splashing("create:weathered_iron_block", "create:industrial_iron_block")
 
     event.recipes.create.milling([CreateItem.of("minecraft:leather", 0.5)], Ingredient.of("#minecraft:bundles"))
     event.recipes.create.deploying("create:turntable", [Ingredient.of("#minecraft:wooden_slabs"), "create:shaft"])
