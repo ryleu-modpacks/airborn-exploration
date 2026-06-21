@@ -38,7 +38,7 @@ hash = "c16f2363ae6500501d83bf53da22ef81c4c69eb82bda7ad68a264d0f09adf9b2"
 
 [[files]]
 file = "config/aeroworks-common.toml"
-hash = "58b94a1e4ebecbb4bdc9992c3959b367d30b0c48372e754d1d75e16e96961919"
+hash = "44ce284e3f7a0b8961a067ac1817e662277c544e8c991764a350cd589e7fc901"
 
 [[files]]
 file = "config/aether-common.toml"
