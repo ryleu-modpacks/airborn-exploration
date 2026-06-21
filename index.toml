@@ -1560,6 +1560,11 @@ hash = "39499039e11a6e0f50542d80af94c172342fdb686f3a59d5ee4457d978a54e75"
 metafile = true
 
 [[files]]
+file = "mods/create-numismatics-utils.pw.toml"
+hash = "074ca95e8d18a331b47f2363b254392a3bb84adbedee69c53d7f103a7dd3f9e6"
+metafile = true
+
+[[files]]
 file = "mods/create-prismatic-shine.pw.toml"
 hash = "cbc7ea97d76516a5005a86388c65aaf36ff1e0558272c2e09a9533d3a4d5e82f"
 metafile = true
