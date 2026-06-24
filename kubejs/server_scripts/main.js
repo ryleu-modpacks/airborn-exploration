@@ -183,7 +183,9 @@ ServerEvents.recipes(event => {
     )
     event.stonecutting("betterend:end_stone_wall", "minecraft:end_stone")
 
-
+    event.recipes.create.mixing("create:asurine", ["3x minecraft:clay_ball", "minecraft:flint", Fluid.of("minecraft:water", 250)])
+    event.recipes.create.mixing("create:veridium", ["3x minecraft:clay_ball", "minecraft:flint", Fluid.of("minecraft:lava", 50)])
+    
     event.shapeless("8x kubejs:concrete_powder", ["4x minecraft:gravel", "4x minecraft:sand"])
 
     event.recipes.create.splashing("create:weathered_iron_block", "create:industrial_iron_block")
