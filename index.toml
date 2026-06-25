@@ -1865,6 +1865,11 @@ hash = "00887452f4c902a5f98fc42875d522e59948b60c20d887855a183c0f7235c641"
 metafile = true
 
 [[files]]
+file = "mods/pocket-unlimited.pw.toml"
+hash = "d415367cce8610a78063d84fd895683b681fe2b7d59d2cab59cdeded662aeb55"
+metafile = true
+
+[[files]]
 file = "mods/polymorph.pw.toml"
 hash = "152769b5dfbb92a836634e315898b23b6a555c60b6f05ddf38c00085f2b784f6"
 metafile = true
