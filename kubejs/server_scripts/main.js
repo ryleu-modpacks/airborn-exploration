@@ -188,6 +188,8 @@ ServerEvents.recipes(event => {
     
     event.shapeless("8x kubejs:concrete_powder", ["4x minecraft:gravel", "4x minecraft:sand"])
 
+    event.recipes.create.crushing(["2x minecraft:netherite_scrap", CreateItem.of("minecraft:netherite_scrap", 0.05)], "minecraft:ancient_debris")
+
     event.recipes.create.splashing("create:weathered_iron_block", "create:industrial_iron_block")
 
     event.recipes.create.milling([CreateItem.of("minecraft:leather", 0.5)], Ingredient.of("#minecraft:bundles"))

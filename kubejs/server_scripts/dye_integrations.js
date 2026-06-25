@@ -39,7 +39,7 @@ ServerEvents.recipes(event => {
         let dye_name = dyeName(color)
         event.shapeless(`${dye_name}_concrete_powder`, ["kubejs:concrete_powder", `${dye_name}_dye`])
         if (color != "red") {
-            event.remove({id: `simulated:simulated.portable_engine.color/${color}`})
+            event.remove({output: `simulated:${color}_portable_engine`})
         }
         event.shapeless(`simulated:${color}_portable_engine`, ["#simulated:portable_engines", `${dye_name}_dye`])
 
