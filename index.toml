@@ -1271,7 +1271,7 @@ hash = "28fa761f337bc2cfec514603809d20358ad0d35a6a565071d3db8029fae0ea2b"
 
 [[files]]
 file = "kubejs/server_scripts/dye_integrations.js"
-hash = "21c8570e5c13c723d00ec3b06312060db08770ab7712bdd49149b5b7d5634eef"
+hash = "538ace5747497af3bf2a3321782d9053b0ee2bbece22d5b378935f8477ddfbd4"
 
 [[files]]
 file = "kubejs/server_scripts/food_integrations.js"
@@ -1279,7 +1279,7 @@ hash = "67f41182605d886705bd35ca96472b1e69e96e0ebf59c920bcf0122f6c514c29"
 
 [[files]]
 file = "kubejs/server_scripts/main.js"
-hash = "41cdd558e055a202e647a06677b42b05e772debf500191071b4d1f7eaf72dfbf"
+hash = "3bce68b21e83886a8776fa436afc48b41c9db464e649bea35f6b9685990c7511"
 
 [[files]]
 file = "kubejs/server_scripts/sable_integrations.js"
