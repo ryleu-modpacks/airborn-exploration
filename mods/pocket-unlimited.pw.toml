@@ -1,0 +1,13 @@
+name = "pocket Unlimited"
+filename = "ccpocketunlimited-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/K3OBj9jT/versions/hWWYqRCa/ccpocketunlimited-1.0.0.jar"
+hash-format = "sha512"
+hash = "d35cb04f743e61c1a06dec9bece1969ce26026413ec83723c205c1461abaf073edf19c19230afd03d2a71e8de190140ed5176ea17ca27bef90d7e5adc635b8f9"
+
+[update]
+[update.modrinth]
+mod-id = "K3OBj9jT"
+version = "hWWYqRCa"
