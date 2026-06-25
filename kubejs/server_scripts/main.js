@@ -189,6 +189,7 @@ ServerEvents.recipes(event => {
     event.shapeless("8x kubejs:concrete_powder", ["4x minecraft:gravel", "4x minecraft:sand"])
 
     event.recipes.create.crushing(["2x minecraft:netherite_scrap", CreateItem.of("minecraft:netherite_scrap", 0.05)], "minecraft:ancient_debris")
+    event.recipes.create.mixing(["minecraft:netherite_ingot", CreateItem.of("minecraft:gold_nugget", 0.5), CreateItem.of("create:experience_nugget", 0.85)], ["2x minecraft:netherite_scrap", "2x minecraft:gold_ingot"]).superheated()
 
     event.recipes.create.splashing("create:weathered_iron_block", "create:industrial_iron_block")
 
