@@ -1406,7 +1406,7 @@ metafile = true
 
 [[files]]
 file = "mods/ccc-redstone-link.pw.toml"
-hash = "94afdde39ae86d712bbeb2de4e5dc63fe18bc9787ac71ae3ebcd2d75dd839f00"
+hash = "3436a8db600965d33b4d3c06b391de68be825ff39603329d407ef6073ed1e4af"
 metafile = true
 
 [[files]]
