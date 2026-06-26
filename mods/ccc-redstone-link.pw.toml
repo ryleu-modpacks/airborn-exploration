@@ -1,13 +1,15 @@
-name = "CC: Create Redstone Link"
-filename = "cccredstonelink-0.1.1.jar"
+name = "ccc-redstone-link"
+filename = "cccredstonelink-0.0.2.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/zDWcAhSD/versions/XcFaJqfR/cccredstonelink-0.1.1.jar"
-hash-format = "sha512"
-hash = "1d048b8cc573a56f5ae4504b1a0ab254c97955e038907c76a773640994f1ee73f06c398044daa94d1ec64338faf9c7f031dbe379a4e6a0657877761e1b071aa2"
+url = "https://github.com/ryleu/ccc-redstone-link/releases/download/v0.0.2/cccredstonelink-0.0.2.jar"
+hash-format = "sha256"
+hash = "e182738cc7f9a98259a8addadf2dd7936387f9beb04f176da70eabc9c9132a96"
 
 [update]
-[update.modrinth]
-mod-id = "zDWcAhSD"
-version = "XcFaJqfR"
+[update.github]
+branch = "main"
+regex = "^.+(?<!-api|-dev|-dev-preshadow|-sources)\\.jar$"
+slug = "ryleu/ccc-redstone-link"
+tag = "v0.0.2"
