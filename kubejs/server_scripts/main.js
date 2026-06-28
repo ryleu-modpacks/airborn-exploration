@@ -52,6 +52,9 @@ ServerEvents.tags("item", event => {
 
 ServerEvents.tags("block", event => {
 
+    // Remove enderman grief
+    event.removeAll("minecraft:enderman_holdable")
+
     event.add("minecraft:doors", "copycats:copycat_iron_door")
     event.add("bits_n_bobs:nixie_boards", "bits_n_bobs:nixie_board")
 
