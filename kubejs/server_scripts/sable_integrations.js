@@ -170,7 +170,7 @@ ServerEvents.tags("block", event => {
         "tinygates:rs_latch_block",
         "tinygates:t_flip_flop_block",
         "tinygates:xor_gate_block",
-        "cccbridge:scroller_pane"
+        "cccbridge:scroller_block"
     ]
     diode.forEach(block => {
         event.add("sable:diode", block)
