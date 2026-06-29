@@ -1279,7 +1279,7 @@ hash = "67f41182605d886705bd35ca96472b1e69e96e0ebf59c920bcf0122f6c514c29"
 
 [[files]]
 file = "kubejs/server_scripts/main.js"
-hash = "1bcc823e2972ef563c1368d9347217b2a52a593250e16975e8bde3acb540eed1"
+hash = "3b4acf16c3967139fb8b25ecfe57eb2d34e6459232761bdabf3a3e49fb485d10"
 
 [[files]]
 file = "kubejs/server_scripts/sable_integrations.js"

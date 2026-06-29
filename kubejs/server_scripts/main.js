@@ -278,6 +278,17 @@ ServerEvents.recipes(event => {
     event.stonecutting("kubejs:creative_casing_pillar", "createcasing:creative_casing")
     event.stonecutting("createcasing:creative_casing", "kubejs:creative_casing_pillar")
 
+    event.recipes.create.sequenced_assembly(
+        [
+            CreateItem.of("simulated:engine_assembly")
+        ],
+        "create_ironworks:steel_sheet",
+        [
+            event.recipes.create.cutting("simulated:incomplete_engine_assembly", "simulated:incomplete_engine_assembly"),
+            event.recipes.create.pressing("simulated:incomplete_engine_assembly", "simulated:incomplete_engine_assembly")
+        ]
+    ).transitionalItem("simulated:incomplete_engine_assembly").loops(8)
+
     // Television Assembly
     event.recipes.create.sequenced_assembly(
         [
