@@ -210,6 +210,41 @@ ServerEvents.recipes(event => {
         ]
     })
 
+    const oxidation_levels = {
+        "": "exposed_",
+        "exposed_": "weathered_",
+        "weathered_": "oxidized_"
+    }
+    const copper_blocks = [
+        {"prefix": "minecraft:", "suffix": "copper"},
+        {"prefix": "minecraft:", "suffix": "chiseled_copper"},
+        {"prefix": "minecraft:", "suffix": "cut_copper"},
+        {"prefix": "minecraft:", "suffix": "cut_copper_stairs"},
+        {"prefix": "minecraft:", "suffix": "cut_copper_slab"},
+        {"prefix": "minecraft:", "suffix": "copper_grate"},
+        {"prefix": "minecraft:", "suffix": "copper_bulb"},
+        {"prefix": "minecraft:", "suffix": "copper_door"},
+        {"prefix": "minecraft:", "suffix": "copper_trapdoor"},
+        {"prefix": "create:", "suffix": "copper_shingles"},
+        {"prefix": "create:", "suffix": "copper_shingle_stairs"},
+        {"prefix": "create:", "suffix": "copper_shingle_slab"},
+        {"prefix": "create:", "suffix": "copper_tiles"},
+        {"prefix": "create:", "suffix": "copper_tile_stairs"},
+        {"prefix": "create:", "suffix": "copper_tile_slab"}
+    ]
+    for (const key in oxidation_levels) {
+        let next = oxidation_levels[key]
+        copper_blocks.forEach(block => {
+            let current_block = `${block.prefix}${key}${block.suffix}`
+            if (block.suffix == "copper" && key == "") {
+                current_block = "minecraft:copper_block"
+            }
+            const next_block = `${block.prefix}${next}${block.suffix}`
+
+            event.recipes.create.filling(next_block, [current_block, Fluid.of("minecraft:water", 100)])
+        })
+    }
+
     const casings = [
         {"material": "create:shadow_steel", "casing": "create:shadow_steel_casing"},
         {"material": "create:refined_radiance", "casing": "create:refined_radiance_casing"}
