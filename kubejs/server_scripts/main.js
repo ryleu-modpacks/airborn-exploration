@@ -241,7 +241,7 @@ ServerEvents.recipes(event => {
             }
             const next_block = `${block.prefix}${next}${block.suffix}`
 
-            event.recipes.create.filling(next_block, [current_block, Fluid.of("minecraft:water", 100)])
+            event.recipes.create.filling(next_block, [current_block, Fluid.of("minecraft:water", 10)])
         })
     }
 
