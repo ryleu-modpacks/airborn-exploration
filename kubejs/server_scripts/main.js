@@ -58,6 +58,10 @@ ServerEvents.tags("block", event => {
     event.add("minecraft:doors", "copycats:copycat_iron_door")
     event.add("bits_n_bobs:nixie_boards", "bits_n_bobs:nixie_board")
 
+    event.add("c:ores", "create_new_age:magnetite_block")
+    event.add("c:ores", "create_new_age:thorium_ore")
+    event.add("c:ores/thorium", "create_new_age:thorium_ore")
+
     const overgrownEndStone = [
         "betterend:end_mycelium",
         "betterend:end_mycelium_path",
