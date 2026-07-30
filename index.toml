@@ -1321,7 +1321,7 @@ metafile = true
 
 [[files]]
 file = "mods/all-with-you.pw.toml"
-hash = "79aa7ac1b3f1aa4c72b9327d08c606cf7ec671a05cfe2ab077e2c9840d866e5b"
+hash = "704a90931ae10b0c96f36dd7e6259ae97e2c1fcda1182ae93ba104990467d08f"
 metafile = true
 
 [[files]]
@@ -1481,7 +1481,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-aeroworks.pw.toml"
-hash = "2f02126de38cf2a656b7ae97aa1f6c1a153498f5cdb03fe197c291d9c43cbb5a"
+hash = "ff5cc2cb323fcfc334b4975b2d23ddffa01a6c42fb9b73128f7409bc617d9f4b"
 metafile = true
 
 [[files]]
@@ -1916,7 +1916,7 @@ metafile = true
 
 [[files]]
 file = "mods/schematicians-goggles.pw.toml"
-hash = "5d3a736cd45068f9c36a943fab127dd708bf5fe511f35bd9bfde9eb9309533f8"
+hash = "5d1093f1dcee6bed3660201f1fa6d785ae516b90b30b2f3c77edb4fb5cb7efa5"
 metafile = true
 
 [[files]]
