@@ -1960,6 +1960,11 @@ hash = "993b4e4970e1a5ef2fe7c6712212f57a84dcf8b31d4b6863540b6395c4f9ce09"
 metafile = true
 
 [[files]]
+file = "mods/spotlights-or-something.pw.toml"
+hash = "f72a28299f80a4f25ef70daa6c2a127eac16131f80afd32951251c27b38ca95c"
+metafile = true
+
+[[files]]
 file = "mods/tectonic.pw.toml"
 hash = "cd5c8c1f6183f5c2ca899daed14f272890566002dfcb2d9f9a59dfbfac0bc8f6"
 metafile = true
